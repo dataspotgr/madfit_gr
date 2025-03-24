@@ -6,7 +6,11 @@
         <input type="hidden" name="newsletter_format" value="2" />
         <h3 class="ty-footer-form-block__title">{__("stay_connected")}</h3>
         <div class="ty-footer-form-block__form ty-control-group with-side">
-            <h3 class="ty-uppercase ty-social-link__title">{include_ext file="common/icon.tpl" class="ty-icon-moon-mail"}{__("exclusive_promotions")}<span class="ty-block">{__("exclusive_promotions_content")}</span></h3>
+            <h3 class="ty-uppercase ty-social-link__title">
+            {*
+            {include_ext file="common/icon.tpl" class="ty-icon-moon-mail"}
+            *}
+            {__("exclusive_promotions")}<span class="ty-block">{__("exclusive_promotions_content")}</span></h3>
         </div>
 
         {hook name="newsletters:email_subscription_block"}
@@ -14,7 +18,7 @@
         <div class="ty-footer-form-block__form ty-control-group">
             <div class="ty-footer-form-block__input cm-block-add-subscribe">
             <label class="cm-required cm-email hidden" for="subscr_email{$block.block_id}">{__("email")}</label>
-                <input type="text" name="subscribe_email" id="subscr_email{$block.block_id}" size="20" placeholder="{__("email")}" class="cm-hint ty-input-text-medium ty-valign-top" />
+                <input type="text" name="subscribe_email" id="subscr_email{$block.block_id}" size="20" placeholder="Συμπληρώστε το email σας" class="cm-hint ty-input-text-medium ty-valign-top" />
             </div>
             <div class="ty-footer-form-block__button">
             {include file="buttons/button.tpl" but_role="submit" but_name="dispatch[newsletters.add_subscriber]" but_text=__("subscribe") but_meta="ty-btn__subscribe"}

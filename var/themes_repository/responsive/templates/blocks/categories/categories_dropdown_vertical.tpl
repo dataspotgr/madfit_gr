@@ -6,6 +6,7 @@
             <a class="ty-menu__item-link">
                 {include_ext file="common/icon.tpl" class="ty-icon-short-list"}
                 <span>{__("menu")}</span>
+           
             </a>
         </li>
         {include file="blocks/sidebox_dropdown.tpl" items=$items separated=true submenu=false name="category" item_id="category_id" childs="subcategories"}

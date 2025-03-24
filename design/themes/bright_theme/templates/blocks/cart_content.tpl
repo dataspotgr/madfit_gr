@@ -4,19 +4,15 @@
     <div class="ty-dropdown-box" id="cart_status_{$dropdown_id}">
         <div id="sw_dropdown_{$dropdown_id}" class="ty-dropdown-box__title cm-combination">
         <a href="{"checkout.cart"|fn_url}">
-            {hook name="checkout:dropdown_title"}
+            {hook name="checkout:dropdown_title"} 
             {$additional_class = ($smarty.session.cart.amount) ? "filled" : "empty"}
-            {include_ext file="common/icon.tpl"
-                class="ty-icon-moon-commerce ty-minicart__icon `$additional_class`"
-            }
-            <span class="ty-minicart-title{if !$smarty.session.cart.amount} empty-cart{/if} ty-hand">
-                <span class="ty-block ty-minicart-title__header ty-uppercase">{__("my_cart")}</span>
+           
+          
                 <span class="ty-block">
-                {if $smarty.session.cart.amount}
-                    {$smarty.session.cart.amount}&nbsp;{__("items")} {__("for")}&nbsp;{include file="common/price.tpl" value=$smarty.session.cart.display_subtotal}
-                {else}
-                    {__("cart_is_empty")}
-                {/if}
+                    {if $smarty.session.cart.amount}
+                        <div class="ds_cart_amount">{$smarty.session.cart.amount}</div>
+                    {/if}
+                    <img class="ds-cart-img"  src="/madfit_gr/images/design_images/cart.png">
                 </span>
             </span>
             {/hook}
@@ -43,7 +39,7 @@
                                                     <div class="ty-cart-items__list-item-desc">
                                                         <a href="{"products.view?product_id=`$product.product_id`"|fn_url}">{$product.product|default:fn_get_product_name($product.product_id) nofilter}</a>
                                                     <p>
-                                                        <span>{$product.amount}</span><span dir="{$language_direction}">&nbsp;x&nbsp;</span>{include file="common/price.tpl" value=$product.display_price span_id="price_`$key`_`$dropdown_id`" class="none"}
+                                                        <span>{$product.amount}</span><span>&nbsp;x&nbsp;</span>{include file="common/price.tpl" value=$product.display_price span_id="price_`$key`_`$dropdown_id`" class="none"}
                                                     </p>
                                                     </div>
                                                     {if $block.properties.display_delete_icons == "Y"}

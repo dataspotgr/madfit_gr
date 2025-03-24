@@ -58,11 +58,11 @@ $config['table_prefix'] = 'cscart_';
  */
 
 // Host and directory where software is installed on no-secure server
-$config['http_host'] = 'localhost';
+$config['http_host'] = '192.168.1.19';
 $config['http_path'] = '/madfit_gr';
 
 // Host and directory where software is installed on secure server
-$config['https_host'] = 'localhost';
+$config['https_host'] = '192.168.1.19';
 $config['https_path'] = '/madfit_gr';
 
 /*
