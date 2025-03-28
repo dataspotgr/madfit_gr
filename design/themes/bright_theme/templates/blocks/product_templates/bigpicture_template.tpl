@@ -42,7 +42,6 @@
                     {/hook}
                 {/hook}
 
-            
 
                 {assign var="form_open" value="form_open_`$obj_id`"}
                 {$smarty.capture.$form_open nofilter}
@@ -69,7 +68,9 @@
 
                     {if $smarty.capture.$old_price|trim || $smarty.capture.$clean_price|trim || $smarty.capture.$list_discount|trim}
                             <div class="ty-product-block__price-old">
-                           
+                                {$smarty.capture.$clean_price nofilter}
+                                {$smarty.capture.$list_discount nofilter}
+
                                 {assign var="product_labels" value="product_labels_`$obj_prefix``$obj_id`"}
                                 {$smarty.capture.$product_labels nofilter}
                             </div>

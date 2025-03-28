@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-21 05:32:01
+/* Smarty version 4.3.0, created on 2025-03-27 14:46:35
   from 'C:\xampp\htdocs\madfit_gr\design\themes\bright_theme\templates\blocks\list_templates\grid_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dd5c41780ee4_25929199',
+  'unifunc' => 'content_67e548ab67c476_08094415',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '325e206f4af7f28e95a54378bbf64b8d62c58ad6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\bright_theme\\templates\\blocks\\list_templates\\grid_list.tpl',
-      1 => 1742560317,
+      1 => 1743079592,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/quick_view_link.tpl' => 2,
   ),
 ),false)) {
-function content_67dd5c41780ee4_25929199 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67e548ab67c476_08094415 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.split.php','function'=>'smarty_function_split',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),5=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('empty','empty'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

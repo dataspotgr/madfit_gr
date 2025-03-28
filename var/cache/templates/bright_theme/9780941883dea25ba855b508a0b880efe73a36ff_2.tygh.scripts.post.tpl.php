@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 03:43:55
+/* Smarty version 4.3.0, created on 2025-03-26 03:58:51
   from 'C:\xampp\htdocs\madfit_gr\design\themes\bright_theme\templates\addons\my_changes\hooks\index\scripts.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e1376b1e9cb7_80569135',
+  'unifunc' => 'content_67e3ddeb805a98_34005071',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9780941883dea25ba855b508a0b880efe73a36ff' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\bright_theme\\templates\\addons\\my_changes\\hooks\\index\\scripts.post.tpl',
-      1 => 1742813032,
+      1 => 1742986715,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67e1376b1e9cb7_80569135 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67e3ddeb805a98_34005071 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);
@@ -54,11 +54,10 @@ $(document).ready(function() {
     $('.blog-wrapper').removeClass('span16')
 
     $('.ty-product-bigpicture__right .ty-product-bigpicture__sidebar-bottom .ty-product-block__button .ty-add-to-wish').html("<img src='/madfit_gr/images/design_images/favourites.png'>")
+
+    $('.ty-grid-list__item .button-container > div > a.ty-btn__primary').html("<img src='/madfit_gr/images/design_images/addtocart.png'>")
+
 })
-
-
-
-
 <?php echo '</script'; ?>
 >
 
@@ -137,11 +136,10 @@ $(document).ready(function() {
     $('.blog-wrapper').removeClass('span16')
 
     $('.ty-product-bigpicture__right .ty-product-bigpicture__sidebar-bottom .ty-product-block__button .ty-add-to-wish').html("<img src='/madfit_gr/images/design_images/favourites.png'>")
+
+    $('.ty-grid-list__item .button-container > div > a.ty-btn__primary').html("<img src='/madfit_gr/images/design_images/addtocart.png'>")
+
 })
-
-
-
-
 <?php echo '</script'; ?>
 >
 

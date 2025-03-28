@@ -32,6 +32,7 @@
         {strip}
             {foreach from=$splitted_products item="sproducts" name="sprod"}
                 {foreach from=$sproducts item="product" name="sproducts"}
+                    
                     <div class="ty-column{$columns}">
                         {if $product}
                             {assign var="obj_id" value=$product.product_id}
@@ -40,10 +41,11 @@
                             
                             <div class="ty-grid-list__item ty-quick-view-button__wrapper 
                                 {if $settings.Appearance.enable_quick_view == 'Y' || $show_features} ty-grid-list__item--overlay{/if}">
+                         
                                 <div class="ds-new-products">
                                     <span>NEW</span>
                                 </div>
-                                
+                               
                                 {assign var="form_open" value="form_open_`$obj_id`"}
                                 {$smarty.capture.$form_open nofilter}
                                 {hook name="products:product_multicolumns_list"}

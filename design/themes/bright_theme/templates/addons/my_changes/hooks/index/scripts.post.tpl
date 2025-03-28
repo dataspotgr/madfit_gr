@@ -25,11 +25,10 @@ $(document).ready(function() {
     $('.blog-wrapper').removeClass('span16')
 
     $('.ty-product-bigpicture__right .ty-product-bigpicture__sidebar-bottom .ty-product-block__button .ty-add-to-wish').html("<img src='/madfit_gr/images/design_images/favourites.png'>")
+
+    $('.ty-grid-list__item .button-container > div > a.ty-btn__primary').html("<img src='/madfit_gr/images/design_images/addtocart.png'>")
+
 })
-
-
-
-
 </script>
 
 
