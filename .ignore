@@ -1,0 +1,12 @@
+# CS-Cart - ignore folders, temp files, logs etc
+
+# Folders
+/upgrades/
+/var/
+
+# Files
+.idea/
+/index.php
+/init.php
+/install.html
+/changelog.txt
