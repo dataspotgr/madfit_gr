@@ -256,6 +256,9 @@
                         display: block;
                         float: left;
                     }
+                    .ds-products-text{
+                        font-size: 18px;
+                    }
                     .ds-burger-menu{
                         text-align: end;
                     }
@@ -924,11 +927,12 @@ body{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0);
+    pointer-events: none;
     transition: background 0.3s ease-in-out;
 }
 
 .ds-homepage-content .ty-banner__image-wrapper:hover::after {
-    background: rgba(0, 0, 0, 0.5);
+    background: #8f28cf73;
 }
 
 .ds-produt-page{
@@ -1055,4 +1059,20 @@ body{
     text-align: center;
     float: unset;
  }
+}
+
+.ty-grid-list__item .ty-grid-list__item-name a:hover{
+    color: #ae2cff;
+}
+.ty-grid-list__item .ty-grid-list__item-name a{
+    position: relative;
+    top: 25px;
+    text-transform: uppercase;
+}
+.ty-social-link-block{
+    text-align: right;
+}
+
+.footer-bottom-wrapper .ty-wysiwyg-content:has(.ty-social-link-block){
+    width: unset;
 }
