@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:25:03
+/* Smarty version 4.3.0, created on 2025-03-31 10:51:02
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\notification.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc2cf889ad6_84861060',
+  'unifunc' => 'content_67ea4966123ce4_80162174',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbc2cf889ad6_84861060 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4966123ce4_80162174 (Smarty_Internal_Template $_smarty_tpl) {
 if (!defined("AJAX_REQUEST")) {?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "notification_content", null, null);

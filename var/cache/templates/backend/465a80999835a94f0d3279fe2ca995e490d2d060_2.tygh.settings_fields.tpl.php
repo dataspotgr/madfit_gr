@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:24:01
+/* Smarty version 4.3.0, created on 2025-04-01 15:48:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\settings_fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc2916fd259_32699983',
+  'unifunc' => 'content_67ebe0b757cec8_01466032',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/selectable_box.tpl' => 1,
   ),
 ),false)) {
-function content_67dbc2916fd259_32699983 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ebe0b757cec8_01466032 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('select_default','default','select_selectbox_option','no_items','multiple_selectbox_notice','select_country','select_state','browse','no_items'));
 if (($_smarty_tpl->tpl_vars['item']->value['options'])) {?>
@@ -124,8 +124,8 @@ if ($_smarty_tpl->tpl_vars['highlight']->value && smarty_modifier_in_array($_sma
 if ($_smarty_tpl->tpl_vars['item']->value['type'] == smarty_modifier_enum("SettingTypes::PHONE")) {
 echo " cm-mask-phone-label";
 }
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->_assignInScope('default_label_attrs', array("for"=>$_smarty_tpl->tpl_vars['html_id']->value,"class"=>"control-label ".$_prefixVariable1));?>
+$_prefixVariable2=ob_get_clean();
+$_smarty_tpl->_assignInScope('default_label_attrs', array("for"=>$_smarty_tpl->tpl_vars['html_id']->value,"class"=>"control-label ".$_prefixVariable2));?>
         <?php $_smarty_tpl->_assignInScope('extended_label_attrs', array("class"=>$_smarty_tpl->tpl_vars['highlight']->value && smarty_modifier_in_array($_smarty_tpl->tpl_vars['item']->value['name'],$_smarty_tpl->tpl_vars['highlight']->value) ? "highlight" : ''));?>
         <label <?php echo smarty_modifier_render_tag_attrs($_smarty_tpl->tpl_vars['label_attrs']->value,$_smarty_tpl->tpl_vars['default_label_attrs']->value,$_smarty_tpl->tpl_vars['extended_label_attrs']->value);?>
 ><?php echo $_smarty_tpl->tpl_vars['item']->value['description'];?>
@@ -381,8 +381,8 @@ echo " cm-value-integer";
 } elseif ($_smarty_tpl->tpl_vars['item']->value['type'] === smarty_modifier_enum("SettingTypes::FLOAT")) {
 echo " cm-value-decimal";
 }
-$_prefixVariable2=ob_get_clean();
-$_smarty_tpl->_assignInScope('default_attrs', array_merge($_smarty_tpl->tpl_vars['default_attrs']->value,array("id"=>((string)$_smarty_tpl->tpl_vars['html_id']->value),"type"=>"text","name"=>((string)$_smarty_tpl->tpl_vars['html_name']->value),"size"=>"30","class"=>$_prefixVariable2,"placeholder"=>((string)$_smarty_tpl->tpl_vars['input_placeholder']->value),"value"=>((string)$_smarty_tpl->tpl_vars['item']->value['value']))));?>
+$_prefixVariable3=ob_get_clean();
+$_smarty_tpl->_assignInScope('default_attrs', array_merge($_smarty_tpl->tpl_vars['default_attrs']->value,array("id"=>((string)$_smarty_tpl->tpl_vars['html_id']->value),"type"=>"text","name"=>((string)$_smarty_tpl->tpl_vars['html_name']->value),"size"=>"30","class"=>$_prefixVariable3,"placeholder"=>((string)$_smarty_tpl->tpl_vars['input_placeholder']->value),"value"=>((string)$_smarty_tpl->tpl_vars['item']->value['value']))));?>
                 <input <?php echo smarty_modifier_render_tag_attrs($_smarty_tpl->tpl_vars['input_attrs']->value,$_smarty_tpl->tpl_vars['default_attrs']->value);?>
 />
             <?php }?>

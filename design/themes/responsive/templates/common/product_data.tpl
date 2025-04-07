@@ -389,9 +389,9 @@
             {/if}
             {if $show_discount_label && ($product.discount_prc || $product.list_discount_prc) && $show_price_values}
                 {if $product.discount}
-                    {$label_text = "{__("save_discount")} {$product.discount_prc}%"}
+                    {$label_text = " {$product.discount_prc}%"}
                 {else}
-                    {$label_text = "{__("save_discount")} {$product.list_discount_prc}%"}
+                    {$label_text = "{$product.list_discount_prc}%"}
                 {/if}
 
                 {include
