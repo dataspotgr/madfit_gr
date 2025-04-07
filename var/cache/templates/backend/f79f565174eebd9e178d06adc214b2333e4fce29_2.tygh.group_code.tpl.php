@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 02:16:35
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:19
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\components\group_code.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e122f32d8b54_33239051',
+  'unifunc' => 'content_67ea53c7d2c3f9_95694102',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tooltip.tpl' => 1,
   ),
 ),false)) {
-function content_67e122f32d8b54_33239051 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53c7d2c3f9_95694102 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.group_code','product_variations.group_code.description','product_variations.group_code.placeholder'));
 ?>
 <input type="hidden" name="variation_group[id]" value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['group']->value->getId(), ENT_QUOTES, 'UTF-8');?>

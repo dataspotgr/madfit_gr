@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:23:38
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:29
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\product_reviews\views\product_reviews\components\product_rating_overview_short.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde9a7c5fd3_38801826',
+  'unifunc' => 'content_67ea53d1cb0f30_59644635',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_reviews/views/product_reviews/components/write_product_review_button.tpl' => 2,
   ),
 ),false)) {
-function content_67dbde9a7c5fd3_38801826 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53d1cb0f30_59644635 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_reviews.write_review','product_reviews.write_review'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-21 01:57:42
+/* Smarty version 4.3.0, created on 2025-03-31 13:34:41
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\add_close.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dd2a06251740_89818439',
+  'unifunc' => 'content_67ea6fc1a65e75_34722780',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 3,
   ),
 ),false)) {
-function content_67dd2a06251740_89818439 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea6fc1a65e75_34722780 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('cancel'));
 ?>
 <a class="cm-dialog-closer cm-cancel tool-link btn <?php if ($_smarty_tpl->tpl_vars['disable_cancel']->value) {?>hidden<?php }?>"><?php echo $_smarty_tpl->__("cancel");?>

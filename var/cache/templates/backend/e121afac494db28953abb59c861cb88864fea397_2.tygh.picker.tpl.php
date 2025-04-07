@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:23:15
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\pickers\users\picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde83989dd1_26950489',
+  'unifunc' => 'content_67ea53c2061ae3_24881595',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/users/js.tpl' => 2,
   ),
 ),false)) {
-function content_67dbde83989dd1_26950489 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53c2061ae3_24881595 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_users','choose','choose_user','person_name','no_items'));
 $_smarty_tpl->_assignInScope('rnd', rand());

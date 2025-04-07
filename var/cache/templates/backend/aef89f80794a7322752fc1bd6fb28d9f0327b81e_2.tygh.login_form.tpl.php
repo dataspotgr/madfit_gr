@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:36:58
+/* Smarty version 4.3.0, created on 2025-03-31 16:30:36
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\auth\login_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc59aa48ee9_18620468',
+  'unifunc' => 'content_67ea98fcdad2f4_82056674',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/sign_in.tpl' => 1,
   ),
 ),false)) {
-function content_67dbc59aa48ee9_18620468 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea98fcdad2f4_82056674 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('administration_panel','email','password','forgot_password_question'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"auth:login_form"));

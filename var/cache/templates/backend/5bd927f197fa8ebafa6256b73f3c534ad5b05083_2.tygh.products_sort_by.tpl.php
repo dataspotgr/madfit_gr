@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:18
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:26
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\search_filters\products_sort_by.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde4a76a5f4_55014202',
+  'unifunc' => 'content_67ea4bd643d563_14449269',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde4a76a5f4_55014202 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bd643d563_14449269 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('name','sku','price','list_price','quantity','status','sort_by','asc','desc'));
 $_smarty_tpl->_assignInScope('sort_by_content', array());

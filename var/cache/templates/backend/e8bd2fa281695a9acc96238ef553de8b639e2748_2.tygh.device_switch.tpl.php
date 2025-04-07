@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 01:41:46
+/* Smarty version 4.3.0, created on 2025-03-31 10:51:28
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\components\device_switch.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbd4ca2af721_48390573',
+  'unifunc' => 'content_67ea4980edb0d6_34688415',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbd4ca2af721_48390573 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4980edb0d6_34688415 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('block_manager.view_layout.phone','block_manager.view_layout.tablet','block_manager.view_layout.desktop','block_manager.view_layout.reset_filter'));
 ob_start();
 echo $_smarty_tpl->__("block_manager.view_layout.phone");

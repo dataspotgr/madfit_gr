@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 01:54:56
+/* Smarty version 4.3.0, created on 2025-04-02 16:49:19
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\pages\components\pages_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbd7e06027c9_28980870',
+  'unifunc' => 'content_67ed405fdadc94_28278579',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_67dbd7e06027c9_28980870 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ed405fdadc94_28278579 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.array_to_fields.php','function'=>'smarty_function_array_to_fields',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.truncate.php','function'=>'smarty_modifier_truncate',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','find_results_with','type','parent_page','all_pages','all_pages','search_in','page_name','description','subpages','status','active','hidden','disabled'));
 if ($_smarty_tpl->tpl_vars['in_popup']->value) {?>

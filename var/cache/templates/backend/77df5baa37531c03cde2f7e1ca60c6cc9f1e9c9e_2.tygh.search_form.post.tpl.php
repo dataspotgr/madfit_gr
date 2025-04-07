@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:15
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:22
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\bestsellers\hooks\products\search_form.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde47712cc9_12523601',
+  'unifunc' => 'content_67ea4bd2dcf5f6_42447216',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde47712cc9_12523601 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bd2dcf5f6_42447216 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('sales_amount'));
 ?>
 <div class="control-group">

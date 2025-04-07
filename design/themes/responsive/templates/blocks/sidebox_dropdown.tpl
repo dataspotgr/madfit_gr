@@ -18,7 +18,6 @@
                 {include_ext file="common/icon.tpl" class="ty-icon-left-open"}
             </div>
         {/if}
-
         {assign var="item_url" value=$item|fn_form_dropdown_object_link:$block.type}
         <div class="ty-menu__submenu-item-header">
             <a{if $item_url} href="{$item_url}"{/if} {if $item.new_window}target="_blank"{/if} class="ty-menu__item-link">{$item.$name}</a>

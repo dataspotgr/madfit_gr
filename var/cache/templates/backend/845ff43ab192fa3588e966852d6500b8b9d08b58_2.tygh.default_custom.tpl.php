@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:27
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:08
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\default_custom.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde534d9634_39249993',
+  'unifunc' => 'content_67ea4bc4b44b58_58507060',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde534d9634_39249993 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bc4b44b58_58507060 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('default_custom.custom_value','default_custom.custom'));
 ?>

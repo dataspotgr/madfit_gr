@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:23:15
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:13
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\search_product_subscribers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde8371a191_50368505',
+  'unifunc' => 'content_67ea53c1d3d583_04451318',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/section.tpl' => 1,
   ),
 ),false)) {
-function content_67dbde8371a191_50368505 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53c1d3d583_04451318 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('email'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "section", null, null);?>
 <form action="<?php echo htmlspecialchars((string) fn_url(''), ENT_QUOTES, 'UTF-8');?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:30
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:04
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_features.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde567ee659_93469019',
+  'unifunc' => 'content_67ea53b8ca2388_69284327',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde567ee659_93469019 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53b8ca2388_69284327 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("features")) {?>
     <!-- Overridden by the Product Variations add-on -->
 <?php }

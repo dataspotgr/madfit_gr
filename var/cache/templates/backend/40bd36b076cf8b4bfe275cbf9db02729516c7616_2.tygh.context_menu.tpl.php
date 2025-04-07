@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:33:38
+/* Smarty version 4.3.0, created on 2025-03-31 10:58:58
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\context_menu\context_menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc4d2943948_48783275',
+  'unifunc' => 'content_67ea4b42398e23_75834635',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbc4d2943948_48783275 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4b42398e23_75834635 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="bulk-edit clearfix hidden <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['params']->value['class'], ENT_QUOTES, 'UTF-8');?>
 "

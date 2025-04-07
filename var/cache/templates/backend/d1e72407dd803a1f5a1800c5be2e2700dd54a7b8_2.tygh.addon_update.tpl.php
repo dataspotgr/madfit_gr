@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:48:49
+/* Smarty version 4.3.0, created on 2025-03-31 10:59:27
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\detailed_page\tabs\addon_update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc861cba7e8_97601478',
+  'unifunc' => 'content_67ea4b5f5935c8_08589319',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 2,
   ),
 ),false)) {
-function content_67dbc861cba7e8_97601478 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4b5f5935c8_08589319 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.latest_version','version','addons.upgrade_to_version','addons.upgrade_to_version','release_date','release_date','compatibility','addon_is_compatible','addon_required_version','addons.upgrade_to_product_version','what_is_new','addons.latest_available_for_installation_version','version','addons.upgrade_to_version','addons.upgrade_to_version','release_date','compatibility','addon_is_compatible','addon_required_version','what_is_new'));
 if ($_smarty_tpl->tpl_vars['actual_change_log']->value || $_smarty_tpl->tpl_vars['latest_change_log']->value) {?>
@@ -45,8 +45,8 @@ if ($_smarty_tpl->tpl_vars['actual_change_log']->value || $_smarty_tpl->tpl_vars
                                 <?php if ($_smarty_tpl->tpl_vars['version_compare']->value >= 0&$_smarty_tpl->tpl_vars['addon']->value['marketplace']['upgrade_available']) {?>
                                     <?php ob_start();
 echo htmlspecialchars((string) fn_url("upgrade_center.manage"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn",'text'=>$_smarty_tpl->__("addons.upgrade_to_version",array("[version]"=>$_smarty_tpl->tpl_vars['actual_change_log']->value['version'])),'href'=>$_prefixVariable1), true);?>
+$_prefixVariable3=ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn",'text'=>$_smarty_tpl->__("addons.upgrade_to_version",array("[version]"=>$_smarty_tpl->tpl_vars['actual_change_log']->value['version'])),'href'=>$_prefixVariable3), true);?>
 
                                 <?php } else { ?>
                                     <?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"button",'class'=>"btn disabled",'text'=>$_smarty_tpl->__("addons.upgrade_to_version",array("[version]"=>$_smarty_tpl->tpl_vars['actual_change_log']->value['version']))), true);?>
@@ -92,8 +92,8 @@ $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn
                                     </p>
                                     <?php ob_start();
 echo htmlspecialchars((string) fn_url("upgrade_center.manage"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable2=ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn",'text'=>$_smarty_tpl->__("addons.upgrade_to_product_version",array("[product]"=>(defined('PRODUCT_NAME') ? constant('PRODUCT_NAME') : null),"[version]"=>$_smarty_tpl->tpl_vars['actual_change_log']->value['compatibility'])),'href'=>$_prefixVariable2), true);?>
+$_prefixVariable4=ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn",'text'=>$_smarty_tpl->__("addons.upgrade_to_product_version",array("[product]"=>(defined('PRODUCT_NAME') ? constant('PRODUCT_NAME') : null),"[version]"=>$_smarty_tpl->tpl_vars['actual_change_log']->value['compatibility'])),'href'=>$_prefixVariable4), true);?>
 
                                 <?php }?>
                             </div>
@@ -128,8 +128,8 @@ $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn
                                 <?php if ($_smarty_tpl->tpl_vars['addon']->value['marketplace']['upgrade_available']) {?>
                                     <?php ob_start();
 echo htmlspecialchars((string) fn_url("upgrade_center.manage"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable3=ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn",'text'=>$_smarty_tpl->__("addons.upgrade_to_version",array("[version]"=>$_smarty_tpl->tpl_vars['latest_change_log']->value['version'])),'href'=>$_prefixVariable3), true);?>
+$_prefixVariable5=ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn",'text'=>$_smarty_tpl->__("addons.upgrade_to_version",array("[version]"=>$_smarty_tpl->tpl_vars['latest_change_log']->value['version'])),'href'=>$_prefixVariable5), true);?>
 
                                 <?php } else { ?>
                                     <?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn disabled",'text'=>$_smarty_tpl->__("addons.upgrade_to_version",array("[version]"=>$_smarty_tpl->tpl_vars['latest_change_log']->value['version']))), true);?>

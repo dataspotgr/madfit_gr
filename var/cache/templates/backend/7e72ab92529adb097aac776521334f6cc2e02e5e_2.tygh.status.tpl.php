@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-26 03:44:40
+/* Smarty version 4.3.0, created on 2025-04-04 16:37:58
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\orders\components\context_menu\status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e3da988d1370_31031243',
+  'unifunc' => 'content_67efe0b6a700e2_48687536',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/notify_checkboxes.tpl' => 1,
   ),
 ),false)) {
-function content_67e3da988d1370_31031243 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67efe0b6a700e2_48687536 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('status','change_to_status'));
 ?>
 

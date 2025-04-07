@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:25:16
+/* Smarty version 4.3.0, created on 2025-03-31 10:51:16
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_bundles\hooks\index\scripts.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc2dcb6da40_77802471',
+  'unifunc' => 'content_67ea4974076217_69178882',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbc2dcb6da40_77802471 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4974076217_69178882 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('options','any_option_combinations','product_bundles.any_variation'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('inline_script', array());

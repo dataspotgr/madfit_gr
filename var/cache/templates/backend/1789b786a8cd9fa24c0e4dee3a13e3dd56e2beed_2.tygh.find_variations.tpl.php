@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 02:16:24
+/* Smarty version 4.3.0, created on 2025-03-31 11:45:35
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\find_variations.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e122e8d2aca4_38309010',
+  'unifunc' => 'content_67ea562f4cfb48_94458427',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_67e122e8d2aca4_38309010 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea562f4cfb48_94458427 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.add_variations'));
 ?>
 <div id="content_tab_link_existing_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product_data']->value['product_id'], ENT_QUOTES, 'UTF-8');?>

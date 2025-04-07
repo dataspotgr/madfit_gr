@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:45:50
+/* Smarty version 4.3.0, created on 2025-03-31 10:59:16
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\manage\addon_name_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc7ae801333_77673689',
+  'unifunc' => 'content_67ea4b548d3a69_74288169',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbc7ae801333_77673689 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4b548d3a69_74288169 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_field','remove','addons.search_description'));
 ?>

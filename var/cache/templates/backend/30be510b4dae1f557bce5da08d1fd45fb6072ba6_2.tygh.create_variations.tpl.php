@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 02:16:23
+/* Smarty version 4.3.0, created on 2025-03-31 11:45:33
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\create_variations.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e122e72a4066_27087685',
+  'unifunc' => 'content_67ea562de29a30_02919598',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_67e122e72a4066_27087685 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea562de29a30_02919598 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.create_new','product_variations.link_existing','cancel','product_variations.generator.create_btn'));
 $_smarty_tpl->_assignInScope('tabs_count', $_smarty_tpl->tpl_vars['is_allow_generate_variations']->value ? 2 : 1);?>
 

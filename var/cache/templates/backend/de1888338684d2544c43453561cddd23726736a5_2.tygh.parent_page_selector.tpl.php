@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 01:54:56
+/* Smarty version 4.3.0, created on 2025-04-02 16:49:19
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\pages\components\parent_page_selector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbd7e02dd3d7_38937775',
+  'unifunc' => 'content_67ed405f6ac047_17122178',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/pages/picker.tpl' => 1,
   ),
 ),false)) {
-function content_67dbd7e02dd3d7_38937775 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ed405f6ac047_17122178 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('parent_page','root_level','root_page'));
 $_smarty_tpl->_assignInScope('show_label', (($tmp = $_smarty_tpl->tpl_vars['show_label']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));?>
 <div class="control-group" id="parent_page_selector">

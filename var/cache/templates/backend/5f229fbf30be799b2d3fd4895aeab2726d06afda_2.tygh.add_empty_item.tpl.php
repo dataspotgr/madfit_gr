@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:30
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:04
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\add_empty_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde564dfb82_54506881',
+  'unifunc' => 'content_67ea53b8980fc2_97168466',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde564dfb82_54506881 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53b8980fc2_97168466 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('add'));
 ?>
 <a class="btn btn-add" name="add" id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item_id']->value, ENT_QUOTES, 'UTF-8');?>

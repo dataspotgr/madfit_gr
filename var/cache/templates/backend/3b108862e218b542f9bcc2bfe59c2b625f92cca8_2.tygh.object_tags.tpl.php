@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:31
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\tags\views\tags\components\object_tags.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde574ad963_27402524',
+  'unifunc' => 'content_67ea53baacf2e4_71471455',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde574ad963_27402524 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53baacf2e4_71471455 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('tags'));
 ?>
@@ -42,12 +42,12 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['tag']->value) {
 $_smarty_tpl->tpl_vars['tag']->do_else = false;
 $_smarty_tpl->tpl_vars['tag']->iteration++;
 $_smarty_tpl->tpl_vars['tag']->last = $_smarty_tpl->tpl_vars['tag']->iteration === $_smarty_tpl->tpl_vars['tag']->total;
-$__foreach_tag_16_saved = $_smarty_tpl->tpl_vars['tag'];
+$__foreach_tag_17_saved = $_smarty_tpl->tpl_vars['tag'];
 echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value['tag'], ENT_QUOTES, 'UTF-8');
 if (!$_smarty_tpl->tpl_vars['tag']->last) {?>
 
 <?php }
-$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_16_saved;
+$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_17_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?></textarea>
                 <input type="hidden" id="object_id" value=<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['object_id']->value, ENT_QUOTES, 'UTF-8');?>
@@ -67,10 +67,10 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['tag']->value) {
 $_smarty_tpl->tpl_vars['tag']->do_else = false;
 $_smarty_tpl->tpl_vars['tag']->iteration++;
 $_smarty_tpl->tpl_vars['tag']->last = $_smarty_tpl->tpl_vars['tag']->iteration === $_smarty_tpl->tpl_vars['tag']->total;
-$__foreach_tag_17_saved = $_smarty_tpl->tpl_vars['tag'];
+$__foreach_tag_18_saved = $_smarty_tpl->tpl_vars['tag'];
 ?><li><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value['tag'], ENT_QUOTES, 'UTF-8');?>
 </li><?php
-$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_17_saved;
+$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_18_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
             </ul>

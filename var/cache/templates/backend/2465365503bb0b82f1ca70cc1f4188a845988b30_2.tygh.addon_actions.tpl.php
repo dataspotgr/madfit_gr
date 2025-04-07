@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:45:49
+/* Smarty version 4.3.0, created on 2025-03-31 10:59:15
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\addons\addon_actions.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc7ad9b37e8_65044165',
+  'unifunc' => 'content_67ea4b53ad0231_16555065',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_license_required.tpl' => 1,
   ),
 ),false)) {
-function content_67dbc7ad9b37e8_65044165 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4b53ad0231_16555065 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('not_installed','disabled','active','open_action','addons.activate','addons.install','addons.install','addons.disabled','addons.activate','active','addons.upgrade_available','addons.upgrade_available','open_action','active','addons.upgrade_available','addons.upgrade_available','active'));
 $_smarty_tpl->_assignInScope('target_id', "addons_list,top_bar,header_navbar,header_subnav,addons_counter,elm_developer_pages,elm_all_dev_pages");

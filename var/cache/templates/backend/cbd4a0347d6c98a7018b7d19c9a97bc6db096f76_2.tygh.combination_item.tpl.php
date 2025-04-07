@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 02:16:24
+/* Smarty version 4.3.0, created on 2025-03-31 11:45:34
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\components\combination_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e122e80b36c2_62789692',
+  'unifunc' => 'content_67ea562e69cc08_39282592',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67e122e80b36c2_62789692 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea562e69cc08_39282592 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('expand_collapse_list','expand_collapse_list','name','product_variations.mark_main_product','sku','price','quantity'));
 ?>
@@ -76,12 +76,12 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['variant_name']->
 $_smarty_tpl->tpl_vars['variant_name']->do_else = false;
 $_smarty_tpl->tpl_vars['variant_name']->iteration++;
 $_smarty_tpl->tpl_vars['variant_name']->last = $_smarty_tpl->tpl_vars['variant_name']->iteration === $_smarty_tpl->tpl_vars['variant_name']->total;
-$__foreach_variant_name_4_saved = $_smarty_tpl->tpl_vars['variant_name'];
+$__foreach_variant_name_2_saved = $_smarty_tpl->tpl_vars['variant_name'];
 ?>
             <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['variant_name']->value, ENT_QUOTES, 'UTF-8');
 if (!$_smarty_tpl->tpl_vars['variant_name']->last) {?> • <?php }?>
         <?php
-$_smarty_tpl->tpl_vars['variant_name'] = $__foreach_variant_name_4_saved;
+$_smarty_tpl->tpl_vars['variant_name'] = $__foreach_variant_name_2_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
         <?php if ($_smarty_tpl->tpl_vars['product_data']->value['product_id'] == $_smarty_tpl->tpl_vars['combination']->value['product_id']) {?>

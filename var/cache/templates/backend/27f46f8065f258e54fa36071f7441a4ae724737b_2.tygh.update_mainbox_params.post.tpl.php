@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:34
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_mainbox_params.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde5a1c82c4_71627197',
+  'unifunc' => 'content_67ea53c26fd3d6_18352341',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_variations/views/product_variations/components/variation_features.tpl' => 1,
   ),
 ),false)) {
-function content_67dbde5a1c82c4_71627197 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53c26fd3d6_18352341 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.truncate.php','function'=>'smarty_modifier_truncate',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 if ($_smarty_tpl->tpl_vars['product_data']->value['variation_features']) {?>
     

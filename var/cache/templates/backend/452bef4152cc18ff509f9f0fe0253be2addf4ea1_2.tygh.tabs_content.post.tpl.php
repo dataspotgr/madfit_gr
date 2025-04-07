@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:53
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:09
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\reward_points\hooks\categories\tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde6de87625_22645728',
+  'unifunc' => 'content_67ea4bc560a490_97835024',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_67dbde6de87625_22645728 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bc560a490_97835024 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('earned_points','override_g_points','usergroup','amount','amount_type','usergroup','amount','amount_type','absolute','points_lower','percent'));
 ?>
 <div class="hidden" id="content_reward_points">

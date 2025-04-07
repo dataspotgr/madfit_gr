@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:18
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:26
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\search_filters\products_filter_items.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde4a981900_29383258',
+  'unifunc' => 'content_67ea4bd668f9d2_84270454',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/advanced_search_form.tpl' => 1,
   ),
 ),false)) {
-function content_67dbde4a981900_29383258 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bd668f9d2_84270454 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['filter_items']->value) {?>
     <div class="group form-horizontal">
         <div class="control-group">

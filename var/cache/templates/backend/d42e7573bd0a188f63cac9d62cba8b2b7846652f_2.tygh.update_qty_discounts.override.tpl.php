@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:29
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:04
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_qty_discounts.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde55b78ce6_77564997',
+  'unifunc' => 'content_67ea53b80e6c44_11423688',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde55b78ce6_77564997 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53b80e6c44_11423688 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("prices")) {?>
     <!-- Overridden by the Product Variations add-on -->
 <?php }

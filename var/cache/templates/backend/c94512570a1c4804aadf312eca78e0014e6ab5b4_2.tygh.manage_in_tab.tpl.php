@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:23:03
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:12
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\manage_in_tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde7720c642_23623954',
+  'unifunc' => 'content_67ea4bc8b258c5_73544216',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/block_manager/manage.tpl' => 1,
   ),
 ),false)) {
-function content_67dbde7720c642_23623954 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bc8b258c5_73544216 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('switch_layout'));
 ?>

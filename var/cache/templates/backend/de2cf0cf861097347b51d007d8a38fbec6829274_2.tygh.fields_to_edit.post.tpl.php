@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:47
+/* Smarty version 4.3.0, created on 2025-03-31 10:58:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\seo\hooks\categories\fields_to_edit.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde67897df3_87967647',
+  'unifunc' => 'content_67ea4b437afdf5_36244421',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde67897df3_87967647 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4b437afdf5_36244421 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('seo_name'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR")) {?>
     <label class="checkbox" for="seo_name">

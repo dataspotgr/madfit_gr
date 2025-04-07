@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:18
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:25
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\search_filters\products_quantity.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde4a30da94_39248175',
+  'unifunc' => 'content_67ea4bd5e59d58_31976645',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde4a30da94_39248175 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bd5e59d58_31976645 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('have_amount_filter', 0);
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['filter_items']->value, 'ff');
 $_smarty_tpl->tpl_vars['ff']->do_else = true;

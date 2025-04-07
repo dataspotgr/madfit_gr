@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 02:16:24
+/* Smarty version 4.3.0, created on 2025-03-31 11:45:35
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\components\search_product_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e122e8e51ba0_18699385',
+  'unifunc' => 'content_67ea562f600ca2_07520063',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/companies/components/company_name.tpl' => 1,
   ),
 ),false)) {
-function content_67e122e8e51ba0_18699385 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea562f600ca2_07520063 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('image','name','sku','no_data','product_variations.no_available_features'));
 ?>
 <div id="generate_product_group_form">

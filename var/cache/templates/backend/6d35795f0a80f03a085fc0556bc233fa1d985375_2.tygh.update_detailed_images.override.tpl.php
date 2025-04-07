@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:26
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:00
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_detailed_images.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde52be9a52_29378202',
+  'unifunc' => 'content_67ea53b4e98c53_40999373',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/form_file_uploader.tpl' => 1,
   ),
 ),false)) {
-function content_67dbde52be9a52_29378202 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53b4e98c53_40999373 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('images'));
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("detailed_image")) {?>
     <div class="control-group">

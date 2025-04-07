@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 02:15:05
+/* Smarty version 4.3.0, created on 2025-03-31 11:46:10
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_features\update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e12299c76cf6_73101017',
+  'unifunc' => 'content_67ea565280f326_79277857',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -27,7 +27,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_67e12299c76cf6_73101017 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea565280f326_79277857 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.to_json.php','function'=>'smarty_modifier_to_json',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','variants','categories','product_feature.feature_style.','product_feature.filter_style.','product_feature.purpose','product_feature.purpose.','ttc_product_feature.purpose','product_feature.purpose.','product_feature.feature_style','ttc_product_feature.feature_style','product_feature.filter_style','warning_variants_removal','ttc_product_feature.filter_style','group','none','feature_code','position','description','feature_display_on_product','tt_views_product_features_update_feature_display_on_product','feature_display_on_catalog','tt_views_product_features_update_feature_display_on_catalog','feature_display_on_header','prefix','tt_views_product_features_update_prefix','suffix','tt_views_product_features_update_suffix','text_all_categories_included'));
 echo smarty_function_script(array('src'=>"js/tygh/tabs.js"),$_smarty_tpl);?>

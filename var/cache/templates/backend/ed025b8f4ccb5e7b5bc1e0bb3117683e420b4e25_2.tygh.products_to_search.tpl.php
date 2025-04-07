@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-26 03:41:39
+/* Smarty version 4.3.0, created on 2025-04-04 16:08:36
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\products_to_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e3d9e32112d9_27287918',
+  'unifunc' => 'content_67efd9d421e5d3_06798602',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/products/picker.tpl' => 1,
   ),
 ),false)) {
-function content_67e3d9e32112d9_27287918 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67efd9d421e5d3_06798602 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add','or_saved_search'));
 if ($_smarty_tpl->tpl_vars['search']->value['p_ids']) {?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-21 02:42:44
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:18
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\status_on_manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dd3494c951a7_14251439',
+  'unifunc' => 'content_67ea4bce8f13b9_02757481',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dd3494c951a7_14251439 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bce8f13b9_02757481 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 $_smarty_tpl->_assignInScope('items_status', (($tmp = $_smarty_tpl->tpl_vars['items_status']->value ?? null)===null||$tmp==='' ? (fn_get_product_statuses($_smarty_tpl->tpl_vars['status']->value,$_smarty_tpl->tpl_vars['hidden']->value)) ?? null : $tmp));
 $_smarty_tpl->_assignInScope('statuses', (($tmp = $_smarty_tpl->tpl_vars['statuses']->value ?? null)===null||$tmp==='' ? array() ?? null : $tmp));
@@ -88,8 +88,8 @@ array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
                 <?php if ($_smarty_tpl->tpl_vars['st_return_url']->value) {?>
                     <?php ob_start();
 echo htmlspecialchars((string) rawurlencode((string)$_smarty_tpl->tpl_vars['st_return_url']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->_assignInScope('extra_params', ((string)$_smarty_tpl->tpl_vars['extra_params']->value)."&redirect_url=".$_prefixVariable1);?>
+$_prefixVariable9=ob_get_clean();
+$_smarty_tpl->_assignInScope('extra_params', ((string)$_smarty_tpl->tpl_vars['extra_params']->value)."&redirect_url=".$_prefixVariable9);?>
                 <?php }?>
 
                 <?php

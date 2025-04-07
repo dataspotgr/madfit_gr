@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:23:01
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:10
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\categories\components\categories_links_tree.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde7526d3a8_37090948',
+  'unifunc' => 'content_67ea4bc66908e6_33669336',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/categories/components/categories_links_tree.tpl' => 2,
   ),
 ),false)) {
-function content_67dbde7526d3a8_37090948 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bc66908e6_33669336 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','collapse_sublist_of_items'));
 ?>

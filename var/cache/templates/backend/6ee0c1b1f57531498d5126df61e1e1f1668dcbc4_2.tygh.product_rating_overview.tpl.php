@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:33
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:10
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_reviews\views\product_reviews\components\rating\product_rating_overview.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde59d69c00_70761583',
+  'unifunc' => 'content_67ea53be608f18_52140015',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_reviews/views/product_reviews/components/rating/total_reviews.tpl' => 1,
   ),
 ),false)) {
-function content_67dbde59d69c00_70761583 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53be608f18_52140015 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['total_product_reviews']->value) {?>
     <section class="cs-product-reviews-rating-product-rating-overview well">
         <?php $_smarty_tpl->_subTemplateRender("tygh:addons/product_reviews/views/product_reviews/components/rating/stars_with_text.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('rating'=>$_smarty_tpl->tpl_vars['average_rating']->value,'size'=>"xlarge"), 0, false);

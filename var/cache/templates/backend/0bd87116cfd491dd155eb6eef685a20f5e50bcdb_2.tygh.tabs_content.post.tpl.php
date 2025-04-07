@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:31
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\reward_points\hooks\products\tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde5766e893_55833250',
+  'unifunc' => 'content_67ea53bac77853_03323104',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 2,
   ),
 ),false)) {
-function content_67dbde5766e893_55833250 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53bac77853_03323104 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('price_in_points','pay_by_points','override_per','price_in_points','earned_points','override_gc_points','usergroup','amount','amount_type','usergroup','amount','amount_type','absolute','points_lower','percent'));
 $_smarty_tpl->_assignInScope('data', $_smarty_tpl->tpl_vars['product_data']->value);?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-24 02:16:23
+/* Smarty version 4.3.0, created on 2025-03-31 11:45:34
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\components\generate_variations.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e122e7539bc6_82565672',
+  'unifunc' => 'content_67ea562e179af9_72246874',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_variations/views/product_variations/components/combination_item.tpl' => 2,
   ),
 ),false)) {
-function content_67e122e7539bc6_82565672 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea562e179af9_72246874 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.generator.features.placeholder','product_variations.add_all_variants','product_variations.generator.feature_variants.placeholder','delete','product_variations.generator.warning.new_features_add','product_variations.no_available_features','product_variations.too_many_combinations_display','product_variations.generator.table.title','features','name','sku','price','quantity','product_variations.too_many_combinations_display'));
 echo smarty_function_script(array('src'=>"js/addons/product_variations/tygh/backend/generator.js?ver=1.2"),$_smarty_tpl);?>

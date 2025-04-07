@@ -1,5 +1,5 @@
 <?php $snapshot = array (
-  'time' => 1743078911,
+  'time' => 1743771980,
   'files' => 
   array (
     '12a5350b4ec83ef86b6951b308a4cb00' => '/api.php',
@@ -18480,7 +18480,7 @@
         'c7cca7bf2f081dcb7acac69bb0fa81da' => '/design/themes/responsive/templates/blocks/safe_smarty_block.tpl',
         '37c4bf3921093988d1fdb1614a20b43d' => '/design/themes/responsive/templates/blocks/shippings.tpl',
         '0b1400077825c34485656e05c0d264d6' => '/design/themes/responsive/templates/blocks/shipping_estimation.tpl',
-        '9e5f907b3962a650213ce15fc3a6ee91' => '/design/themes/responsive/templates/blocks/sidebox_dropdown.tpl',
+        'f2e78e17bb8768dd10b3fd3f482f418f' => '/design/themes/responsive/templates/blocks/sidebox_dropdown.tpl',
         'a0380f0005aacb691d4cde6bc9a5f042' => '/design/themes/responsive/templates/blocks/smarty_block.tpl',
         '73c4602ba507d068563e02b3201c78ae' => '/design/themes/responsive/templates/blocks/static_templates/404.tpl',
         'b191836eba230b6a9db2baff04d4176d' => '/design/themes/responsive/templates/blocks/static_templates/auth_info.tpl',

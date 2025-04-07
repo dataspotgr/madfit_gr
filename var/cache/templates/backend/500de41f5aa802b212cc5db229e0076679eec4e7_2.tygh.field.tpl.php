@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-26 15:48:29
+/* Smarty version 4.3.0, created on 2025-03-31 11:00:03
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\advanced_import\views\import_presets\components\field.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67e405ad29cf03_32657826',
+  'unifunc' => 'content_67ea4b831d2623_05995136',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67e405ad29cf03_32657826 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4b831d2623_05995136 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('advanced_import.column_header','advanced_import.product_property','none','none','advanced_import.first_line_import_value','advanced_import.modifier_title','advanced_import.example_imported_title','advanced_import.example_modified_title','advanced_import.show_more','advanced_import.show_less','advanced_import.modifier','advanced_import.modifier'));
 ?>

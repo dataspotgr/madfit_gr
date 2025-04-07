@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 02:22:32
+/* Smarty version 4.3.0, created on 2025-03-31 11:35:08
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\tabs_extra.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbde58ea4e51_28662594',
+  'unifunc' => 'content_67ea53bc247ea1_03574522',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,6 +20,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbde58ea4e51_28662594 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea53bc247ea1_03574522 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="cm-hide-save-button <?php if ($_smarty_tpl->tpl_vars['is_form_readonly']->value) {?>cm-hide-inputs<?php }?> <?php if ($_smarty_tpl->tpl_vars['selected_section']->value !== "variations") {?>hidden<?php }?>" id="content_variations"></div><?php }
 }

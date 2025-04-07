@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-20 00:34:29
+/* Smarty version 4.3.0, created on 2025-03-31 11:01:07
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\icon_deprecated.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67dbc505219042_01060283',
+  'unifunc' => 'content_67ea4bc3a10724_05864505',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67dbc505219042_01060283 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67ea4bc3a10724_05864505 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['class']->value) {?><span class="cs-icon <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['class']->value, ENT_QUOTES, 'UTF-8');?>
 " <?php echo htmlspecialchars((string) '', ENT_QUOTES, 'UTF-8');
 if ($_smarty_tpl->tpl_vars['id']->value) {?>id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['id']->value, ENT_QUOTES, 'UTF-8');?>
