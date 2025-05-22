@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 15:28:02
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:29
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\onboarding_guide\steps\personalize_marketplace\tabs\tab_1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea8a52586b40_14021629',
+  'unifunc' => 'content_680a430dae4a81_83909546',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/previewer.tpl' => 1,
   ),
 ),false)) {
-function content_67ea8a52586b40_14021629 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a430dae4a81_83909546 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.upload_logo','alternative_text','onboarding_guide.select_theme','onboarding_guide.custom_theme','onboarding_guide.current_theme','onboarding_guide.activate','onboarding_guide.next'));
 $_smarty_tpl->_assignInScope('themes', $_smarty_tpl->tpl_vars['data']->value['themes']);

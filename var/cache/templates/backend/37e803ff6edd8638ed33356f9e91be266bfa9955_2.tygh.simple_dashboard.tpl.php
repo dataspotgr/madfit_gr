@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 15:28:01
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:28
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\components\simple_dashboard.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea8a516ddd90_87238639',
+  'unifunc' => 'content_680a430cad7ff3_65910131',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/daterange_picker.tpl' => 1,
   ),
 ),false)) {
-function content_67ea8a516ddd90_87238639 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a430cad7ff3_65910131 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"index:simple_dashboard"));
 $_block_repeat=true;

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-01 15:07:25
+/* Smarty version 4.3.0, created on 2025-05-22 13:55:46
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\wishlist\views\wishlist\components\product_notification.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ebd6fd351346_91096672',
+  'unifunc' => 'content_682f02b2642ca1_68467058',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/notification.tpl' => 2,
   ),
 ),false)) {
-function content_67ebd6fd351346_91096672 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f02b2642ca1_68467058 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('view_wishlist','view_wishlist'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

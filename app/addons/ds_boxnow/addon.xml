@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ds_boxnow</id>
+    <name>BoxNow</name>
+    <description>Integrates BoxNow shipping services</description>
+    <version>1.0</version>
+    <priority>19000</priority>
+    <position>2200</position>
+    <supplier>Dataspot</supplier>
+    <supplier_link>https://www.dataspot.gr</supplier_link>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="client_id"> 
+                        <name>Client ID</name>
+                        <type>input</type>
+                        <description>Enter your BoxNow Client ID</description>
+                    </item>
+                    <item id="client_secret">
+                        <name>Client Secret</name>
+                        <type>input</type>
+                        <description>Enter your BoxNow Client Secret</description>
+                    </item>
+                    <item id="api_url">
+                        <name>API URL</name>
+                        <type>input</type>
+                        <description>Enter the API endpoint URL</description>
+                    </item>
+                    <item id="partner_id">
+                        <name>Partner ID</name>
+                        <type>input</type>
+                        <description>Enter your Partner ID for BoxNow</description>
+                    </item>
+                    <item id="origin_id">
+                        <name>Σημεία Παραλαβής</name>
+                        <type>input</type>
+                        <description></description>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <!-- Insert shipping service -->
+        <item>
+            INSERT INTO `?:shipping_services` (`status`, `module`, `code`, `sp_file`) 
+            VALUES ('A', 'boxnow', 'boxnow', '')
+                    ON DUPLICATE KEY UPDATE `status` = 'A';
+        </item>
+
+                <!-- Insert profile fields for locker info -->
+        <item>
+            INSERT INTO `?:profile_fields`
+                (`field_name`, `profile_show`, `profile_required`, `checkout_show`, `checkout_required`, `partner_show`, `partner_required`, `storefront_show`, `field_type`, `profile_type`, `position`, `is_default`, `section`, `matching_id`, `class`, `wrapper_class`, `autocomplete_type`)
+            VALUES
+                ('b_locker_id', 'Y', 'N', 'N', 'N', 'N', 'N', 'Y', 'I', 'U', 86, 'N', 'B', 0, 'hidden', '', ''),
+                ('s_locker_id', 'Y', 'N', 'Y', 'N', 'N', 'N', 'Y', 'I', 'U', 86, 'N', 'S', 0, 'hidden', 'hidden', ''),
+                ('b_locker_address', 'Y', 'N', 'N', 'N', 'N', 'N', 'Y', 'I', 'U', 86, 'N', 'B', 0, 'hidden', 'hidden', ''),
+                ('s_locker_address', 'Y', 'N', 'Y', 'N', 'N', 'N', 'Y', 'I', 'U', 86, 'N', 'S', 0, 'hidden', 'hidden', ''),
+                ('b_locker_zip', 'Y', 'N', 'N', 'N', 'N', 'N', 'Y', 'I', 'U', 86, 'N', 'B', 0, 'hidden', 'hidden', ''),
+                ('s_locker_zip', 'Y', 'N', 'Y', 'N', 'N', 'N', 'Y', 'I', 'U', 86, 'N', 'S', 0, 'hidden', 'hidden', '');
+        </item>
+        <item>
+            UPDATE ?:profile_fields SET matching_id = (
+                SELECT field_id FROM ?:profile_fields WHERE field_name = 's_locker_id'
+            ) WHERE field_name = 'b_locker_id';
+        </item>
+
+        <item>
+            UPDATE ?:profile_fields SET matching_id = (
+                SELECT field_id FROM ?:profile_fields WHERE field_name = 'b_locker_id'
+            ) WHERE field_name = 's_locker_id';
+        </item>
+
+        <item>
+            UPDATE ?:profile_fields SET matching_id = (
+                SELECT field_id FROM ?:profile_fields WHERE field_name = 's_locker_address'
+            ) WHERE field_name = 'b_locker_address';
+        </item>
+
+        <item>
+            UPDATE ?:profile_fields SET matching_id = (
+                SELECT field_id FROM ?:profile_fields WHERE field_name = 'b_locker_address'
+            ) WHERE field_name = 's_locker_address';
+        </item>
+
+        <item>
+            UPDATE ?:profile_fields SET matching_id = (
+                SELECT field_id FROM ?:profile_fields WHERE field_name = 's_locker_zip'
+            ) WHERE field_name = 'b_locker_zip';
+        </item>
+
+        <item>
+            UPDATE ?:profile_fields SET matching_id = (
+                SELECT field_id FROM ?:profile_fields WHERE field_name = 'b_locker_zip'
+            ) WHERE field_name = 's_locker_zip';
+        </item>
+
+        <item>
+            INSERT INTO `?:profile_field_descriptions` (object_id, description, object_type, lang_code)
+            SELECT field_id, 'Locker ID', 'F', 'el' FROM `?:profile_fields` WHERE field_name = 'b_locker_id'
+            UNION ALL
+            SELECT field_id, 'Locker ID', 'F', 'el' FROM `?:profile_fields` WHERE field_name = 's_locker_id'
+            UNION ALL
+            SELECT field_id, 'Locker Address', 'F', 'el' FROM `?:profile_fields` WHERE field_name = 'b_locker_address'
+            UNION ALL
+            SELECT field_id, 'Locker Address', 'F', 'el' FROM `?:profile_fields` WHERE field_name = 's_locker_address'
+            UNION ALL
+            SELECT field_id, 'Locker ZIP', 'F', 'el' FROM `?:profile_fields` WHERE field_name = 'b_locker_zip'
+            UNION ALL
+            SELECT field_id, 'Locker ZIP', 'F', 'el' FROM `?:profile_fields` WHERE field_name = 's_locker_zip';
+        </item>
+
+        <item>
+            INSERT INTO `?:shippings`
+                (`company_id`, `destination`, `min_weight`, `max_weight`, `usergroup_ids`, `rate_calculation`, `service_id`, `service_params`, `localization`, `tax_ids`, `position`, `status`, `free_shipping`, `is_address_required`)
+            VALUES
+                (1, 'I', 0.000, 0.000, '0', 'M',
+                (SELECT service_id FROM `?:shipping_services` WHERE module = 'boxnow' AND code = 'boxnow' LIMIT 1),
+                '', '', '', 0, 'A', 'N', 'Y');
+        </item>
+
+        <item>
+            INSERT INTO `?:shipping_descriptions`
+                (`shipping_id`, `lang_code`, `shipping`, `description`)
+            SELECT shipping_id, 'el', 'BOX NOW', 
+                '&lt;p&gt;&lt;a class=&quot;boxnow-map-widget-button&quot;&gt;Επιλέξτε BOX NOW Locker&lt;/a&gt;&lt;/p&gt;&lt;div id=&quot;boxnowmap&quot;&gt;&amp;nbsp;&lt;/div&gt;'
+            FROM `?:shippings`
+            WHERE service_id = (SELECT service_id FROM `?:shipping_services` WHERE module = 'boxnow' AND code = 'boxnow' LIMIT 1);
+        </item>
+
+
+
+
+        <!-- Uninstall shipping service -->
+         <item for="uninstall">
+            DELETE FROM `?:shipping_descriptions`
+            WHERE shipping_id IN (
+                SELECT shipping_id FROM `?:shippings`
+                WHERE service_id = (SELECT service_id FROM `?:shipping_services` WHERE module = 'boxnow' AND code = 'boxnow' LIMIT 1)
+            );
+        </item>
+
+        <item for="uninstall">
+            DELETE FROM `?:shippings`
+            WHERE service_id = (
+                SELECT service_id FROM `?:shipping_services`
+                WHERE module = 'boxnow' AND code = 'boxnow' LIMIT 1
+            );
+        </item>
+        
+        <item for="uninstall">
+            DELETE FROM `?:shipping_services` WHERE `module` = 'boxnow' AND `code` = 'boxnow';
+        </item>
+
+        <item for="uninstall">
+            DELETE FROM `?:profile_field_descriptions` 
+            WHERE object_id IN (
+                SELECT field_id FROM `?:profile_fields`
+                WHERE field_name IN (
+                    'b_locker_id', 
+                    's_locker_id', 
+                    'b_locker_address', 
+                    's_locker_address', 
+                    'b_locker_zip', 
+                    's_locker_zip'
+                )
+            ) 
+            AND object_type = 'F';
+        </item>
+
+        <!-- Uninstall locker profile fields -->
+        <item for="uninstall">
+            DELETE FROM `?:profile_fields` WHERE `field_name` IN ('s_locker_id', 'b_locker_zip', 'b_locker_id','b_locker_address', 's_locker_address', 's_locker_zip');
+        </item>
+       
+       
+      
+
+
+    </queries>
+
+</addon>

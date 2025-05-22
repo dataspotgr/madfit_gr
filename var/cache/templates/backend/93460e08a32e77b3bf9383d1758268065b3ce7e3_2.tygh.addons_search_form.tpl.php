@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:16
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\manage\addons_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b54a13885_37835477',
+  'unifunc' => 'content_680b6bf2dea878_82566951',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/product_release_info.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4b54a13885_37835477 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6bf2dea878_82566951 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('developers','addon_type','third_party_addons','without_rating','has_additional_pages','favorites','status','any','not_installed','installed','active','disabled','install_date','all','this_day','this_week','this_month','this_year','yesterday','previous_week','previous_month','previous_year','last_24hours','last_n_days','last_n_days','compatibility','any','product_env.now_running','admin_search_button','reset'));
 ?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:00:02
+/* Smarty version 4.3.0, created on 2025-04-25 14:05:26
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\advanced_import\views\import_presets\get_fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b82d988d8_78390006',
+  'unifunc' => 'content_680b6c768238e0_79167628',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4b82d988d8_78390006 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6c768238e0_79167628 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('import'));
 ?>
 <div id="content_fields">

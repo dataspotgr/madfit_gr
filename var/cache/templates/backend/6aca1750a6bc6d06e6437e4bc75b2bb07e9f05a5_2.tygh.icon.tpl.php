@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:51:04
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\icon.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea496870e0c4_25558675',
+  'unifunc' => 'content_680a42fe9818e2_47980154',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/icons/get_fallback_source.tpl' => 1,
   ),
 ),false)) {
-function content_67ea496870e0c4_25558675 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a42fe9818e2_47980154 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 $_smarty_tpl->_subTemplateRender("tygh:components/icons/get_fallback_source.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('class'=>$_smarty_tpl->tpl_vars['class']->value,'source'=>$_smarty_tpl->tpl_vars['source']->value), 0, false);
 $_smarty_tpl->_assignInScope('show_icon', $_smarty_tpl->tpl_vars['show_icon']->value === false ? false : (($tmp = $_smarty_tpl->tpl_vars['show_icon']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

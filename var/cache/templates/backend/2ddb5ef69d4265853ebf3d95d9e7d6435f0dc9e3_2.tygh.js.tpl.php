@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-01 16:16:35
+/* Smarty version 4.3.0, created on 2025-05-22 12:44:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\pickers\pages\js.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ebe733c2af43_51070092',
+  'unifunc' => 'content_682ef1ee86dd74_32682621',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ebe733c2af43_51070092 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ef1ee86dd74_32682621 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove'));
 if ($_smarty_tpl->tpl_vars['page_id']->value) {?>

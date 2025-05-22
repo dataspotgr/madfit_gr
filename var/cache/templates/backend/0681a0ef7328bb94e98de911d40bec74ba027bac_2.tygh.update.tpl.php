@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-07 11:30:42
+/* Smarty version 4.3.0, created on 2025-05-22 11:43:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\tabs\update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67f38d32f1d9a6_54460317',
+  'unifunc' => 'content_682ee3cbbf02a1_19901464',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_67f38d32f1d9a6_54460317 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ee3cbbf02a1_19901464 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','status','name','show_tab_in_popup','block','select_block','select_block','global_status','active','disabled','disable_for','enable_for'));
 $_smarty_tpl->_assignInScope('id', $_smarty_tpl->tpl_vars['tab_data']->value ? $_smarty_tpl->tpl_vars['tab_data']->value['tab_id'] : 0);

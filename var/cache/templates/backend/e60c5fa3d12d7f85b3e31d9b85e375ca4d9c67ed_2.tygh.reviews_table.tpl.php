@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:10
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:44
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_reviews\views\product_reviews\components\manage\reviews_table.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53be6da197_54256656',
+  'unifunc' => 'content_680b6d001af681_17416313',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/context_menu_wrapper.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53be6da197_54256656 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6d001af681_17416313 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('id','product_reviews.rating','message','product','customer','product_reviews.helpfulness','status','date','no_data'));
 ?>
 

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:50
+/* Smarty version 4.3.0, created on 2025-04-25 14:04:28
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\advanced_import\views\import_presets\components\options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b76a97826_22458299',
+  'unifunc' => 'content_680b6c3ccf1fc7_13806339',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea4b76a97826_22458299 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6c3ccf1fc7_13806339 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('tab', (($tmp = $_smarty_tpl->tpl_vars['tab']->value ?? null)===null||$tmp==='' ? "general" ?? null : $tmp));
 $_smarty_tpl->_assignInScope('section', (($tmp = $_smarty_tpl->tpl_vars['section']->value ?? null)===null||$tmp==='' ? "general" ?? null : $tmp));?>
 

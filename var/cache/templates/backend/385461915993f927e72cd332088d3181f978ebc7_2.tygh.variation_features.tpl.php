@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:17
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:04
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\components\variation_features.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bcdc83204_67437857',
+  'unifunc' => 'content_680b6cd8923133_10780505',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea4bcdc83204_67437857 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cd8923133_10780505 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['variation_features']->value) {
 $_smarty_tpl->_assignInScope('variant_names', array());
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['variation_features']->value, 'feature');

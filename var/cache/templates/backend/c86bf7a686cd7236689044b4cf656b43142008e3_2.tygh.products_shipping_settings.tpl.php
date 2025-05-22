@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:03
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:36
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\products_shipping_settings.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53b7ce2875_63002672',
+  'unifunc' => 'content_680b6cf8c2dbe1_94421091',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53b7ce2875_63002672 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cf8c2dbe1_94421091 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','weight','tt_views_products_components_products_shipping_settings_weight','free_shipping','tt_views_products_components_products_shipping_settings_free_shipping','shipping_freight','items_in_box','tt_views_products_components_products_shipping_settings_items_in_box','box_length','box_width','box_height'));
 $_smarty_tpl->_subTemplateRender("tygh:common/subheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("general")), 0, false);

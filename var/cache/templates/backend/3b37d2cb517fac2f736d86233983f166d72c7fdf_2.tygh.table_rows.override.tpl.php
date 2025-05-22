@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:09
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:42
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_bundles\addons\product_variations\hooks\product_picker\table_rows.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53bda535d2_61832108',
+  'unifunc' => 'content_680b6cfee74909_58341959',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/products/js.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53bda535d2_61832108 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cfee74909_58341959 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('options','any_option_combinations','product_bundles.any_variation','deleted_product'));
 if ($_smarty_tpl->tpl_vars['item_ids']->value) {?>
@@ -37,8 +37,8 @@ $_smarty_tpl->tpl_vars['product']->do_else = false;
                 <?php $_smarty_tpl->_assignInScope('prod_opts', fn_get_product_options($_smarty_tpl->tpl_vars['product']->value['product_id']));?>
                 <?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("YesNo::YES"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable27=ob_get_clean();
-if ($_smarty_tpl->tpl_vars['prod_opts']->value && $_smarty_tpl->tpl_vars['product']->value['aoc'] == $_prefixVariable27) {?>
+$_prefixVariable28=ob_get_clean();
+if ($_smarty_tpl->tpl_vars['prod_opts']->value && $_smarty_tpl->tpl_vars['product']->value['aoc'] == $_prefixVariable28) {?>
                     <span><?php echo $_smarty_tpl->__("options");?>
 : </span>&nbsp;<?php echo $_smarty_tpl->__("any_option_combinations");?>
 

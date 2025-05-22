@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 15:28:03
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:30
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\onboarding_guide\steps\setup_shipping.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea8a538f3322_24962351',
+  'unifunc' => 'content_680a430ee817e5_82123090',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea8a538f3322_24962351 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a430ee817e5_82123090 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.configure_shippings_description','onboarding_guide.configure_shippings_label','onboarding_guide.configure_shippings'));
 ?>
 <div class="onboarding_content_margin--bottom">

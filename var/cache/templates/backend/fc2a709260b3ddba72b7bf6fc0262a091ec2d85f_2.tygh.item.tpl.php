@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:20
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:07
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\categories\components\picker\item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bd071f957_53811885',
+  'unifunc' => 'content_680b6beb686813_63751843',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea4bd071f957_53811885 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6beb686813_63751843 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('enter_category_name_and_path'));
 ?>

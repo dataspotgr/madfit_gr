@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:25
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:16
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\advanced_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bd5822938_83854957',
+  'unifunc' => 'content_680b6bf43fbb61_13589275',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4bd5822938_83854957 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6bf43fbb61_13589275 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),));
 \Tygh\Languages\Helper::preloadLangVars(array('object_exists','advanced_search','advanced_search','save_this_search_as','name','name','save','cancel','advanced_search_options'));
 echo smarty_function_script(array('src'=>"js/tygh/advanced_search.js"),$_smarty_tpl);?>
@@ -136,14 +136,14 @@ echo $_smarty_tpl->__("name");
 if ($_COOKIE[$_smarty_tpl->tpl_vars['a_id']->value]) {
 echo " hidden";
 }
-$_prefixVariable15=ob_get_clean();
-$_smarty_tpl->_assignInScope('icon_chevron_down', "icon-chevron-down cm-combination cm-save-state".$_prefixVariable15." flex-inline");?>
+$_prefixVariable7=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_chevron_down', "icon-chevron-down cm-combination cm-save-state".$_prefixVariable7." flex-inline");?>
             <?php ob_start();
 if (!$_COOKIE[$_smarty_tpl->tpl_vars['a_id']->value]) {
 echo " hidden";
 }
-$_prefixVariable16=ob_get_clean();
-$_smarty_tpl->_assignInScope('icon_chevron_up', "icon-chevron-up cm-combination cm-save-state".$_prefixVariable16." flex-inline");?>
+$_prefixVariable8=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_chevron_up', "icon-chevron-up cm-combination cm-save-state".$_prefixVariable8." flex-inline");?>
             <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_chevron_down']->value,'id'=>"on_".((string)$_smarty_tpl->tpl_vars['a_id']->value)),$_smarty_tpl);?>
 
             <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_chevron_up']->value,'id'=>"off_".((string)$_smarty_tpl->tpl_vars['a_id']->value)),$_smarty_tpl);?>

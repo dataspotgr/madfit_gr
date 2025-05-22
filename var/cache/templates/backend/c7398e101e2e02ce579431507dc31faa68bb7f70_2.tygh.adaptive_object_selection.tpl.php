@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:02
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:34
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\adaptive_object_selection.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53b636aee7_47414066',
+  'unifunc' => 'content_680b6cf6ac7320_01936330',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/multiple_checkboxes.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53b636aee7_47414066 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cf6ac7320_01936330 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 

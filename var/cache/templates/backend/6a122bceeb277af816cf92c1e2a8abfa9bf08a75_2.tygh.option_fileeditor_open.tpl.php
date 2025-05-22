@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:50
+/* Smarty version 4.3.0, created on 2025-04-25 14:04:29
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\advanced_import\views\import_presets\components\option_fileeditor_open.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b76e91b77_77066494',
+  'unifunc' => 'content_680b6c3d261432_88821032',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea4b76e91b77_77066494 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6c3d261432_88821032 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['option_id']->value, ENT_QUOTES, 'UTF-8');?>
 _dialog" class="hidden"></div>
 <input id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['option_id']->value, ENT_QUOTES, 'UTF-8');?>

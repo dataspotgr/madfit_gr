@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 15:28:04
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:32
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\components\analytics_section\analytics_card\resource_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea8a54dbf360_93616440',
+  'unifunc' => 'content_680a43103aaa43_86339727',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 1,
   ),
 ),false)) {
-function content_67ea8a54dbf360_93616440 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a43103aaa43_86339727 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('no_data'));
 if ($_smarty_tpl->tpl_vars['resource_list']->value && ($_smarty_tpl->tpl_vars['resource_list']->value['content'] || empty($_smarty_tpl->tpl_vars['resource_list']->value['content']))) {?><div class="analytics-card-resource-list"><?php if ($_smarty_tpl->tpl_vars['resource_list']->value['title']) {?><div class="analytics-card-resource-list__title"><?php echo $_smarty_tpl->tpl_vars['resource_list']->value['title'];?>
 </div><?php }?><div class="analytics-card-resource-list__content"><?php

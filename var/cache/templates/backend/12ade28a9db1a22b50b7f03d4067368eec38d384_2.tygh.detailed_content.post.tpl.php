@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:06
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:39
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\discussion\hooks\products\detailed_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53ba836261_24087262',
+  'unifunc' => 'content_680b6cfb4b9367_60923242',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/discussion/views/discussion_manager/components/allow_discussion.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53ba836261_24087262 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cfb4b9367_60923242 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('comments_and_reviews','discussion_title_product'));
 if (($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR")) && $_smarty_tpl->tpl_vars['addons']->value['product_reviews']['status'] !== smarty_modifier_enum("ObjectStatuses::ACTIVE")) {?>

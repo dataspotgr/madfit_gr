@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:51:12
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:18
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\menu\get_block_manager_data.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4970a09992_59982152',
+  'unifunc' => 'content_680a4302567aa3_80824539',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea4970a09992_59982152 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a4302567aa3_80824539 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 if ((defined('BLOCK_MANAGER_MODE') ? constant('BLOCK_MANAGER_MODE') : null)) {?>
     <?php $_smarty_tpl->_assignInScope('block_manager_attrs', array("data-ca-block-manager"=>"main","data-ca-block-manager-has-layout"=>0,"data-ca-block-manager-dispatch"=>"custom_menu","data-ca-block-manager-blocks-place"=>"true","data-ca-block-manager-grid-id"=>"header_main_menu"));?>
@@ -36,7 +36,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item_key']->value => $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->iteration++;
-$__foreach_item_37_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_23_saved = $_smarty_tpl->tpl_vars['item'];
 ?>
         <?php $_tmp_array = isset($_smarty_tpl->tpl_vars['items']) ? $_smarty_tpl->tpl_vars['items']->value : array();
 if (!(is_array($_tmp_array) || $_tmp_array instanceof ArrayAccess)) {
@@ -131,7 +131,7 @@ $_smarty_tpl->_assignInScope('items', $_tmp_array);?>
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     <?php
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_37_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_23_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 

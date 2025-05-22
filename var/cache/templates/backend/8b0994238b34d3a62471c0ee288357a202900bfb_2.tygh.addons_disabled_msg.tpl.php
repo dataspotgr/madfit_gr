@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:14
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:11
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\manage\addons_disabled_msg.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b5204f7b0_30744410',
+  'unifunc' => 'content_680b6befb7e2a6_18272711',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea4b5204f7b0_30744410 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6befb7e2a6_18272711 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('tools_addons_disabled_msg','tools_re_enable_add_ons'));
 $_smarty_tpl->_assignInScope('is_addon_management_enabled', true);
 if (fn_allowed_for("MULTIVENDOR") && $_smarty_tpl->tpl_vars['selected_storefront_id']->value || fn_allowed_for("ULTIMATE") && $_smarty_tpl->tpl_vars['runtime']->value['company_id']) {?>

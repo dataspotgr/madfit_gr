@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-07 13:25:17
+/* Smarty version 4.3.0, created on 2025-05-22 12:59:22
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\menus\update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67f3a80d1c3382_18534761',
+  'unifunc' => 'content_682ef57aa49e13_72493150',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_67f3a80d1c3382_18534761 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ef57aa49e13_72493150 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('name'));
 if ($_smarty_tpl->tpl_vars['menu_data']->value) {?>
     <?php $_smarty_tpl->_assignInScope('id', $_smarty_tpl->tpl_vars['menu_data']->value['menu_id']);

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:16
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:03
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bcc796317_31109351',
+  'unifunc' => 'content_680b6cd778a478_03663929',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,7 +36,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4bcc796317_31109351 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cd778a478_03663929 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.to_json.php','function'=>'smarty_modifier_to_json',),));
 \Tygh\Languages\Helper::preloadLangVars(array('position_short','name','sku','price','list_price_short_2','list_price','purchased_qty','subtotal_sum','quantity','quantity_long','products_are_not_selectable_for_context_menu','name','price','list_price','purchased_qty','subtotal_sum','quantity','edit','delete','status','no_data','text_select_fields2edit_note','cancel','modify_selected','add_product','add_product','select_fields_to_edit','products'));
 echo smarty_function_script(array('src'=>"js/tygh/backend/products_manage.js"),$_smarty_tpl);?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:11
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:45
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_options\update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53bf5274b2_36076615',
+  'unifunc' => 'content_680b6d0118dc17_82603281',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -29,7 +29,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53bf5274b2_36076615 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6d0118dc17_82603281 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','variants','modifiers','modifiers','variants','position','type','description','comment','comment_hint','required','missing_variants_handling','display_message','hide_option_completely','regexp','regexp_hint','inner_hint','tt_views_product_options_update_inner_hint','incorrect_filling_message','tt_views_product_options_update_incorrect_filling_message','allowed_extensions','allowed_extensions_hint','max_uploading_file_size','max_uploading_file_size_hint','multiupload','add_variant','position_short','name','modifier','type','status','expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','position_short','name','modifier','type','status','expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','icon','weight_modifier','type'));
 if ($_smarty_tpl->tpl_vars['option_data']->value['option_id']) {?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:28
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\search_filters\search_save.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bd8050112_51499055',
+  'unifunc' => 'content_680b6ce2a4e870_57101344',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4bd8050112_51499055 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6ce2a4e870_57101344 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('name','cancel','save','save_this_search_as','save_this_search_as','save_this_search_as'));
 if (!$_smarty_tpl->tpl_vars['not_saved']->value && strpos($_REQUEST['dispatch'],".picker") === false) {?>
     <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "search_save", null, null);?>

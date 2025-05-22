@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 13:34:41
+/* Smarty version 4.3.0, created on 2025-05-22 12:59:39
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\categories\components\categories_tree_simple.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea6fc10b6a61_82002381',
+  'unifunc' => 'content_682ef58b9f1ee3_75657708',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/categories/components/categories_tree_simple.tpl' => 2,
   ),
 ),false)) {
-function content_67ea6fc10b6a61_82002381 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ef58b9f1ee3_75657708 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','categories','products','expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','disabled'));
 $_smarty_tpl->_assignInScope('rnd_value', rand());

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:01
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:32
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\form_file_uploader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53b5085fe8_61302060',
+  'unifunc' => 'content_680b6cf4ef58b5_81610952',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53b5085fe8_61302060 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cf4ef58b5_81610952 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('file_uploader.default_message','file_uploader.fallback_message','file_uploader.fallback_text','file_uploader.file_too_big','file_uploader.invalid_file_type','file_uploader.response_error','file_uploader.cancel_upload','file_uploader.upload_canceled','file_uploader.cancel_upload_confirmation','file_uploader.remove_file','file_uploader.remove_file_confirmation','file_uploader.max_files_exceeded','file_uploader.file_size_units_tb','file_uploader.file_size_units_gb','file_uploader.file_size_units_mb','file_uploader.file_size_units_kb','file_uploader.file_size_units_b','drop_images_to_upload','or','drop_images_select_short','drop_images_select','add_image_from_server','add_image_from_url','delete_all_images','alternative_text','preview','remove','image_has_been_deleted','recover','url','cannot_upload_file'));
 $_smarty_tpl->_assignInScope('object_id', (($tmp = $_smarty_tpl->tpl_vars['image_object_id']->value ?? null)===null||$tmp==='' ? "0" ?? null : $tmp));

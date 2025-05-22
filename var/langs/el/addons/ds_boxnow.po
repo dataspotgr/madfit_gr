@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR"
+
+msgctxt "Languages::boxnow_print_label"
+msgid "boxnow_print_label"
+msgstr "Εκτύπωση Voucher BoxNow"
+
+msgctxt "Languages::boxnow_cancel_shipment"
+msgid "boxnow_cancel_shipment"
+msgstr "Ακύρωση Voucher BoxNow"
+
+msgctxt "Languages::text_are_you_sure_to_cancel_boxnow"
+msgid "text_are_you_sure_to_cancel_boxnow"
+msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε αυτήν την αποστολή BoxNow;"
+
+msgctxt "Languages::boxnow_cancel_failed"
+msgid "boxnow_cancel_failed"
+msgstr "Αποτυχία ακύρωσης αποστολής BoxNow."
+
+msgctxt "Languages::boxnow_shipment_cancelled_successfully"
+msgid "boxnow_shipment_cancelled_successfully"
+msgstr "Η αποστολή BoxNow ακυρώθηκε με επιτυχία."
+
+msgctxt "Languages::boxnow_credentials_missing"
+msgid "boxnow_credentials_missing"
+msgstr "Λείπουν τα διαπιστευτήρια σύνδεσης BoxNow."
+
+msgctxt "Languages::boxnow_label_not_found"
+msgid "boxnow_label_not_found"
+msgstr "Δεν βρέθηκε το Voucher αποστολής BoxNow."
+
+msgctxt "Languages::boxnow_authentication_failed"
+msgid "boxnow_authentication_failed"
+msgstr "Η αυθεντικοποίηση στο BoxNow απέτυχε."
+
+msgctxt "Languages::boxnow_tracking_number_not_found"
+msgid "boxnow_tracking_number_not_found"
+msgstr "Δεν βρέθηκε αριθμός παρακολούθησης BoxNow για αυτήν την αποστολή."
+
+msgctxt "Languages::boxnow_invalid_shipment"
+msgid "boxnow_invalid_shipment"
+msgstr "Μη έγκυρο αναγνωριστικό αποστολής."
+
+msgctxt "Languages::carrier_boxnow"
+msgid "carrier_boxnow"
+msgstr "BOXNOW"

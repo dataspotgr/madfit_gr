@@ -1,0 +1,19 @@
+msgctxt "Languages"
+msgid "boxnow_print_label"
+msgstr "Εκτύπωση ετικέτας BoxNow"
+
+msgctxt "Languages"
+msgid "boxnow_cancel_shipment"
+msgstr "Ακύρωση αποστολής BoxNow"
+
+msgctxt "Languages"
+msgid "text_are_you_sure_to_cancel_boxnow"
+msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε αυτήν την αποστολή BoxNow;"
+
+msgctxt "Languages"
+msgid "boxnow_cancel_failed"
+msgstr "Αποτυχία ακύρωσης αποστολής BoxNow."
+
+msgctxt "Languages"
+msgid "boxnow_shipment_cancelled_successfully"
+msgstr "Η αποστολή BoxNow ακυρώθηκε με επιτυχία."

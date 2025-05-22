@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:04
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:37
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\products_update_features.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53b8d2d218_80372751',
+  'unifunc' => 'content_680b6cf98ed8f6_93192820',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/product_assign_features.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53b8d2d218_80372751 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cf98ed8f6_93192820 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_feature','no_items'));
 ?>
@@ -50,8 +50,8 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr
                      data-ca-inline-dialog-action-context="products_update_features"
                      data-ca-inline-dialog-url="<?php ob_start();
 echo htmlspecialchars((string) http_build_query(array("category_ids"=>array_values((($tmp = $_smarty_tpl->tpl_vars['product_data']->value['category_ids'] ?? null)===null||$tmp==='' ? array() ?? null : $tmp)))), ENT_QUOTES, 'UTF-8');
-$_prefixVariable3=ob_get_clean();
-echo htmlspecialchars((string) fn_url("product_features.quick_add?category_id=".((string)$_smarty_tpl->tpl_vars['product_data']->value['main_category'])."&".$_prefixVariable3), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable4=ob_get_clean();
+echo htmlspecialchars((string) fn_url("product_features.quick_add?category_id=".((string)$_smarty_tpl->tpl_vars['product_data']->value['main_category'])."&".$_prefixVariable4), ENT_QUOTES, 'UTF-8');?>
 ">
                 </div>
             </div>

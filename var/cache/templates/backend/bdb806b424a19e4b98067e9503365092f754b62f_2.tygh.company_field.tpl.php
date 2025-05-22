@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:50
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:09
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\companies\components\company_field.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b765d94c3_42438604',
+  'unifunc' => 'content_680b6bed6d9a03_13320740',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/ajax_select_object.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4b765d94c3_42438604 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6bed6d9a03_13320740 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('owner_company'));
 $_smarty_tpl->_assignInScope('required', (($tmp = $_smarty_tpl->tpl_vars['required']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));
 if ($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && (!$_smarty_tpl->tpl_vars['selected']->value || fn_allowed_for("MULTIVENDOR")) && !$_smarty_tpl->tpl_vars['disable_company_picker']->value) {?>

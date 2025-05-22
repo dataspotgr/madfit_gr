@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-02 16:50:53
+/* Smarty version 4.3.0, created on 2025-05-22 11:53:22
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\update_location.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ed40bd92c117_03047383',
+  'unifunc' => 'content_682ee602b54012_46019463',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_67ed40bd92c117_03047383 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ee602b54012_46019463 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','dispatch','custom','name','page_title','copy_to_other_locations','ttc_page_title','meta_description','copy_to_other_locations','meta_keywords','copy_to_other_locations','head_custom_html','copy_to_other_locations','tt_views_block_manager_update_location_head_custom_html','default','tt_views_block_manager_update_location_default','position'));
 if (!$_smarty_tpl->tpl_vars['location']->value['location_id']) {?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:51:31
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:57
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\components\import_layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4983565445_59025229',
+  'unifunc' => 'content_680b6d0d8b5437_25872224',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4983565445_59025229 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6d0d8b5437_25872224 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('create_new_layout','update_current_layout','clean_up_all_locations_on_import','override_by_dispatch','import'));
 ?>
 <div class="install-addon">

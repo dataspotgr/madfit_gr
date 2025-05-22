@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:51:39
+/* Smarty version 4.3.0, created on 2025-04-30 11:31:08
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\views\products\components\product_features_short_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea498b4ff289_89388253',
+  'unifunc' => 'content_6811dfccd7f040_46782262',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,13 +21,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image.tpl' => 2,
   ),
 ),false)) {
-function content_67ea498b4ff289_89388253 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6811dfccd7f040_46782262 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'feature_value' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\bright_theme\\57a20c657ccbfdfb8aba918a8a091495e6ba02de_2.tygh.product_features_short_list.tpl.php',
     'uid' => '57a20c657ccbfdfb8aba918a8a091495e6ba02de',
-    'call_name' => 'smarty_template_function_feature_value_132919206467ea498b4afff9_01365796',
+    'call_name' => 'smarty_template_function_feature_value_4286456936811dfccc04900_09720996',
   ),
 ));
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
@@ -102,9 +102,9 @@ if (!$_smarty_tpl->tpl_vars['no_container']->value) {?></div><?php }
 }
 }
 }
-/* smarty_template_function_feature_value_132919206467ea498b4afff9_01365796 */
-if (!function_exists('smarty_template_function_feature_value_132919206467ea498b4afff9_01365796')) {
-function smarty_template_function_feature_value_132919206467ea498b4afff9_01365796(Smarty_Internal_Template $_smarty_tpl,$params) {
+/* smarty_template_function_feature_value_4286456936811dfccc04900_09720996 */
+if (!function_exists('smarty_template_function_feature_value_4286456936811dfccc04900_09720996')) {
+function smarty_template_function_feature_value_4286456936811dfccc04900_09720996(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -145,10 +145,10 @@ if ($_smarty_tpl->tpl_vars['feature']->value['suffix']) {?><span class="ty-featu
 </span><?php }
 if ($_smarty_tpl->tpl_vars['feature']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::EXTENDED") && $_smarty_tpl->tpl_vars['feature']->value['features_hash']) {?></a><?php }
 }}
-/*/ smarty_template_function_feature_value_132919206467ea498b4afff9_01365796 */
-/* smarty_template_function_feature_value_132919206467ea498b4afff9_01365796 */
-if (!function_exists('smarty_template_function_feature_value_132919206467ea498b4afff9_01365796')) {
-function smarty_template_function_feature_value_132919206467ea498b4afff9_01365796(Smarty_Internal_Template $_smarty_tpl,$params) {
+/*/ smarty_template_function_feature_value_4286456936811dfccc04900_09720996 */
+/* smarty_template_function_feature_value_4286456936811dfccc04900_09720996 */
+if (!function_exists('smarty_template_function_feature_value_4286456936811dfccc04900_09720996')) {
+function smarty_template_function_feature_value_4286456936811dfccc04900_09720996(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -189,5 +189,5 @@ if ($_smarty_tpl->tpl_vars['feature']->value['suffix']) {?><span class="ty-featu
 </span><?php }
 if ($_smarty_tpl->tpl_vars['feature']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::EXTENDED") && $_smarty_tpl->tpl_vars['feature']->value['features_hash']) {?></a><?php }
 }}
-/*/ smarty_template_function_feature_value_132919206467ea498b4afff9_01365796 */
+/*/ smarty_template_function_feature_value_4286456936811dfccc04900_09720996 */
 }

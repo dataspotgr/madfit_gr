@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-01 15:48:55
+/* Smarty version 4.3.0, created on 2025-04-30 12:22:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\settings_section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ebe0b72c84d4_03261856',
+  'unifunc' => 'content_6811ebbee51811_96938495',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/settings_fields.tpl' => 1,
   ),
 ),false)) {
-function content_67ebe0b72c84d4_03261856 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6811ebbee51811_96938495 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['items']->value, 'item', false, 'name', 'fe_data', array (
   'iteration' => true,
   'total' => true,

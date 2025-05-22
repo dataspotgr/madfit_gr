@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-02 16:49:20
+/* Smarty version 4.3.0, created on 2025-05-22 10:17:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\tags\hooks\pages\search_form.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ed4060411bd3_63925117',
+  'unifunc' => 'content_682ecfa760afc3_41442166',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ed4060411bd3_63925117 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ecfa760afc3_41442166 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('tag'));
 ?>
 <div class="control-group">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 13:34:40
+/* Smarty version 4.3.0, created on 2025-05-22 12:59:39
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\pickers\categories\picker_contents.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea6fc0b9f050_16828680',
+  'unifunc' => 'content_682ef58b5c0a22_54894432',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save.tpl' => 1,
   ),
 ),false)) {
-function content_67ea6fc0b9f050_16828680 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ef58b5c0a22_54894432 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.to_relative_url.php','function'=>'smarty_modifier_to_relative_url',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_items_updated','tip.quick_select_and_close_category_selector','no_categories_available','manage_categories','choose'));
 if ($_smarty_tpl->tpl_vars['language_direction']->value == "rtl") {?>

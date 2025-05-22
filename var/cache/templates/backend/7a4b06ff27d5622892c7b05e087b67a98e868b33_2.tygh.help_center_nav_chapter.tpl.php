@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:51:11
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:15
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\help_center\templates\help_center_nav_chapter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea496f075d23_30733735',
+  'unifunc' => 'content_680a42ffa2b606_81290477',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea496f075d23_30733735 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a42ffa2b606_81290477 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
     <?php echo '<script'; ?>

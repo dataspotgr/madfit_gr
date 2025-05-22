@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:20
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\context_menu\price.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bd099b624_45225700',
+  'unifunc' => 'content_680b6cda190f53_01187154',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/context_menu/items/dropdown.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4bd099b624_45225700 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cda190f53_01187154 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('price','list_price','in_stock','bulk_edit.decrease_hint','bulk_edit.example_of_modified_value','price','list_price','list_price_short','in_stock','reset','apply'));
 ?>

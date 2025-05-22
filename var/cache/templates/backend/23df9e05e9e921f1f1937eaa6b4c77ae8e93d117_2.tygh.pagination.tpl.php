@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:45
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:02
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\pagination.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b71deaa39_92384435',
+  'unifunc' => 'content_680b6be6cb37d7_29221369',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tools.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4b71deaa39_92384435 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6be6cb37d7_29221369 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('objects_per_page','pagination_range'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"common:pagination"));

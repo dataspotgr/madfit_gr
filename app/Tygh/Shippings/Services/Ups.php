@@ -356,7 +356,7 @@ class Ups implements IService
     {
         return [
             'name' => __('carrier_ups'),
-            'tracking_url' => 'https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=%s'
+            'tracking_url' => 'http://wwwapps.ups.com/etracking/tracking.cgi?tracknum=%s'
         ];
     }
 

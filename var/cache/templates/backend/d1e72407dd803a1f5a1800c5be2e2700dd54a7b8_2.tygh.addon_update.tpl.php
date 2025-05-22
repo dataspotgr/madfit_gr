@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:27
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:57
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\detailed_page\tabs\addon_update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b5f5935c8_08589319',
+  'unifunc' => 'content_680b6c1d0571b3_72293068',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 2,
   ),
 ),false)) {
-function content_67ea4b5f5935c8_08589319 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6c1d0571b3_72293068 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.latest_version','version','addons.upgrade_to_version','addons.upgrade_to_version','release_date','release_date','compatibility','addon_is_compatible','addon_required_version','addons.upgrade_to_product_version','what_is_new','addons.latest_available_for_installation_version','version','addons.upgrade_to_version','addons.upgrade_to_version','release_date','compatibility','addon_is_compatible','addon_required_version','what_is_new'));
 if ($_smarty_tpl->tpl_vars['actual_change_log']->value || $_smarty_tpl->tpl_vars['latest_change_log']->value) {?>

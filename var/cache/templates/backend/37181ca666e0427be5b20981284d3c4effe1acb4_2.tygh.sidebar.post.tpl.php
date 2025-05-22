@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-02 16:49:20
+/* Smarty version 4.3.0, created on 2025-05-22 10:17:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\blog\hooks\pages\sidebar.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ed406051c885_44126255',
+  'unifunc' => 'content_682ecfa7af6c40_32515814',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ed406051c885_44126255 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ecfa7af6c40_32515814 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.notes.php','function'=>'smarty_block_notes',),));
 if ($_smarty_tpl->tpl_vars['is_managing_blog']->value) {
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('notes', array());

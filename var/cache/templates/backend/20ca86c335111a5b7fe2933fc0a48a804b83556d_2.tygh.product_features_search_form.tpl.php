@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:46:13
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:15
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_features\components\product_features_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea5655c9bdf4_13201648',
+  'unifunc' => 'content_680b6bf3851b82_70494175',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_67ea5655c9bdf4_13201648 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6bf3851b82_70494175 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','category','all_categories','feature','group','ungroupped_features','storefront_name','type','checkbox','single','checkbox','multiple','selectbox','text','selectbox','number','selectbox','brand_type','others','text','others','number','others','date','updated_last','day_or_days','vendor_features_only','display_on','product','catalog_pages'));
 ?>

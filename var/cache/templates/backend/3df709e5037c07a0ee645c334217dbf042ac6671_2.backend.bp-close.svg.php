@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:51:02
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:11
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\bottom_panel\icons\bp-close.svg' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea496604b6c8_51494038',
+  'unifunc' => 'content_680a42fb9f17f7_57214065',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea496604b6c8_51494038 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a42fb9f17f7_57214065 (Smarty_Internal_Template $_smarty_tpl) {
 ?><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
     class="bp-close__icon">
     <path

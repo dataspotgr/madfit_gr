@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:06
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:09
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\select_status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bc2646b22_87258814',
+  'unifunc' => 'content_680b6bedd1d336_02940445',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea4bc2646b22_87258814 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6bedd1d336_02940445 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('active','hidden','disabled','new','active','hidden','disabled','status','status','active','hidden','pending','new','disabled'));
 if ($_smarty_tpl->tpl_vars['display']->value == "select" || $_smarty_tpl->tpl_vars['display']->value == "popup" || $_smarty_tpl->tpl_vars['display']->value == "text") {

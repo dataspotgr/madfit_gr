@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:00
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:31
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_name.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53b40dd2f2_60533239',
+  'unifunc' => 'content_680b6cf3b431e5_43346048',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea53b40dd2f2_60533239 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cf3b431e5_43346048 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.variation_of_product'));
 if ($_smarty_tpl->tpl_vars['parent_product_data']->value) {?>
     <div class="control-group">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:51
+/* Smarty version 4.3.0, created on 2025-04-25 14:05:24
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\vendor_communication\views\vendor_communication\components\new_thread_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b7714f378_47244306',
+  'unifunc' => 'content_680b6c740a0e24_73203735',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4b7714f378_47244306 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6c740a0e24_73203735 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_communication.contact_admin','vendor_communication.contact_vendor'));
 if (!$_smarty_tpl->tpl_vars['title']->value) {?>
@@ -58,8 +58,8 @@ $_smarty_tpl->_assignInScope('divider', (($tmp = $_smarty_tpl->tpl_vars['divider
 <?php if ($_smarty_tpl->tpl_vars['return_url']->value) {?>
     <?php ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['return_url']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable13=ob_get_clean();
-$_smarty_tpl->_assignInScope('href', ((string)$_smarty_tpl->tpl_vars['href']->value)."&return_url=".$_prefixVariable13);
+$_prefixVariable1=ob_get_clean();
+$_smarty_tpl->_assignInScope('href', ((string)$_smarty_tpl->tpl_vars['href']->value)."&return_url=".$_prefixVariable1);
 }?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "thread_button", null, null);?>

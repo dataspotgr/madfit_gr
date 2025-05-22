@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:26
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:12
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\search_filters\products_category.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bd625d069_43334695',
+  'unifunc' => 'content_680b6ce0a2db21_11035073',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/categories/components/picker/picker.tpl' => 2,
   ),
 ),false)) {
-function content_67ea4bd625d069_43334695 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6ce0a2db21_11035073 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('all_categories','all_categories'));
 if (is_array($_smarty_tpl->tpl_vars['search']->value['cid']) && smarty_modifier_count($_smarty_tpl->tpl_vars['search']->value['cid']) === 1) {?>

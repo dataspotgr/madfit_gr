@@ -647,4 +647,3 @@
 {/hook}
 
 {hook name="products:product_data"}{/hook}
- 

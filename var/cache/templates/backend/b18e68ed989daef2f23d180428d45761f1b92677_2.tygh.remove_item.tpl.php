@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:04
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:12
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\remove_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53b8ac0999_28893650',
+  'unifunc' => 'content_680b6bf0d99663_37057812',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea53b8ac0999_28893650 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6bf0d99663_37057812 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove','remove'));
 if (!$_smarty_tpl->tpl_vars['simple']->value) {?>

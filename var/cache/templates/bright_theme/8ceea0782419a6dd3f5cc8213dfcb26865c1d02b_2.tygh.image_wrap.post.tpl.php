@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:29
+/* Smarty version 4.3.0, created on 2025-04-30 11:32:26
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\social_buttons\hooks\products\image_wrap.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53d185fa79_75922507',
+  'unifunc' => 'content_6811e01a836882_11090972',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,6 +20,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea53d185fa79_75922507 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6811e01a836882_11090972 (Smarty_Internal_Template $_smarty_tpl) {
 }
 }

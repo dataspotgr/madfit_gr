@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:59:15
+/* Smarty version 4.3.0, created on 2025-04-25 14:03:13
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\manage\addon_description.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4b53242f09_08753819',
+  'unifunc' => 'content_680b6bf101b278_18397471',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_license_required.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4b53242f09_08753819 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6bf101b278_18397471 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('new_addon'));
 $_smarty_tpl->_assignInScope('show_version', (($tmp = $_smarty_tpl->tpl_vars['show_version']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

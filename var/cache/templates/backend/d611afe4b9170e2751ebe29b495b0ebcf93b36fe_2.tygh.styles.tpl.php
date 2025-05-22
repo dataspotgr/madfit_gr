@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:50:58
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:05
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\statuses\components\styles.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea49622e5536_36164856',
+  'unifunc' => 'content_680a42f5079a61_97401196',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea49622e5536_36164856 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a42f5079a61_97401196 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.style.php','function'=>'smarty_function_style',),));
 $_smarty_tpl->_assignInScope('statuses', fn_get_statuses($_smarty_tpl->tpl_vars['type']->value));
 if ($_smarty_tpl->tpl_vars['statuses']->value) {

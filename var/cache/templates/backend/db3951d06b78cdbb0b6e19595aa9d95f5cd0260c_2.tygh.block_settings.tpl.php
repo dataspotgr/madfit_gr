@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-02 16:13:46
+/* Smarty version 4.3.0, created on 2025-05-22 12:51:23
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\menus\components\block_settings.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ed380a894c88_87351501',
+  'unifunc' => 'content_682ef39b72fea0_76460486',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ed380a894c88_87351501 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ef39b72fea0_76460486 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('no_menus','manage_menus'));
 if ($_smarty_tpl->tpl_vars['option']->value['values']) {?>
     <label for="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['html_id']->value, ENT_QUOTES, 'UTF-8');?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 10:51:10
+/* Smarty version 4.3.0, created on 2025-04-24 16:56:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\menu\mobile_menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea496e435701_86412368',
+  'unifunc' => 'content_680a42fe885bf7_52915272',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea496e435701_86412368 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680a42fe885bf7_52915272 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 ?>
 <div class="btn-bar-left overlay-navbar-open-container">

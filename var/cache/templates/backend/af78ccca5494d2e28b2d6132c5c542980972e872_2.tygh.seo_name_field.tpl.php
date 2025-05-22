@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:01:09
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:36
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\seo\common\seo_name_field.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea4bc5190030_73317750',
+  'unifunc' => 'content_680b6cf862a994_68907085',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_67ea4bc5190030_73317750 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cf862a994_68907085 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('seo','seo_name','seo.create_redirect'));
 if (!$_smarty_tpl->tpl_vars['hide_title']->value) {
 $_smarty_tpl->_subTemplateRender("tygh:common/subheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("seo"),'target'=>"#acc_addon_seo"), 0, false);

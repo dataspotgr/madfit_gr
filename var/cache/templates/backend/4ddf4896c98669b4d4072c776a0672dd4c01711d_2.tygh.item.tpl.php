@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:09
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:42
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\picker\item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53bd812e67_45624559',
+  'unifunc' => 'content_680b6cfebca5b4_39323187',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67ea53bd812e67_45624559 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cfebca5b4_39323187 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('show_simple_product', (($tmp = $_smarty_tpl->tpl_vars['show_simple_product']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));?>
 
 <?php if (!$_smarty_tpl->tpl_vars['show_simple_product']->value) {?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-03-31 11:35:05
+/* Smarty version 4.3.0, created on 2025-04-25 14:07:38
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_feature.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67ea53b95f9529_26339998',
+  'unifunc' => 'content_680b6cfa1c1de0_18233147',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tooltip.tpl' => 1,
   ),
 ),false)) {
-function content_67ea53b95f9529_26339998 (Smarty_Internal_Template $_smarty_tpl) {
+function content_680b6cfa1c1de0_18233147 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.feature_used_by_variation_group.tooltip'));
 if ($_smarty_tpl->tpl_vars['feature']->value['product_variation_group']) {?>
     <div class="control-group">

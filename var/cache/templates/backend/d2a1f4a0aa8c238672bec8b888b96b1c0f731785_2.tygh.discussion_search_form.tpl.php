@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-07 13:19:40
+/* Smarty version 4.3.0, created on 2025-05-22 11:43:28
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\discussion\views\discussion_manager\components\discussion_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67f3a6bc334206_54922961',
+  'unifunc' => 'content_682ee3b0d67754_80174320',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_67f3a6bc334206_54922961 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682ee3b0d67754_80174320 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','author','message','rating','excellent','very_good','average','fair','poor','vendor','any_vendor','period','ip_address','approved','yes','no','sort_by','author','approved','date','ip_address','desc','asc'));
 ?>
 <div class="sidebar-row">
