@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 11:31:02
+/* Smarty version 4.3.0, created on 2025-05-22 15:31:50
   from 'C:\xampp\htdocs\madfit_gr\design\themes\bright_theme\templates\common\product_data.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811dfc6a66ab1_59714451',
+  'unifunc' => 'content_682f1936c73ac8_12263851',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '029684fa9e88f52da4bbdcb5b1b838c2fe9dec1e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\bright_theme\\templates\\common\\product_data.tpl',
-      1 => 1744014184,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -32,7 +32,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image.tpl' => 2,
   ),
 ),false)) {
-function content_6811dfc6a66ab1_59714451 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f1936c73ac8_12263851 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.live_edit.php','function'=>'smarty_function_live_edit',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.truncate.php','function'=>'smarty_modifier_truncate',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),5=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_out_of_stock','sku','select_options','old_price','old_price','list_price','list_price','enter_your_price','contact_us_for_price','sign_in_to_view_price','inc_tax','including_tax','you_save','you_save','save_discount','free_shipping','availability','items','on_backorder','in_stock','availability','in_stock','on_backorder','availability','quantity','text_cart_min_qty','text_edp_product','text_out_of_stock','sku','select_options','old_price','old_price','list_price','list_price','enter_your_price','contact_us_for_price','sign_in_to_view_price','inc_tax','including_tax','you_save','you_save','save_discount','free_shipping','availability','items','on_backorder','in_stock','availability','in_stock','on_backorder','availability','quantity','text_cart_min_qty','text_edp_product'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
@@ -425,8 +425,8 @@ while ($_block_repeat) {
 ob_start();?>
                 <?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("YesNo::NO"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable1=ob_get_clean();
-if ($_smarty_tpl->tpl_vars['auth']->value['tax_exempt'] === $_prefixVariable1 || !$_smarty_tpl->tpl_vars['product']->value['clean_price']) {?>
+$_prefixVariable2=ob_get_clean();
+if ($_smarty_tpl->tpl_vars['auth']->value['tax_exempt'] === $_prefixVariable2 || !$_smarty_tpl->tpl_vars['product']->value['clean_price']) {?>
                     <?php $_smarty_tpl->_assignInScope('price', $_smarty_tpl->tpl_vars['product']->value['price']);?>
                 <?php } else { ?>
                     <?php $_smarty_tpl->_assignInScope('price', $_smarty_tpl->tpl_vars['product']->value['clean_price']);?>
@@ -853,14 +853,14 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['var']->value) {
 $_smarty_tpl->tpl_vars['var']->do_else = false;
 $_smarty_tpl->tpl_vars['var']->iteration++;
 $_smarty_tpl->tpl_vars['var']->last = $_smarty_tpl->tpl_vars['var']->iteration === $_smarty_tpl->tpl_vars['var']->total;
-$__foreach_var_6_saved = $_smarty_tpl->tpl_vars['var'];
+$__foreach_var_30_saved = $_smarty_tpl->tpl_vars['var'];
 ?>
                         <option value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['var']->value, ENT_QUOTES, 'UTF-8');?>
 " <?php if ($_smarty_tpl->tpl_vars['product']->value['selected_amount'] && ($_smarty_tpl->tpl_vars['product']->value['selected_amount'] == $_smarty_tpl->tpl_vars['var']->value || ($_smarty_tpl->tpl_vars['var']->last && !$_smarty_tpl->tpl_vars['selected_amount']->value))) {
 $_smarty_tpl->_assignInScope('selected_amount', true);?>selected="selected"<?php }?>><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['var']->value, ENT_QUOTES, 'UTF-8');?>
 </option>
                     <?php
-$_smarty_tpl->tpl_vars['var'] = $__foreach_var_6_saved;
+$_smarty_tpl->tpl_vars['var'] = $__foreach_var_30_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                 </select>
@@ -1403,8 +1403,8 @@ while ($_block_repeat) {
 ob_start();?>
                 <?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("YesNo::NO"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable2=ob_get_clean();
-if ($_smarty_tpl->tpl_vars['auth']->value['tax_exempt'] === $_prefixVariable2 || !$_smarty_tpl->tpl_vars['product']->value['clean_price']) {?>
+$_prefixVariable3=ob_get_clean();
+if ($_smarty_tpl->tpl_vars['auth']->value['tax_exempt'] === $_prefixVariable3 || !$_smarty_tpl->tpl_vars['product']->value['clean_price']) {?>
                     <?php $_smarty_tpl->_assignInScope('price', $_smarty_tpl->tpl_vars['product']->value['price']);?>
                 <?php } else { ?>
                     <?php $_smarty_tpl->_assignInScope('price', $_smarty_tpl->tpl_vars['product']->value['clean_price']);?>
@@ -1831,14 +1831,14 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['var']->value) {
 $_smarty_tpl->tpl_vars['var']->do_else = false;
 $_smarty_tpl->tpl_vars['var']->iteration++;
 $_smarty_tpl->tpl_vars['var']->last = $_smarty_tpl->tpl_vars['var']->iteration === $_smarty_tpl->tpl_vars['var']->total;
-$__foreach_var_8_saved = $_smarty_tpl->tpl_vars['var'];
+$__foreach_var_32_saved = $_smarty_tpl->tpl_vars['var'];
 ?>
                         <option value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['var']->value, ENT_QUOTES, 'UTF-8');?>
 " <?php if ($_smarty_tpl->tpl_vars['product']->value['selected_amount'] && ($_smarty_tpl->tpl_vars['product']->value['selected_amount'] == $_smarty_tpl->tpl_vars['var']->value || ($_smarty_tpl->tpl_vars['var']->last && !$_smarty_tpl->tpl_vars['selected_amount']->value))) {
 $_smarty_tpl->_assignInScope('selected_amount', true);?>selected="selected"<?php }?>><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['var']->value, ENT_QUOTES, 'UTF-8');?>
 </option>
                     <?php
-$_smarty_tpl->tpl_vars['var'] = $__foreach_var_8_saved;
+$_smarty_tpl->tpl_vars['var'] = $__foreach_var_32_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                 </select>

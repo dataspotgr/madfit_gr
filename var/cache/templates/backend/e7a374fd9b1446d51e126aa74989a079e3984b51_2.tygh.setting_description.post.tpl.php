@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:08
+/* Smarty version 4.3.0, created on 2025-05-22 15:30:34
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\seo\hooks\settings_fields\setting_description.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebc05b5128_48479688',
+  'unifunc' => 'content_682f18ea7d9381_93028087',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7a374fd9b1446d51e126aa74989a079e3984b51' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\seo\\hooks\\settings_fields\\setting_description.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811ebc05b5128_48479688 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f18ea7d9381_93028087 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('warning','seo.storefront_frontend_default_language_warning','seo.default_storefront_frontend_default_language_warning','seo.secondary_storefront_frontend_default_language_warning'));
 if ($_smarty_tpl->tpl_vars['item']->value['name'] === "frontend_default_language" && $_smarty_tpl->tpl_vars['show_language_warning']->value) {?>
     <div class="text-warning">

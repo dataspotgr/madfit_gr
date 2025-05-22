@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:21
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:36
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\save_cancel.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a4305d118a5_83696104',
+  'unifunc' => 'content_682f17fc2d30d0_37874688',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4f2ec3799738aed0e618689ae8c8efe000d9b6fd' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\buttons\\save_cancel.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_680a4305d118a5_83696104 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17fc2d30d0_37874688 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('save','save_and_close','create','create_and_close','cancel'));
 if ($_smarty_tpl->tpl_vars['but_target_id']->value || $_smarty_tpl->tpl_vars['but_target_form']->value) {
 $_smarty_tpl->_assignInScope('but_role', "submit-link");

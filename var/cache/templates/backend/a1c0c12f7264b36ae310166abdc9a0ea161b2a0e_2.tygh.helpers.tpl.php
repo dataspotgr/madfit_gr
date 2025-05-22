@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:09
+/* Smarty version 4.3.0, created on 2025-05-22 15:25:00
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\helpers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a42f9598c79_99887845',
+  'unifunc' => 'content_682f179c738cb6_71037999',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a1c0c12f7264b36ae310166abdc9a0ea161b2a0e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\buttons\\helpers.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,19 +20,19 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a42f9598c79_99887845 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f179c738cb6_71037999 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'btn' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\backend\\a1c0c12f7264b36ae310166abdc9a0ea161b2a0e_2.tygh.helpers.tpl.php',
     'uid' => 'a1c0c12f7264b36ae310166abdc9a0ea161b2a0e',
-    'call_name' => 'smarty_template_function_btn_868294609680a42f9480e07_62120894',
+    'call_name' => 'smarty_template_function_btn_509922820682f179c484ea7_36284658',
   ),
   'dropdown' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\backend\\a1c0c12f7264b36ae310166abdc9a0ea161b2a0e_2.tygh.helpers.tpl.php',
     'uid' => 'a1c0c12f7264b36ae310166abdc9a0ea161b2a0e',
-    'call_name' => 'smarty_template_function_dropdown_868294609680a42f9480e07_62120894',
+    'call_name' => 'smarty_template_function_dropdown_509922820682f179c484ea7_36284658',
   ),
 ));
 ?>
@@ -40,9 +40,9 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
 <?php }
 \Tygh\Languages\Helper::preloadLangVars(array('delete_selected','delete','tools'));
-/* smarty_template_function_btn_868294609680a42f9480e07_62120894 */
-if (!function_exists('smarty_template_function_btn_868294609680a42f9480e07_62120894')) {
-function smarty_template_function_btn_868294609680a42f9480e07_62120894(Smarty_Internal_Template $_smarty_tpl,$params) {
+/* smarty_template_function_btn_509922820682f179c484ea7_36284658 */
+if (!function_exists('smarty_template_function_btn_509922820682f179c484ea7_36284658')) {
+function smarty_template_function_btn_509922820682f179c484ea7_36284658(Smarty_Internal_Template $_smarty_tpl,$params) {
 $params = array_merge(array('text'=>'','href'=>'','title'=>'','onclick'=>'','target'=>'','class'=>'','data'=>array(),'form'=>'','method'=>'','raw'=>false), $params);
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
@@ -217,10 +217,10 @@ if (!$_smarty_tpl->tpl_vars['hide_clone']->value) {?><li><?php $_smarty_tpl->sma
 
     <?php }
 }}
-/*/ smarty_template_function_btn_868294609680a42f9480e07_62120894 */
-/* smarty_template_function_dropdown_868294609680a42f9480e07_62120894 */
-if (!function_exists('smarty_template_function_dropdown_868294609680a42f9480e07_62120894')) {
-function smarty_template_function_dropdown_868294609680a42f9480e07_62120894(Smarty_Internal_Template $_smarty_tpl,$params) {
+/*/ smarty_template_function_btn_509922820682f179c484ea7_36284658 */
+/* smarty_template_function_dropdown_509922820682f179c484ea7_36284658 */
+if (!function_exists('smarty_template_function_dropdown_509922820682f179c484ea7_36284658')) {
+function smarty_template_function_dropdown_509922820682f179c484ea7_36284658(Smarty_Internal_Template $_smarty_tpl,$params) {
 $params = array_merge(array('text'=>'','title'=>'','class'=>'','content'=>'','icon'=>'','no_caret'=>false,'placement'=>"left"), $params);
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
@@ -255,5 +255,5 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr
         </div>
     <?php }
 }}
-/*/ smarty_template_function_dropdown_868294609680a42f9480e07_62120894 */
+/*/ smarty_template_function_dropdown_509922820682f179c484ea7_36284658 */
 }

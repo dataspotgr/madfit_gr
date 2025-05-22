@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 11:31:00
+/* Smarty version 4.3.0, created on 2025-05-22 15:31:42
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\banners\blocks\carousel.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811dfc48edfa7_12725572',
+  'unifunc' => 'content_682f192e9350d0_91213292',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '86b8edcc5c840fd0b65749d61fb5303d0d052564' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\banners\\blocks\\carousel.tpl',
-      1 => 1742455427,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image.tpl' => 2,
   ),
 ),false)) {
-function content_6811dfc48edfa7_12725572 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f192e9350d0_91213292 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('prev_page','next','prev_page','next'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

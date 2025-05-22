@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:18
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:32
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\menu\get_block_manager_data.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a4302567aa3_80824539',
+  'unifunc' => 'content_682f17f839e029_11881197',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3b8d3a0344c1ab6f200cc322430f1859bca209b4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\menu\\get_block_manager_data.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a4302567aa3_80824539 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17f839e029_11881197 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 if ((defined('BLOCK_MANAGER_MODE') ? constant('BLOCK_MANAGER_MODE') : null)) {?>
     <?php $_smarty_tpl->_assignInScope('block_manager_attrs', array("data-ca-block-manager"=>"main","data-ca-block-manager-has-layout"=>0,"data-ca-block-manager-dispatch"=>"custom_menu","data-ca-block-manager-blocks-place"=>"true","data-ca-block-manager-grid-id"=>"header_main_menu"));?>
@@ -36,7 +36,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item_key']->value => $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->iteration++;
-$__foreach_item_23_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_19_saved = $_smarty_tpl->tpl_vars['item'];
 ?>
         <?php $_tmp_array = isset($_smarty_tpl->tpl_vars['items']) ? $_smarty_tpl->tpl_vars['items']->value : array();
 if (!(is_array($_tmp_array) || $_tmp_array instanceof ArrayAccess)) {
@@ -131,7 +131,7 @@ $_smarty_tpl->_assignInScope('items', $_tmp_array);?>
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     <?php
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_23_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_19_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 

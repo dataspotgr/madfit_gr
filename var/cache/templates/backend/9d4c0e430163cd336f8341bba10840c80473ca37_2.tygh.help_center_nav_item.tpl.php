@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:15
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:27
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\help_center\templates\help_center_nav_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a42ffae9976_49816508',
+  'unifunc' => 'content_682f17f32348f8_44884569',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9d4c0e430163cd336f8341bba10840c80473ca37' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\help_center\\templates\\help_center_nav_item.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a42ffae9976_49816508 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17f32348f8_44884569 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <?php echo '<script'; ?>
  type="text/template" data-ca-help-center="navItem" data-no-defer="true" data-no-execute="§"

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 11:41:01
+/* Smarty version 4.3.0, created on 2025-05-22 16:52:15
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\gift_certificates\hooks\wishlist\view.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ee31d552a15_07321707',
+  'unifunc' => 'content_682f2c0f54a8b3_20450323',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fd9eed2e21b657f8f57359e73b7736dd71ac138f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\gift_certificates\\hooks\\wishlist\\view.post.tpl',
-      1 => 1742455423,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/add_to_cart.tpl' => 2,
   ),
 ),false)) {
-function content_682ee31d552a15_07321707 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2c0f54a8b3_20450323 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove','remove','gift_certificate','free_products','quick_view','gift_certificate','edit','gift_certificate','gift_cert_to','gift_cert_from','amount','send_via','email','postal_mail','free_products','product','price','quantity','subtotal','price_summary','remove','remove','gift_certificate','free_products','quick_view','gift_certificate','edit','gift_certificate','gift_cert_to','gift_cert_from','amount','send_via','email','postal_mail','free_products','product','price','quantity','subtotal','price_summary'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

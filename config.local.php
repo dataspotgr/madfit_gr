@@ -34,7 +34,7 @@ if (!defined('CONSOLE')) {
  * Database connection options
  */
 $config['db_host'] = 'localhost';
-$config['db_name'] = 'madfit_gr';
+$config['db_name'] = 'madfit_gr_db_2025';
 $config['db_user'] = 'root';
 $config['db_password'] = '';
 
@@ -58,11 +58,11 @@ $config['table_prefix'] = 'cscart_';
  */
 
 // Host and directory where software is installed on no-secure server
-$config['http_host'] = '192.168.1.19';
+$config['http_host'] = '192.168.1.18';
 $config['http_path'] = '/madfit_gr';
 
 // Host and directory where software is installed on secure server
-$config['https_host'] = '192.168.1.19';
+$config['https_host'] = '192.168.1.18';
 $config['https_path'] = '/madfit_gr';
 
 /*

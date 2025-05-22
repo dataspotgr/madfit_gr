@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:20:38
+/* Smarty version 4.3.0, created on 2025-05-22 15:25:01
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\auth\login_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811eb66b96159_58932442',
+  'unifunc' => 'content_682f179d9f7f75_66841672',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'aef89f80794a7322752fc1bd6fb28d9f0327b81e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\auth\\login_form.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/sign_in.tpl' => 1,
   ),
 ),false)) {
-function content_6811eb66b96159_58932442 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f179d9f7f75_66841672 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('administration_panel','email','password','forgot_password_question'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"auth:login_form"));

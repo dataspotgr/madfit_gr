@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:06
+/* Smarty version 4.3.0, created on 2025-05-22 16:37:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\settings\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebbebba8c0_67401490',
+  'unifunc' => 'content_682f2882d25c48_09778060',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a14402285d68eef7911bac5c2a009f6552a1eb1c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\settings\\manage.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6811ebbebba8c0_67401490 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2882d25c48_09778060 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.component.php','function'=>'smarty_block_component',),));
 \Tygh\Languages\Helper::preloadLangVars(array('settings'));
 echo smarty_function_script(array('src'=>"js/tygh/fileuploader_scripts.js"),$_smarty_tpl);?>

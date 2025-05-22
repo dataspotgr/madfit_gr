@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:05
+/* Smarty version 4.3.0, created on 2025-05-22 15:30:16
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\context_menu_wrapper.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6be91f4cf3_38188620',
+  'unifunc' => 'content_682f18d828e156_75892003',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fab2c1f0fe57c0455222d8f4736b1c163641eb1d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\context_menu_wrapper.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6be91f4cf3_38188620 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f18d828e156_75892003 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.component.php','function'=>'smarty_block_component',),));
 ob_start();
 echo htmlspecialchars((string) uniqid(), ENT_QUOTES, 'UTF-8');
-$_prefixVariable2=ob_get_clean();
-$_smarty_tpl->_assignInScope('id', (($tmp = $_smarty_tpl->tpl_vars['id']->value ?? null)===null||$tmp==='' ? $_prefixVariable2 ?? null : $tmp));
+$_prefixVariable6=ob_get_clean();
+$_smarty_tpl->_assignInScope('id', (($tmp = $_smarty_tpl->tpl_vars['id']->value ?? null)===null||$tmp==='' ? $_prefixVariable6 ?? null : $tmp));
 $_smarty_tpl->_assignInScope('class', (($tmp = $_smarty_tpl->tpl_vars['class']->value ?? null)===null||$tmp==='' ? '' ?? null : $tmp));
 $_smarty_tpl->_assignInScope('attributes', (($tmp = $_smarty_tpl->tpl_vars['attributes']->value ?? null)===null||$tmp==='' ? array() ?? null : $tmp));
 $_tmp_array = isset($_smarty_tpl->tpl_vars['attributes']) ? $_smarty_tpl->tpl_vars['attributes']->value : array();

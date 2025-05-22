@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:30
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:47
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\onboarding_guide\steps\personalize_marketplace\tabs\tab_3.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a430e824769_84849821',
+  'unifunc' => 'content_682f18074221d7_92610094',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4290e2264846155a69ab2074a69f5978d15b2b9b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\onboarding_guide\\steps\\personalize_marketplace\\tabs\\tab_3.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/email_templates/preview.tpl' => 1,
   ),
 ),false)) {
-function content_680a430e824769_84849821 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f18074221d7_92610094 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.set_default_currency','onboarding_guide.manage_currencies','onboarding_guide.set_default_languages','onboarding_guide.manage_languages','onboarding_guide.sb_preview_an_email_description','onboarding_guide.preview_an_email_description','onboarding_guide.preview_an_email','onboarding_guide.back'));
 ?>

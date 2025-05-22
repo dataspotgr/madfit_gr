@@ -1076,3 +1076,26 @@ body{
 .footer-bottom-wrapper .ty-wysiwyg-content:has(.ty-social-link-block){
     width: unset;
 }
+.cm-processed-form .ty-search-block__input {
+    color: white;
+}
+.go-top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.go-top-button.show {
+    opacity: 1;
+    pointer-events: auto;
+}

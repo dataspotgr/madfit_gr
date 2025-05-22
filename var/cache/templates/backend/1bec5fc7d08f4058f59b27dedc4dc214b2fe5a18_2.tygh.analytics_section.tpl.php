@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:31
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:50
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\components\analytics_section\analytics_section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a430fa1cc22_43446267',
+  'unifunc' => 'content_682f180a3ff6f3_66783730',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1bec5fc7d08f4058f59b27dedc4dc214b2fe5a18' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\index\\components\\analytics_section\\analytics_section.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/index/components/analytics_section/analytics_card/analytics_card.tpl' => 1,
   ),
 ),false)) {
-function content_680a430fa1cc22_43446267 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f180a3ff6f3_66783730 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('dashboard.analytics_section_title','no_data'));
 $_smarty_tpl->_assignInScope('show_analytics_section', (($tmp = $_smarty_tpl->tpl_vars['show_analytics_section']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));
 if ($_smarty_tpl->tpl_vars['show_analytics_section']->value) {?><section class="analytics-section"><h2 class="analytics-section__title"><?php echo $_smarty_tpl->__("dashboard.analytics_section_title");?>

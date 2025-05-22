@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:44
+/* Smarty version 4.3.0, created on 2025-05-22 16:50:47
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\payment_dependencies\hooks\checkout\payments.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebe4b455d6_76201675',
+  'unifunc' => 'content_682f2bb7017611_36688991',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '00bea81b9c4a43c62af1cd0602c6ef68f88ec52a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\payment_dependencies\\hooks\\checkout\\payments.override.tpl',
-      1 => 1742984472,
+      1 => 1747915844,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image.tpl' => 2,
   ),
 ),false)) {
-function content_6811ebe4b455d6_76201675 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2bb7017611_36688991 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('pd.no_payments_available','pd.no_payments_available'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

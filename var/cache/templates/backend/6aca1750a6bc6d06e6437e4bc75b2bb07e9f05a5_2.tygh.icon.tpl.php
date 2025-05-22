@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:14
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:25
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\icon.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a42fe9818e2_47980154',
+  'unifunc' => 'content_682f17f112d005_27999144',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6aca1750a6bc6d06e6437e4bc75b2bb07e9f05a5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\icon.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/icons/get_fallback_source.tpl' => 1,
   ),
 ),false)) {
-function content_680a42fe9818e2_47980154 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17f112d005_27999144 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 $_smarty_tpl->_subTemplateRender("tygh:components/icons/get_fallback_source.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('class'=>$_smarty_tpl->tpl_vars['class']->value,'source'=>$_smarty_tpl->tpl_vars['source']->value), 0, false);
 $_smarty_tpl->_assignInScope('show_icon', $_smarty_tpl->tpl_vars['show_icon']->value === false ? false : (($tmp = $_smarty_tpl->tpl_vars['show_icon']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

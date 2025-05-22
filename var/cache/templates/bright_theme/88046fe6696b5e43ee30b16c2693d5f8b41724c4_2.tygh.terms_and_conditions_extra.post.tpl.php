@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:46
+/* Smarty version 4.3.0, created on 2025-05-22 16:50:51
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\gdpr\hooks\checkout\terms_and_conditions_extra.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebe6661d20_73557534',
+  'unifunc' => 'content_682f2bbb415df2_59201399',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '88046fe6696b5e43ee30b16c2693d5f8b41724c4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\gdpr\\hooks\\checkout\\terms_and_conditions_extra.post.tpl',
-      1 => 1742455431,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/gdpr/componentes/agreement_checkbox.tpl' => 4,
   ),
 ),false)) {
-function content_6811ebe6661d20_73557534 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2bbb415df2_59201399 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

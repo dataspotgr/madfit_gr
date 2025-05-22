@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:18
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:31
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\menu\get_additional_items.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a4302393ae4_52791645',
+  'unifunc' => 'content_682f17f7d7b030_38687850',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5064670b2a0acec5f6eec3275271ce0d4f9b0791' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\menu\\get_additional_items.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a4302393ae4_52791645 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17f7d7b030_38687850 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('quick_menu','edit','quick_menu'));
 if ((defined('ACCOUNT_TYPE') ? constant('ACCOUNT_TYPE') : null) !== "vendor") {?>
         <?php $_smarty_tpl->_assignInScope('enable_quick_menu', (($tmp = $_smarty_tpl->tpl_vars['config']->value['enable_quick_menu'] ?? null)===null||$tmp==='' ? false ?? null : $tmp));?>

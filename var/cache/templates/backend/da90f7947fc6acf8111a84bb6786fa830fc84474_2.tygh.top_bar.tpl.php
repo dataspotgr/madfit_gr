@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:14
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:24
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\top_bar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a42fe6aee69_03979610',
+  'unifunc' => 'content_682f17f0a1b297_05739588',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'da90f7947fc6acf8111a84bb6786fa830fc84474' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\top_bar.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/menu/user_menu.tpl' => 1,
   ),
 ),false)) {
-function content_680a42fe6aee69_03979610 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17f0a1b297_05739588 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 $_smarty_tpl->_assignInScope('scroll_header', (($tmp = $_smarty_tpl->tpl_vars['config']->value['scroll_header'] ?? null)===null||$tmp==='' ? false ?? null : $tmp));?>
 <div class="top-bar <?php if ($_smarty_tpl->tpl_vars['scroll_header']->value) {?>top-bar--scroll-header<?php }?>" id="top_bar">

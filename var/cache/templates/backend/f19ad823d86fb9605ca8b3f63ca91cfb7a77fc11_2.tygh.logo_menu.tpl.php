@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:14
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:25
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\menu\logo_menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a42fed092c5_50124937',
+  'unifunc' => 'content_682f17f18f06c7_80512991',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f19ad823d86fb9605ca8b3f63ca91cfb7a77fc11' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\menu\\logo_menu.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a42fed092c5_50124937 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17f18f06c7_80512991 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin.go_to_the_homepage'));
 $_smarty_tpl->_assignInScope('logo_path_light', "cart_logo.svg");

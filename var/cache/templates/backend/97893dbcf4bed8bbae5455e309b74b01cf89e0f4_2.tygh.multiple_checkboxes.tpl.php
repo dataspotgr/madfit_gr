@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:34
+/* Smarty version 4.3.0, created on 2025-05-22 16:37:07
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\multiple_checkboxes.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6cf6baf8d6_24304337',
+  'unifunc' => 'content_682f2883b830a9_50057871',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '97893dbcf4bed8bbae5455e309b74b01cf89e0f4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\multiple_checkboxes.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6cf6baf8d6_24304337 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2883b830a9_50057871 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('no_items'));
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['items']->value, 'item', false, 'k');

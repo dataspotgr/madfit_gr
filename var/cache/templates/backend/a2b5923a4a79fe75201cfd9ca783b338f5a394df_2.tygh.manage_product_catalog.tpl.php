@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:30
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:47
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\onboarding_guide\steps\manage_product_catalog.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a430ecac743_83960071',
+  'unifunc' => 'content_682f1807ecc113_33979256',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a2b5923a4a79fe75201cfd9ca783b338f5a394df' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\onboarding_guide\\steps\\manage_product_catalog.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a430ecac743_83960071 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f1807ecc113_33979256 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.sb_manage_products_description','onboarding_guide.manage_products_description','onboarding_guide.add_one_product','onboarding_guide.import_csv_or_xml','onboarding_guide.view_product_page_description','onboarding_guide.premoderation','onboarding_guide.view_product_page'));
 ?>
 <div class="onboarding_content_margin--bottom">

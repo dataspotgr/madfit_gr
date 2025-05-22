@@ -67,3 +67,4 @@ function accordion_fire(){
 }
 </script>
 {/if}
+{script src="js/addons/my_changes/scroll_top.js"}

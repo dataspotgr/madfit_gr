@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:11
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:16
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\hidpi\hooks\common\image.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a42fb5032f1_71530726',
+  'unifunc' => 'content_682f17e891a103_14415630',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd2b6de10c0e50842ce6c4d3af3f7d901f9b6b3af' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\hidpi\\hooks\\common\\image.pre.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a42fb5032f1_71530726 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17e891a103_14415630 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['image_data']->value['is_thumbnail']) {?>
     <?php $_smarty_tpl->_assignInScope('width', $_smarty_tpl->tpl_vars['image_data']->value['width']*2);?>
     <?php $_smarty_tpl->_assignInScope('height', $_smarty_tpl->tpl_vars['image_data']->value['height']*2);?>

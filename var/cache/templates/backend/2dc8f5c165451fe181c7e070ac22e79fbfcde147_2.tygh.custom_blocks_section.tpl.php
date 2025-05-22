@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:31
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:48
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\components\custom_blocks_section\custom_blocks_section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a430f319f10_67894594',
+  'unifunc' => 'content_682f1808ea0ad9_78960292',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2dc8f5c165451fe181c7e070ac22e79fbfcde147' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\index\\components\\custom_blocks_section\\custom_blocks_section.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_680a430f319f10_67894594 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f1808ea0ad9_78960292 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('custom_blocks.sections.onboarding_title','custom_blocks.create_block','custom_blocks.use_this_space','custom_blocks.edit_block','custom_blocks.create_block'));
 $_smarty_tpl->_assignInScope('show_custom_blocks_section', (($tmp = $_smarty_tpl->tpl_vars['show_custom_blocks_section']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

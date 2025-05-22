@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:17
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:31
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a4301edfe61_55344503',
+  'unifunc' => 'content_682f17f75de440_83542079',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1b3d97e8630fbcc9417d8066a863abb158bc571e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\menu.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/quick_menu.tpl' => 1,
   ),
 ),false)) {
-function content_680a4301edfe61_55344503 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17f75de440_83542079 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 ?>
 <div class="cs-main-menu">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:49
+/* Smarty version 4.3.0, created on 2025-05-22 16:50:57
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\gift_certificates\hooks\checkout\discount_coupons.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebe99a8f76_45025505',
+  'unifunc' => 'content_682f2bc1bcc526_54154479',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c9ed5bca8e128a9d8922be6a56d5a8e92973d90f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\gift_certificates\\hooks\\checkout\\discount_coupons.override.tpl',
-      1 => 1742455423,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/go.tpl' => 2,
   ),
 ),false)) {
-function content_6811ebe99a8f76_45025505 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2bc1bcc526_54154479 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('promo_code','promo_code_or_certificate','apply','apply','promo_code','promo_code_or_certificate','apply','apply'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

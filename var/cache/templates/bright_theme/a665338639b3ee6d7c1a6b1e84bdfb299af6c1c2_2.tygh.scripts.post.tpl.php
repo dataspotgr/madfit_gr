@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 11:11:21
+/* Smarty version 4.3.0, created on 2025-05-22 15:32:15
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\gdpr\hooks\index\scripts.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b43a9da1bb7_41022024',
+  'unifunc' => 'content_682f194fc90ef2_14255494',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a665338639b3ee6d7c1a6b1e84bdfb299af6c1c2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\gdpr\\hooks\\index\\scripts.post.tpl',
-      1 => 1742455431,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b43a9da1bb7_41022024 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f194fc90ef2_14255494 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('gdpr.klaro_accept_all','gdpr.klaro_accept_selected','gdpr.klaro_close','gdpr.klaro_consent_modal_description','gdpr.klaro_consent_modal_title','gdpr.klaro_consent_notice_change_description','gdpr.klaro_consent_notice_title','gdpr.klaro_consent_notice_description','gdpr.klaro_consent_notice_learn_more','gdpr.klaro_consent_notice_testing','gdpr.klaro_contextual_consent_accept_always','gdpr.klaro_contextual_consent_accept_once','gdpr.klaro_contextual_consent_description','gdpr.klaro_decline','gdpr.klaro_ok','gdpr.klaro_powered_by','gdpr.klaro_privacy_policy_title','gdpr.klaro_privacy_policy_name','gdpr.klaro_service','gdpr.klaro_services','gdpr.strictly_necessary_cookies_title','gdpr.strictly_necessary_cookies_description','gdpr.performance_cookies_title','gdpr.performance_cookies_description','gdpr.functional_cookies_title','gdpr.functional_cookies_description','gdpr.marketing_cookies_title','gdpr.marketing_cookies_description','gdpr.klaro_service_purpose','gdpr.klaro_service_purposes','gdpr.klaro_service_required_description','gdpr.eway_cookies_title','gdpr.eway_cookies_description','save','gdpr.disable_all_description','gdpr.disable_all_title','gdpr.opt_out_description','gdpr.opt_out_title','gdpr.klaro_service_required_title','gdpr.uk_cookies_law','gdpr.site_functionality_cookies_title','gdpr.site_functionality_cookies_description','gdpr.klaro_accept_all','gdpr.klaro_accept_selected','gdpr.klaro_close','gdpr.klaro_consent_modal_description','gdpr.klaro_consent_modal_title','gdpr.klaro_consent_notice_change_description','gdpr.klaro_consent_notice_title','gdpr.klaro_consent_notice_description','gdpr.klaro_consent_notice_learn_more','gdpr.klaro_consent_notice_testing','gdpr.klaro_contextual_consent_accept_always','gdpr.klaro_contextual_consent_accept_once','gdpr.klaro_contextual_consent_description','gdpr.klaro_decline','gdpr.klaro_ok','gdpr.klaro_powered_by','gdpr.klaro_privacy_policy_title','gdpr.klaro_privacy_policy_name','gdpr.klaro_service','gdpr.klaro_services','gdpr.strictly_necessary_cookies_title','gdpr.strictly_necessary_cookies_description','gdpr.performance_cookies_title','gdpr.performance_cookies_description','gdpr.functional_cookies_title','gdpr.functional_cookies_description','gdpr.marketing_cookies_title','gdpr.marketing_cookies_description','gdpr.klaro_service_purpose','gdpr.klaro_service_purposes','gdpr.klaro_service_required_description','gdpr.eway_cookies_title','gdpr.eway_cookies_description','save','gdpr.disable_all_description','gdpr.disable_all_title','gdpr.opt_out_description','gdpr.opt_out_title','gdpr.klaro_service_required_title','gdpr.uk_cookies_law','gdpr.site_functionality_cookies_title','gdpr.site_functionality_cookies_description'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

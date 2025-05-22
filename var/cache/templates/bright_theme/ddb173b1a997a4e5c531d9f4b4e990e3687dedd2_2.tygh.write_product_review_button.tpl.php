@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 11:32:27
+/* Smarty version 4.3.0, created on 2025-05-22 16:50:13
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\product_reviews\views\product_reviews\components\write_product_review_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811e01b2e9d37_22325341',
+  'unifunc' => 'content_682f2b95f00754_20555928',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ddb173b1a997a4e5c531d9f4b4e990e3687dedd2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\product_reviews\\views\\product_reviews\\components\\write_product_review_button.tpl',
-      1 => 1742455429,
+      1 => 1747915844,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 2,
   ),
 ),false)) {
-function content_6811e01b2e9d37_22325341 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2b95f00754_20555928 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('sign_in','sign_in'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

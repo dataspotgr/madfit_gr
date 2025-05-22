@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:32
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:54
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\price.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a43108ee1e3_77395453',
+  'unifunc' => 'content_682f180e320c58_64096299',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b074f81742043281c631747fcbc64cd9f92c6604' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\price.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a43108ee1e3_77395453 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f180e320c58_64096299 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.format_price.php','function'=>'smarty_modifier_format_price',),));
 $_smarty_tpl->_assignInScope('show_currency', (($tmp = $_smarty_tpl->tpl_vars['show_currency']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));
 $_smarty_tpl->_assignInScope('space', (($tmp = $_smarty_tpl->tpl_vars['enable_non_breaking_space']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp) ? "&nbsp;" : " ");

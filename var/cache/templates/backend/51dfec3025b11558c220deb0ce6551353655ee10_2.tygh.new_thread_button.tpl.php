@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:05:24
+/* Smarty version 4.3.0, created on 2025-05-22 15:30:37
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\vendor_communication\views\vendor_communication\components\new_thread_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6c740a0e24_73203735',
+  'unifunc' => 'content_682f18ed1762e5_36246548',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '51dfec3025b11558c220deb0ce6551353655ee10' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\vendor_communication\\views\\vendor_communication\\components\\new_thread_button.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_680b6c740a0e24_73203735 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f18ed1762e5_36246548 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_communication.contact_admin','vendor_communication.contact_vendor'));
 if (!$_smarty_tpl->tpl_vars['title']->value) {?>
@@ -58,8 +58,8 @@ $_smarty_tpl->_assignInScope('divider', (($tmp = $_smarty_tpl->tpl_vars['divider
 <?php if ($_smarty_tpl->tpl_vars['return_url']->value) {?>
     <?php ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['return_url']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->_assignInScope('href', ((string)$_smarty_tpl->tpl_vars['href']->value)."&return_url=".$_prefixVariable1);
+$_prefixVariable13=ob_get_clean();
+$_smarty_tpl->_assignInScope('href', ((string)$_smarty_tpl->tpl_vars['href']->value)."&return_url=".$_prefixVariable13);
 }?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "thread_button", null, null);?>

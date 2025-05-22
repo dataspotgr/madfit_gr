@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:31
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:50
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\components\analytics_section\analytics_card\analytics_card.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a430fb4b456_68126871',
+  'unifunc' => 'content_682f180aae8aa5_38732712',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f6870518079b120129981a3511b2d0d891151db' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\index\\components\\analytics_section\\analytics_card\\analytics_card.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/index/components/analytics_section/analytics_card/resource_list_tabs.tpl' => 1,
   ),
 ),false)) {
-function content_680a430fb4b456_68126871 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f180aae8aa5_38732712 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('dashboard.view'));
 if ($_smarty_tpl->tpl_vars['analytics_card']->value) {?><div class="analytics-card" data-ca-analytics-card="main" data-ca-analytics-card-id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['analytics_card']->value['id'], ENT_QUOTES, 'UTF-8');?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:31
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:48
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\onboarding_guide\steps\payment_options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a430f057659_72625976',
+  'unifunc' => 'content_682f18088e9444_56129063',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '881bf2d00e0886cf27e0e67fcb78d60e9c3ca4ae' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\onboarding_guide\\steps\\payment_options.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680a430f057659_72625976 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f18088e9444_56129063 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.select_payment_options','onboarding_guide.configure_payment_methods_description','onboarding_guide.configure_payment_methods','onboarding_guide.view_checkout_page_description','onboarding_guide.view_checkout_page'));
 if ((empty($_smarty_tpl->tpl_vars['onboarding_guide_is_store_builder']->value))) {?>
     <div class="onboarding_content_margin--bottom_x2">

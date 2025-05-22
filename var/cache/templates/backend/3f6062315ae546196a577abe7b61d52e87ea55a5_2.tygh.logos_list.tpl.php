@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:23:40
+/* Smarty version 4.3.0, created on 2025-05-22 15:47:17
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\themes\components\logos_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ec1cef4be8_64290941',
+  'unifunc' => 'content_682f1cd56ac532_81366672',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3f6062315ae546196a577abe7b61d52e87ea55a5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\themes\\components\\logos_list.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 2,
   ),
 ),false)) {
-function content_6811ec1cef4be8_64290941 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f1cd56ac532_81366672 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('logos','show_extra_logos','theme_editor.favicon_size','hide_extra_logos'));
 ?>
 <div class="logos-section">
@@ -45,8 +45,8 @@ echo $_smarty_tpl->__("logos");?>
 if ($_smarty_tpl->tpl_vars['show_all_logos']->value) {
 echo " hidden";
 }
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->_subTemplateRender("tygh:buttons/button.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_text'=>$_smarty_tpl->__("show_extra_logos"),'but_role'=>"action",'but_id'=>"on_attach_additional_logos",'but_meta'=>"cm-combination ".$_prefixVariable1), 0, false);
+$_prefixVariable4=ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:buttons/button.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_text'=>$_smarty_tpl->__("show_extra_logos"),'but_role'=>"action",'but_id'=>"on_attach_additional_logos",'but_meta'=>"cm-combination ".$_prefixVariable4), 0, false);
 ?>
             </div>
         </div>

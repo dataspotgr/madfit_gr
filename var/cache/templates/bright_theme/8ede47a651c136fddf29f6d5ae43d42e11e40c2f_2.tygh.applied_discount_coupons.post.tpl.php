@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:50
+/* Smarty version 4.3.0, created on 2025-05-22 16:50:58
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\reward_points\hooks\checkout\applied_discount_coupons.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebea0da937_37342789',
+  'unifunc' => 'content_682f2bc28de476_97340365',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8ede47a651c136fddf29f6d5ae43d42e11e40c2f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\reward_points\\hooks\\checkout\\applied_discount_coupons.post.tpl',
-      1 => 1742455426,
+      1 => 1747915844,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 2,
   ),
 ),false)) {
-function content_6811ebea0da937_37342789 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2bc28de476_97340365 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('points','points_to_use','apply','apply','text_point_in_account','points_lowercase','points_in_use_lowercase','points','points_to_use','apply','apply','text_point_in_account','points_lowercase','points_in_use_lowercase'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:16
+/* Smarty version 4.3.0, created on 2025-05-22 15:30:19
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6bf48c31c3_92647581',
+  'unifunc' => 'content_682f18db21d9c2_42525390',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '629c7e908001f348e6b0d6775e70cd6baaed3f43' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\buttons\\search.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_680b6bf48c31c3_92647581 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f18db21d9c2_42525390 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_button'));
 ?>
 

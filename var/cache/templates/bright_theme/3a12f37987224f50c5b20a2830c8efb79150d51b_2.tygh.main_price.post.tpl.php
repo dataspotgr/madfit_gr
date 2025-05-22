@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 11:32:27
+/* Smarty version 4.3.0, created on 2025-05-22 16:50:14
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\price_per_unit\hooks\products\main_price.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811e01b8844f9_23563975',
+  'unifunc' => 'content_682f2b96b682a6_68335549',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3a12f37987224f50c5b20a2830c8efb79150d51b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\price_per_unit\\hooks\\products\\main_price.post.tpl',
-      1 => 1742455431,
+      1 => 1747915844,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811e01b8844f9_23563975 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f2b96b682a6_68335549 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

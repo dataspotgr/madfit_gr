@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:32
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:53
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\components\analytics_section\analytics_card\resource_list_tabs.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a4310705f39_78657022',
+  'unifunc' => 'content_682f180d918251_03488975',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eb981d7ad1aab218def9cd54b17715d765c113aa' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\index\\components\\analytics_section\\analytics_card\\resource_list_tabs.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tabsbox.tpl' => 1,
   ),
 ),false)) {
-function content_680a4310705f39_78657022 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f180d918251_03488975 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['resource_list_tabs']->value && $_smarty_tpl->tpl_vars['resource_list_tabs']->value['content']) {?><div class="analytics-card-resource-list-tabs" data-ca-analytics-card="resourceList" data-ca-analytics-card-id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['analytics_card']->value['id'], ENT_QUOTES, 'UTF-8');?>
 _<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['resource_list_tabs']->value['id'], ENT_QUOTES, 'UTF-8');?>
 "><div class="analytics-card-resource-list-tabs__tabs" data-ca-analytics-card="resourceListTabs" data-ca-analytics-card-id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['analytics_card']->value['id'], ENT_QUOTES, 'UTF-8');?>

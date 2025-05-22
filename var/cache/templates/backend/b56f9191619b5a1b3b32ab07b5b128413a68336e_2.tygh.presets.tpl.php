@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-24 16:56:13
+/* Smarty version 4.3.0, created on 2025-05-22 15:26:23
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\storefronts\components\picker\presets.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680a42fd976da6_98831031',
+  'unifunc' => 'content_682f17ef351370_20078374',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b56f9191619b5a1b3b32ab07b5b128413a68336e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\storefronts\\components\\picker\\presets.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/storefronts/components/picker/picker.tpl' => 1,
   ),
 ),false)) {
-function content_680a42fd976da6_98831031 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f17ef351370_20078374 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('show_all_storefronts','all_storefronts_short','all_storefronts_short','select_storefront','show_all_storefronts_with_count','all_storefronts_short','all_storefronts_short','all_storefronts'));
 $_smarty_tpl->_assignInScope('is_enabled', $_smarty_tpl->tpl_vars['app']->value["storefront.switcher.is_enabled"]);

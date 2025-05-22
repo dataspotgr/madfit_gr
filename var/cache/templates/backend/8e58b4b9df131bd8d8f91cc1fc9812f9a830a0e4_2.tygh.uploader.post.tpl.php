@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:14
+/* Smarty version 4.3.0, created on 2025-05-22 15:47:15
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\hidpi\hooks\fileuploader\uploader.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6bf2e79549_18608559',
+  'unifunc' => 'content_682f1cd3754486_58706817',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8e58b4b9df131bd8d8f91cc1fc9812f9a830a0e4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\hidpi\\hooks\\fileuploader\\uploader.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6bf2e79549_18608559 (Smarty_Internal_Template $_smarty_tpl) {
+function content_682f1cd3754486_58706817 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('hidpi.upload_high_res_image','hidpi.upload_high_res_image.tooltip'));
 if ($_smarty_tpl->tpl_vars['is_image']->value && (($tmp = $_smarty_tpl->tpl_vars['show_hidpi_checkbox']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp)) {?>
