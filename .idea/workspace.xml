@@ -2,9 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1ec8b1-1043-4c48-b9b7-a7f86aad7a5b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.4607f11e7b1ac4982f22106bce37a43a1747920415.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.9f70e3177d6c7ef20ab6b9ee2463cfdf1747920415.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.5baae180ecaee81cf8966baff79bb5881747920415.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.80d3b256b0dd8d718efd9c42febe5f9f1747920415.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/bright_theme/css/standalone.4607f11e7b1ac4982f22106bce37a43a1747920415.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/bright_theme/css/standalone.9f70e3177d6c7ef20ab6b9ee2463cfdf1747920415.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-014164dd6c564c889319f750e6552fe11747920415.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-d8543f70efa8d1f7426e4583f291fb261747920415.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-f65550125788233e947171fdae6506411747920415.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-f7c47087025cc98b48a334b3d96906ad1747920415.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/addons/1/cache_customer__1__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/all_available_company_ids/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/1/time" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/available_countries_hash/1/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/init_cdn_settings/1/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/init_currency/1/cache_customer__1__elinit_currencyff96855a38cd3caf2c3536af0fab8a8d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/init_language/1/cache_customer__1init_language_C" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/init_storage_settings/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/1/C_GET__no_page_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/1/C_GET_index_index_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/1/C_GET_products_view_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_banners_manage_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_banners_update_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_block_manager_manage_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_block_manager_update_block_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_helpdesk_connector_auth_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_notifications_close_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_products_manage_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_themes_manage_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_POST_auth_login_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_POST_banners_update_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/preloaded_font_resources/1/1__el" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_blocks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_dynamic_objects" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_frontend_editable_locations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_gdpr_settings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_hybrid_auth_providers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_last_view_frontend" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_permissions_admin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_products_overridable_fields" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_routes_objects" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_security_csrf_validation" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_security_http_content_policy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_security_secure_controllers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_seo_canonical_urls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_seo_indexation" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_seo_objects" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_session_read_only" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_sharing_schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_static_data_schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_storefronts_relations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_advanced_import_mime_types" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_context_menu_products" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_dashboard_blocks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_dashboard_todo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_notifications_events" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_reporting_metrics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_settings_licensing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_storefronts_switcher_dispatches" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_banners" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_blog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_breadcrumbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_cart_content" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_html_block" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_main" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_menu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_my_account" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_product_bundles" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_products" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_safe_smarty_block" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_blog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/seo_active_languages/1/cache_customer__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/seo_cache_static/1/cache_customerel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/seo_settings/1/cache_customerseo_settings_1_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/settings/1/cache_customer__1__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/storefront_protocol/1/cache_customerstorefront_protocol1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/1/cache_customer__1storefront_settings_values____" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/templateExistsViaSnapshot/1/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/template_logos/1/cache_customer__1init_logos___1_d8009ad24f63dbf50209f14346697f6f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/template_overrides/1/cache_customereb0a2a4988099193794a962350a04626" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/theme_dirs/1/cache_customer__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/thooks_C/1/cache_customer__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/ult_get_translation_languages/1/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/unmanaged_addons/cache_customer" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ignore" afterPath="$PROJECT_DIR$/.ignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/template_logos/1/cache_customer__1init_logos___1_d8009ad24f63dbf50209f14346697f6f" afterPath="$PROJECT_DIR$/var/cache/registry/template_logos/1/cache_customer__1init_logos___1_d8009ad24f63dbf50209f14346697f6f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/addons/cache_admin__1__1" afterPath="$PROJECT_DIR$/var/cache/registry/addons/cache_admin__1__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/addons/cache_admintop_10_supplier" afterPath="$PROJECT_DIR$/var/cache/registry/addons/cache_admintop_10_supplier" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" afterPath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_auth_login_form_el_EUR__1" afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_auth_login_form_el_EUR__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_index_index_el_EUR__1" afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_index_index_el_EUR__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_notifications_center_manage_el_EUR__1" afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_notifications_center_manage_el_EUR__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/settings/cache_admin__1__1" afterPath="$PROJECT_DIR$/var/cache/registry/settings/cache_admin__1__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/cache_admin__1storefront_settings_values____" afterPath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/cache_admin__1storefront_settings_values____" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" afterPath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +112,70 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="menu.post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name=".ignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.ignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="integrate.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eldico_products.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addon.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="212" column="49" lean-forward="false" selection-start-line="212" selection-start-column="49" selection-end-line="212" selection-end-column="49" />
+              <folding>
+                <element signature="n#section#3;n#sections#0;n#settings#0;n#addon#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ds_eldico_bridge.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#25#0#PHP" expanded="true" />
+                <marker date="1748006917239" expanded="false" signature="3390:4430" ph="..." />
+                <marker date="1748006917239" expanded="true" signature="4524:4594" ph="SELECT `id` ?" />
+                <marker date="1748006917239" expanded="true" signature="7447:7499" ph="UPDATE ?:kik... " />
+                <marker date="1748006917239" expanded="true" signature="10592:10631" ph="INSERT INTO ?... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +188,11 @@
       <find>admin</find>
       <find>.18</find>
       <find>app</find>
+      <find>kikk</find>
+      <find>$kkk_name</find>
+      <find>xml_url</find>
+      <find>$kkk_date_updated</find>
+      <find>eldico_bridge_products</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -48,6 +203,10 @@
       <list>
         <option value="$PROJECT_DIR$/config.local.php" />
         <option value="$PROJECT_DIR$/.ignore" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php" />
+        <option value="$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/logs.tpl" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" />
       </list>
     </option>
   </component>
@@ -88,6 +247,238 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schemas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,18 +564,18 @@
       <updated>1743771750909</updated>
       <workItem from="1743771752182" duration="1845000" />
       <workItem from="1747986512779" duration="4396000" />
-      <workItem from="1747997547903" duration="1361000" />
+      <workItem from="1747997547903" duration="6722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7602000" />
+    <option name="totallyTimeSpent" value="12963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17697228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -268,10 +659,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_boxnow/controllers/backend/ds_boxnow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_categories.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/categories_match.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/logs.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="71" lean-forward="false" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
+          <folding>
+            <element signature="e#210#229#0#HTML" expanded="false" />
+            <element signature="e#711#737#0#HTML" expanded="false" />
+            <element signature="e#1120#1142#0#HTML" expanded="false" />
+            <element signature="e#1189#1214#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="212" column="49" lean-forward="false" selection-start-line="212" selection-start-column="49" selection-end-line="212" selection-end-column="49" />
+          <folding>
+            <element signature="n#section#3;n#sections#0;n#settings#0;n#addon#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+            <marker date="1748006917239" expanded="false" signature="3390:4430" ph="..." />
+            <marker date="1748006917239" expanded="true" signature="4524:4594" ph="SELECT `id` ?" />
+            <marker date="1748006917239" expanded="true" signature="7447:7499" ph="UPDATE ?:kik... " />
+            <marker date="1748006917239" expanded="true" signature="10592:10631" ph="INSERT INTO ?... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.ignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>

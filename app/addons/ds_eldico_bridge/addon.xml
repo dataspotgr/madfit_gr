@@ -1,0 +1,238 @@
+<addon scheme="2.0">
+    <id>ds_eldico_bridge</id>
+    <name>[Dataspot] Eldico Bridge</name>
+    <description>Διασύνδεση eshop με προϊόντα της Eldico Bridge</description>
+    <version>1.0</version>
+    <supplier>Dataspot</supplier>
+    <supplier_link>https://www.dataspot.gr/</supplier_link>
+    <has_icon>Y</has_icon>
+    <priority>23052025</priority>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general_bridge">
+                <name>Ρυθμίσεις Eldico Γέφυρα</name>
+                <items>
+                    <item id="ds_bridge_url">
+                        <name>Eldico Bridge URL</name>
+                        <type>text</type>
+                        <tooltip>Εισάγετε το link XML, που έχετε λάβει από τον προμηθευτή</tooltip>
+                    </item>
+                    <item id="ds_bridge_username">
+                        <name>Eldico Bridge όνομα χρήστη</name>
+                        <type>text</type>
+                        <tooltip>Εισάγετε το όνομα χρήστη, που έχετε λάβει από τον προμηθευτή (προαιρετικό)</tooltip>
+                    </item>
+                    <item id="ds_bridge_password">
+                        <name>Eldico Bridge κωδικός</name>
+                        <type>text</type>
+                        <tooltip>Εισάγετε το κωδικό πρόσβασης, που έχετε λάβει από τον προμηθευτή (προαιρετικό)
+                        </tooltip>
+                    </item>
+                </items>
+            </section>
+            <section id="general">
+                <name>Γενικές Ρυθμίσεις</name>
+                <items>
+                    <item id="ds_cscart_admin_email">
+                        <name>Admin Email</name>
+                        <type>text</type>
+                    </item>
+                </items>
+            </section>
+            <section id="cscart_api">
+                <name>CS-Cart API Ρυθμίσεις</name>
+                <items>
+                    <item id="website_url">
+                        <name>URL ιστοσελίδας (πχ. https://dataspot.gr)</name>
+                        <type>text</type>
+                    </item>
+                    <item id="user_email_api">
+                        <name>Email χρήστη (με διακαιώματα προς χρήση CS-Cart API)</name>
+                        <type>text</type>
+                    </item>
+                    <item id="user_password_api">
+                        <name>Κλειδί χρήστη (πρέπει να είναι σε κατάσταση: ενεργό για τον χρήστη που έχετε δηλώσει
+                            παραπάνω)
+                        </name>
+                        <type>text</type>
+                    </item>
+                </items>
+            </section>
+            <section id="products">
+                <name>Προϊόντα</name>
+                <items>
+                    <item id="date_created">
+                        <name>Ενημέρωση ημερομηνίας</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση ημερομηνίας προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_name">
+                        <name>Όνομα προϊόντος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Ονόματος προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_sku">
+                        <name>Κωδικός προϊόντος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Κωδικού προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_url">
+                        <name>URL Προϊόντος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση URL προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="produc_price">
+                        <name>Τιμή</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Τιμής προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_wholesale_price">
+                        <name>Τιμή Χονδρικής</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση χονδρικής τιμής προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_stock_status">
+                        <name>Κατάσταση αποθέματος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Κατάστασης αποθέματος προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_seo_title">
+                        <name>Τίτλος προϊόντος (SEO)</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση τίτλου προϊόντος (SEO) από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_general_description">
+                        <name>Γενική Περιγραφή</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Γενικής Περιγραφής προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_short_description">
+                        <name>Περιγραφή</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Περιγραφής προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_large_description">
+                        <name>Ολοκληρωμένη Περιγραφή</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Ολοκληρωμένη Περιγραφή προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="products_characteristics">
+                        <name>Χαρακτηριστικά</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Χαρακτηριστικών προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_images">
+                        <name>Εικόνες</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Εικόνων προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE `?:eldico_bridge_products` (
+            `id` int(11) NOT NULL AUTO_INCREMENT,
+            `eldc_product_id` int(11) NOT NULL,
+            `eldc_code` varchar(55) DEFAULT NULL,
+            `eldc_barcode` varchar(55) DEFAULT NULL,
+            `eldc_product_title` varchar(255) DEFAULT NULL,
+            `eldc_product_description` text DEFAULT NULL,
+            `eldc_small_description` text DEFAULT NULL,
+            `eldc_large_description` text DEFAULT NULL,
+            `eldc_product_image` varchar(255) DEFAULT NULL,
+            `eldc_product_extra_image` text DEFAULT NULL,
+            `eldc_manufacturer` varchar(55) DEFAULT NULL,
+            `eldc_category_id` int(11) NOT NULL,
+            `eldc_category` varchar(255) NOT NULL,
+            `eldc_wholesale_price` decimal(12,2) NOT NULL DEFAULT 0.00,
+            `eldc_discount_category` varchar(10) DEFAULT NULL,
+            `eldc_retail_price` decimal(12,2) NOT NULL DEFAULT 0.00,
+            `eldc_price_change` varchar(10) DEFAULT NULL,
+            `eldc_premium_product` varchar(10) NOT NULL,
+            `eldc_recycle` int(11) NOT NULL DEFAULT 0,
+            `eldc_availability` int(11) NOT NULL DEFAULT 0,
+            `eldc_athens` int(11) NOT NULL DEFAULT 0,
+            `eldc_thessaloniki` int(11) NOT NULL DEFAULT 0,
+            `eldc_expected` int(11) NOT NULL,
+            `eldc_warranty` varchar(10) NOT NULL,
+            `eldc_country` varchar(10) NOT NULL,
+            `eldc_box_weight` decimal(12,2) NOT NULL DEFAULT 0.00,
+            `eldc_box_volume` decimal(12,7) NOT NULL DEFAULT 0.0000000,
+            `eldc_packaging_info` tinyint(4) NOT NULL,
+            `eldc_product_dimensions` varchar(55) NOT NULL,
+            `eldc_product_weight` varchar(55) NOT NULL,
+            `eldc_product_volume` varchar(55) NOT NULL,
+            `eldc_specifications` tinyint(4) NOT NULL,
+            `eldc_additional_infos` tinyint(4) NOT NULL,
+            `eldc_parent_code` varchar(55) NOT NULL,
+            `eldc_vat` int(11) NOT NULL,
+            `eldc_warn_gr` text DEFAULT NULL,
+            `eldc_warn_en` text DEFAULT NULL,
+            `eldc_distributor` tinytext DEFAULT NULL,
+            `eldc_minimum_quantity` int(11) NOT NULL DEFAULT 1,
+            `eldc_increment_quantity` int(11) NOT NULL DEFAULT 1,
+            `eldc_date_created` varchar(55) NOT NULL,
+            `eldc_date_updated` varchar(55) NOT NULL,
+            PRIMARY KEY (`id`,`eldc_product_id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:eldico_bridge_products`;</item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:eldico_bridge_features` (`id` INT NOT NULL AUTO_INCREMENT , `eldc_id` INT NOT
+            NULL , `eldc_product_id` INT NOT NULL , `eldc_code` VARCHAR(55) NULL DEFAULT NULL , `eldc_feature_name`
+            VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARSET=utf8mb4 COLLATE utf8mb4_general_ci;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:eldico_bridge_features`;</item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:eldico_bridge_features_variants` (`id` INT NOT NULL AUTO_INCREMENT ,
+            `eldc_feature_id` INT NOT NULL , `eldc_id` INT NOT NULL , `eldc_product_id` INT NOT NULL ,
+            `eldc_feature_variant` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARSET=utf8mb4 COLLATE
+            utf8mb4_general_ci;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:eldico_bridge_features_variants`;</item>
+    </queries>
+    <language_variables>
+        <item lang="el" id="ds_dashboard_addons">Dataspot</item>
+        <item lang="el" id="ds_eldico_bridge">Eldico Bridge</item>
+        <item lang="el" id="error_notice">Προσοχή!</item>
+        <item lang="el" id="sent_notice">Ειδοποίηση!</item>
+
+        <item lang="el" id="update_name">Όνομα προϊόντος</item>
+        <item lang="el" id="update_sku">Κωδικός προϊόντος</item>
+        <item lang="el" id="update_product_url">URL Προϊόντος</item>
+        <item lang="el" id="update_price">Τιμή</item>
+        <item lang="el" id="update_special_price">Special Τιμή</item>
+        <item lang="el" id="update_stock_status">Κατάσταση αποθέματος</item>
+        <item lang="el" id="update_pre_order">Προ παραγγελία</item>
+        <item lang="el" id="update_parent_cat">Γονική κατηγορία (path)</item>
+        <item lang="el" id="update_sub_cat">Υποκατηγορία (path)</item>
+        <item lang="el" id="update_description">Περιγραφή</item>
+        <item lang="el" id="update_description_html">Περιγραφή (HTML)</item>
+        <item lang="el" id="update_rrp_price">RRP Τιμές</item>
+        <item lang="el" id="update_characteristics">Χαρακτηριστικά</item>
+        <item lang="el" id="update_images">Εικόνες</item>
+
+        <item lang="el" id="ds_eldico_bridge_products_update_field_no">Όχι</item>
+        <item lang="el" id="ds_eldico_bridge_products_update_field_yes">Ναι</item>
+
+        <item lang="el" id="ds_eldico_bridge_logs_aa">A/A</item>
+        <item lang="el" id="ds_eldico_bridge_logs_product_id">ID Προϊόντος</item>
+        <item lang="el" id="ds_eldico_bridge_logs_error">Μήνυμα</item>
+        <item lang="el" id="ds_eldico_bridge_logs_created_at">Δημιουργήθηκε στις</item>
+    </language_variables>
+</addon>
