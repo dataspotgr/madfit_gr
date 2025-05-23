@@ -2,6 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1ec8b1-1043-4c48-b9b7-a7f86aad7a5b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.9f70e3177d6c7ef20ab6b9ee2463cfdf1747920415.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/bright_theme/css/standalone.9f70e3177d6c7ef20ab6b9ee2463cfdf1747920415.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-f65550125788233e947171fdae6506411747920415.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_index_index_el_EUR__1" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/AddonsSetup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/App.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/LicenseController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/AbstractValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/CachingSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/CryptographyValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/CtypeSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/ExifSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/FileinfoSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/FtpSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/GzipSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/ImageProcessingValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/JsonSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/MultibyteStringSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/MysqlSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/NetworkSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/SoapSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/ValidatorInteface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/XmlSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Requirements/ZipSupportValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Setup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/SetupController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/app/Installer/Validator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ar/ar.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ar/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ar/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/cs/cs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/cs/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/cs/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/da/da.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/da/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/da/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/de/de.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/de/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/de/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/el/el.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/el/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/el/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/en/en.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/en/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/en/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/es/es.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/es/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/es/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fa/fa.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fa/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fa/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fi/fi.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fi/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fi/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fr/fr.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fr/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/fr/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/he/he.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/he/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/he/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/hu/hu.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/hu/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/hu/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/id/id.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/id/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/id/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/it/it.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/it/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/it/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ja/ja.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ja/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ja/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ko/ko.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ko/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ko/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/nl/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/nl/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/nl/nl.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/no/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/no/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/no/no.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/pl/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/pl/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/pl/pl.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/pt/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/pt/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/pt/pt.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ro/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ro/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ro/ro.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ru/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ru/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/ru/ru.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/sv/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/sv/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/sv/sv.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/tr/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/tr/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/tr/tr.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/uk/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/uk/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/uk/uk.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/uz/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/uz/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/uz/uz.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/zh/lang.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/zh/lang_demo.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/lang/zh/zh.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/database/scheme.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/css/lib/twitterbootstrap/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/images/lib/twitterbootstrap/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/images/lib/twitterbootstrap/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/images/lib/ui/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/images/main_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/images/skin_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/images/skin_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/images/skin_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/js/installer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/templates/common/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/templates/common/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/templates/common/notification.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/templates/license/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/design/templates/setup/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/langs/general.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/langs/translations/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/resources/document_templates.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/resources/email_templates.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/resources/mve_email_templates.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/run.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ignore" afterPath="$PROJECT_DIR$/.ignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +152,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name=".ignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.ignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -67,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -83,6 +218,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,23 +297,24 @@
       <updated>1743771750909</updated>
       <workItem from="1743771752182" duration="1845000" />
       <workItem from="1747986512779" duration="2033000" />
+      <workItem from="1747997280705" duration="181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3878000" />
+    <option name="totallyTimeSpent" value="4059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26002166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25893825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -201,6 +338,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -241,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.ignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>

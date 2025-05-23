@@ -5,10 +5,17 @@
 /var/
 
 # Files
-/.idea/*
+/.idea/
 .idea/workspace.xml
 
 /index.php
 /init.php
 /install.html
 /changelog.txt
+
+# Config files
+/config.local.php
+/config.php
+
+# Log files
+*.log
