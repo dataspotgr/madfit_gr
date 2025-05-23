@@ -5,7 +5,7 @@
 /var/
 
 # Files
-.idea/*
+/.idea/*
 .idea/workspace.xml
 
 /index.php
