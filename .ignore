@@ -6,6 +6,7 @@
 
 # Files
 /.idea/
+.idea/workspace.xml
 
 /index.php
 #/init.php

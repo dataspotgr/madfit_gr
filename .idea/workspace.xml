@@ -4,9 +4,6 @@
     <list default="true" id="8b1ec8b1-1043-4c48-b9b7-a7f86aad7a5b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ignore" afterPath="$PROJECT_DIR$/.ignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml" afterPath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" afterPath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php" afterPath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +21,8 @@
       <file leaf-file-name="menu.post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+            <state relative-caret-position="595">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -34,8 +31,8 @@
       <file leaf-file-name=".ignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.ignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -475,12 +472,12 @@
       <updated>1743771750909</updated>
       <workItem from="1743771752182" duration="1845000" />
       <workItem from="1747986512779" duration="4396000" />
-      <workItem from="1747997547903" duration="7909000" />
+      <workItem from="1747997547903" duration="8059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14150000" />
+    <option name="totallyTimeSpent" value="14300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -625,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
@@ -657,10 +646,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.ignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
