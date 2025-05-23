@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:32:02
+/* Smarty version 4.3.0, created on 2025-05-23 13:17:17
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\wishlist\hooks\products\product_multicolumns_list.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f19424c9ba6_60906020',
+  'unifunc' => 'content_68304b2db84b40_00128526',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fefe52e17a822d3387b774998a61f9aac05686d9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\wishlist\\hooks\\products\\product_multicolumns_list.pre.tpl',
-      1 => 1747915844,
+      1 => 1743766599,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682f19424c9ba6_60906020 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b2db84b40_00128526 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove','remove','remove','remove'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

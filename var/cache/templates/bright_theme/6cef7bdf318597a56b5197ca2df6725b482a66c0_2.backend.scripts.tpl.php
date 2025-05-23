@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:32:13
+/* Smarty version 4.3.0, created on 2025-05-23 13:17:23
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\geo_maps\components\scripts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f194db45523_59964706',
+  'unifunc' => 'content_68304b33f39373_73314347',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6cef7bdf318597a56b5197ca2df6725b482a66c0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\geo_maps\\components\\scripts.tpl',
-      1 => 1747915842,
+      1 => 1743766598,
       2 => 'backend',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682f194db45523_59964706 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b33f39373_73314347 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_field','geo_maps.cannot_select_location','admin_search_field','geo_maps.cannot_select_location'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

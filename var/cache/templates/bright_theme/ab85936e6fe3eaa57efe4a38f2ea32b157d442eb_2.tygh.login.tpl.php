@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:31:37
+/* Smarty version 4.3.0, created on 2025-05-23 13:17:06
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\buttons\login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f1929563ce9_70601590',
+  'unifunc' => 'content_68304b2236df82_76531002',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ab85936e6fe3eaa57efe4a38f2ea32b157d442eb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\buttons\\login.tpl',
-      1 => 1747915844,
+      1 => 1743766599,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 2,
   ),
 ),false)) {
-function content_682f1929563ce9_70601590 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b2236df82_76531002 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('sign_in','sign_in'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

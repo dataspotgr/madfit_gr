@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:31:15
+/* Smarty version 4.3.0, created on 2025-05-23 13:16:54
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\geo_maps\hooks\index\styles.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f1913572122_89671807',
+  'unifunc' => 'content_68304b16727d80_46302529',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e32a7d261c70ec4a272fcf744a7bb9e75d217be9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\geo_maps\\hooks\\index\\styles.post.tpl',
-      1 => 1747915843,
+      1 => 1743766599,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682f1913572122_89671807 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b16727d80_46302529 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.style.php','function'=>'smarty_function_style',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

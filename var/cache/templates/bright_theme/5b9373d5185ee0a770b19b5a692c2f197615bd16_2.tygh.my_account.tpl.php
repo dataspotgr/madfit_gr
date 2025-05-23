@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:31:32
+/* Smarty version 4.3.0, created on 2025-05-23 13:17:04
   from 'C:\xampp\htdocs\madfit_gr\design\themes\bright_theme\templates\blocks\my_account.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f1924aa5907_15325022',
+  'unifunc' => 'content_68304b2007dfc8_35601147',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5b9373d5185ee0a770b19b5a692c2f197615bd16' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\bright_theme\\templates\\blocks\\my_account.tpl',
-      1 => 1747915843,
+      1 => 1747990995,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/auth/login_form.tpl' => 2,
   ),
 ),false)) {
-function content_682f1924aa5907_15325022 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b2007dfc8_35601147 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.live_edit.php','function'=>'smarty_function_live_edit',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('profile_details','downloads','orders','view_comparison_list','track_my_order','track_my_order','order_id','email','go','go_to_admin_panel','sign_out','sign_in','register','sign_in','profile_details','downloads','orders','view_comparison_list','track_my_order','track_my_order','order_id','email','go','go_to_admin_panel','sign_out','sign_in','register','sign_in'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

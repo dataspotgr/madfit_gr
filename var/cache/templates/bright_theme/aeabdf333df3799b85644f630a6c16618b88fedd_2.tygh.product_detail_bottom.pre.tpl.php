@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 16:50:16
+/* Smarty version 4.3.0, created on 2025-05-23 13:17:57
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\geo_maps\hooks\products\product_detail_bottom.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f2b98241549_42171245',
+  'unifunc' => 'content_68304b552570d3_66175735',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'aeabdf333df3799b85644f630a6c16618b88fedd' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\geo_maps\\hooks\\products\\product_detail_bottom.pre.tpl',
-      1 => 1747915843,
+      1 => 1743766599,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/geo_maps/views/geo_maps/shipping_estimation.tpl' => 2,
   ),
 ),false)) {
-function content_682f2b98241549_42171245 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b552570d3_66175735 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

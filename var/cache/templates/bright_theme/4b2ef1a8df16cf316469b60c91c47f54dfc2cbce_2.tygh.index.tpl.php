@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:31:11
+/* Smarty version 4.3.0, created on 2025-05-23 13:16:52
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f190f0c8062_61835980',
+  'unifunc' => 'content_68304b148821a1_48907427',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4b2ef1a8df16cf316469b60c91c47f54dfc2cbce' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\index.tpl',
-      1 => 1747915844,
+      1 => 1743766599,
       2 => 'tygh',
     ),
   ),
@@ -29,7 +29,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'backend:common/theme_editor.tpl' => 1,
   ),
 ),false)) {
-function content_682f190f0c8062_61835980 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b148821a1_48907427 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.render_location.php','function'=>'smarty_function_render_location',),));
 \Tygh\Languages\Helper::preloadLangVars(array('on_site_template_editing'));
 $_smarty_tpl->_assignInScope('pb_is_bottom_panel_open', ($_smarty_tpl->tpl_vars['auth']->value['user_type'] === smarty_modifier_enum("UserTypes::ADMIN") || $_smarty_tpl->tpl_vars['auth']->value['user_type'] === smarty_modifier_enum("UserTypes::VENDOR") || defined("THEMES_PANEL")) && (($tmp = $_COOKIE['pb_is_bottom_panel_open'] ?? null)===null||$tmp==='' ? "1" ?? null : $tmp));

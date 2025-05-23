@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 16:50:30
+/* Smarty version 4.3.0, created on 2025-05-23 13:18:01
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\vendor_communication\views\vendor_communication\components\login_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f2ba65cfd11_94279955',
+  'unifunc' => 'content_68304b594da4c9_42161062',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd0f47b3d3ea4e251bf4e9d4bf71274f4cf91b21e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\vendor_communication\\views\\vendor_communication\\components\\login_form.tpl',
-      1 => 1747915844,
+      1 => 1743766599,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/auth/login_form.tpl' => 2,
   ),
 ),false)) {
-function content_682f2ba65cfd11_94279955 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68304b594da4c9_42161062 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('sign_in','vendor_communication.please_log_in_to_be_notified','sign_in','vendor_communication.please_log_in_to_be_notified'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

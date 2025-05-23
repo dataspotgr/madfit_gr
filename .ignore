@@ -6,9 +6,16 @@
 
 # Files
 /.idea/*
-.idea/workspace.xml
+/.idea/workspace.xml
 
 /index.php
-/init.php
+#/init.php
 /install.html
 /changelog.txt
+
+# Config files
+/config.local.php
+/config.php
+
+# Log files
+*.log
