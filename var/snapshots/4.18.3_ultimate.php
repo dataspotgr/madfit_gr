@@ -1,5 +1,5 @@
 <?php $snapshot = array (
-  'time' => 1747916802,
+  'time' => 1747999019,
   'files' => 
   array (
     '373624cd5e489037587c4a51b95924be' => '/api.php',
@@ -9539,6 +9539,7 @@
     '03ead9c4c96ccffc00ee577b88500128' => '/js/addons/mobile_app/colors.js',
     '2139d3504321d045c3e77de569be1a3f' => '/js/addons/mobile_app/lib/jquery.smartbanner.js',
     '95bafa9dfcd7df49fbcbf165d7f34bcc' => '/js/addons/mobile_app/settings.js',
+    'ffc4c489592122e78f80a1855ad1ff2c' => '/js/addons/my_changes/scroll_top.js',
     '2d0a91e897c4fec7a730e37abc169b8e' => '/js/addons/newsletters/func.js',
     '803fbc24f4b8402b9315ca206bfc3f47' => '/js/addons/onboarding_guide/core.js',
     '0ea82a8a8362b808cdffcd58fbd95f5c' => '/js/addons/onboarding_guide/steps/personalize_marketplace.js',
@@ -15977,6 +15978,7 @@
     '8b4ba8f4693eef76cc7e1018a6833ee4' => '/js/addons/image_zoom/lib',
     '5d96ee3b43d41ffbd9d38384f5d1e96e' => '/js/addons/mobile_app',
     'ebca903d96bfdb5e80c08348431fb968' => '/js/addons/mobile_app/lib',
+    '0be45edd5b9a6a5bd03b062caf67bcef' => '/js/addons/my_changes',
     '8c72983d64c3ab1f2232ecbb64383fce' => '/js/addons/newsletters',
     '6bcbe7d8aa079790c60161aac8e49b30' => '/js/addons/onboarding_guide',
     'a15415f0cce84c0baeea7619e6c1017b' => '/js/addons/onboarding_guide/steps',
