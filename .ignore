@@ -5,7 +5,7 @@
 /var/
 
 # Files
-.idea/
+.idea/*
 /index.php
 /init.php
 /install.html
