@@ -23,7 +23,7 @@ $schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge']['subitems']['
     'position' => 470
 );
 $schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge']['subitems']['ds_eldico_bridge_products_integrate'] = array(
-    'href' => 'ds_eldico_bridge.integrate&cronjob=0',
+    'href' => 'ds_eldico_bridge.integrate&cronjob=0', //manually update products
     'position' => 480
 );
 $schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge']['subitems']['ds_eldico_bridge_categories_match_divider'] = array(

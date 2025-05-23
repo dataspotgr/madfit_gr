@@ -186,6 +186,7 @@
             `eldc_distributor` tinytext DEFAULT NULL,
             `eldc_minimum_quantity` int(11) NOT NULL DEFAULT 1,
             `eldc_increment_quantity` int(11) NOT NULL DEFAULT 1,
+            `eldc_flag` int(11) NOT NULL DEFAULT 0,
             `eldc_date_created` varchar(55) NOT NULL,
             `eldc_date_updated` varchar(55) NOT NULL,
             PRIMARY KEY (`id`,`eldc_product_id`)

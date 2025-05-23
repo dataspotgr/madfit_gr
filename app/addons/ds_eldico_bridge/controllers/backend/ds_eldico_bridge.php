@@ -28,6 +28,8 @@ if($mode == "eldico_products") {
         foreach ($xmlobj->product as $product_xml_item) {
             //$strtotime        = strtotime("now");
             $date_format        = date("d/m/Y H:i:s");
+            $eldc_flag          = 0;
+
             $product_id         = $product_xml_item->Product_ID;
             $code               = $product_xml_item->Code;
             $barcode            = $product_xml_item->BarCode;
@@ -68,7 +70,7 @@ if($mode == "eldico_products") {
             $increment_quantity = $product_xml_item->IncrementQuantity;
 
 
-            $extra_images = array();
+            //$extra_images = array();
             if( isset($product_xml_item->ProductExtraImage_1) && !empty($product_xml_item->ProductExtraImage_1) ) {
                 $extra_images[] = $product_xml_item->ProductExtraImage_1;
             }
@@ -82,7 +84,7 @@ if($mode == "eldico_products") {
                 $extra_images[] = $product_xml_item->ProductExtraImage_4;
             }
 
-            if( count($extra_images) > 0 ) {
+            if( isset($extra_images) && count($extra_images) > 0 ) {
                 $additional_images = implode(",",$extra_images);
             }
             else {
@@ -95,6 +97,8 @@ if($mode == "eldico_products") {
                 $date_updated = date('d-m-Y H:i:s');
                 $total_products_count++;
                 $total_products_update++;
+                $eldc_flag = 1;
+
                 $data_update_products = array(
                     'eldc_product_id'           => $product_id,
                     'eldc_code'                 => $code,
@@ -133,6 +137,7 @@ if($mode == "eldico_products") {
                     'eldc_warn_en'              => $warn_en,
                     'eldc_distributor'          => $distributor,
                     'eldc_minimum_quantity'     => $minimum_quantity,
+                    'eldc_flag'                 => $eldc_flag,
                     'eldc_increment_quantity'   => $increment_quantity,
                     'eldc_date_updated'         => $date_updated,
                 );
@@ -144,6 +149,8 @@ if($mode == "eldico_products") {
                 $product_bridge_date_created = date('d-m-Y H:i:s');
                 $total_products_count++;
                 $total_products_insert++;
+                $eldc_flag = 2;
+
                 $data_insert_products = array(
                     'eldc_product_id'           => $product_id,
                     'eldc_code'                 => $code,
@@ -183,7 +190,8 @@ if($mode == "eldico_products") {
                     'eldc_distributor'          => $distributor,
                     'eldc_minimum_quantity'     => $minimum_quantity,
                     'eldc_increment_quantity'   => $increment_quantity,
-                    'eldc_date_created'          => $product_bridge_date_created,
+                    'eldc_flag'                 => $eldc_flag,
+                    'eldc_date_created'         => $product_bridge_date_created,
                 );
                 //echo "INSERTED " . $kkk_sku . "<br />";
                 $product_inserted = db_query('INSERT INTO ?:eldico_bridge_products ?e', $data_insert_products);
