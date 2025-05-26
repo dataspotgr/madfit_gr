@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:41
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:15
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\attachments\hooks\products\tabs_extra.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6cfd698d62_83392811',
+  'unifunc' => 'content_683028f3ba03c7_03084482',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a09786605ffa48e48f7213e7d5c923c339ce0184' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\attachments\\hooks\\products\\tabs_extra.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/attachments/views/attachments/manage.tpl' => 1,
   ),
 ),false)) {
-function content_680b6cfd698d62_83392811 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683028f3ba03c7_03084482 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.component.php','function'=>'smarty_block_component',),));
 ?>
 <div id="content_attachments" class="cm-hide-save-button <?php if ($_smarty_tpl->tpl_vars['selected_section']->value !== "attachments") {?>hidden<?php }?>">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 16:50:55
+/* Smarty version 4.3.0, created on 2025-05-23 15:37:20
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\blocks\checkout\summary.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f2bbf76dd00_38918249',
+  'unifunc' => 'content_68306c002b7cd3_71761741',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f3ff1eb69ae8e099f2ff3e300d6885dd2f3b7dd2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\blocks\\checkout\\summary.tpl',
-      1 => 1747915844,
+      1 => 1748003837,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/checkout/components/promotion_coupon.tpl' => 2,
   ),
 ),false)) {
-function content_682f2bbf76dd00_38918249 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68306c002b7cd3_71761741 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('items','shipping','including_discount','order_discount','payment_surcharge','taxes','included','order_total','items','shipping','including_discount','order_discount','payment_surcharge','taxes','included','order_total'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
@@ -146,7 +146,7 @@ array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
         <tbody>
             <tr>
                 <th class="ty-checkout-summary__total" colspan="2" data-ct-checkout-summary="order-total">
-                    <div>
+                    <div class="ds-total_sum_checkout">
                         <?php echo $_smarty_tpl->__("order_total");?>
 
                         <span class="ty-checkout-summary__total-sum"><?php $_smarty_tpl->_subTemplateRender("tygh:common/price.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('value'=>(($tmp = $_smarty_tpl->tpl_vars['_total']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->tpl_vars['cart']->value['total'] ?? null : $tmp)), 0, true);
@@ -285,7 +285,7 @@ array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
         <tbody>
             <tr>
                 <th class="ty-checkout-summary__total" colspan="2" data-ct-checkout-summary="order-total">
-                    <div>
+                    <div class="ds-total_sum_checkout">
                         <?php echo $_smarty_tpl->__("order_total");?>
 
                         <span class="ty-checkout-summary__total-sum"><?php $_smarty_tpl->_subTemplateRender("tygh:common/price.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('value'=>(($tmp = $_smarty_tpl->tpl_vars['_total']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->tpl_vars['cart']->value['total'] ?? null : $tmp)), 0, true);

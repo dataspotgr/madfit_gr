@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:04
+/* Smarty version 4.3.0, created on 2025-05-23 14:06:52
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\companies\components\company_name.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6be803e4a4_88565309',
+  'unifunc' => 'content_683056cc6f9ee1_32820074',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b93c9dc152c4396922fe6891ee4bf647e21ed093' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\companies\\components\\company_name.tpl',
-      1 => 1728377975,
+      1 => 1747996676,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6be803e4a4_88565309 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683056cc6f9ee1_32820074 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 $_smarty_tpl->_assignInScope('type', (($tmp = $_smarty_tpl->tpl_vars['type']->value ?? null)===null||$tmp==='' ? "default" ?? null : $tmp));
 $_smarty_tpl->_assignInScope('show_company_name', false);

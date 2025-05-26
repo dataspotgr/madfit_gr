@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:54
+/* Smarty version 4.3.0, created on 2025-05-23 14:13:13
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\components\device_switch.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6d0a8ee566_70591524',
+  'unifunc' => 'content_683058492f58a2_20028276',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e8bd2fa281695a9acc96238ef553de8b639e2748' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\block_manager\\components\\device_switch.tpl',
-      1 => 1728377975,
+      1 => 1747996673,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6d0a8ee566_70591524 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683058492f58a2_20028276 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('block_manager.view_layout.phone','block_manager.view_layout.tablet','block_manager.view_layout.desktop','block_manager.view_layout.reset_filter'));
 ob_start();
 echo $_smarty_tpl->__("block_manager.view_layout.phone");

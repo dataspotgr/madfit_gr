@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:09
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:46
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\seo\hooks\product_features\feature_code.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6bedbc12f7_32083781',
+  'unifunc' => 'content_683029122fc406_76047630',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5e87f1bd4d67dfdaa34bae34750208c4ebb2de12' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\seo\\hooks\\product_features\\feature_code.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6bedbc12f7_32083781 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683029122fc406_76047630 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('seo.product_feature.feature_code.notice'));
 ?>
 <div id="elm_feature_code_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['id']->value, ENT_QUOTES, 'UTF-8');?>

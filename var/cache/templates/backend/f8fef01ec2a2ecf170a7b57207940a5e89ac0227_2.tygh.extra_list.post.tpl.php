@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:38
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:53
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\gift_certificates\hooks\orders\extra_list.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ecce0ce3c3_39490232',
+  'unifunc' => 'content_6830305d5bfb91_96522250',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f8fef01ec2a2ecf170a7b57207940a5e89ac0227' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\gift_certificates\\hooks\\orders\\extra_list.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/options_info.tpl' => 1,
   ),
 ),false)) {
-function content_6811ecce0ce3c3_39490232 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830305d5bfb91_96522250 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.truncate.php','function'=>'smarty_modifier_truncate',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('collapse_sublist_of_items','gift_certificate','print_card','code','free','free','gift_cert_to','gift_cert_from','amount','send_via','email','postal_mail','product','price','quantity','discount','tax','subtotal','deleted_product','sku'));
 if ($_smarty_tpl->tpl_vars['order_info']->value['gift_certificates']) {

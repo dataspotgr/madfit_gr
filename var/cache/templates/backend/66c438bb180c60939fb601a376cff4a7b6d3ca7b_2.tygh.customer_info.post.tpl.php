@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:39
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:56
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\discussion\hooks\orders\customer_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811eccf9c6c48_85046737',
+  'unifunc' => 'content_68303060375e95_66889879',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '66c438bb180c60939fb601a376cff4a7b6d3ca7b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\discussion\\hooks\\orders\\customer_info.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_6811eccf9c6c48_85046737 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68303060375e95_66889879 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('discussion','discussion_title_order','available','disabled','enabled','enabled','disabled'));
 if (($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR") || $_smarty_tpl->tpl_vars['runtime']->value['simple_ultimate']) && $_smarty_tpl->tpl_vars['config']->value['discussion']['enable_order_communication']) {?>

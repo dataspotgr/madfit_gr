@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:39
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\store_locator\hooks\orders\customer_shot_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811eccf834cd7_47992951',
+  'unifunc' => 'content_6830305fd7b979_43636341',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '12205c4c31c08748d509bab3d599ab4b531a7f35' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\store_locator\\hooks\\orders\\customer_shot_info.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_6811eccf834cd7_47992951 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830305fd7b979_43636341 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('store_locator.pickup','store_locator.work_time'));
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['order_info']->value['shipping'], 'shipping', false, 'shipping_id', 'f_shipp', array (
 ));

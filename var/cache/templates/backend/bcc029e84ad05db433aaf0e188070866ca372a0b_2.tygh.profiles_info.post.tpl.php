@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:41
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\geo_maps\hooks\order_management\profiles_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ecd1259d71_60644054',
+  'unifunc' => 'content_683030636199c8_35133333',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bcc029e84ad05db433aaf0e188070866ca372a0b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\geo_maps\\hooks\\order_management\\profiles_info.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811ecd1259d71_60644054 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683030636199c8_35133333 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('geo_maps.shipping_address_on_map','store_locator.use_two_fingers_for_move_map','no_data'));
 if ($_smarty_tpl->tpl_vars['settings']->value['geo_maps']['general']['provider'] === "yandex") {?>
     <?php $_smarty_tpl->_assignInScope('show_move_map_mobile_hint', true);

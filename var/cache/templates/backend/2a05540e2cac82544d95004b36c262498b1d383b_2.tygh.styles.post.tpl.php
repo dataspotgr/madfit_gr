@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:24:55
+/* Smarty version 4.3.0, created on 2025-05-23 13:44:13
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\call_requests\hooks\index\styles.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f1797a6a918_10569505',
+  'unifunc' => 'content_6830517d97caf1_00956322',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2a05540e2cac82544d95004b36c262498b1d383b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\call_requests\\hooks\\index\\styles.post.tpl',
-      1 => 1747915842,
+      1 => 1747996584,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682f1797a6a918_10569505 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830517d97caf1_00956322 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.style.php','function'=>'smarty_function_style',),));
 echo smarty_function_style(array('src'=>"addons/call_requests/styles.less"),$_smarty_tpl);?>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:14
+/* Smarty version 4.3.0, created on 2025-05-23 14:07:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\search_filters\hidden_inputs.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6ce2767d95_58363246',
+  'unifunc' => 'content_683056dab34d40_62711754',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0deb687778e3cf1d39d8dc1923ebb5d5b91f9f41' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\search_filters\\hidden_inputs.tpl',
-      1 => 1728377975,
+      1 => 1747996637,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6ce2767d95_58363246 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683056dab34d40_62711754 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.array_to_fields.php','function'=>'smarty_function_array_to_fields',),));
 ?>
 <input type="hidden" name="is_search" value="<?php echo htmlspecialchars((string) smarty_modifier_enum("YesNo::YES"), ENT_QUOTES, 'UTF-8');?>

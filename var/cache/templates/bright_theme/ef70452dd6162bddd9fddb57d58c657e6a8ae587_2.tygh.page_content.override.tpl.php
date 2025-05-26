@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:26:49
+/* Smarty version 4.3.0, created on 2025-05-23 10:29:02
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\form_builder\hooks\pages\page_content.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ed1b9c889b9_95129175',
+  'unifunc' => 'content_683023be0193c0_99675491',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ef70452dd6162bddd9fddb57d58c657e6a8ae587' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\form_builder\\hooks\\pages\\page_content.override.tpl',
-      1 => 1742455427,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -27,7 +27,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image_verification.tpl' => 2,
   ),
 ),false)) {
-function content_682ed1b9c889b9_95129175 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683023be0193c0_99675491 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('continue','select','select_country','select_state','submit','continue','select','select_country','select_state','submit'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

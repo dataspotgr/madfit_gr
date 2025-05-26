@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:48
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:37
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\search_product_subscribers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6d0433edc9_02288963',
+  'unifunc' => 'content_68302909c22ba6_28696849',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '721121afec9b73e32f7b38834df69d2980004710' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\search_product_subscribers.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/section.tpl' => 1,
   ),
 ),false)) {
-function content_680b6d0433edc9_02288963 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68302909c22ba6_28696849 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('email'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "section", null, null);?>
 <form action="<?php echo htmlspecialchars((string) fn_url(''), ENT_QUOTES, 'UTF-8');?>

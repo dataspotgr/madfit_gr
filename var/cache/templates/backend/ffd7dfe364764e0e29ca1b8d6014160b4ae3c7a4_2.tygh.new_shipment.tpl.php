@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:36
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:49
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\shipments\components\new_shipment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811eccc4a0c21_80555797',
+  'unifunc' => 'content_68303059ed2df7_56868120',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ffd7dfe364764e0e29ca1b8d6014160b4ae3c7a4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\shipments\\components\\new_shipment.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_6811eccc4a0c21_80555797 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68303059ed2df7_56868120 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','packages','product','quantity','product','deleted_product','sku','quantity','no_products_for_shipment','options','shipping_method','tracking_number','carrier','comments','order_status','do_not_change','text_order_status_notification','send_shipment_notification_to_customer','text_shipping_packages_info','package','weight','shipping_method'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('inline_script', array());

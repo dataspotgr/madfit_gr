@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:13
+/* Smarty version 4.3.0, created on 2025-05-23 14:07:05
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\search_filters\search_filters.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6ce1825fb7_40533845',
+  'unifunc' => 'content_683056d96087b1_66786010',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2d0d9644e0e9dc3eb978e95b63c9583412a23edb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\search_filters\\search_filters.tpl',
-      1 => 1728377975,
+      1 => 1747996637,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_680b6ce1825fb7_40533845 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683056d96087b1_66786010 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('close','search_range_from','search_range_to','search_add_filter'));
 ?>
@@ -149,7 +149,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->index++;
-$__foreach_item_23_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_32_saved = $_smarty_tpl->tpl_vars['item'];
 ?>
                                         <?php $_smarty_tpl->_assignInScope('item_id', ((string)$_smarty_tpl->tpl_vars['field_id']->value)."_".((string)$_smarty_tpl->tpl_vars['item']->value['key']));?>
                                         <?php if ($_smarty_tpl->tpl_vars['_REQUEST']->value[$_smarty_tpl->tpl_vars['item']->value['key']]) {?>
@@ -184,7 +184,7 @@ $_smarty_tpl->_assignInScope('add_filter_variant_item_state', $_tmp_array);?>
                                             </div>
                                         </li>
                                     <?php
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_23_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_32_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                                 <?php }?>
@@ -199,7 +199,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->index++;
-$__foreach_item_24_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_33_saved = $_smarty_tpl->tpl_vars['item'];
 ?>
                                         <?php $_smarty_tpl->_assignInScope('item_id', ((string)$_smarty_tpl->tpl_vars['field_id']->value)."_".((string)$_smarty_tpl->tpl_vars['item']->value['key']));?>
                                         <?php if ($_smarty_tpl->tpl_vars['_REQUEST']->value[$_smarty_tpl->tpl_vars['search_filter']->value['id']]) {?>
@@ -234,7 +234,7 @@ $_smarty_tpl->_assignInScope('add_filter_variant_item_state', $_tmp_array);?>
                                             </div>
                                         </li>
                                     <?php
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_24_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_33_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                                 <?php }?>
@@ -384,8 +384,8 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                 >
                     <?php ob_start();
 echo $_smarty_tpl->__("search_add_filter");
-$_prefixVariable26=ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"button",'raw'=>true,'text'=>"<span class=\"mobile-hidden\">".$_prefixVariable26."</span>".((string)$_smarty_tpl->tpl_vars['add_filter_icon']->value),'class'=>"btn dropdown-toggle search-filters__add-filter-dropdown-toggle",'data'=>array("data-toggle"=>"dropdown","data-ca-search-filters"=>"addFilterBtn")), true);?>
+$_prefixVariable29=ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"button",'raw'=>true,'text'=>"<span class=\"mobile-hidden\">".$_prefixVariable29."</span>".((string)$_smarty_tpl->tpl_vars['add_filter_icon']->value),'class'=>"btn dropdown-toggle search-filters__add-filter-dropdown-toggle",'data'=>array("data-toggle"=>"dropdown","data-ca-search-filters"=>"addFilterBtn")), true);?>
 
                     <ul class="dropdown-menu search-filters__add-filter-dropdown-menu"
                         data-ca-search-filters="addFilterDropdownMenu"

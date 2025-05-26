@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:41
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\vendor_communication\hooks\orders\details_tools.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ecd15e7f85_53319549',
+  'unifunc' => 'content_68303063ae9273_38930875',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'adb49a007ac29e396b82228953fbc8dd89753179' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\vendor_communication\\hooks\\orders\\details_tools.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/vendor_communication/views/vendor_communication/components/new_thread_button.tpl' => 2,
   ),
 ),false)) {
-function content_6811ecd15e7f85_53319549 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68303063ae9273_38930875 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_communication.contact_customer'));
 if ($_smarty_tpl->tpl_vars['is_user_can_manage_customer_order_thread']->value && !$_smarty_tpl->tpl_vars['order_vendor_to_customer_thread']->value && $_smarty_tpl->tpl_vars['order_info']->value['user_id']) {?>

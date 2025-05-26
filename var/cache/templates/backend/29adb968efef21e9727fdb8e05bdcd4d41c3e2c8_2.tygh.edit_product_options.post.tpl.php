@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:47
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:35
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\reward_points\hooks\product_options\edit_product_options.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6d03546938_14731137',
+  'unifunc' => 'content_68302907b47b21_29010911',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '29adb968efef21e9727fdb8e05bdcd4d41c3e2c8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\reward_points\\hooks\\product_options\\edit_product_options.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6d03546938_14731137 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68302907b47b21_29010911 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('earned_point_modifier','type','points_lower'));
 ?>
 <div class="control-group">

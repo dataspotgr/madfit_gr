@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:38
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:54
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\reward_points\hooks\orders\totals_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ecce84b6e6_03517054',
+  'unifunc' => 'content_6830305e1b7da6_99905377',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c671940222e85c25540b6d6e162bb29581f5edbf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\reward_points\\hooks\\orders\\totals_content.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 1,
   ),
 ),false)) {
-function content_6811ecce84b6e6_03517054 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830305e1b7da6_99905377 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('points','points_lowercase','points_in_use','points_lowercase'));
 if ($_smarty_tpl->tpl_vars['order_info']->value['points_info']['reward']) {?>
     <tr>

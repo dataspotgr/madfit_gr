@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:37
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:51
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\shipments\product_info.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811eccd1470b9_74068601',
+  'unifunc' => 'content_6830305b0c0b87_90996660',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '015e87253ba6eb6eadef09c130f591dbd60f8c41' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\shipments\\product_info.pre.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_variations/views/product_variations/components/variation_features.tpl' => 1,
   ),
 ),false)) {
-function content_6811eccd1470b9_74068601 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830305b0c0b87_90996660 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['oi']->value['variation_features'] || $_smarty_tpl->tpl_vars['product']->value['variation_features']) {?>
 
     <?php if ($_smarty_tpl->tpl_vars['oi']->value['variation_features']) {?>

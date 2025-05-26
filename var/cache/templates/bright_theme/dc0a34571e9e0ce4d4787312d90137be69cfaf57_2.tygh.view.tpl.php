@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 16:52:13
+/* Smarty version 4.3.0, created on 2025-05-23 10:15:45
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\wishlist\views\wishlist\view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f2c0d8c7e48_38750185',
+  'unifunc' => 'content_683020a1944126_73476559',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dc0a34571e9e0ce4d4787312d90137be69cfaf57' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\wishlist\\views\\wishlist\\view.tpl',
-      1 => 1747915844,
+      1 => 1747984539,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/continue_shopping.tpl' => 4,
   ),
 ),false)) {
-function content_682f2c0d8c7e48_38750185 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683020a1944126_73476559 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('empty','clear_wishlist','wishlist_content','empty','clear_wishlist','wishlist_content'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
@@ -38,7 +38,7 @@ if (!$_smarty_tpl->tpl_vars['wishlist_is_empty']->value) {?>
     <?php $_smarty_tpl->_assignInScope('location', "cart");
 }
 if ($_smarty_tpl->tpl_vars['products']->value) {?>
-    <?php $_smarty_tpl->_subTemplateRender("tygh:blocks/list_templates/grid_list.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('columns'=>$_smarty_tpl->tpl_vars['columns']->value,'show_empty'=>true,'show_name'=>true,'show_old_price'=>true,'show_price'=>true,'show_clean_price'=>true,'show_list_discount'=>true,'no_pagination'=>true,'no_sorting'=>true,'show_features'=>true,'show_add_to_cart'=>false,'is_wishlist'=>true), 0, false);
+    <?php $_smarty_tpl->_subTemplateRender("tygh:blocks/list_templates/grid_list.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('columns'=>$_smarty_tpl->tpl_vars['columns']->value,'show_empty'=>true,'show_name'=>true,'show_old_price'=>true,'show_price'=>true,'show_clean_price'=>true,'show_list_discount'=>true,'no_pagination'=>true,'no_sorting'=>true,'show_features'=>true,'show_add_to_cart'=>true,'is_wishlist'=>true), 0, false);
 } else { ?>
     <?php echo smarty_function_math(array('equation'=>"100 / x",'x'=>(($tmp = $_smarty_tpl->tpl_vars['columns']->value ?? null)===null||$tmp==='' ? "2" ?? null : $tmp),'assign'=>"cell_width"),$_smarty_tpl);?>
 
@@ -118,7 +118,7 @@ if (!$_smarty_tpl->tpl_vars['wishlist_is_empty']->value) {?>
     <?php $_smarty_tpl->_assignInScope('location', "cart");
 }
 if ($_smarty_tpl->tpl_vars['products']->value) {?>
-    <?php $_smarty_tpl->_subTemplateRender("tygh:blocks/list_templates/grid_list.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('columns'=>$_smarty_tpl->tpl_vars['columns']->value,'show_empty'=>true,'show_name'=>true,'show_old_price'=>true,'show_price'=>true,'show_clean_price'=>true,'show_list_discount'=>true,'no_pagination'=>true,'no_sorting'=>true,'show_features'=>true,'show_add_to_cart'=>false,'is_wishlist'=>true), 0, true);
+    <?php $_smarty_tpl->_subTemplateRender("tygh:blocks/list_templates/grid_list.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('columns'=>$_smarty_tpl->tpl_vars['columns']->value,'show_empty'=>true,'show_name'=>true,'show_old_price'=>true,'show_price'=>true,'show_clean_price'=>true,'show_list_discount'=>true,'no_pagination'=>true,'no_sorting'=>true,'show_features'=>true,'show_add_to_cart'=>true,'is_wishlist'=>true), 0, true);
 } else { ?>
     <?php echo smarty_function_math(array('equation'=>"100 / x",'x'=>(($tmp = $_smarty_tpl->tpl_vars['columns']->value ?? null)===null||$tmp==='' ? "2" ?? null : $tmp),'assign'=>"cell_width"),$_smarty_tpl);?>
 

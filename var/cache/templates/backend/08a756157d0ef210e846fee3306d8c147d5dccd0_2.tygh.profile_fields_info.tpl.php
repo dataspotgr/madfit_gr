@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:40
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\profiles\components\profile_fields_info.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ecd0f0aef5_61738932',
+  'unifunc' => 'content_68303063220ac0_53861585',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '08a756157d0ef210e846fee3306d8c147d5dccd0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\profiles\\components\\profile_fields_info.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811ecd0f0aef5_61738932 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68303063220ac0_53861585 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('first_field', true);?>
 <p>
     <?php

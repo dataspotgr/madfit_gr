@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:51
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:41
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\categories\components\categories_select2_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6d071300d0_36758411',
+  'unifunc' => 'content_6830290d5373c2_09443296',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e2e22fd814ffa205524bedaaa6dcbf8580a026cd' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\categories\\components\\categories_select2_item.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6d071300d0_36758411 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830290d5373c2_09443296 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('parent_names', array());?>
 
 <?php

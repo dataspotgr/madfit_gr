@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:56
+/* Smarty version 4.3.0, created on 2025-05-23 11:25:53
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\localizations\components\select.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebf0b0c4a3_34086033',
+  'unifunc' => 'content_683031111bc781_06299483',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3bc956e7176a5c9aa1b5c971ad6582f3d5184384' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\localizations\\components\\select.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811ebf0b0c4a3_34086033 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683031111bc781_06299483 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('localization','multiple_selectbox_notice'));
 if ($_smarty_tpl->tpl_vars['config']->value['tweaks']['disable_localizations'] == false) {?>
 	<?php $_smarty_tpl->_assignInScope('data', fn_explode_localizations($_smarty_tpl->tpl_vars['data_from']->value));?>

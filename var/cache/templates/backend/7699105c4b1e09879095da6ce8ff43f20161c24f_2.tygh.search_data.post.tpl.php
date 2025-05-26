@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:13
+/* Smarty version 4.3.0, created on 2025-05-23 14:07:05
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\bestsellers\hooks\products\search_data.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6ce15b3c71_12765536',
+  'unifunc' => 'content_683056d936b2e5_29268672',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7699105c4b1e09879095da6ce8ff43f20161c24f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\bestsellers\\hooks\\products\\search_data.post.tpl',
-      1 => 1728377975,
+      1 => 1747996582,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6ce15b3c71_12765536 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683056d936b2e5_29268672 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('sales_amount'));
 $_tmp_array = isset($_smarty_tpl->tpl_vars['search_filters']) ? $_smarty_tpl->tpl_vars['search_filters']->value : array();
 if (!(is_array($_tmp_array) || $_tmp_array instanceof ArrayAccess)) {

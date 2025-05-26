@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:40
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:57
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\order_management\components\profiles_info.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ecd0242c96_91402371',
+  'unifunc' => 'content_68303061eeb828_89304820',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5c297a2ff04b378298d1a75c48fdb5bb5c1cfc3b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\order_management\\components\\profiles_info.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -23,19 +23,19 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/profiles/components/picker/picker.tpl' => 1,
   ),
 ),false)) {
-function content_6811ecd0242c96_91402371 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68303061eeb828_89304820 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'profile_enter_data_link' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\backend\\5c297a2ff04b378298d1a75c48fdb5bb5c1cfc3b_2.tygh.profiles_info.tpl.php',
     'uid' => '5c297a2ff04b378298d1a75c48fdb5bb5c1cfc3b',
-    'call_name' => 'smarty_template_function_profile_enter_data_link_11620161576811ecd01e3155_27235577',
+    'call_name' => 'smarty_template_function_profile_enter_data_link_59925291168303061e7eb12_70423324',
   ),
   'profile_edit_link' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\backend\\5c297a2ff04b378298d1a75c48fdb5bb5c1cfc3b_2.tygh.profiles_info.tpl.php',
     'uid' => '5c297a2ff04b378298d1a75c48fdb5bb5c1cfc3b',
-    'call_name' => 'smarty_template_function_profile_edit_link_11620161576811ecd01e3155_27235577',
+    'call_name' => 'smarty_template_function_profile_edit_link_59925291168303061e7eb12_70423324',
   ),
 ));
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
@@ -355,9 +355,9 @@ echo smarty_block_hook(array('name'=>"order_management:profiles_info"), ob_get_c
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);
 }
 \Tygh\Languages\Helper::preloadLangVars(array('enter_data','edit'));
-/* smarty_template_function_profile_enter_data_link_11620161576811ecd01e3155_27235577 */
-if (!function_exists('smarty_template_function_profile_enter_data_link_11620161576811ecd01e3155_27235577')) {
-function smarty_template_function_profile_enter_data_link_11620161576811ecd01e3155_27235577(Smarty_Internal_Template $_smarty_tpl,$params) {
+/* smarty_template_function_profile_enter_data_link_59925291168303061e7eb12_70423324 */
+if (!function_exists('smarty_template_function_profile_enter_data_link_59925291168303061e7eb12_70423324')) {
+function smarty_template_function_profile_enter_data_link_59925291168303061e7eb12_70423324(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -368,10 +368,10 @@ $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRende
 </a></div>
 <?php
 }}
-/*/ smarty_template_function_profile_enter_data_link_11620161576811ecd01e3155_27235577 */
-/* smarty_template_function_profile_edit_link_11620161576811ecd01e3155_27235577 */
-if (!function_exists('smarty_template_function_profile_edit_link_11620161576811ecd01e3155_27235577')) {
-function smarty_template_function_profile_edit_link_11620161576811ecd01e3155_27235577(Smarty_Internal_Template $_smarty_tpl,$params) {
+/*/ smarty_template_function_profile_enter_data_link_59925291168303061e7eb12_70423324 */
+/* smarty_template_function_profile_edit_link_59925291168303061e7eb12_70423324 */
+if (!function_exists('smarty_template_function_profile_edit_link_59925291168303061e7eb12_70423324')) {
+function smarty_template_function_profile_edit_link_59925291168303061e7eb12_70423324(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -388,5 +388,5 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr
     </div>
     <?php }
 }}
-/*/ smarty_template_function_profile_edit_link_11620161576811ecd01e3155_27235577 */
+/*/ smarty_template_function_profile_edit_link_59925291168303061e7eb12_70423324 */
 }

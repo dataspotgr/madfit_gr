@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:33
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:46
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\orders\details.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ecc9d16c43_54185241',
+  'unifunc' => 'content_6830305656ffd1_65754385',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f7cc9a5c1704e416cf8d3db902880d1b58c30712' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\orders\\details.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -39,7 +39,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6811ecc9d16c43_54185241 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830305656ffd1_65754385 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('new_shipment','new_shipment','product','price','quantity','discount','tax','subtotal','product','sku','price','free','quantity','shipped','discount','tax','subtotal','free','totals','subtotal','shipping_cost','including_discount','order_discount','discount_coupon','taxes','included','tax_exempt','payment_surcharge','total','customer_notes','staff_only_notes','status','payment_information','method','credit_card','expiry_date','remove_cc_info','manager','assign_to_me','shipping_information','none','method','track_on_carrier_site','tracking_number','edit','tracking_number','carrier','new_shipment','create_detailed_shipment','shipments','shipments','new_shipment','shipments','filename','activation_mode','downloads_max_left','download_key_expiry','active','manually','immediately','after_full_payment','none','time_unlimited_download','download_key_expiry','prolongate_download_key','file_doesnt_have_key','active','not_active','order','total','invoice','credit_memo','print_invoice','print_credit_memo','print_order_details','edit_and_send_invoice','print_packing_slip','edit_order','copy','delete','notify_customer','notify_orders_department','notify_vendor'));
 $_smarty_tpl->_assignInScope('product_name_long_length', 35);

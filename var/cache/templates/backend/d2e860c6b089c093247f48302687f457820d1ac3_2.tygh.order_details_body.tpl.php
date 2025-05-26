@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:37
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:52
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\gift_certificates\views\orders\components\order_details_body.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811eccdd7aee2_33983843',
+  'unifunc' => 'content_6830305ca5cc94_82796542',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd2e860c6b089c093247f48302687f457820d1ac3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\gift_certificates\\views\\orders\\components\\order_details_body.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811eccdd7aee2_33983843 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830305ca5cc94_82796542 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('gift_certificate'));
 if ($_smarty_tpl->tpl_vars['oi']->value['extra']['in_use_certificate']) {?>
 <div>(<?php echo $_smarty_tpl->__("gift_certificate");?>

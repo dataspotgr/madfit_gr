@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:26:37
+/* Smarty version 4.3.0, created on 2025-05-23 11:22:52
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\reward_points\hooks\orders\product_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811eccde72892_92554243',
+  'unifunc' => 'content_6830305cc2dc48_87078123',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0e52e3e47f39aafcc6e370eac40c33899445925e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\reward_points\\hooks\\orders\\product_info.post.tpl',
-      1 => 1728377975,
+      1 => 1747915842,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811eccde72892_92554243 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6830305cc2dc48_87078123 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('price_in_points'));
 ?>
 <!-- Hook Reward points start -->

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:13
+/* Smarty version 4.3.0, created on 2025-05-23 14:07:04
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\tags\hooks\products\search_data.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6ce1227fa5_49960961',
+  'unifunc' => 'content_683056d8e5d577_68763516',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e439ca748fda67e498a8845fd96687c360d759de' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\tags\\hooks\\products\\search_data.post.tpl',
-      1 => 1728377975,
+      1 => 1747996617,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6ce1227fa5_49960961 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683056d8e5d577_68763516 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('tag'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR")) {?>
     <?php $_tmp_array = isset($_smarty_tpl->tpl_vars['search_filters']) ? $_smarty_tpl->tpl_vars['search_filters']->value : array();

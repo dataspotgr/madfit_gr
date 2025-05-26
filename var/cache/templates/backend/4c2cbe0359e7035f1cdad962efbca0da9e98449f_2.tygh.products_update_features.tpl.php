@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:37
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:02
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\products_update_features.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6cf98ed8f6_93192820',
+  'unifunc' => 'content_683028e694fcf9_58966725',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4c2cbe0359e7035f1cdad962efbca0da9e98449f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\products_update_features.tpl',
-      1 => 1728377975,
+      1 => 1747915843,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/product_assign_features.tpl' => 1,
   ),
 ),false)) {
-function content_680b6cf98ed8f6_93192820 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683028e694fcf9_58966725 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_feature','no_items'));
 ?>
@@ -50,8 +50,8 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr
                      data-ca-inline-dialog-action-context="products_update_features"
                      data-ca-inline-dialog-url="<?php ob_start();
 echo htmlspecialchars((string) http_build_query(array("category_ids"=>array_values((($tmp = $_smarty_tpl->tpl_vars['product_data']->value['category_ids'] ?? null)===null||$tmp==='' ? array() ?? null : $tmp)))), ENT_QUOTES, 'UTF-8');
-$_prefixVariable4=ob_get_clean();
-echo htmlspecialchars((string) fn_url("product_features.quick_add?category_id=".((string)$_smarty_tpl->tpl_vars['product_data']->value['main_category'])."&".$_prefixVariable4), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable3=ob_get_clean();
+echo htmlspecialchars((string) fn_url("product_features.quick_add?category_id=".((string)$_smarty_tpl->tpl_vars['product_data']->value['main_category'])."&".$_prefixVariable3), ENT_QUOTES, 'UTF-8');?>
 ">
                 </div>
             </div>
