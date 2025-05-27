@@ -1309,7 +1309,7 @@ body{
 }
 /*=== 404 page ===*/
 
-.main-content-grid {
+.ds-404-main-content-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1317,7 +1317,7 @@ body{
     padding: 40px 20px;
 }
 
-.ty-wysiwyg-content img {
+.ds-404-main-content-grid img {
     max-width: 100%;
     height: auto;
     margin-bottom: 30px;
@@ -1369,4 +1369,48 @@ body{
 }
 .ds_go_to_home_404, .ds_go_back_404 {
     display: inline-block;
+}
+/*=== categories inside of categories*/
+.subcategories .ty-subcategories__item a{
+    display: none;
+}
+.ds-subcategories-init {
+  padding: 0.5rem 0rem;
+  background: #E6E6E6;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  font-family: sans-serif;
+}
+
+.ds-subcategories-init .ty-text-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ds-subcategories-init .ty-text-links__item {
+  margin-bottom: 0.4rem;
+}
+
+.ds-subcategories-init .ty-text-links__a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  display: block;
+  padding: 0.3rem 0.5rem;
+  //border-radius: 4px;
+  border-bottom: 1px solid #b031fc;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ds-subcategories-init .ty-text-links__a:hover {
+  background: #f0f0f0;
+  color: #000;
+  border-radius: 4px;
+  border: 1px solid #b031fc;
+}
+
+/* Εσοχή για υποκατηγορίες */
+.ds-subcategories-init .ty-level-2 {
+  margin-left: 1rem;
 }
