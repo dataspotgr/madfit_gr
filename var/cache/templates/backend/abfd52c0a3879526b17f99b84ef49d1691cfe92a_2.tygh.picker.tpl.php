@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 12:44:14
+/* Smarty version 4.3.0, created on 2025-05-27 11:34:13
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\pickers\pages\picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ef1ee243696_23675889',
+  'unifunc' => 'content_68357905141903_33401356',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'abfd52c0a3879526b17f99b84ef49d1691cfe92a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\pickers\\pages\\picker.tpl',
-      1 => 1728377975,
+      1 => 1747996665,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/pages/js.tpl' => 3,
   ),
 ),false)) {
-function content_682ef1ee243696_23675889 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68357905141903_33401356 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_pages','add_pages','position_short','name','no_items'));
 $_smarty_tpl->_assignInScope('data_id', (($tmp = $_smarty_tpl->tpl_vars['data_id']->value ?? null)===null||$tmp==='' ? "pages_list" ?? null : $tmp));

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 11:29:52
+/* Smarty version 4.3.0, created on 2025-05-27 12:10:05
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\components\setting_element.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68303200257e88_24598484',
+  'unifunc' => 'content_6835816d4a85c7_01020486',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '757898e2cdc8a83b5a741f46a64af6faae794d33' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\block_manager\\components\\setting_element.tpl',
-      1 => 1747915843,
+      1 => 1747996673,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/block_manager/components/setting_element.tpl' => 3,
   ),
 ),false)) {
-function content_68303200257e88_24598484 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6835816d4a85c7_01020486 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.html_checkboxes.php','function'=>'smarty_function_html_checkboxes',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('filling'));
 $_smarty_tpl->_assignInScope('readonly', (($tmp = $_smarty_tpl->tpl_vars['readonly']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));

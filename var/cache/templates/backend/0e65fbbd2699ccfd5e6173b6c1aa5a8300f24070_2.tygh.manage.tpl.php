@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:48
+/* Smarty version 4.3.0, created on 2025-05-27 12:50:10
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\shippings\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebe847aff2_88518667',
+  'unifunc' => 'content_68358ad2115e34_26293997',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0e65fbbd2699ccfd5e6173b6c1aa5a8300f24070' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\shippings\\manage.tpl',
-      1 => 1728377975,
+      1 => 1747996706,
       2 => 'tygh',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6811ebe847aff2_88518667 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68358ad2115e34_26293997 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('position_short','name','delivery_time','weight_limit','usergroups','status','edit','view','position_short','name','delivery_time','weight_limit','usergroups','usergroup','tools','delete','status','no_data','add_shipping_method','add_shipping_method','manage_shippings'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:51:47
+/* Smarty version 4.3.0, created on 2025-05-27 11:34:12
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\pickers\categories\js.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683029132cc897_82876047',
+  'unifunc' => 'content_6835790450c042_09358538',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ff7a568f6a07c728824676ba757da264b766727' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\pickers\\categories\\js.tpl',
-      1 => 1747915843,
+      1 => 1747996664,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_683029132cc897_82876047 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6835790450c042_09358538 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('position_short','name','edit','remove','add_categories','remove','remove','remove'));
 if ($_smarty_tpl->tpl_vars['category_id']->value) {?>

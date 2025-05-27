@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-09 12:11:28
+/* Smarty version 4.3.0, created on 2025-05-27 12:09:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\block_selection.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_681dc6c01854c3_06121442',
+  'unifunc' => 'content_68358167213ff0_94773329',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6ed68df4e09f2f8f12271ad3fb6f5f70dd8bad96' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\block_manager\\block_selection.tpl',
-      1 => 1728377975,
+      1 => 1747996671,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/block_manager/components/existing_blocks_list.tpl' => 1,
   ),
 ),false)) {
-function content_681dc6c01854c3_06121442 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68358167213ff0_94773329 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('manage_existing_block','use_existing_block','create_new_block'));
 echo smarty_function_script(array('src'=>"js/tygh/tabs.js"),$_smarty_tpl);?>
