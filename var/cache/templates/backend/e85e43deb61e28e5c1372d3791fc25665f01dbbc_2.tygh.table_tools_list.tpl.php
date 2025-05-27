@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 11:20:27
+/* Smarty version 4.3.0, created on 2025-05-26 16:05:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\table_tools_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68302fcb4f9129_61353376',
+  'unifunc' => 'content_68346702a5fda6_62346098',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e85e43deb61e28e5c1372d3791fc25665f01dbbc' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\table_tools_list.tpl',
-      1 => 1747915843,
+      1 => 1747996630,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_68302fcb4f9129_61353376 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68346702a5fda6_62346098 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('view','edit'));
 if ($_smarty_tpl->tpl_vars['popup']->value) {?>
     <?php if ($_smarty_tpl->tpl_vars['skip_check_permissions']->value || fn_check_view_permissions($_smarty_tpl->tpl_vars['href']->value)) {?>
