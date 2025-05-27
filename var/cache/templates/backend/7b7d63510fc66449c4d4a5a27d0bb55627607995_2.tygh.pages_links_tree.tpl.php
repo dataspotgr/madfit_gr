@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:26:00
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:57
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\pages\components\pages_links_tree.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ed188775991_46866082',
+  'unifunc' => 'content_683591cde1bf17_67834804',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7b7d63510fc66449c4d4a5a27d0bb55627607995' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\pages\\components\\pages_links_tree.tpl',
-      1 => 1728377975,
+      1 => 1747996690,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/pages/components/pages_links_tree.tpl' => 2,
   ),
 ),false)) {
-function content_682ed188775991_46866082 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591cde1bf17_67834804 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','collapse_sublist_of_items'));
 ?>

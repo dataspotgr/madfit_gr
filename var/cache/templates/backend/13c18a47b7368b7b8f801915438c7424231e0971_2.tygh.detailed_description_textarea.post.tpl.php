@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:25:57
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\blog\hooks\pages\detailed_description_textarea.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ed18586aa72_74522352',
+  'unifunc' => 'content_683591cb2d5ab7_98686364',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '13c18a47b7368b7b8f801915438c7424231e0971' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\blog\\hooks\\pages\\detailed_description_textarea.post.tpl',
-      1 => 1728377975,
+      1 => 1747996583,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682ed18586aa72_74522352 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591cb2d5ab7_98686364 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('ttc_post_description'));
 if ($_smarty_tpl->tpl_vars['page_type']->value == (defined('PAGE_TYPE_BLOG') ? constant('PAGE_TYPE_BLOG') : null)) {?>
     <p class="muted description"><?php echo $_smarty_tpl->__("ttc_post_description");?>

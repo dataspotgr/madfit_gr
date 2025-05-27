@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:17:58
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:48
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\pages\components\context_menu\parent.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ecfa65a3fd7_70706828',
+  'unifunc' => 'content_683591c41f5172_05844185',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7c3ae15b84bddb583e2a114d8abc08e7926904d6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\pages\\components\\context_menu\\parent.tpl',
-      1 => 1728377975,
+      1 => 1747996690,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/pages/components/parent_page_selector.tpl' => 1,
   ),
 ),false)) {
-function content_682ecfa65a3fd7_70706828 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591c41f5172_05844185 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('parent','parent','reset','apply'));
 ?>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:57
+/* Smarty version 4.3.0, created on 2025-05-27 13:26:46
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\shippings\components\picker\rates\item_selection.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebf1d46290_71624183',
+  'unifunc' => 'content_68359366e31469_67023993',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '29b10e851ef0b7b85ca5958d64bd73f683b3496d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\shippings\\components\\picker\\rates\\item_selection.tpl',
-      1 => 1728377975,
+      1 => 1747996706,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6811ebf1d46290_71624183 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68359366e31469_67023993 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('shipping_time','shipping_rate','calculated_automatically','shipping_add_conditions','shipping_hide_conditions','tools','shipping_add_price_condition','shipping_remove_price_condition','shipping_add_weight_condition','shipping_remove_weight_condition','shipping_add_items_condition','shipping_remove_items_condition','shipping_remove_rate_area'));
 ?>

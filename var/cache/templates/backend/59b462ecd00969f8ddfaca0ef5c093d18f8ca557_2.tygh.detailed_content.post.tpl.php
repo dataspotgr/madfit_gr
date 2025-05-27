@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:25:59
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:56
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\discussion\hooks\pages\detailed_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ed18752ac07_11428288',
+  'unifunc' => 'content_683591cc555066_73077304',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '59b462ecd00969f8ddfaca0ef5c093d18f8ca557' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\discussion\\hooks\\pages\\detailed_content.post.tpl',
-      1 => 1728377975,
+      1 => 1747996585,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/discussion/views/discussion_manager/components/allow_discussion.tpl' => 1,
   ),
 ),false)) {
-function content_682ed18752ac07_11428288 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591cc555066_73077304 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('comments_and_reviews','discussion_title_page'));
 if ($_smarty_tpl->tpl_vars['page_type']->value != (defined('PAGE_TYPE_LINK') ? constant('PAGE_TYPE_LINK') : null)) {?>

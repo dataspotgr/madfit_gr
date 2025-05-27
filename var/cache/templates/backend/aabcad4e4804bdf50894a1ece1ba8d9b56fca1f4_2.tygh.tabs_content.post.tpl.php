@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:25:59
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:56
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\form_builder\hooks\pages\tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ed187993ca4_02483690',
+  'unifunc' => 'content_683591ccb28584_56463132',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'aabcad4e4804bdf50894a1ece1ba8d9b56fca1f4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\form_builder\\hooks\\pages\\tabs_content.post.tpl',
-      1 => 1728377975,
+      1 => 1747996589,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/form_builder/views/pages/components/pages_form_elements.tpl' => 1,
   ),
 ),false)) {
-function content_682ed187993ca4_02483690 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591ccb28584_56463132 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.form_builder.email_subject_field','addons.form_builder.form_fields','addons.form_builder.form_name','addons.form_builder.other_subject','ttc_addons.form_builder.email_subject_field','form_submit_text','email_to'));
 if ($_smarty_tpl->tpl_vars['page_type']->value == (defined('PAGE_TYPE_FORM') ? constant('PAGE_TYPE_FORM') : null)) {?>

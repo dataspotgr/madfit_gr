@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:25:59
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:56
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\blog\hooks\pages\detailed_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ed187304626_34551464',
+  'unifunc' => 'content_683591cc27c0c1_77761533',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c99707d7a1869a3d6cf30b4e7c9b1eebbc38fb62' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\blog\\hooks\\pages\\detailed_content.post.tpl',
-      1 => 1728377975,
+      1 => 1747996583,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/attach_images.tpl' => 1,
   ),
 ),false)) {
-function content_682ed187304626_34551464 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591cc27c0c1_77761533 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('blog','image'));
 if ($_smarty_tpl->tpl_vars['page_type']->value == (defined('PAGE_TYPE_BLOG') ? constant('PAGE_TYPE_BLOG') : null)) {?>
 

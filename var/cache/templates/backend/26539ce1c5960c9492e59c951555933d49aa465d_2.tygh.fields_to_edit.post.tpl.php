@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:51:02
+/* Smarty version 4.3.0, created on 2025-05-27 14:48:09
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\discussion\hooks\categories\fields_to_edit.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028e668c042_34457249',
+  'unifunc' => 'content_6835a679560204_55769034',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '26539ce1c5960c9492e59c951555933d49aa465d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\discussion\\hooks\\categories\\fields_to_edit.post.tpl',
-      1 => 1747915842,
+      1 => 1747996584,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683028e668c042_34457249 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6835a679560204_55769034 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('discussion_title_category'));
 ?>
 <label for="discussion_type" class="checkbox">

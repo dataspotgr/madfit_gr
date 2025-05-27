@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:58
+/* Smarty version 4.3.0, created on 2025-05-27 13:26:47
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\shippings\calculate_cost.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebf2b73fd3_87009886',
+  'unifunc' => 'content_68359367c1c9b5_46710981',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4f141959b2cd750ece89086cca52be428a260839' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\shippings\\calculate_cost.tpl',
-      1 => 1728377975,
+      1 => 1747996706,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 2,
   ),
 ),false)) {
-function content_6811ebf2b73fd3_87009886 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68359367c1c9b5_46710981 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('calculated_rate','rate_area','NA','delivery_time','NA','cost','error','recalculate_rates','weight','rates_calculated_info','recipient','country','select_country','state','select_state','city','zip_postal_code','address','sender','country','select_country','state','select_state','city','zip_postal_code','address'));
 echo smarty_function_script(array('src'=>"js/tygh/backend/shippings.js"),$_smarty_tpl);?>

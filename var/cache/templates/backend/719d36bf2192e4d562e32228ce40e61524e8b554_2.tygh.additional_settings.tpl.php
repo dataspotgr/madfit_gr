@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:58
+/* Smarty version 4.3.0, created on 2025-05-27 13:26:47
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\shippings\additional_settings.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebf28da197_07763972',
+  'unifunc' => 'content_6835936795c1e9_75134376',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '719d36bf2192e4d562e32228ce40e61524e8b554' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\shippings\\additional_settings.tpl',
-      1 => 1728377975,
+      1 => 1747996706,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/adaptive_object_selection.tpl' => 1,
   ),
 ),false)) {
-function content_6811ebf28da197_07763972 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6835936795c1e9_75134376 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('shipping.pricing','taxes','use_for_free_shipping','tt_views_shippings_update_use_for_free_shipping','customer_information','is_address_required','tt_views_shippings_update_is_address_required'));
 ?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-30 12:22:54
+/* Smarty version 4.3.0, created on 2025-05-27 13:26:45
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\shippings\update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6811ebee167152_38974446',
+  'unifunc' => 'content_683593655d7151_34159482',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2443c711290f4ba150c07a7af0ddb930ff4f6754' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\shippings\\update.tpl',
-      1 => 1728377975,
+      1 => 1747996706,
       2 => 'tygh',
     ),
   ),
@@ -33,7 +33,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6811ebee167152_38974446 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683593655d7151_34159482 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('information','rate_calculation','rate_calculation_manual_by_rate_area','rate_calculation_by_customer_address','store_locator.pickup_from_store','rate_calculation_realtime_automatic','tools_addons_additional_shipping_methods_msg','shipping_service','name','icon','delivery_time','tt_views_shippings_update_delivery_time','description','availability','usergroups','owner','weight_limit','use_for_all_new_vendors','add_shipping_method','shipping_methods','apply_shipping_for_all_vendors','apply_shipping_for_all_vendors_confirm','delete','add_storefronts','all_storefronts','new_shipping_method'));
 if ($_smarty_tpl->tpl_vars['shipping']->value) {?>

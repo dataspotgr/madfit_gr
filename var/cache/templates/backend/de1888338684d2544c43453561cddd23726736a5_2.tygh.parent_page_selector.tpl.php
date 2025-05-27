@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 10:17:58
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:48
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\pages\components\parent_page_selector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682ecfa66879b3_20751601',
+  'unifunc' => 'content_683591c430dec2_99133620',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'de1888338684d2544c43453561cddd23726736a5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\pages\\components\\parent_page_selector.tpl',
-      1 => 1728377975,
+      1 => 1747996690,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/pages/picker.tpl' => 1,
   ),
 ),false)) {
-function content_682ecfa66879b3_20751601 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591c430dec2_99133620 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('parent_page','root_level','root_page'));
 $_smarty_tpl->_assignInScope('show_label', (($tmp = $_smarty_tpl->tpl_vars['show_label']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));?>
 <div class="control-group" id="parent_page_selector">

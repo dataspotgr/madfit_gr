@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:51:08
+/* Smarty version 4.3.0, created on 2025-05-27 13:19:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\social_buttons\common\facebook_types.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028ecc0f666_10396291',
+  'unifunc' => 'content_683591cbc34b48_57172872',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9596fe7de9c4e23cc8f75d3b69b14e596ba26295' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\social_buttons\\common\\facebook_types.tpl',
-      1 => 1747915842,
+      1 => 1747996613,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_683028ecc0f666_10396291 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683591cbc34b48_57172872 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('facebook','facebook_obj_type','fb_activities','fb_businesses','fb_groups','fb_organizations','fb_people','fb_places','fb_products_entertainment','fb_websites'));
 $_smarty_tpl->_subTemplateRender("tygh:common/subheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("facebook"),'target'=>"#facebook_settings"), 0, false);
 ?>
