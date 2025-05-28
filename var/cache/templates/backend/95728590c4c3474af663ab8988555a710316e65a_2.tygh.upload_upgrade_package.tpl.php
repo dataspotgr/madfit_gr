@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:57:20
+/* Smarty version 4.3.0, created on 2025-05-27 16:57:00
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\upgrade_center\components\upload_upgrade_package.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683062a08931e2_42371833',
+  'unifunc' => 'content_6835c4aca795d3_68049241',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_683062a08931e2_42371833 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6835c4aca795d3_68049241 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('install_upgrade_package_text','upload'));
 ?>
 <div id="upload_upgrade_package_container" class="install-addon">

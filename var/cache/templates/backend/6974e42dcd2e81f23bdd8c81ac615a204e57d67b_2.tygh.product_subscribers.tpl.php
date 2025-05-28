@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:38
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:17
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\product_subscribers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061fe22c5f9_44952976',
+  'unifunc' => 'content_68342ced812a97_64050850',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -27,7 +27,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/context_menu_wrapper.tpl' => 1,
   ),
 ),false)) {
-function content_683061fe22c5f9_44952976 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342ced812a97_64050850 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('email','new_subscribers','add_subscriber','add_subscribers_from_users','email','email','tools','no_data'));
 ?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:37:45
+/* Smarty version 4.3.0, created on 2025-05-27 16:43:00
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\detailed_page\header\addon_header_buttons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305e0976a212_96094767',
+  'unifunc' => 'content_6835c164231cd4_90159461',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_license_required.tpl' => 1,
   ),
 ),false)) {
-function content_68305e0976a212_96094767 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6835c164231cd4_90159461 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('refresh','uninstall','addons.install','addons.activate','addons.install'));
 if ($_smarty_tpl->tpl_vars['addon']->value['snapshot_correct'] && $_smarty_tpl->tpl_vars['addon_install_datetime']->value) {?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:43:40
+/* Smarty version 4.3.0, created on 2025-05-26 11:18:39
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\seo\hooks\settings_fields\setting_description.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305f6c822a43_36688101',
+  'unifunc' => 'content_683423df7d5a44_08047085',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68305f6c822a43_36688101 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683423df7d5a44_08047085 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('warning','seo.storefront_frontend_default_language_warning','seo.default_storefront_frontend_default_language_warning','seo.secondary_storefront_frontend_default_language_warning'));
 if ($_smarty_tpl->tpl_vars['item']->value['name'] === "frontend_default_language" && $_smarty_tpl->tpl_vars['show_language_warning']->value) {?>
     <div class="text-warning">

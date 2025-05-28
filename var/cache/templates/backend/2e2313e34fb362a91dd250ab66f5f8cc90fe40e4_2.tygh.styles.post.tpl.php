@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 13:52:54
+/* Smarty version 4.3.0, created on 2025-05-26 11:12:50
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\discussion\hooks\index\styles.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683053860007e3_86463144',
+  'unifunc' => 'content_68342282e2c7c7_94601560',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683053860007e3_86463144 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342282e2c7c7_94601560 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.style.php','function'=>'smarty_function_style',),));
 echo smarty_function_style(array('src'=>"addons/discussion/styles.less"),$_smarty_tpl);
 }

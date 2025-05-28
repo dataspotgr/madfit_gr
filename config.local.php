@@ -167,8 +167,8 @@ $config['storage'] = array(
 );
 
 // Default permissions for newly created files and directories
-define('DEFAULT_FILE_PERMISSIONS', 0666);
-define('DEFAULT_DIR_PERMISSIONS', 0777);
+define('DEFAULT_FILE_PERMISSIONS', 0644);
+define('DEFAULT_DIR_PERMISSIONS', 0755);
 
 // Maximum number of files, stored in directory. You may change this parameter straight after a store was installed. And you must not change it when the store has been populated with products already.
 define('MAX_FILES_IN_DIR', 1000);
@@ -177,6 +177,9 @@ define('MAX_FILES_IN_DIR', 1000);
 if (file_exists(DIR_ROOT . '/local_conf.php')) {
     include_once(DIR_ROOT . '/local_conf.php');
 }
+
+//define('DEVELOPMENT', true);
+//define('DEBUG_MODE', true);
 
 // Enable DEV mode if Product status is not empty (like Beta1, dev, etc.)
 if (PRODUCT_STATUS != '' && !defined('DEVELOPMENT')) {

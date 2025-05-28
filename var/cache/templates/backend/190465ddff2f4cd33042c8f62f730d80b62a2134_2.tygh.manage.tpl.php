@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:57:19
+/* Smarty version 4.3.0, created on 2025-05-27 16:56:59
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\upgrade_center\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6830629faf8459_83249377',
+  'unifunc' => 'content_6835c4abd88f44_26832011',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6830629faf8459_83249377 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6835c4abd88f44_26832011 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.formatfilesize.php','function'=>'smarty_modifier_formatfilesize',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),5=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),6=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('upgrade_center.warning_msg_timeout_fail','upgrade_center.warning_msg_timeout_check_failed','warning','upgrade_center.warning_msg_upgrade_is_complicated','upgrade_center.warning_msg_specialists','upgrade_center.warning_msg_third_party_add_ons','upgrade_center.warning_msg_test_local','upgrade_center.warning_msg_after_upgrade','upgrade_center.warning_msg_generally','check_php_timeout','upgrade_center.skip_backup','i_agree_continue','upgrade_center.incompatible_third_party_addons','upgrade_center.check_addons','install','download','loading','upgraded_on','local_modifications','refresh_packages_list','settings','installed_upgrades','upload_upgrade_package','upload_upgrade_package','upload_upgrade_package','product_env.dont_miss_features','product_env.upgrade_to_latest_version','product_env.up_to_date','product_env.now_running','product_env.can_upgrade_store','product_env.latest_product_version','developers','status','any','active','disabled','admin_search_button','reset','upgrade_center'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

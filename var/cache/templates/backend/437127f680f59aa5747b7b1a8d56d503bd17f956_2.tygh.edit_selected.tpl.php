@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:17:27
+/* Smarty version 4.3.0, created on 2025-05-26 11:20:34
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\context_menu\edit_selected.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305947e0e953_67644900',
+  'unifunc' => 'content_6834245245e3d9_57220503',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68305947e0e953_67644900 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6834245245e3d9_57220503 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('edit_selected'));
 ?>
 

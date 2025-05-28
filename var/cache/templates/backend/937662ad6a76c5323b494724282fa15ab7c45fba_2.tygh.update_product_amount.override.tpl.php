@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:26
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:03
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_amount.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061f2c25ad5_45685487',
+  'unifunc' => 'content_68342cdf25bb86_84614630',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683061f2c25ad5_45685487 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342cdf25bb86_84614630 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("amount")) {?>
     <!-- Overridden by the Product Variations add-on -->
 <?php }

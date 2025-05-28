@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:38
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:17
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061fe6c7c14_20465158',
+  'unifunc' => 'content_68342cedc959b3_40219825',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683061fe6c7c14_20465158 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342cedc959b3_40219825 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('close'));
 $_smarty_tpl->_assignInScope('rnd', rand());?>
 <div class="clear" id="ds_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['rnd']->value, ENT_QUOTES, 'UTF-8');?>

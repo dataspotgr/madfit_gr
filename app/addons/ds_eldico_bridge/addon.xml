@@ -231,6 +231,17 @@
         <item lang="el" id="ds_eldico_bridge_products_update_field_no">Όχι</item>
         <item lang="el" id="ds_eldico_bridge_products_update_field_yes">Ναι</item>
 
+        <item lang="el" id="ds_eldico_bridge_get_products">Έλεγχος προϊόντων από γέφυρα</item>
+        <item lang="el" id="ds_eldico_bridge_get_categories">Έλεγχος κατηγοριών από γέφυρα</item>
+        <item lang="el" id="ds_eldico_bridge_categories_match">Αντιστοίχιση κατηγοριών γέφυρας - CSCart</item>
+        <item lang="el" id="ds_eldico_bridge_products_integrate">Εισαγωγή / Ενημέρωση προϊόντων CSCart από Γέφυρα</item>
+
+        <item lang="el" id="ds_bridge_products_total">Σύνολο προϊόντων</item>
+        <item lang="el" id="ds_bridge_products_create">Δημιουργία προϊόντων</item>
+        <item lang="el" id="ds_bridge_products_update">Ενημέρωση προϊόντων</item>
+        <item lang="el" id="ds_bridge_products_updates_description">Εισαγωγή / Ενημέρωση προϊόντων</item>
+
+        <item lang="el" id="ds_eldico_bridge_logs">Καταγραφή ενεργειών</item>
         <item lang="el" id="ds_eldico_bridge_logs_aa">A/A</item>
         <item lang="el" id="ds_eldico_bridge_logs_product_id">ID Προϊόντος</item>
         <item lang="el" id="ds_eldico_bridge_logs_error">Μήνυμα</item>

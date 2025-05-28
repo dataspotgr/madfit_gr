@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:35:33
+/* Smarty version 4.3.0, created on 2025-05-26 11:55:22
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\categories\components\categories_select2_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305d853c9d83_06924162',
+  'unifunc' => 'content_68342c7ad75503_38029201',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68305d853c9d83_06924162 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342c7ad75503_38029201 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('parent_names', array());?>
 
 <?php

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:37
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:17
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_options\components\picker\picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061fdc77044_16840545',
+  'unifunc' => 'content_68342ced2e89c4_58619144',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/product_options/components/picker/item.tpl' => 1,
   ),
 ),false)) {
-function content_683061fdc77044_16840545 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342ced2e89c4_58619144 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.to_json.php','function'=>'smarty_modifier_to_json',),));
 \Tygh\Languages\Helper::preloadLangVars(array('none','add'));
 ?>
@@ -94,8 +94,8 @@ $_smarty_tpl->_assignInScope('dropdown_css_class', (($tmp = "object-picker__drop
 "
                         data-ca-object-picker-predefined-variants="<?php ob_start();
 echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['empty_variant_text']->value, ENT_QUOTES, 'UTF-8');
-$_prefixVariable37 = ob_get_clean();
-echo htmlspecialchars((string) smarty_modifier_to_json(array(array("id"=>0,"text"=>$_prefixVariable37))), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable40 = ob_get_clean();
+echo htmlspecialchars((string) smarty_modifier_to_json(array(array("id"=>0,"text"=>$_prefixVariable40))), ENT_QUOTES, 'UTF-8');?>
 "
                     <?php }?>
                     <?php if ($_smarty_tpl->tpl_vars['allow_add']->value) {?>

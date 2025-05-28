@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 13:17:44
+/* Smarty version 4.3.0, created on 2025-05-26 12:00:43
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\social_buttons\meta_templates\facebook.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68304b4817c487_63465398',
+  'unifunc' => 'content_68342dbb2aa276_26843537',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,6 +20,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68304b4817c487_63465398 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342dbb2aa276_26843537 (Smarty_Internal_Template $_smarty_tpl) {
 }
 }

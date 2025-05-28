@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 13:52:54
+/* Smarty version 4.3.0, created on 2025-05-26 11:12:50
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_reviews\hooks\index\styles.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305386070784_95998461',
+  'unifunc' => 'content_68342282eab939_63265166',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68305386070784_95998461 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342282eab939_63265166 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.style.php','function'=>'smarty_function_style',),));
 echo smarty_function_style(array('src'=>"addons/product_reviews/styles.less"),$_smarty_tpl);
 }

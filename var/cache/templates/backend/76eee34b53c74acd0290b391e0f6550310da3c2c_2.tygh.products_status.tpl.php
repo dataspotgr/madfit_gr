@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:17:32
+/* Smarty version 4.3.0, created on 2025-05-26 11:20:39
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\search_filters\products_status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6830594c211888_53227359',
+  'unifunc' => 'content_68342457e0eb50_86391949',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6830594c211888_53227359 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342457e0eb50_86391949 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('all_product_statuses', array());
 $_smarty_tpl->_assignInScope('is_checked_some_all_product_statuses', false);
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, fn_get_all_product_statuses(), 'status_name', false, 'status_id');

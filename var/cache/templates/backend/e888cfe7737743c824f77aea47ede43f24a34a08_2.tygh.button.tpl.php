@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 13:52:57
+/* Smarty version 4.3.0, created on 2025-05-26 11:12:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305389c1b676_00291780',
+  'unifunc' => 'content_68342287b5f908_63487371',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68305389c1b676_00291780 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342287b5f908_63487371 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 if ($_smarty_tpl->tpl_vars['but_role']->value == "text") {?>
     <?php $_smarty_tpl->_assignInScope('class', '');?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 13:55:52
+/* Smarty version 4.3.0, created on 2025-05-26 11:20:39
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305438902693_20066733',
+  'unifunc' => 'content_68342457a03b57_62129365',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_68305438902693_20066733 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342457a03b57_62129365 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_button'));
 ?>
 

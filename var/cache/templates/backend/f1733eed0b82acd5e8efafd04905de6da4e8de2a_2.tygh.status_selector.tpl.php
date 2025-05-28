@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 13:55:51
+/* Smarty version 4.3.0, created on 2025-05-26 11:20:32
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\context_menu\status_selector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683054373e2944_53577113',
+  'unifunc' => 'content_68342450252589_16140055',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/check_items.tpl' => 1,
   ),
 ),false)) {
-function content_683054373e2944_53577113 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342450252589_16140055 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('selected'));
 ?>
 

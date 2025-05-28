@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:30
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:07
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\social_buttons\hooks\products\detailed_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061f6bff8c9_64974974',
+  'unifunc' => 'content_68342ce3aa1556_04333243',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/social_buttons/common/facebook_types.tpl' => 1,
   ),
 ),false)) {
-function content_683061f6bff8c9_64974974 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342ce3aa1556_04333243 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['addons']->value['social_buttons']['facebook_enable'] == "Y") {?>
     <?php $_smarty_tpl->_subTemplateRender("tygh:addons/social_buttons/common/facebook_types.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('object_type'=>"product_data",'object_data'=>$_smarty_tpl->tpl_vars['product_data']->value), 0, false);
 }

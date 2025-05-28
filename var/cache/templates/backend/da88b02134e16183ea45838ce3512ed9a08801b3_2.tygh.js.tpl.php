@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:17:30
+/* Smarty version 4.3.0, created on 2025-05-26 11:20:36
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\pickers\orders\js.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6830594a0f8028_33961354',
+  'unifunc' => 'content_68342454e89a23_16412270',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 1,
   ),
 ),false)) {
-function content_6830594a0f8028_33961354 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342454e89a23_16412270 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('id','status','customer','date','total','edit','remove'));
 if ($_smarty_tpl->tpl_vars['view_mode']->value == "simple") {?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:38
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:17
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_options\components\picker\item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061fe0c05a3_60763188',
+  'unifunc' => 'content_68342ced66d204_43861526',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683061fe0c05a3_60763188 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342ced66d204_43861526 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 ?>
 <div class="object-picker__results-label object-picker__options-results-label object-picker__results-label--new">

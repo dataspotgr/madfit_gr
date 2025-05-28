@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:31
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:08
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\required_products\hooks\products\tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061f7d986f7_15139920',
+  'unifunc' => 'content_68342ce4de8e95_37000164',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/picker/picker.tpl' => 1,
   ),
 ),false)) {
-function content_683061f7d986f7_15139920 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342ce4de8e95_37000164 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="<?php if ($_smarty_tpl->tpl_vars['selected_section']->value !== "required_products") {?>hidden<?php }?>" id="content_required_products">
     <?php ob_start();
 if ($_smarty_tpl->tpl_vars['product_company_id']->value) {

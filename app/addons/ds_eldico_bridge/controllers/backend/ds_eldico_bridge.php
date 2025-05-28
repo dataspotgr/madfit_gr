@@ -11,11 +11,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 if($mode == "eldico_products") {
-    $xml_url = Registry::get('addons.ds_eldico_bridge.website_url');
-    $username = Registry::get('addons.ds_eldico_bridge.user_email_api');
-    $password = Registry::get('addons.ds_eldico_bridge.user_password_api');
+    $xml_url = Registry::get('addons.ds_eldico_bridge.ds_bridge_url');
+    $username = Registry::get('addons.ds_eldico_bridge.ds_bridge_username');
+    $password = Registry::get('addons.ds_eldico_bridge.ds_bridge_password');
 
-    $url = "https://".$username.":".$password."@".$xml_url;
+    if($username && $password) {
+        $url = "https://" . $username . ":" . $password . "@" . $xml_url;
+    }
+    else {
+        $url = "https://".$xml_url;
+    }
+
     $xmlstr = get_xml_from_url($url);
     $xmlobj = new SimpleXMLElement($xmlstr);
 
@@ -23,9 +29,11 @@ if($mode == "eldico_products") {
     $total_products_insert = 0;
     $total_products_update = 0;
 
+    //fn_print_r($xmlobj);
+
     if ($xmlobj) {
-        $temp_char = array();
-        foreach ($xmlobj->product as $product_xml_item) {
+        //$temp_char = array();
+        foreach ($xmlobj->Products->Product as $product_xml_item) {
             //$strtotime        = strtotime("now");
             $date_format        = date("d/m/Y H:i:s");
             $eldc_flag          = 0;
@@ -109,6 +117,7 @@ if($mode == "eldico_products") {
                     'eldc_large_description'    => $large_description,
                     'eldc_product_image'        => $image,
                     'eldc_product_extra_image'  => $additional_images,
+                    'eldc_manufacturer'         => $manufacturer,
                     'eldc_category_id'          => $category_id,
                     'eldc_category'             => $category,
                     'eldc_wholesale_price'      => $wholesale_price,
@@ -161,6 +170,7 @@ if($mode == "eldico_products") {
                     'eldc_large_description'    => $large_description,
                     'eldc_product_image'        => $image,
                     'eldc_product_extra_image'  => $additional_images,
+                    'eldc_manufacturer'         => $manufacturer,
                     'eldc_category_id'          => $category_id,
                     'eldc_category'             => $category,
                     'eldc_wholesale_price'      => $wholesale_price,
@@ -193,10 +203,9 @@ if($mode == "eldico_products") {
                     'eldc_flag'                 => $eldc_flag,
                     'eldc_date_created'         => $product_bridge_date_created,
                 );
-                //echo "INSERTED " . $kkk_sku . "<br />";
                 $product_inserted = db_query('INSERT INTO ?:eldico_bridge_products ?e', $data_insert_products);
                 if($product_inserted) {
-                    echo "product_id :: " . $check_product_id . " inserted! \n";
+                    echo "product_id :: " . $product_id . " inserted! \n";
                 }
             }
         } //end foreach loop

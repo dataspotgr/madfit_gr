@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:35
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\products_update_options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061fb531833_63490638',
+  'unifunc' => 'content_68342ceaa29125_32299880',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/product_options/manage.tpl' => 1,
   ),
 ),false)) {
-function content_683061fb531833_63490638 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342ceaa29125_32299880 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('link_an_existing_option','forbidden_combinations','allowed_combinations'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "extra", null, null);?>

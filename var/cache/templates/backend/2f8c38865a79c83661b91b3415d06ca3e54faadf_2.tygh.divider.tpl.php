@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:17:27
+/* Smarty version 4.3.0, created on 2025-05-26 11:20:34
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\context_menu\items\divider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68305947e80e52_30023513',
+  'unifunc' => 'content_683424524f2da1_70982253',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68305947e80e52_30023513 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683424524f2da1_70982253 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <li class="divider"></li>
 <?php }

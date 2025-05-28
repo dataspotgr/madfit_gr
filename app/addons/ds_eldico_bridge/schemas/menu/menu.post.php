@@ -4,7 +4,7 @@ $schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge'] = array(
         'class' => 'is-addon'
     ),
     'href' => 'javascript:void(0)',
-    'position' => 400
+    'position' => 10
 );
 $schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge']['subitems']['ds_eldico_bridge_get_products'] = array(
     'href' => 'ds_eldico_bridge.eldico_products',

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 14:54:29
+/* Smarty version 4.3.0, created on 2025-05-26 11:57:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\clone_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683061f57710f6_38801022',
+  'unifunc' => 'content_68342ce241db25_61710397',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683061f57710f6_38801022 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68342ce241db25_61710397 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('clone'));
 ?>
 <a class="btn btn-clone" name="clone" id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item_id']->value, ENT_QUOTES, 'UTF-8');?>
