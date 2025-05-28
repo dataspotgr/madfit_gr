@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:51:24
+/* Smarty version 4.3.0, created on 2025-05-28 14:04:05
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\picker\item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028fc6aca92_66501809',
+  'unifunc' => 'content_6836eda5124e70_60630359',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4ddf4896c98669b4d4072c776a0672dd4c01711d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\picker\\item.tpl',
-      1 => 1747915843,
+      1 => 1747996701,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683028fc6aca92_66501809 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836eda5124e70_60630359 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('show_simple_product', (($tmp = $_smarty_tpl->tpl_vars['show_simple_product']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));?>
 
 <?php if (!$_smarty_tpl->tpl_vars['show_simple_product']->value) {?>

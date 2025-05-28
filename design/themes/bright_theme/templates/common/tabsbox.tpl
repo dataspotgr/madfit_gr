@@ -14,9 +14,7 @@
         <div class="ty-accordion__list">
             {foreach from=$navigation.tabs item=tab key=key name=tabs}
                 {if ((!$tabs_section && !$tab.section) || ($tabs_section == $tab.section)) && !$key|in_array:$empty_tab_ids}
-                    {if !$active_tab}
-                        {assign var="active_tab" value=$key}
-                    {/if}
+                   
                     {assign var="_tabs" value=true}
                     {if $disable_blocks}
                         {if $key neq "product_tab_99"} {* 99 = tab = Τρόποι πληρωμής *}

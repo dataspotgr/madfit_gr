@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:50:47
+/* Smarty version 4.3.0, created on 2025-05-28 14:03:49
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_name.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028d7c34961_92874860',
+  'unifunc' => 'content_6836ed95699b93_59870897',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2b333cc88897ca240f11c395a5fa4923b98aeb80' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\products\\update_product_name.pre.tpl',
-      1 => 1747915842,
+      1 => 1747996605,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683028d7c34961_92874860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836ed95699b93_59870897 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.variation_of_product'));
 if ($_smarty_tpl->tpl_vars['parent_product_data']->value) {?>
     <div class="control-group">

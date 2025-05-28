@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:50:48
+/* Smarty version 4.3.0, created on 2025-05-28 14:03:49
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\categories_section.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028d8569924_56799919',
+  'unifunc' => 'content_6836ed95d67069_28776077',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '08370be7b6c81e2ce4a7ac85794fa1d3797c7e99' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\products\\categories_section.post.tpl',
-      1 => 1747915842,
+      1 => 1747996603,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683028d8569924_56799919 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836ed95d67069_28776077 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('categories'));
 if ($_smarty_tpl->tpl_vars['product_data']->value['product_type'] === constant("\Tygh\Addons\ProductVariations\Product\Type\Type::PRODUCT_TYPE_VARIATION")) {?>
     <?php $_smarty_tpl->_assignInScope('multiple_categoires', count($_smarty_tpl->tpl_vars['product_data']->value['category_ids']) > 1);?>

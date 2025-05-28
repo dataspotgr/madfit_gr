@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:50:54
+/* Smarty version 4.3.0, created on 2025-05-28 14:03:53
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_usergroup_ids.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028de7c3905_40468460',
+  'unifunc' => 'content_6836ed9911a3c6_53399628',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b401022401c9621e9af18cca0467dc40d0c0e9b5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\products\\update_product_usergroup_ids.override.tpl',
-      1 => 1747915842,
+      1 => 1747996606,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683028de7c3905_40468460 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836ed9911a3c6_53399628 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("usergroup_ids")) {?>
     <!-- Overridden by the Product Variations add-on -->
 <?php }

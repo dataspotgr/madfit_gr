@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 16:50:29
+/* Smarty version 4.3.0, created on 2025-05-28 14:38:14
   from 'C:\xampp\htdocs\madfit_gr\design\themes\bright_theme\templates\common\tabsbox.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f2ba50b37e9_87698492',
+  'unifunc' => 'content_6836f5a68086e8_08292533',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7f1e9eba49a3f720ecb2090eeea2f9cfdc0d1216' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\bright_theme\\templates\\common\\tabsbox.tpl',
-      1 => 1747915843,
+      1 => 1748432292,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682f2ba50b37e9_87698492 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836f5a68086e8_08292533 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.empty_tabs.php','function'=>'smarty_modifier_empty_tabs',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);?>
@@ -47,9 +47,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['key']->value => 
 $_smarty_tpl->tpl_vars['tab']->do_else = false;
 ?>
                 <?php if (((!$_smarty_tpl->tpl_vars['tabs_section']->value && !$_smarty_tpl->tpl_vars['tab']->value['section']) || ($_smarty_tpl->tpl_vars['tabs_section']->value == $_smarty_tpl->tpl_vars['tab']->value['section'])) && !smarty_modifier_in_array($_smarty_tpl->tpl_vars['key']->value,$_smarty_tpl->tpl_vars['empty_tab_ids']->value)) {?>
-                    <?php if (!$_smarty_tpl->tpl_vars['active_tab']->value) {?>
-                        <?php $_smarty_tpl->_assignInScope('active_tab', $_smarty_tpl->tpl_vars['key']->value);?>
-                    <?php }?>
+                   
                     <?php $_smarty_tpl->_assignInScope('_tabs', true);?>
                     <?php if ($_smarty_tpl->tpl_vars['disable_blocks']->value) {?>
                         <?php if ($_smarty_tpl->tpl_vars['key']->value != "product_tab_99") {?>                             <div id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['key']->value, ENT_QUOTES, 'UTF-8');?>
@@ -154,9 +152,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['key']->value => 
 $_smarty_tpl->tpl_vars['tab']->do_else = false;
 ?>
                 <?php if (((!$_smarty_tpl->tpl_vars['tabs_section']->value && !$_smarty_tpl->tpl_vars['tab']->value['section']) || ($_smarty_tpl->tpl_vars['tabs_section']->value == $_smarty_tpl->tpl_vars['tab']->value['section'])) && !smarty_modifier_in_array($_smarty_tpl->tpl_vars['key']->value,$_smarty_tpl->tpl_vars['empty_tab_ids']->value)) {?>
-                    <?php if (!$_smarty_tpl->tpl_vars['active_tab']->value) {?>
-                        <?php $_smarty_tpl->_assignInScope('active_tab', $_smarty_tpl->tpl_vars['key']->value);?>
-                    <?php }?>
+                   
                     <?php $_smarty_tpl->_assignInScope('_tabs', true);?>
                     <?php if ($_smarty_tpl->tpl_vars['disable_blocks']->value) {?>
                         <?php if ($_smarty_tpl->tpl_vars['key']->value != "product_tab_99") {?>                             <div id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['key']->value, ENT_QUOTES, 'UTF-8');?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:51:04
+/* Smarty version 4.3.0, created on 2025-05-28 14:03:56
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\product_assign_feature.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028e8135097_12614137',
+  'unifunc' => 'content_6836ed9c637f88_54389910',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6f176d16f43a3bf963537bb52fdfd08f5463e41' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\product_assign_feature.tpl',
-      1 => 1747915843,
+      1 => 1747996699,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_683028e8135097_12614137 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836ed9c637f88_54389910 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('none','none','delete'));
 $_smarty_tpl->_assignInScope('allow_enter_variant', $_smarty_tpl->tpl_vars['allow_add_feature']->value && fn_allow_save_object($_smarty_tpl->tpl_vars['feature']->value,"product_features"));

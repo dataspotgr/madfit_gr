@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:50:49
+/* Smarty version 4.3.0, created on 2025-05-28 14:03:50
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_detailed_images.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028d9d1b2d9_15105091',
+  'unifunc' => 'content_6836ed96a33fd8_95269495',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6d35795f0a80f03a085fc0556bc233fa1d985375' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\products\\update_detailed_images.override.tpl',
-      1 => 1747915842,
+      1 => 1747996604,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/form_file_uploader.tpl' => 1,
   ),
 ),false)) {
-function content_683028d9d1b2d9_15105091 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836ed96a33fd8_95269495 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('images'));
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("detailed_image")) {?>
     <div class="control-group">

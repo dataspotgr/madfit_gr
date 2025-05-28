@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:51:51
+/* Smarty version 4.3.0, created on 2025-05-28 14:04:22
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\components\group_code.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68302917848100_43034809',
+  'unifunc' => 'content_6836edb69bf154_15977929',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f79f565174eebd9e178d06adc214b2333e4fce29' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\views\\product_variations\\components\\group_code.tpl',
-      1 => 1747915842,
+      1 => 1747996607,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tooltip.tpl' => 1,
   ),
 ),false)) {
-function content_68302917848100_43034809 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836edb69bf154_15977929 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.group_code','product_variations.group_code.description','product_variations.group_code.placeholder'));
 ?>
 <input type="hidden" name="variation_group[id]" value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['group']->value->getId(), ENT_QUOTES, 'UTF-8');?>

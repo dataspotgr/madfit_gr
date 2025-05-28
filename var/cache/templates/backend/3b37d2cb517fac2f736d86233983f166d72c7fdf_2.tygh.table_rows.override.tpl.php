@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-23 10:51:24
+/* Smarty version 4.3.0, created on 2025-05-28 14:04:05
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_bundles\addons\product_variations\hooks\product_picker\table_rows.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683028fcbec9d7_65614135',
+  'unifunc' => 'content_6836eda53aed18_66676921',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3b37d2cb517fac2f736d86233983f166d72c7fdf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_bundles\\addons\\product_variations\\hooks\\product_picker\\table_rows.override.tpl',
-      1 => 1747915842,
+      1 => 1747996600,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/products/js.tpl' => 1,
   ),
 ),false)) {
-function content_683028fcbec9d7_65614135 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6836eda53aed18_66676921 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('options','any_option_combinations','product_bundles.any_variation','deleted_product'));
 if ($_smarty_tpl->tpl_vars['item_ids']->value) {?>
@@ -37,8 +37,8 @@ $_smarty_tpl->tpl_vars['product']->do_else = false;
                 <?php $_smarty_tpl->_assignInScope('prod_opts', fn_get_product_options($_smarty_tpl->tpl_vars['product']->value['product_id']));?>
                 <?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("YesNo::YES"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable27=ob_get_clean();
-if ($_smarty_tpl->tpl_vars['prod_opts']->value && $_smarty_tpl->tpl_vars['product']->value['aoc'] == $_prefixVariable27) {?>
+$_prefixVariable28=ob_get_clean();
+if ($_smarty_tpl->tpl_vars['prod_opts']->value && $_smarty_tpl->tpl_vars['product']->value['aoc'] == $_prefixVariable28) {?>
                     <span><?php echo $_smarty_tpl->__("options");?>
 : </span>&nbsp;<?php echo $_smarty_tpl->__("any_option_combinations");?>
 
