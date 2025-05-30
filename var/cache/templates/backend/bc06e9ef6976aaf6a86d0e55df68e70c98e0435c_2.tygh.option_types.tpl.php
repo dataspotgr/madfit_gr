@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:16
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:49
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_options\components\option_types.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342cec908d10_91572498',
+  'unifunc' => 'content_68386729ba55b8_51463324',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342cec908d10_91572498 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68386729ba55b8_51463324 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('selectbox','radiogroup','checkbox','text','textarea','file','selectbox','radiogroup','checkbox','text','textarea','file'));
 $_smarty_tpl->_assignInScope('selectbox', smarty_modifier_enum("ProductOptionTypes::SELECTBOX"));

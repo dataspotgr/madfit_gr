@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:04
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:37
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_avail_since.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342ce07f7d04_70728283',
+  'unifunc' => 'content_6838671d7544a3_47330795',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342ce07f7d04_70728283 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838671d7544a3_47330795 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("avail_since")) {?>
     <!-- Overridden by the Product Variations add-on -->
 <?php }

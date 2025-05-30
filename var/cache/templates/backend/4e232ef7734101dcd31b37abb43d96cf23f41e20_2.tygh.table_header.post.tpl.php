@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:13
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:46
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_bundles\hooks\product_picker\table_header.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342ce988a9c1_21313180',
+  'unifunc' => 'content_683867266d4cd9_32157440',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342ce988a9c1_21313180 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683867266d4cd9_32157440 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('price','discount','value','discounted_price','product_bundles.show_on_product_page'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['controller'] === "product_bundles" || $_smarty_tpl->tpl_vars['extra_mode']->value === "product_bundles") {?>
     <th><?php echo $_smarty_tpl->__("price");?>

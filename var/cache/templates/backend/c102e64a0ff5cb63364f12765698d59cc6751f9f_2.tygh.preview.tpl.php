@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:19:54
+/* Smarty version 4.3.0, created on 2025-05-30 09:48:05
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\email_templates\preview.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6834242a1d1e42_10681636',
+  'unifunc' => 'content_683954a59a59b8_57151981',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6834242a1d1e42_10681636 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683954a59a59b8_57151981 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('preview','subject','body'));
 ?>
 <div title="<?php echo $_smarty_tpl->__("preview");?>

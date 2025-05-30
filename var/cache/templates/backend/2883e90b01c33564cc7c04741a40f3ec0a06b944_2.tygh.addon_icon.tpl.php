@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-27 16:42:51
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:53
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\addons\addon_icon.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6835c15b962be5_63366262',
+  'unifunc' => 'content_68386499067848_98262032',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6835c15b962be5_63366262 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68386499067848_98262032 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.truncate.php','function'=>'smarty_modifier_truncate',),));
 ?>
 

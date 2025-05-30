@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:23
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\components\device_icons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342cf3065956_00359371',
+  'unifunc' => 'content_6838672fddf5a6_47840150',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342cf3065956_00359371 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838672fddf5a6_47840150 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('devices', (($tmp = $_smarty_tpl->tpl_vars['item']->value['availability'] ?? null)===null||$tmp==='' ? array() ?? null : $tmp));
 $_smarty_tpl->_assignInScope('all_devices', array_filter($_smarty_tpl->tpl_vars['devices']->value) == $_smarty_tpl->tpl_vars['devices']->value);?>
 

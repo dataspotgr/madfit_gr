@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:20:36
+/* Smarty version 4.3.0, created on 2025-05-29 16:51:26
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\tags\hooks\products\search_form.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342454643674_02872546',
+  'unifunc' => 'content_6838665e3b5121_70510372',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342454643674_02872546 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838665e3b5121_70510372 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('tag'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR")) {?>
 <div class="control-group">

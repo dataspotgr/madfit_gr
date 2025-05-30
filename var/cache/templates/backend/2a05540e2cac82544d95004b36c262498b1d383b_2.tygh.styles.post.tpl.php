@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:12:50
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:47
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\call_requests\hooks\index\styles.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342282c3f7c7_93165334',
+  'unifunc' => 'content_68386493dd9dd6_55422289',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342282c3f7c7_93165334 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68386493dd9dd6_55422289 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.style.php','function'=>'smarty_function_style',),));
 echo smarty_function_style(array('src'=>"addons/call_requests/styles.less"),$_smarty_tpl);?>
 

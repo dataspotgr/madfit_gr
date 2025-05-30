@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:09
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:42
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\object_picker_products_additional_info.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342ce57a0d35_61609968',
+  'unifunc' => 'content_68386722bb4821_95822558',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342ce57a0d35_61609968 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68386722bb4821_95822558 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     ${data.variation_features
         ? `<div class="product-variations__variation-features product-variations__variation-features--inline product-variations__variation-features--secondary">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:19:52
+/* Smarty version 4.3.0, created on 2025-05-30 09:48:03
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\onboarding_guide\views\onboarding_guide\onboarding_guide.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_683424285baa46_48119643',
+  'unifunc' => 'content_683954a3d90689_89672709',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/onboarding_guide/components/step.tpl' => 1,
   ),
 ),false)) {
-function content_683424285baa46_48119643 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683954a3d90689_89672709 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.demo_guide_title','onboarding_guide.demo_guide_description','onboarding_guide.sb_guide_title','onboarding_guide.guide_title','onboarding_guide.completed_steps_progress','onboarding_guide.step_complete','onboarding_guide.step_close'));
 if ($_smarty_tpl->tpl_vars['onboarding_guide_steps']->value) {?>

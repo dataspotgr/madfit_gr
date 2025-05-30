@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:20:41
+/* Smarty version 4.3.0, created on 2025-05-29 16:51:31
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\search_filters\context_search_prepare.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342459afe398_34255186',
+  'unifunc' => 'content_683866631a2014_62031705',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342459afe398_34255186 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683866631a2014_62031705 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.unset_key.php','function'=>'smarty_modifier_unset_key',),));
 if ($_smarty_tpl->tpl_vars['search_filters']->value) {?>
         <?php $_smarty_tpl->_assignInScope('context_search', array());?>

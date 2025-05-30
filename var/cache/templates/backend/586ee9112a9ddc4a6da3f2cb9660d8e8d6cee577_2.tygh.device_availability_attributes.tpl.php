@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:22
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:55
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\block_manager\components\device_availability_attributes.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342cf2ee5687_36004012',
+  'unifunc' => 'content_6838672fd3a5e9_65112471',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342cf2ee5687_36004012 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838672fd3a5e9_65112471 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('devices', (($tmp = $_smarty_tpl->tpl_vars['item']->value['availability'] ?? null)===null||$tmp==='' ? array() ?? null : $tmp));
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['devices']->value, 'is_available', false, 'device');
 $_smarty_tpl->tpl_vars['is_available']->do_else = true;

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:19:54
+/* Smarty version 4.3.0, created on 2025-05-30 09:48:06
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\components\todo_section\todo_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6834242ac5fee1_43504676',
+  'unifunc' => 'content_683954a651a745_30403883',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6834242ac5fee1_43504676 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683954a651a745_30403883 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 if ($_smarty_tpl->tpl_vars['todo_item']->value) {?>
     <?php if ($_smarty_tpl->tpl_vars['todo_item']->value['action_text'] && $_smarty_tpl->tpl_vars['todo_item']->value['action_url']) {?>

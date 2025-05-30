@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:03
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:36
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\price_per_unit\hooks\products\update_product_availability.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342cdfb575b9_65308654',
+  'unifunc' => 'content_6838671cb1dfc0_39936993',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/append_language.tpl' => 1,
   ),
 ),false)) {
-function content_68342cdfb575b9_65308654 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838671cb1dfc0_39936993 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.component.php','function'=>'smarty_block_component',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('price_per_unit','unit_name','unit_name_field_description','units_in_product','units_in_product_field_description','show_price_per_x_units','show_price_per_x_units_field_description'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('component', array('name'=>"configurable_page.section",'entity'=>"products",'tab'=>"detailed",'section'=>"price_per_unit"));

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:54:35
+/* Smarty version 4.3.0, created on 2025-05-30 11:53:28
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\categories\components\categories_select_fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342c4bb6c011_54060673',
+  'unifunc' => 'content_68397208f14e48_52433148',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/check_items.tpl' => 1,
   ),
 ),false)) {
-function content_68342c4bb6c011_54060673 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68397208f14e48_52433148 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('status','meta_description','product_details_view','position','name','meta_keywords','creation_date','localization','category_description','image_pair','title','usergroups'));
 ?>

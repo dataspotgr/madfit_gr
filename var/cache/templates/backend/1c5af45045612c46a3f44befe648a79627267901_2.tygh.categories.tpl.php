@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 15:44:34
+/* Smarty version 4.3.0, created on 2025-05-30 11:48:13
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_features\components\context_menu\categories.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68370532547da8_93064883',
+  'unifunc' => 'content_683970cdf37488_02031150',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/select2/categories_bulkedit.tpl' => 1,
   ),
 ),false)) {
-function content_68370532547da8_93064883 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683970cdf37488_02031150 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('category','categories','bulk_product_features_warning','view_feature_groups','bulk_edit.what_do_these_checkboxes_mean','show','hide','show','bulk_edit.what_do_these_checkboxes_mean_checked','bulk_edit.what_do_these_checkboxes_mean_unchecked','bulk_edit.what_do_these_checkboxes_mean_indeterminate','reset','apply'));
 ?>
 

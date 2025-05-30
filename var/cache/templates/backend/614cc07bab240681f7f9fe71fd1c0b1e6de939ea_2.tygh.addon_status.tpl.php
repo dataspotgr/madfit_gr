@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-27 16:42:52
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:53
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\addons\addon_status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6835c15c3767a9_75603577',
+  'unifunc' => 'content_68386499a05104_68000098',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/rating/enjoying_addon_notification.tpl' => 1,
   ),
 ),false)) {
-function content_6835c15c3767a9_75603577 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68386499a05104_68000098 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('upgrade','refresh','disable','uninstall'));
 $_smarty_tpl->_assignInScope('show_addon_status', (($tmp = $_smarty_tpl->tpl_vars['show_addon_status']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));?>
@@ -61,8 +61,8 @@ $_smarty_tpl->_assignInScope('show_addon_status', (($tmp = $_smarty_tpl->tpl_var
 "
                                 href="<?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("ObjectStatuses::DISABLED"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable21=ob_get_clean();
-echo htmlspecialchars((string) fn_url("addons.update_status?id=".((string)$_smarty_tpl->tpl_vars['key']->value)."&status=".$_prefixVariable21."&redirect_url=".((string)(rawurlencode((string)$_smarty_tpl->tpl_vars['c_url']->value)))), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable39=ob_get_clean();
+echo htmlspecialchars((string) fn_url("addons.update_status?id=".((string)$_smarty_tpl->tpl_vars['key']->value)."&status=".$_prefixVariable39."&redirect_url=".((string)(rawurlencode((string)$_smarty_tpl->tpl_vars['c_url']->value)))), ENT_QUOTES, 'UTF-8');?>
 "
                                 data-ca-event="ce.update_object_status_callback"
                             >

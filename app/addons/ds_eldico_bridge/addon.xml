@@ -2,7 +2,7 @@
     <id>ds_eldico_bridge</id>
     <name>[Dataspot] Eldico Bridge</name>
     <description>Διασύνδεση eshop με προϊόντα της Eldico Bridge</description>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <supplier>Dataspot</supplier>
     <supplier_link>https://www.dataspot.gr/</supplier_link>
     <has_icon>Y</has_icon>
@@ -79,13 +79,25 @@
                         <default_value>N</default_value>
                         <tooltip>Ενημέρωση Κωδικού προϊόντος από την γέφυρα στο cs-cart</tooltip>
                     </item>
+                    <item id="product_barcode">
+                        <name>Barcode προϊόντος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Barcode προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_category">
+                        <name>Κατηγοριά προϊόντος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Κατηγορίας προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
                     <item id="product_url">
                         <name>URL Προϊόντος</name>
                         <type>checkbox</type>
                         <default_value>N</default_value>
                         <tooltip>Ενημέρωση URL προϊόντος από την γέφυρα στο cs-cart</tooltip>
                     </item>
-                    <item id="produc_price">
+                    <item id="product_price">
                         <name>Τιμή</name>
                         <type>checkbox</type>
                         <default_value>N</default_value>
@@ -97,11 +109,17 @@
                         <default_value>N</default_value>
                         <tooltip>Ενημέρωση χονδρικής τιμής προϊόντος από την γέφυρα στο cs-cart</tooltip>
                     </item>
-                    <item id="product_stock_status">
-                        <name>Κατάσταση αποθέματος</name>
+                    <item id="product_status">
+                        <name>Κατάσταση προϊόντος</name>
                         <type>checkbox</type>
                         <default_value>N</default_value>
-                        <tooltip>Ενημέρωση Κατάστασης αποθέματος προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                        <tooltip>Ενημέρωση Κατάστασης προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_stock_status">
+                        <name>Διαχείριση αποθέματος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση διαχείρισης αποθέματος προϊόντος από την γέφυρα στο cs-cart</tooltip>
                     </item>
                     <item id="product_seo_title">
                         <name>Τίτλος προϊόντος (SEO)</name>
@@ -126,6 +144,24 @@
                         <type>checkbox</type>
                         <default_value>N</default_value>
                         <tooltip>Ενημέρωση Ολοκληρωμένη Περιγραφή προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_brand">
+                        <name>Κατασκευαστής</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Κατασκευαστή προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_weight">
+                        <name>Βάρος</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Βάρους προϊόντος από την γέφυρα στο cs-cart</tooltip>
+                    </item>
+                    <item id="product_dimensions">
+                        <name>Διαστάσεις</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <tooltip>Ενημέρωση Διαστάσεων προϊόντος από την γέφυρα στο cs-cart</tooltip>
                     </item>
                     <item id="products_characteristics">
                         <name>Χαρακτηριστικά</name>
@@ -177,7 +213,7 @@
             `eldc_product_dimensions` varchar(55) NOT NULL,
             `eldc_product_weight` varchar(55) NOT NULL,
             `eldc_product_volume` varchar(55) NOT NULL,
-            `eldc_specifications` tinyint(4) NOT NULL,
+            `eldc_specifications` tinytext DEFAULT NULL,
             `eldc_additional_infos` tinyint(4) NOT NULL,
             `eldc_parent_code` varchar(55) NOT NULL,
             `eldc_vat` int(11) NOT NULL,

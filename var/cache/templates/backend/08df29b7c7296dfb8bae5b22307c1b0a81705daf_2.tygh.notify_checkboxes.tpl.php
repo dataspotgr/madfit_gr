@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:54:35
+/* Smarty version 4.3.0, created on 2025-05-29 16:48:33
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\notify_checkboxes.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342c4b048bd8_43196278',
+  'unifunc' => 'content_683865b11602a1_20549005',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342c4b048bd8_43196278 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683865b11602a1_20549005 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('notify_customer','notify_orders_department','notify_vendor'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"select_popup:notify_checkboxes"));

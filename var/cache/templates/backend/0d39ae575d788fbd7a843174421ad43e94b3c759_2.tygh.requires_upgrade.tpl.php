@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-27 16:42:57
+/* Smarty version 4.3.0, created on 2025-05-29 16:44:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\notification\requires_upgrade.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6835c16135c2d5_09409694',
+  'unifunc' => 'content_683864ae6516d2_27661231',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6835c16135c2d5_09409694 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864ae6516d2_27661231 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('requires_upgrade','new_add_on_is_not_compatible_with_your_product','upgrade_and_update_addon'));
 if ($_smarty_tpl->tpl_vars['actual_change_log']->value && $_smarty_tpl->tpl_vars['actual_change_log']->value['compatibility'] !== true) {?>
     <div class="alert alert-block">

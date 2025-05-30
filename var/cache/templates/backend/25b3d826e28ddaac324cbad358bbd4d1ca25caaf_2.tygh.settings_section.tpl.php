@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 13:14:49
+/* Smarty version 4.3.0, created on 2025-05-29 16:44:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\settings_section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68343f19399d13_17330486',
+  'unifunc' => 'content_683864aec42998_61219918',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/settings_fields.tpl' => 1,
   ),
 ),false)) {
-function content_68343f19399d13_17330486 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864aec42998_61219918 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['items']->value, 'item', false, 'name', 'fe_data', array (
   'iteration' => true,
   'total' => true,
@@ -47,8 +47,8 @@ echo (string)$_smarty_tpl->tpl_vars['parent_item']->value['name'];
 echo "_";
 echo (string)$_smarty_tpl->tpl_vars['parent_item']->value['object_id'];
 }
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->_assignInScope('parent_item_html_id', strtolower(((string)$_smarty_tpl->tpl_vars['html_id_prefix']->value)."_".((string)$_smarty_tpl->tpl_vars['section_name']->value)."_".$_prefixVariable1));?>
+$_prefixVariable3=ob_get_clean();
+$_smarty_tpl->_assignInScope('parent_item_html_id', strtolower(((string)$_smarty_tpl->tpl_vars['html_id_prefix']->value)."_".((string)$_smarty_tpl->tpl_vars['section_name']->value)."_".$_prefixVariable3));?>
     <?php }?>
 
     <?php $_smarty_tpl->_assignInScope('input_html_name', ((string)$_smarty_tpl->tpl_vars['html_name']->value)."[".((string)$_smarty_tpl->tpl_vars['item']->value['object_id'])."]");?>

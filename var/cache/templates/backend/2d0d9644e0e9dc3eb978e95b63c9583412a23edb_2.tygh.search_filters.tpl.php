@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:20:40
+/* Smarty version 4.3.0, created on 2025-05-29 16:51:30
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\search_filters\search_filters.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342458bb2951_83027480',
+  'unifunc' => 'content_68386662256352_31529031',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_68342458bb2951_83027480 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68386662256352_31529031 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('close','search_range_from','search_range_to','search_add_filter'));
 ?>
@@ -149,7 +149,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->index++;
-$__foreach_item_31_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_32_saved = $_smarty_tpl->tpl_vars['item'];
 ?>
                                         <?php $_smarty_tpl->_assignInScope('item_id', ((string)$_smarty_tpl->tpl_vars['field_id']->value)."_".((string)$_smarty_tpl->tpl_vars['item']->value['key']));?>
                                         <?php if ($_smarty_tpl->tpl_vars['_REQUEST']->value[$_smarty_tpl->tpl_vars['item']->value['key']]) {?>
@@ -184,7 +184,7 @@ $_smarty_tpl->_assignInScope('add_filter_variant_item_state', $_tmp_array);?>
                                             </div>
                                         </li>
                                     <?php
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_31_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_32_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                                 <?php }?>
@@ -199,7 +199,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->index++;
-$__foreach_item_32_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_33_saved = $_smarty_tpl->tpl_vars['item'];
 ?>
                                         <?php $_smarty_tpl->_assignInScope('item_id', ((string)$_smarty_tpl->tpl_vars['field_id']->value)."_".((string)$_smarty_tpl->tpl_vars['item']->value['key']));?>
                                         <?php if ($_smarty_tpl->tpl_vars['_REQUEST']->value[$_smarty_tpl->tpl_vars['search_filter']->value['id']]) {?>
@@ -234,7 +234,7 @@ $_smarty_tpl->_assignInScope('add_filter_variant_item_state', $_tmp_array);?>
                                             </div>
                                         </li>
                                     <?php
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_32_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_33_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                                 <?php }?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:12:49
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:47
   from 'C:\xampp\htdocs\madfit_gr\design\backend\css\tygh\critical.css' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342281ed45e2_57951523',
+  'unifunc' => 'content_683864935c3797_91044971',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68342281ed45e2_57951523 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864935c3797_91044971 (Smarty_Internal_Template $_smarty_tpl) {
 ?>body {
     font-size: 13px;
 }

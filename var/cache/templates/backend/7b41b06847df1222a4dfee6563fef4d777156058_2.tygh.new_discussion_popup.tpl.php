@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-26 11:57:14
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:47
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\discussion\views\discussion_manager\components\new_discussion_popup.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_68342cea2fe444_60492632',
+  'unifunc' => 'content_683867271581b7_29462279',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_68342cea2fe444_60492632 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683867271581b7_29462279 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','name','creation_date','your_rating','your_message','add','new_post'));
 if (fn_check_permissions("discussion","add","admin",'') && !(fn_allowed_for("MULTIVENDOR") && $_smarty_tpl->tpl_vars['runtime']->value['company_id'] && ($_smarty_tpl->tpl_vars['runtime']->value['company_id'] != $_smarty_tpl->tpl_vars['object_company_id']->value || $_smarty_tpl->tpl_vars['discussion']->value['object_type'] === smarty_modifier_enum("Addons\\Discussion\\DiscussionObjectTypes::COMPANY")))) {
