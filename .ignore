@@ -2,10 +2,10 @@
 
 # Folders
 /upgrades/
-/var/cache/
+var/cache/
 
 # Files
-/.idea/
+.idea/
 .idea/workspace.xml
 
 /index.php
@@ -14,7 +14,7 @@
 /changelog.txt
 
 # Config files
-/config.local.php
+.config.local.php
 /config.php
 
 # Log files

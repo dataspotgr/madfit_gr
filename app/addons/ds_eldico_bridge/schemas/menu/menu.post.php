@@ -30,6 +30,10 @@ $schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge']['subitems']['
     'type'      => 'divider',
     'position'  => 485
 );
+$schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge']['subitems']['ds_eldico_bridge_features_active'] = array(
+    'href' => 'ds_eldico_bridge.features_active',
+    'position' => 490
+);
 $schema['top']['ds_dashboard_addons']['items']['ds_eldico_bridge']['subitems']['ds_eldico_bridge_logs'] = array(
     'href'      => 'ds_eldico_bridge.logs',
     'position'  => 500

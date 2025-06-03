@@ -7,7 +7,29 @@ if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
+    if($mode == "features_active") {
+        if( isset($_POST['feature_status']) && !empty($_POST['feature_status']) ) {
+            $feature_status_arr = $_POST['feature_status'];
+            foreach ($feature_status_arr as $feature_status) {
+                if($feature_status[2] == 1) {
+                    $update_data_feature = array(
+                        'eldc_feature_status' => $feature_status[2] //this is always 1
+                    );
+                    $update_feature = db_query('UPDATE ?:eldico_bridge_features SET ?u WHERE `id` = ?i', $update_data_feature, $feature_status[0]);
+                }
+                else {
+                    //de-activate all others features statuses
+                    $update_data_feature = array(
+                        'eldc_feature_status' => 0
+                    );
+                    $update_feature = db_query('UPDATE ?:eldico_bridge_features SET ?u WHERE `id` = ?i', $update_data_feature, $feature_status[0]);
+                }
+            } // end foreach loop
+//            fn_print_r($_POST['feature_status']);
+//            die;
+            fn_set_notification('N', __('sent_notice'), "Επιτυχής ολοκλήρωση ενημέρωσης χαρακτηριστικών!");
+        }
+    }
 }
 
 if($mode == "eldico_products") {
@@ -276,6 +298,23 @@ if($mode == "categories") {
         } //end foreach loop
     }
 }
+
+if($mode == "features") { //add features names from Bridge to TEMP table in cs-cart (eldico_bridge_features)
+    $features_names = fn_ds_eldico_bridge_get_features_names();
+}
+
+if($mode == "features_variants") { //add features variants names from Bridge to TEMP table in cs-cart (eldico_bridge_features_variants)
+    $features_names = fn_ds_eldico_bridge_get_features_variants_names();
+}
+
+if($mode == "features_add") { //add features names from TEMP table to cs-cart - active ones only
+    $features_add = fn_ds_eldico_bridge_add_active_features();
+}
+
+if($mode == "features_variants_add") { //add features variants from TEMP table to cs-cart
+    $features_add = fn_ds_eldico_bridge_add_features_variants_names();
+}
+
 
 if($mode == "integrate") {
     if( !isset($_GET['cronjob']) ) {

@@ -213,7 +213,7 @@
             `eldc_product_dimensions` varchar(55) NOT NULL,
             `eldc_product_weight` varchar(55) NOT NULL,
             `eldc_product_volume` varchar(55) NOT NULL,
-            `eldc_specifications` tinytext DEFAULT NULL,
+            `eldc_specifications` longtext DEFAULT NULL,
             `eldc_additional_infos` tinyint(4) NOT NULL,
             `eldc_parent_code` varchar(55) NOT NULL,
             `eldc_vat` int(11) NOT NULL,
@@ -242,6 +242,12 @@
             utf8mb4_general_ci;
         </item>
         <item for="uninstall">DROP TABLE IF EXISTS `?:eldico_bridge_features_variants`;</item>
+        <item for="install">
+            CREATE TABLE `?:eldico_bridge_logs` (`id` INT NOT NULL AUTO_INCREMENT ,
+            `eldc_comments` VARCHAR(255) NOT NULL , `eldc_log` LONGTEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB
+            CHARSET=utf8mb4 COLLATE utf8mb4_general_ci;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:eldico_bridge_logs`;</item>
     </queries>
     <language_variables>
         <item lang="el" id="ds_dashboard_addons">Dataspot</item>
@@ -276,6 +282,14 @@
         <item lang="el" id="ds_bridge_products_create">Δημιουργία προϊόντων</item>
         <item lang="el" id="ds_bridge_products_update">Ενημέρωση προϊόντων</item>
         <item lang="el" id="ds_bridge_products_updates_description">Εισαγωγή / Ενημέρωση προϊόντων</item>
+
+        <item lang="el" id="ds_bridge_features_name">Όνομα χαρακτηριστικού</item>
+        <item lang="el" id="ds_eldico_bridge_features_active">Αλλαγή κατάστασης χαρακτηριστικών</item>
+        <item lang="el" id="ds_bridge_features_status">Κατάσταση χαρακτηριστικού</item>
+        <item lang="el" id="ds_bridge_features_status_description">Επιλογή χαρακτηριστικού ενεργό / ανενεργό</item>
+        <item lang="el" id="ds_bridge_features_status_description_instructions">Στην ενότητα αυτή μπορείτε να επιλέξετε
+            ποια χαρακτηριστικά θα είναι ενεργά ώστε να περαστούν αυτόματα από την διασύνδεση της γέφυρας
+        </item>
 
         <item lang="el" id="ds_eldico_bridge_logs">Καταγραφή ενεργειών</item>
         <item lang="el" id="ds_eldico_bridge_logs_aa">A/A</item>
