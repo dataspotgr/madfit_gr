@@ -299,6 +299,52 @@ if($mode == "categories") {
     }
 }
 
+if($mode == "products_categories") { //add cscart_category_id From Bridge to TEMP table (cscart_eldico_bridge_categories)
+    $categories = db_get_array("SELECT `id`,`eldc_category` FROM ?:eldico_bridge_products");
+    if($categories) {
+        foreach ($categories as $category) {
+            $category_explode = explode("->", $category['eldc_category']);
+            $count_category_explode = count($category_explode);
+            for($i = 0; $i < $count_category_explode; $i++) {
+                $category_item = trim($category_explode[$i]);
+                $check_category = fn_ds_eldico_bridge_check_category_id_by_name($category_item);
+                if($check_category) {
+                    $categories_products_arr[] = $check_category; //first index is cscart_category_id
+                }
+            } // end for loop
+            $check_category_exists = db_get_field("SELECT `id` FROM ?:eldico_bridge_categories WHERE `eldico_bridge_products_id` = ?i", $category['id']);
+            if(!$check_category_exists) { //INSERT
+                $insert_category_product = array(
+                    'eldico_bridge_products_id' => $category['id'],
+                    'category_path'             => implode(",", $categories_products_arr),
+                    'parent_id'                 => $categories_products_arr[0], //maybe it is useless
+                    'cscart_category_id'        => $categories_products_arr[0]
+                );
+                $insert_category = db_query("INSERT INTO ?:eldico_bridge_categories ?e", $insert_category_product);
+                if ($insert_category) {
+                    echo "cscart_category_id :: " . $categories_products_arr[0] . " inserted! \n";
+                }
+            }
+            else { //UPDATE
+                $update_category_product = array(
+                    'eldico_bridge_products_id' => $category['id'],
+                    'category_path'             => implode(",", $categories_products_arr),
+                    'parent_id'                 => $categories_products_arr[0], //maybe it is useless
+                    'cscart_category_id'        => $categories_products_arr[0]
+                );
+                $insert_category = db_query("UPDATE ?:eldico_bridge_categories SET ?u WHERE `id` = ?i", $update_category_product, $categories_products_arr[0]);
+                if ($insert_category) {
+                    echo "cscart_category_id :: " . $categories_products_arr[0] . " inserted! \n";
+                }
+            }
+
+            if( isset($categories_products_arr) ) {
+                unset($categories_products_arr);
+            }
+        } // end foreach loop
+    }
+}
+
 if($mode == "features") { //add features names from Bridge to TEMP table in cs-cart (eldico_bridge_features)
     $features_names = fn_ds_eldico_bridge_get_features_names();
 }
@@ -311,10 +357,9 @@ if($mode == "features_add") { //add features names from TEMP table to cs-cart - 
     $features_add = fn_ds_eldico_bridge_add_active_features();
 }
 
-if($mode == "features_variants_add") { //add features variants from TEMP table to cs-cart
-    $features_add = fn_ds_eldico_bridge_add_features_variants_names();
+if($mode == "features_variants_add") { //add features variants from TEMP table to cs-cart (INSERT / UPDATE Features variants NOT Products)
+    $features_variants_add = fn_ds_eldico_bridge_add_features_variants_names();
 }
-
 
 if($mode == "integrate") {
     if( !isset($_GET['cronjob']) ) {
@@ -463,7 +508,7 @@ if($mode == "integrate") {
                         else { //brand variant does not exist, thus INSERT variant name and then UPDATE the product with variant_id
                             $data_variants["company_id"] = fn_get_runtime_company_id();
                             $data_variants["variants"][]["variant"] = $product['eldc_manufacturer'];
-                            $new_variant_id = createVariantsAPI($data_variants);
+                            $new_variant_id = createVariantsAPI(4, $data_variants);  // 4 stands for Brands
                             if( !empty($new_variant_id) ) {
                                 $data_product["product_features"][4]["feature_type"] = "E";
                                 $data_product["product_features"][4]["variant_id"] = $new_variant_id;
@@ -617,7 +662,7 @@ if($mode == "integrate") {
                     else { //brand variant does not exist, thus INSERT variant name and then UPDATE the product with variant_id
                         $data_variants["company_id"] = fn_get_runtime_company_id();
                         $data_variants["variants"][]["variant"] = $product['eldc_manufacturer'];
-                        $new_variant_id = createVariantsAPI($data_variants);
+                        $new_variant_id = createVariantsAPI(4, $data_variants); //4 stands for Brands
                         //after inserted the new_variant_id get the value
                         $brand_variant_id = fn_ds_eldico_bridge_get_brand_variant_id_by_name($product['eldc_manufacturer']);
                         if( !empty($brand_variant_id) ) {

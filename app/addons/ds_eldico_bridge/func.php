@@ -119,16 +119,17 @@ function updateEldicoProductAPI($product_id, $product_data) {
     }
 }
 
-function createVariantsAPI($data_variants) {
+function createVariantsAPI($feature_id, $data_variants) {
     $website_url        = Registry::get('addons.ds_eldico_bridge.website_url');
     $user_email_api     = Registry::get('addons.ds_eldico_bridge.user_email_api');
     $user_password_api  = Registry::get('addons.ds_eldico_bridge.user_password_api');
     $admin_base64 = base64_encode($user_email_api.":".$user_password_api);
     if(!empty($admin_base64)) {
         $product_data_json = json_encode($data_variants);
+        //echo $product_data_json;
         $curl = curl_init();
         curl_setopt_array($curl, array(
-            CURLOPT_URL => $website_url."/api.php?_d=features/4",
+            CURLOPT_URL => $website_url."/api.php?_d=features/".$feature_id,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -161,6 +162,52 @@ function createVariantsAPI($data_variants) {
                 'error'     => $err
             );
             //return "cURL Error #:" . $err;
+        }
+    }
+}
+
+function getVariantsAPI($feature_id) {
+    $website_url        = Registry::get('addons.ds_eldico_bridge.website_url');
+    $user_email_api     = Registry::get('addons.ds_eldico_bridge.user_email_api');
+    $user_password_api  = Registry::get('addons.ds_eldico_bridge.user_password_api');
+    $admin_base64 = base64_encode($user_email_api.":".$user_password_api);
+    if(!empty($admin_base64)) {
+        //$product_data_json = json_encode($data_variants);
+        //echo $product_data_json;
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $website_url."/api.php?_d=features/".$feature_id,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 300,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            //CURLOPT_POSTFIELDS => $product_data_json,
+            CURLOPT_HTTPHEADER => array(
+                "Authorization: Basic " . $admin_base64,
+                "Content-Type: application/json",
+                "cache-control: no-cache"
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        $http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        curl_close($curl);
+
+        if (!$err) {
+            return array(
+                'http_code' => $http_code,
+                'response'  => $response
+            );
+        }
+        else {
+            return array(
+                'http_code' => $http_code,
+                'response'  => $response,
+                'error'     => $err
+            );
         }
     }
 }
@@ -437,26 +484,52 @@ function fn_ds_eldico_bridge_get_features_variants_names() {
 }
 
 function fn_ds_eldico_bridge_add_features_variants_names() {
-    $active_features = db_get_array("SELECT * FROM ?:eldico_bridge_features WHERE `eldc_feature_status` = 1");
+    $active_features = db_get_array("SELECT bfv.id, bf.cscart_feature_id, bf.eldc_feature_name, bfv.eldc_feature_variant
+                                        FROM ?:eldico_bridge_features bf
+                                        INNER JOIN ?:eldico_bridge_features_variants bfv ON bfv.eldc_feature_id = bf.id
+                                        WHERE bf.eldc_feature_status = 1"); //LIMIT 1 //get new variants ONLY, thus INSERT
+    //fn_print_r($active_features);
+    //die;
     if ($active_features) {
-        foreach ($active_features as $active_feature) {
-            $query_feature = '%'.$active_feature["eldc_feature_name"].'%';
-            $products_features_variants = db_get_array("SELECT id, eldc_product_id, eldc_specifications 
-                                                            FROM ?:eldico_bridge_products 
-                                                            WHERE (eldc_specifications <> '') AND `eldc_specifications` LIKE ?l", $query_feature); //where l => LIKE '%%'
-
-            //fn_print_r($products_features_variants);
-
-            if ($products_features_variants) {
-                foreach ($products_features_variants as $products_feature_variant) {
-                    $products_feature_variant['id'];
-                    echo "<br />";
-                    echo "product_id= ".$products_feature_variant['eldc_product_id'];
-                    echo "<br />";
-                    //$products_feature_variant['eldc_specifications'];
+        foreach ($active_features as $active_feature_variant_value) { //get variant values only
+            $data_variant_values[]['variant'] = $active_feature_variant_value['eldc_feature_variant'];
+        }
+        //echo json_encode($data_variant_values);
+        //fn_print_r($data_variant_values);
+        //die;
+        $data_variant['company_id']   = fn_get_runtime_company_id();
+        $data_variant['feature_type'] = 'S';
+        $data_variant['feature_name'] = $active_features[0]['eldc_feature_name'];
+        $data_variant['variants']     = $data_variant_values;
+        $cscart_feature_id            = $active_features[0]['cscart_feature_id'];
+//        fn_print_r($data_variant);
+        //echo json_encode($data_variant);
+        //die;
+        $create_feature_variant = createVariantsAPI($cscart_feature_id, $data_variant);
+        if($create_feature_variant['http_code'] == 200) {
+            echo "variant_id(s) for feature_id :: " . $cscart_feature_id . " inserted! \n";
+            //if variants INSERTed successfully, get variant_id(s) and UPDATE the table cscart_eldico_bridge_features_variants
+            $get_feature_variants = getVariantsAPI($cscart_feature_id);
+            if($get_feature_variants['http_code'] == 200) {
+                $feature_variants = json_decode($get_feature_variants['response']);
+                $active_features_count = 0;
+                foreach($feature_variants->variants as $feature_variant) {
+                    $data_variant_arr = array(
+                        'feature_variant_id' => $feature_variant->variant_id
+                    );
+                    $update_eldico_bridge_features_variants = db_query("UPDATE ?:eldico_bridge_features_variants SET ?u WHERE `id` = ?i", $data_variant_arr, $active_features[$active_features_count]['id']);
+                    $active_features_count++;
                 } // end foreach loop
+                //fn_print_r($get_feature_variants);
+                //die;
             }
-        } // end foreach loop
+        }
+        else {
+            echo "response= " . $create_feature_variant['response'] . "\n";
+            echo "error else= ".$create_feature_variant['error'];
+        }
+            unset($data_variant_values);
+            unset($data_variant);
     }
 }
 
@@ -483,6 +556,7 @@ function fn_ds_eldico_bridge_add_active_features() {
                 'company_id'    => 1,
                 'description'   => $create_feature['eldc_feature_name'],
                 'feature_type'  => 'S' //Αναζήτηση προϊόντος με φίλτρα
+                //'categories_path' => '' //Comma-separated string of category IDs
             );
             $feature_results = createFeatureAPI($create_data_feature);
             if($feature_results['http_code'] == 201) { //created
@@ -534,4 +608,28 @@ function fn_ds_eldico_bridge_get_main_category_id_by_name($category_name) { //DE
 
 function fn_ds_eldico_bridge_get_category_ids_by_name($category_name) { //DEPRECATED
 
+}
+
+function fn_ds_eldico_bridge_add_features_variants_names_OLD() { //DEPRECATED
+    $active_features = db_get_array("SELECT * FROM ?:eldico_bridge_features WHERE `eldc_feature_status` = 1");
+    if ($active_features) {
+        foreach ($active_features as $active_feature) {
+            $query_feature = '%'.$active_feature["eldc_feature_name"].'%';
+            $products_features_variants = db_get_array("SELECT id, eldc_product_id, eldc_specifications 
+                                                            FROM ?:eldico_bridge_products 
+                                                            WHERE (eldc_specifications <> '') AND `eldc_specifications` LIKE ?l", $query_feature); //where l => LIKE '%%'
+
+            //fn_print_r($products_features_variants);
+
+            if ($products_features_variants) {
+                foreach ($products_features_variants as $products_feature_variant) {
+                    $products_feature_variant['id'];
+                    echo "<br />";
+                    echo "product_id= ".$products_feature_variant['eldc_product_id'];
+                    echo "<br />";
+                    //$products_feature_variant['eldc_specifications'];
+                } // end foreach loop
+            }
+        } // end foreach loop
+    }
 }
