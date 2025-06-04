@@ -1,5 +1,5 @@
 <?php $snapshot = array (
-  'time' => 1748845252,
+  'time' => 1749017375,
   'files' => 
   array (
     '373624cd5e489037587c4a51b95924be' => '/api.php',
@@ -361,10 +361,10 @@
     '25c50c59cf53517c83a6c8a6cc500389' => '/app/addons/ds_boxnow/func.php',
     '0067d92e627224926dc305b861133cf5' => '/app/addons/ds_boxnow/init.php',
     'c242b96deaefe5eff8ee3122de015d0c' => '/app/addons/ds_boxnow/lang/el.po',
-    '7bd7ad6dde9a449e87cbf2096922c3df' => '/app/addons/ds_eldico_bridge/addon.xml',
-    '6b1bb91cb5018fefd95817d77b91ec4b' => '/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php',
-    '9a2db8dce77c590bb916faed73900d87' => '/app/addons/ds_eldico_bridge/func.php',
-    '77d31ac2a84bc98ea09ec7b3e78abedc' => '/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php',
+    '21d8f30568a8d6d95bca0dfe5b86fa7d' => '/app/addons/ds_eldico_bridge/addon.xml',
+    '7fb473babd13f928bca2867892d17914' => '/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php',
+    '32cd5c8348d8e682276abf11fca916ec' => '/app/addons/ds_eldico_bridge/func.php',
+    'afecae37059c684e80fd697ffa4ace30' => '/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php',
     'abe0f8a1b81c4b7ffaabc0f14be0d6d6' => '/app/addons/ebay/addon.xml',
     '88ac14ee2d4dc3ff3613906ed5578e30' => '/app/addons/ebay/changelog.txt',
     'dc53965f9e574539c321ef8ff09f4466' => '/app/addons/ebay/config.php',
@@ -10823,6 +10823,8 @@
     'ae213ad015df247b08a85f98c1c573e4' => '/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_categories.tpl',
     '06a33e9390dd4f285d1a6cb0c5d00c4d' => '/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl',
     '71008744c391040ee6b8d4aa4dd8dd54' => '/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features.tpl',
+    '9d475d532d1711fbd9f93b44f694353a' => '/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_active.tpl',
+    '7ee3d25033151015cfa05ff733cd218d' => '/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_add.tpl',
     '6214c4533f43685a8f3f0be3cc47266b' => '/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl',
     '35cda10b8a21e0236cc451d2a1ded1a1' => '/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/logs.tpl',
     '935091e1a9b83dcd09cddfc06c3d3a0f' => '/design/backend/templates/addons/ebay/hooks/categories/tabs_content.post.tpl',
