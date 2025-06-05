@@ -178,8 +178,8 @@ if (file_exists(DIR_ROOT . '/local_conf.php')) {
     include_once(DIR_ROOT . '/local_conf.php');
 }
 
-define('DEVELOPMENT', true);
-define('DEBUG_MODE', true);
+//define('DEVELOPMENT', true);
+//define('DEBUG_MODE', true);
 
 // Enable DEV mode if Product status is not empty (like Beta1, dev, etc.)
 if (PRODUCT_STATUS != '' && !defined('DEVELOPMENT')) {
