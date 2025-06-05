@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:51:29
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 14:07:04
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\tags\hooks\products\search_data.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_68386661cf8278_05436836',
+=======
+  'unifunc' => 'content_683056d8e5d577_68763516',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e439ca748fda67e498a8845fd96687c360d759de' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\tags\\hooks\\products\\search_data.post.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996617,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_68386661cf8278_05436836 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683056d8e5d577_68763516 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 \Tygh\Languages\Helper::preloadLangVars(array('tag'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR")) {?>
     <?php $_tmp_array = isset($_smarty_tpl->tpl_vars['search_filters']) ? $_smarty_tpl->tpl_vars['search_filters']->value : array();

@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-30 09:48:07
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 13:45:00
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\daterange_picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683954a797c666_92737814',
+=======
+  'unifunc' => 'content_683051ac4380c9_47125044',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2feadd7cb5fa254a25d847a9cc915cb8d4157e69' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\daterange_picker.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996625,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683954a797c666_92737814 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683051ac4380c9_47125044 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('month_name_abr_1','month_name_abr_2','month_name_abr_3','month_name_abr_4','month_name_abr_5','month_name_abr_6','month_name_abr_7','month_name_abr_8','month_name_abr_9','month_name_abr_10','month_name_abr_11','month_name_abr_12','weekday_abr_0','weekday_abr_1','weekday_abr_2','weekday_abr_3','weekday_abr_4','weekday_abr_5','weekday_abr_6','today','yesterday','this_month','last_month','this_year','last_year','custom_range','apply','clear','cancel','from','to'));
 $_smarty_tpl->_assignInScope('enable_inputs', (($tmp = $_smarty_tpl->tpl_vars['enable_inputs']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));?>

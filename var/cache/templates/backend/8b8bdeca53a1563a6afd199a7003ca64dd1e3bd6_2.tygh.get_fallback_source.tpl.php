@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:43:52
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 13:44:31
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\icons\get_fallback_source.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_68386498a53d03_52697959',
+=======
+  'unifunc' => 'content_6830518f23d828_18934150',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8b8bdeca53a1563a6afd199a7003ca64dd1e3bd6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\icons\\get_fallback_source.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996636,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_68386498a53d03_52697959 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_6830518f23d828_18934150 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.unset_key.php','function'=>'smarty_modifier_unset_key',),));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "get_fallback_source", null, null);
 $_smarty_tpl->_assignInScope('icon_prefix', "icon-");
@@ -36,7 +52,11 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['class_index']->v
 $_smarty_tpl->tpl_vars['class_item']->do_else = false;
 $_smarty_tpl->tpl_vars['class_item']->iteration++;
 $_smarty_tpl->tpl_vars['class_item']->last = $_smarty_tpl->tpl_vars['class_item']->iteration === $_smarty_tpl->tpl_vars['class_item']->total;
+<<<<<<< HEAD
 $__foreach_class_item_8_saved = $_smarty_tpl->tpl_vars['class_item'];
+=======
+$__foreach_class_item_15_saved = $_smarty_tpl->tpl_vars['class_item'];
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_assignInScope('icon_path', "icons/icon-".((string)(smarty_modifier_replace($_smarty_tpl->tpl_vars['class_item']->value,'_','-'))).".svg");
 if (substr($_smarty_tpl->tpl_vars['class_item']->value,0,$_smarty_tpl->tpl_vars['icon_prefix_length']->value) === $_smarty_tpl->tpl_vars['icon_prefix']->value) {
 $_smarty_tpl->_assignInScope('class_array', smarty_modifier_unset_key($_smarty_tpl->tpl_vars['class_array']->value,$_smarty_tpl->tpl_vars['class_index']->value));
@@ -48,7 +68,11 @@ $_smarty_tpl->_assignInScope('source', $_smarty_tpl->tpl_vars['class_item']->val
 if ($_smarty_tpl->tpl_vars['class_item']->last) {
 $_smarty_tpl->_assignInScope('class', implode(" ",($_smarty_tpl->tpl_vars['class_array']->value)));
 }
+<<<<<<< HEAD
 $_smarty_tpl->tpl_vars['class_item'] = $__foreach_class_item_8_saved;
+=======
+$_smarty_tpl->tpl_vars['class_item'] = $__foreach_class_item_15_saved;
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 }

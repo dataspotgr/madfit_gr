@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:54:37
+=======
+/* Smarty version 4.3.0, created on 2025-05-27 12:50:10
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\select_usergroups.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_6838671d06a3c9_69771241',
+=======
+  'unifunc' => 'content_68358ad2dd9772_97273429',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fb933c6fe0dcbdd07b174d5df2e13a06b14a9c00' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\select_usergroups.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996628,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_6838671d06a3c9_69771241 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_68358ad2dd9772_97273429 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),5=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 if (!empty($_smarty_tpl->tpl_vars['usergroup_ids']->value)) {?>
     <?php $_smarty_tpl->_assignInScope('ug_ids', smarty_modifier_explode(",",$_smarty_tpl->tpl_vars['usergroup_ids']->value));

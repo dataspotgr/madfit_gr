@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-06-02 11:55:41
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 09:41:21
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\addons\wishlist\views\wishlist\components\product_notification.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683d670d717f81_18558122',
+=======
+  'unifunc' => 'content_683018915fcee2_15358484',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2eae48e93de43509043ea88251cd41168c64973b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\addons\\wishlist\\views\\wishlist\\components\\product_notification.tpl',
+<<<<<<< HEAD
       1 => 1743766599,
+=======
+      1 => 1747915844,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -22,7 +34,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/notification.tpl' => 2,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683d670d717f81_18558122 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683018915fcee2_15358484 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('view_wishlist','view_wishlist'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

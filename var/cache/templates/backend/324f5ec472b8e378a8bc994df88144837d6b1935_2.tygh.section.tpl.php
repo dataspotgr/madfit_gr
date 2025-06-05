@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:54:51
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:37
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_6838672b1cf9f2_01772857',
+=======
+  'unifunc' => 'content_68302909ee6b77_05378782',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '324f5ec472b8e378a8bc994df88144837d6b1935' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\section.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747915843,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_6838672b1cf9f2_01772857 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_68302909ee6b77_05378782 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 \Tygh\Languages\Helper::preloadLangVars(array('close'));
 $_smarty_tpl->_assignInScope('rnd', rand());?>
 <div class="clear" id="ds_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['rnd']->value, ENT_QUOTES, 'UTF-8');?>

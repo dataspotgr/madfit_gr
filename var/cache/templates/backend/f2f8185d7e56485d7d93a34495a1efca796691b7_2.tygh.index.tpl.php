@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-30 09:47:52
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 13:44:22
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\index\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_68395498900988_53729870',
+=======
+  'unifunc' => 'content_6830518658c5e1_47326571',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f2f8185d7e56485d7d93a34495a1efca796691b7' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\index\\index.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996681,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -26,7 +38,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/share.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_68395498900988_53729870 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_6830518658c5e1_47326571 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('dashboard','installer_complete_title','welcome_screen.administrator_info','admin_panel','welcome_screen.go_admin_panel','welcome_screen.go_settings_wizard','settings_wizard','welcome_screen.run_settings_wizard','storefront','welcome_screen.go_storefront','welcome_screen.learn_more_configuration','welcome_screen.knowledge_base','welcome_screen.thanks'));
 echo smarty_function_script(array('src'=>"js/tygh/tabs.js"),$_smarty_tpl);?>
@@ -75,8 +91,13 @@ if ($_smarty_tpl->tpl_vars['show_welcome']->value) {?>
         <?php } else { ?>
             <?php ob_start();
 echo htmlspecialchars((string) fn_url($_smarty_tpl->tpl_vars['config']->value['http_location']), ENT_QUOTES, 'UTF-8');
+<<<<<<< HEAD
 $_prefixVariable1=ob_get_clean();
 $_smarty_tpl->_assignInScope('link_storefront', $_prefixVariable1);?>
+=======
+$_prefixVariable19=ob_get_clean();
+$_smarty_tpl->_assignInScope('link_storefront', $_prefixVariable19);?>
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
         <?php }?>
         <div class="welcome-screen">
             <p>

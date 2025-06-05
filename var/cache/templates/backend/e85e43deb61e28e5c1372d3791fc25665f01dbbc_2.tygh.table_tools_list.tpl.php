@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-06-02 12:15:17
+=======
+/* Smarty version 4.3.0, created on 2025-05-26 16:05:06
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\table_tools_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683d6ba5e05f83_96607875',
+=======
+  'unifunc' => 'content_68346702a5fda6_62346098',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e85e43deb61e28e5c1372d3791fc25665f01dbbc' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\table_tools_list.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996630,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -21,7 +33,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683d6ba5e05f83_96607875 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_68346702a5fda6_62346098 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 \Tygh\Languages\Helper::preloadLangVars(array('view','edit'));
 if ($_smarty_tpl->tpl_vars['popup']->value) {?>
     <?php if ($_smarty_tpl->tpl_vars['skip_check_permissions']->value || fn_check_view_permissions($_smarty_tpl->tpl_vars['href']->value)) {?>

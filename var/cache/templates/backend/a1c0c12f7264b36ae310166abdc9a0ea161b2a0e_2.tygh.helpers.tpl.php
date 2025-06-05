@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:43:49
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 13:44:18
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\helpers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683864956e6198_96083589',
+=======
+  'unifunc' => 'content_683051825c67a4_97802682',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a1c0c12f7264b36ae310166abdc9a0ea161b2a0e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\buttons\\helpers.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996623,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,19 +32,31 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683864956e6198_96083589 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683051825c67a4_97802682 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'btn' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\backend\\a1c0c12f7264b36ae310166abdc9a0ea161b2a0e_2.tygh.helpers.tpl.php',
     'uid' => 'a1c0c12f7264b36ae310166abdc9a0ea161b2a0e',
+<<<<<<< HEAD
     'call_name' => 'smarty_template_function_btn_16933519386838649568fc37_74562234',
+=======
+    'call_name' => 'smarty_template_function_btn_945364611683051824b1641_83535415',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   ),
   'dropdown' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\backend\\a1c0c12f7264b36ae310166abdc9a0ea161b2a0e_2.tygh.helpers.tpl.php',
     'uid' => 'a1c0c12f7264b36ae310166abdc9a0ea161b2a0e',
+<<<<<<< HEAD
     'call_name' => 'smarty_template_function_dropdown_16933519386838649568fc37_74562234',
+=======
+    'call_name' => 'smarty_template_function_dropdown_945364611683051824b1641_83535415',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   ),
 ));
 ?>
@@ -40,9 +64,15 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
 <?php }
 \Tygh\Languages\Helper::preloadLangVars(array('delete_selected','delete','tools'));
+<<<<<<< HEAD
 /* smarty_template_function_btn_16933519386838649568fc37_74562234 */
 if (!function_exists('smarty_template_function_btn_16933519386838649568fc37_74562234')) {
 function smarty_template_function_btn_16933519386838649568fc37_74562234(Smarty_Internal_Template $_smarty_tpl,$params) {
+=======
+/* smarty_template_function_btn_945364611683051824b1641_83535415 */
+if (!function_exists('smarty_template_function_btn_945364611683051824b1641_83535415')) {
+function smarty_template_function_btn_945364611683051824b1641_83535415(Smarty_Internal_Template $_smarty_tpl,$params) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $params = array_merge(array('text'=>'','href'=>'','title'=>'','onclick'=>'','target'=>'','class'=>'','data'=>array(),'form'=>'','method'=>'','raw'=>false), $params);
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
@@ -217,10 +247,17 @@ if (!$_smarty_tpl->tpl_vars['hide_clone']->value) {?><li><?php $_smarty_tpl->sma
 
     <?php }
 }}
+<<<<<<< HEAD
 /*/ smarty_template_function_btn_16933519386838649568fc37_74562234 */
 /* smarty_template_function_dropdown_16933519386838649568fc37_74562234 */
 if (!function_exists('smarty_template_function_dropdown_16933519386838649568fc37_74562234')) {
 function smarty_template_function_dropdown_16933519386838649568fc37_74562234(Smarty_Internal_Template $_smarty_tpl,$params) {
+=======
+/*/ smarty_template_function_btn_945364611683051824b1641_83535415 */
+/* smarty_template_function_dropdown_945364611683051824b1641_83535415 */
+if (!function_exists('smarty_template_function_dropdown_945364611683051824b1641_83535415')) {
+function smarty_template_function_dropdown_945364611683051824b1641_83535415(Smarty_Internal_Template $_smarty_tpl,$params) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $params = array_merge(array('text'=>'','title'=>'','class'=>'','content'=>'','icon'=>'','no_caret'=>false,'placement'=>"left"), $params);
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
@@ -255,5 +292,9 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr
         </div>
     <?php }
 }}
+<<<<<<< HEAD
 /*/ smarty_template_function_dropdown_16933519386838649568fc37_74562234 */
+=======
+/*/ smarty_template_function_dropdown_945364611683051824b1641_83535415 */
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 }

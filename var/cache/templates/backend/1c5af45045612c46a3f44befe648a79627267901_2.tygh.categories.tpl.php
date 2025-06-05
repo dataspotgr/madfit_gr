@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-30 11:48:13
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:41
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\product_features\components\context_menu\categories.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683970cdf37488_02031150',
+=======
+  'unifunc' => 'content_6830290d7d2170_81031902',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1c5af45045612c46a3f44befe648a79627267901' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\product_features\\components\\context_menu\\categories.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747915843,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -21,7 +33,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/select2/categories_bulkedit.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683970cdf37488_02031150 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_6830290d7d2170_81031902 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 \Tygh\Languages\Helper::preloadLangVars(array('category','categories','bulk_product_features_warning','view_feature_groups','bulk_edit.what_do_these_checkboxes_mean','show','hide','show','bulk_edit.what_do_these_checkboxes_mean_checked','bulk_edit.what_do_these_checkboxes_mean_unchecked','bulk_edit.what_do_these_checkboxes_mean_indeterminate','reset','apply'));
 ?>
 

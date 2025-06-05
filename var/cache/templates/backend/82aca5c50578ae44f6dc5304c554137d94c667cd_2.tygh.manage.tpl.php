@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-30 11:53:27
+=======
+/* Smarty version 4.3.0, created on 2025-05-27 14:48:07
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\categories\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_68397207a9ea00_07228619',
+=======
+  'unifunc' => 'content_6835a67701e5b1_94062248',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '82aca5c50578ae44f6dc5304c554137d94c667cd' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\categories\\manage.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996675,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -27,7 +39,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_68397207a9ea00_07228619 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_6835a67701e5b1_94062248 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.component.php','function'=>'smarty_block_component',),));
 \Tygh\Languages\Helper::preloadLangVars(array('no_items','text_select_fields2edit_note','cancel','modify_selected','select_fields_to_edit','bulk_category_addition','add_category','add_category','total','categories','products','active_categories','hidden_categories','disabled_categories','categories'));
 if ($_smarty_tpl->tpl_vars['language_direction']->value == "rtl") {?>

@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:44:14
+=======
+/* Smarty version 4.3.0, created on 2025-05-26 09:40:17
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\settings_fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683864aee443a9_90302959',
+=======
+  'unifunc' => 'content_68340cd1d8ec43_30529422',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '465a80999835a94f0d3279fe2ca995e490d2d060' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\settings_fields.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996629,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -26,7 +38,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/selectable_box.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683864aee443a9_90302959 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_68340cd1d8ec43_30529422 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),3=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),4=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('select_default','default','select_selectbox_option','no_items','multiple_selectbox_notice','select_country','select_state','browse','no_items'));
 if (($_smarty_tpl->tpl_vars['item']->value['options'])) {?>
@@ -124,8 +140,13 @@ if ($_smarty_tpl->tpl_vars['highlight']->value && smarty_modifier_in_array($_sma
 if ($_smarty_tpl->tpl_vars['item']->value['type'] == smarty_modifier_enum("SettingTypes::PHONE")) {
 echo " cm-mask-phone-label";
 }
+<<<<<<< HEAD
 $_prefixVariable4=ob_get_clean();
 $_smarty_tpl->_assignInScope('default_label_attrs', array("for"=>$_smarty_tpl->tpl_vars['html_id']->value,"class"=>"control-label ".$_prefixVariable4));?>
+=======
+$_prefixVariable2=ob_get_clean();
+$_smarty_tpl->_assignInScope('default_label_attrs', array("for"=>$_smarty_tpl->tpl_vars['html_id']->value,"class"=>"control-label ".$_prefixVariable2));?>
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
         <?php $_smarty_tpl->_assignInScope('extended_label_attrs', array("class"=>$_smarty_tpl->tpl_vars['highlight']->value && smarty_modifier_in_array($_smarty_tpl->tpl_vars['item']->value['name'],$_smarty_tpl->tpl_vars['highlight']->value) ? "highlight" : ''));?>
         <label <?php echo smarty_modifier_render_tag_attrs($_smarty_tpl->tpl_vars['label_attrs']->value,$_smarty_tpl->tpl_vars['default_label_attrs']->value,$_smarty_tpl->tpl_vars['extended_label_attrs']->value);?>
 ><?php echo $_smarty_tpl->tpl_vars['item']->value['description'];?>
@@ -381,8 +402,13 @@ echo " cm-value-integer";
 } elseif ($_smarty_tpl->tpl_vars['item']->value['type'] === smarty_modifier_enum("SettingTypes::FLOAT")) {
 echo " cm-value-decimal";
 }
+<<<<<<< HEAD
 $_prefixVariable5=ob_get_clean();
 $_smarty_tpl->_assignInScope('default_attrs', array_merge($_smarty_tpl->tpl_vars['default_attrs']->value,array("id"=>((string)$_smarty_tpl->tpl_vars['html_id']->value),"type"=>"text","name"=>((string)$_smarty_tpl->tpl_vars['html_name']->value),"size"=>"30","class"=>$_prefixVariable5,"placeholder"=>((string)$_smarty_tpl->tpl_vars['input_placeholder']->value),"value"=>((string)$_smarty_tpl->tpl_vars['item']->value['value']))));?>
+=======
+$_prefixVariable3=ob_get_clean();
+$_smarty_tpl->_assignInScope('default_attrs', array_merge($_smarty_tpl->tpl_vars['default_attrs']->value,array("id"=>((string)$_smarty_tpl->tpl_vars['html_id']->value),"type"=>"text","name"=>((string)$_smarty_tpl->tpl_vars['html_name']->value),"size"=>"30","class"=>$_prefixVariable3,"placeholder"=>((string)$_smarty_tpl->tpl_vars['input_placeholder']->value),"value"=>((string)$_smarty_tpl->tpl_vars['item']->value['value']))));?>
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
                 <input <?php echo smarty_modifier_render_tag_attrs($_smarty_tpl->tpl_vars['input_attrs']->value,$_smarty_tpl->tpl_vars['default_attrs']->value);?>
 />
             <?php }?>

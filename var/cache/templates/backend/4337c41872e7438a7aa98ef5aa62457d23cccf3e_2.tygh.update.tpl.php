@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:54:44
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:18
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_bundles\views\product_bundles\update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_68386724181997_89997899',
+=======
+  'unifunc' => 'content_683028f63f5fd5_29307802',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4337c41872e7438a7aa98ef5aa62457d23cccf3e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_bundles\\views\\product_bundles\\update.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747915842,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -30,7 +42,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 2,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_68386724181997_89997899 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683028f63f5fd5_29307802 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.to_json.php','function'=>'smarty_modifier_to_json',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','products','description','product_bundles.display_in_promotions','product_bundles.promo_image','use_avail_period','avail_from','avail_till','product_bundles.bundle_products','recalculate','product_bundles.total_cost','product_bundles.price_for_all','product_bundles.share_discount','apply','product_bundles.confirm_text_on_empty_bundle','product_bundles.confirm_text_with_one_product_bundle','product_bundles.confirm_text_on_empty_bundle','product_bundles.confirm_text_with_one_product_bundle'));
 if ($_smarty_tpl->tpl_vars['item']->value['bundle_id']) {?>
@@ -52,8 +68,13 @@ if (empty($_smarty_tpl->tpl_vars['product_options']->value)) {?>
 }
 ob_start();
 echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product_data']->value['price'], ENT_QUOTES, 'UTF-8');
+<<<<<<< HEAD
 $_prefixVariable20 = ob_get_clean();
 $_smarty_tpl->_assignInScope('item_product', $_smarty_tpl->tpl_vars['product_data']->value ? (array(array("product_id"=>$_smarty_tpl->tpl_vars['product_id']->value,"product"=>((string)$_smarty_tpl->tpl_vars['product_data']->value['product']),"price"=>$_prefixVariable20,"amount"=>"1","aoc"=>((string)$_smarty_tpl->tpl_vars['aoc']->value)))) : (array()));
+=======
+$_prefixVariable18 = ob_get_clean();
+$_smarty_tpl->_assignInScope('item_product', $_smarty_tpl->tpl_vars['product_data']->value ? (array(array("product_id"=>$_smarty_tpl->tpl_vars['product_id']->value,"product"=>((string)$_smarty_tpl->tpl_vars['product_data']->value['product']),"price"=>$_prefixVariable18,"amount"=>"1","aoc"=>((string)$_smarty_tpl->tpl_vars['aoc']->value)))) : (array()));
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_assignInScope('bundle_products', (($tmp = $_smarty_tpl->tpl_vars['item']->value['products'] ?? null)===null||$tmp==='' ? $_smarty_tpl->tpl_vars['item_product']->value ?? null : $tmp));
 $_smarty_tpl->_assignInScope('return_url', (($tmp = $_smarty_tpl->tpl_vars['return_url']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->tpl_vars['config']->value['current_url'] ?? null : $tmp));
 $_smarty_tpl->_assignInScope('tabs_count', 2);?>
@@ -116,8 +137,13 @@ $_smarty_tpl->_assignInScope('tabs_count', 2);?>
 " value="<?php echo htmlspecialchars((string) smarty_modifier_enum("YesNO::YES"), ENT_QUOTES, 'UTF-8');?>
 " <?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("YesNO::YES"), ENT_QUOTES, 'UTF-8');
+<<<<<<< HEAD
 $_prefixVariable21=ob_get_clean();
 if ($_smarty_tpl->tpl_vars['item']->value['display_in_promotions'] == $_prefixVariable21) {?>checked="checked"<?php }?>>
+=======
+$_prefixVariable19=ob_get_clean();
+if ($_smarty_tpl->tpl_vars['item']->value['display_in_promotions'] == $_prefixVariable19) {?>checked="checked"<?php }?>>
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
                             </div>
                         </div>
                     <?php }?>
@@ -177,17 +203,29 @@ if ($_smarty_tpl->tpl_vars['item']->value['display_in_promotions'] == $_prefixVa
 
                     <?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum('YesNo::YES'), ENT_QUOTES, 'UTF-8');
+<<<<<<< HEAD
 $_prefixVariable22=ob_get_clean();
 ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum('YesNo::YES'), ENT_QUOTES, 'UTF-8');
 $_prefixVariable23=ob_get_clean();
+=======
+$_prefixVariable20=ob_get_clean();
+ob_start();
+echo htmlspecialchars((string) smarty_modifier_enum('YesNo::YES'), ENT_QUOTES, 'UTF-8');
+$_prefixVariable21=ob_get_clean();
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 ob_start();
 if ($_smarty_tpl->tpl_vars['exclude_pid']->value) {
 echo "&exclude_pid=";
 echo (string)$_smarty_tpl->tpl_vars['exclude_pid']->value;
 }
+<<<<<<< HEAD
 $_prefixVariable24=ob_get_clean();
 $_smarty_tpl->_subTemplateRender("tygh:views/products/components/picker/picker.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('multiple'=>true,'select_group_class'=>"btn-toolbar",'display'=>"options",'advanced_picker_id'=>"add_new_bundles_".((string)$_smarty_tpl->tpl_vars['id']->value)."_",'select_class'=>"cm-object-product-add--product-bundles",'aoc'=>true,'additional_query_params'=>"product_type=P&aoc=".$_prefixVariable22."&any_variation=".$_prefixVariable23.$_prefixVariable24,'segment'=>"product_bundles"), 0, false);
+=======
+$_prefixVariable22=ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:views/products/components/picker/picker.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('multiple'=>true,'select_group_class'=>"btn-toolbar",'display'=>"options",'advanced_picker_id'=>"add_new_bundles_".((string)$_smarty_tpl->tpl_vars['id']->value)."_",'select_class'=>"cm-object-product-add--product-bundles",'aoc'=>true,'additional_query_params'=>"product_type=P&aoc=".$_prefixVariable20."&any_variation=".$_prefixVariable21.$_prefixVariable22,'segment'=>"product_bundles"), 0, false);
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 ?>
                 <?php }?>
 
@@ -243,20 +281,36 @@ $_smarty_tpl->_subTemplateRender("tygh:views/products/components/picker/picker.t
             <?php if (!$_smarty_tpl->tpl_vars['id']->value) {?>
                 <?php ob_start();
 echo $_smarty_tpl->__("product_bundles.confirm_text_on_empty_bundle");
+<<<<<<< HEAD
 $_prefixVariable25 = ob_get_clean();
 ob_start();
 echo $_smarty_tpl->__("product_bundles.confirm_text_with_one_product_bundle");
 $_prefixVariable26 = ob_get_clean();
 $_smarty_tpl->_subTemplateRender("tygh:buttons/save_cancel.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_name'=>"dispatch[product_bundles.update]",'cancel_action'=>"close",'but_confirm_text'=>smarty_modifier_to_json(array("emptyProductBundle"=>$_prefixVariable25,"withOneProductBundle"=>$_prefixVariable26))), 0, false);
+=======
+$_prefixVariable23 = ob_get_clean();
+ob_start();
+echo $_smarty_tpl->__("product_bundles.confirm_text_with_one_product_bundle");
+$_prefixVariable24 = ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:buttons/save_cancel.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_name'=>"dispatch[product_bundles.update]",'cancel_action'=>"close",'but_confirm_text'=>smarty_modifier_to_json(array("emptyProductBundle"=>$_prefixVariable23,"withOneProductBundle"=>$_prefixVariable24))), 0, false);
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 ?>
             <?php } else { ?>
                 <?php ob_start();
 echo $_smarty_tpl->__("product_bundles.confirm_text_on_empty_bundle");
+<<<<<<< HEAD
 $_prefixVariable27 = ob_get_clean();
 ob_start();
 echo $_smarty_tpl->__("product_bundles.confirm_text_with_one_product_bundle");
 $_prefixVariable28 = ob_get_clean();
 $_smarty_tpl->_subTemplateRender("tygh:buttons/save_cancel.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_name'=>"dispatch[product_bundles.update]",'but_confirm_text'=>smarty_modifier_to_json(array("emptyProductBundle"=>$_prefixVariable27,"withOneProductBundle"=>$_prefixVariable28)),'cancel_action'=>"close",'hide_first_button'=>false,'hide_second_button'=>false,'save'=>$_smarty_tpl->tpl_vars['id']->value), 0, true);
+=======
+$_prefixVariable25 = ob_get_clean();
+ob_start();
+echo $_smarty_tpl->__("product_bundles.confirm_text_with_one_product_bundle");
+$_prefixVariable26 = ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:buttons/save_cancel.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_name'=>"dispatch[product_bundles.update]",'but_confirm_text'=>smarty_modifier_to_json(array("emptyProductBundle"=>$_prefixVariable25,"withOneProductBundle"=>$_prefixVariable26)),'cancel_action'=>"close",'hide_first_button'=>false,'hide_second_button'=>false,'save'=>$_smarty_tpl->tpl_vars['id']->value), 0, true);
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 ?>
             <?php }?>
         </div>

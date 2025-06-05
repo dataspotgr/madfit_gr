@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:54:39
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:04
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\product_assign_feature.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_6838671fa86684_14174723',
+=======
+  'unifunc' => 'content_683028e8135097_12614137',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6f176d16f43a3bf963537bb52fdfd08f5463e41' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\product_assign_feature.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747915843,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -23,7 +35,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_6838671fa86684_14174723 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683028e8135097_12614137 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('none','none','delete'));
 $_smarty_tpl->_assignInScope('allow_enter_variant', $_smarty_tpl->tpl_vars['allow_add_feature']->value && fn_allow_save_object($_smarty_tpl->tpl_vars['feature']->value,"product_features"));
@@ -115,8 +131,8 @@ _add_new_variant"
                     <?php } elseif ($_smarty_tpl->tpl_vars['feature']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::DATE")) {?>
                         <?php ob_start();
 echo $_smarty_tpl->__("none");
-$_prefixVariable5=ob_get_clean();
-$_smarty_tpl->_subTemplateRender("tygh:common/calendar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('date_id'=>"date_".((string)$_smarty_tpl->tpl_vars['feature_id']->value),'date_name'=>"product_data[product_features][".((string)$_smarty_tpl->tpl_vars['feature_id']->value)."]",'date_val'=>(($tmp = $_smarty_tpl->tpl_vars['feature']->value['value_int'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'extra'=>"placeholder=\"-".$_prefixVariable5."-\""), 0, false);
+$_prefixVariable4=ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:common/calendar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('date_id'=>"date_".((string)$_smarty_tpl->tpl_vars['feature_id']->value),'date_name'=>"product_data[product_features][".((string)$_smarty_tpl->tpl_vars['feature_id']->value)."]",'date_val'=>(($tmp = $_smarty_tpl->tpl_vars['feature']->value['value_int'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'extra'=>"placeholder=\"-".$_prefixVariable4."-\""), 0, false);
 ?>
                     <?php } else { ?>
                         <input type="text"

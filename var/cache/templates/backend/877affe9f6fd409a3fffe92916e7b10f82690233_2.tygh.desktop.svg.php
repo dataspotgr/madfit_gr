@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:44:03
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 13:44:40
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\icons\desktop.svg' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683864a37bea34_99214933',
+=======
+  'unifunc' => 'content_68305198ba7d37_75802940',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '877affe9f6fd409a3fffe92916e7b10f82690233' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\icons\\desktop.svg',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996644,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,6 +32,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683864a37bea34_99214933 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_68305198ba7d37_75802940 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 ?><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="m3.33464 3.25c-.50627 0-.91667.41041-.91667.91667v8.33333c0 .5063.4104.9167.91667.9167h13.33336c.5062 0 .9166-.4104.9166-.9167v-8.33333c0-.50626-.4104-.91667-.9166-.91667zm-2.416671.91667c0-1.33469 1.081981-2.41667 2.416671-2.41667h13.33336c1.3347 0 2.4166 1.08198 2.4166 2.41667v8.33333c0 1.3347-1.0819 2.4167-2.4166 2.4167h-5.9175v1.8333h2.5841c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-3.2988c-.0117.0005-.0235.0008-.0353.0008-.01183 0-.02359-.0003-.03528-.0008h-3.29725c-.41421 0-.75-.3358-.75-.75s.33579-.75.75-.75h2.58252v-1.8333h-5.91585c-1.33469 0-2.416671-1.082-2.416671-2.4167z"/></svg><?php }
 }

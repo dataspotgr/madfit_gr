@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:44:14
+=======
+/* Smarty version 4.3.0, created on 2025-05-26 09:40:16
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\settings_section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683864aec42998_61219918',
+=======
+  'unifunc' => 'content_68340cd0c5d1f9_50328392',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '25b3d826e28ddaac324cbad358bbd4d1ca25caaf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\settings_section.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996629,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -21,7 +33,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/settings_fields.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683864aec42998_61219918 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_68340cd0c5d1f9_50328392 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['items']->value, 'item', false, 'name', 'fe_data', array (
   'iteration' => true,
   'total' => true,
@@ -47,8 +63,13 @@ echo (string)$_smarty_tpl->tpl_vars['parent_item']->value['name'];
 echo "_";
 echo (string)$_smarty_tpl->tpl_vars['parent_item']->value['object_id'];
 }
+<<<<<<< HEAD
 $_prefixVariable3=ob_get_clean();
 $_smarty_tpl->_assignInScope('parent_item_html_id', strtolower(((string)$_smarty_tpl->tpl_vars['html_id_prefix']->value)."_".((string)$_smarty_tpl->tpl_vars['section_name']->value)."_".$_prefixVariable3));?>
+=======
+$_prefixVariable1=ob_get_clean();
+$_smarty_tpl->_assignInScope('parent_item_html_id', strtolower(((string)$_smarty_tpl->tpl_vars['html_id_prefix']->value)."_".((string)$_smarty_tpl->tpl_vars['section_name']->value)."_".$_prefixVariable1));?>
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
     <?php }?>
 
     <?php $_smarty_tpl->_assignInScope('input_html_name', ((string)$_smarty_tpl->tpl_vars['html_name']->value)."[".((string)$_smarty_tpl->tpl_vars['item']->value['object_id'])."]");?>

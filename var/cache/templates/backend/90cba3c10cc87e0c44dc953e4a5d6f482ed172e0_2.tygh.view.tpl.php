@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-06-02 11:12:36
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 14:06:09
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\administration\view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683d5cf482fac1_79313188',
+=======
+  'unifunc' => 'content_683056a16b1ab4_50595711',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '90cba3c10cc87e0c44dc953e4a5d6f482ed172e0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\administration\\view.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996671,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -22,13 +34,21 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683d5cf482fac1_79313188 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683056a16b1ab4_50595711 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'menu_attrs' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\backend\\90cba3c10cc87e0c44dc953e4a5d6f482ed172e0_2.tygh.view.tpl.php',
     'uid' => '90cba3c10cc87e0c44dc953e4a5d6f482ed172e0',
+<<<<<<< HEAD
     'call_name' => 'smarty_template_function_menu_attrs_517768706683d5cf47a3245_83050562',
+=======
+    'call_name' => 'smarty_template_function_menu_attrs_1303871042683056a16000d0_38779997',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   ),
 ));
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.truncate.php','function'=>'smarty_modifier_truncate',),));
@@ -98,9 +118,15 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?></div><?php $_sm
 
 <?php $_smarty_tpl->_subTemplateRender("tygh:common/mainbox.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("settings"),'buttons'=>$_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'buttons'),'content'=>$_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'mainbox'),'select_storefront'=>$_smarty_tpl->tpl_vars['select_storefront']->value,'show_all_storefront'=>true,'storefront_switcher_param_name'=>"storefront_id"), 0, false);
 }
+<<<<<<< HEAD
 /* smarty_template_function_menu_attrs_517768706683d5cf47a3245_83050562 */
 if (!function_exists('smarty_template_function_menu_attrs_517768706683d5cf47a3245_83050562')) {
 function smarty_template_function_menu_attrs_517768706683d5cf47a3245_83050562(Smarty_Internal_Template $_smarty_tpl,$params) {
+=======
+/* smarty_template_function_menu_attrs_1303871042683056a16000d0_38779997 */
+if (!function_exists('smarty_template_function_menu_attrs_1303871042683056a16000d0_38779997')) {
+function smarty_template_function_menu_attrs_1303871042683056a16000d0_38779997(Smarty_Internal_Template $_smarty_tpl,$params) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $params = array_merge(array('attrs'=>array()), $params);
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
@@ -120,5 +146,9 @@ $_smarty_tpl->tpl_vars['value']->do_else = false;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 }}
+<<<<<<< HEAD
 /*/ smarty_template_function_menu_attrs_517768706683d5cf47a3245_83050562 */
+=======
+/*/ smarty_template_function_menu_attrs_1303871042683056a16000d0_38779997 */
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 }

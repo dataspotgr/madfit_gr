@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:54:40
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 10:51:05
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_feature.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_6838672006e613_41174601',
+=======
+  'unifunc' => 'content_683028e9d7d665_94327455',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0efd25ea8673bd8c8d6661a9887df6b25ef1077d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\products\\update_product_feature.override.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747915842,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -21,7 +33,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tooltip.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_6838672006e613_41174601 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_683028e9d7d665_94327455 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.feature_used_by_variation_group.tooltip'));
 if ($_smarty_tpl->tpl_vars['feature']->value['product_variation_group']) {?>
     <div class="control-group">

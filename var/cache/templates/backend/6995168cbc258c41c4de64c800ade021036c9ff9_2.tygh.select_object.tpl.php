@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2025-05-29 16:44:01
+=======
+/* Smarty version 4.3.0, created on 2025-05-23 13:44:33
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\select_object.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
+<<<<<<< HEAD
   'unifunc' => 'content_683864a17c8c69_72470881',
+=======
+  'unifunc' => 'content_68305191eaed73_13020335',
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6995168cbc258c41c4de64c800ade021036c9ff9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\select_object.tpl',
+<<<<<<< HEAD
       1 => 1743766598,
+=======
+      1 => 1747996628,
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
       2 => 'tygh',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_683864a17c8c69_72470881 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_68305191eaed73_13020335 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 if (smarty_modifier_sizeof($_smarty_tpl->tpl_vars['items']->value) > 1) {
 $_smarty_tpl->_assignInScope('is_submenu', (($tmp = $_smarty_tpl->tpl_vars['is_submenu']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));
@@ -39,8 +55,13 @@ _wrap_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['suffix']->val
 " data-toggle="dropdown"><?php if ($_smarty_tpl->tpl_vars['display_icons']->value) {
 ob_start();
 echo htmlspecialchars((string) mb_strtolower($_smarty_tpl->tpl_vars['items']->value[$_smarty_tpl->tpl_vars['selected_id']->value]['country_code'], 'UTF-8'), ENT_QUOTES, 'UTF-8');
+<<<<<<< HEAD
 $_prefixVariable47=ob_get_clean();
 $_smarty_tpl->_assignInScope('icon_class', (($tmp = $_smarty_tpl->tpl_vars['items']->value[$_smarty_tpl->tpl_vars['selected_id']->value]['icon_class'] ?? null)===null||$tmp==='' ? "flag flag-".$_prefixVariable47 ?? null : $tmp));
+=======
+$_prefixVariable21=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_class', (($tmp = $_smarty_tpl->tpl_vars['items']->value[$_smarty_tpl->tpl_vars['selected_id']->value]['icon_class'] ?? null)===null||$tmp==='' ? "flag flag-".$_prefixVariable21 ?? null : $tmp));
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
 if ($_smarty_tpl->tpl_vars['icon_class']->value) {
 if ($_smarty_tpl->tpl_vars['icon_deprecated']->value !== false && strpos($_smarty_tpl->tpl_vars['icon_class']->value,"flag") !== false) {
 $_smarty_tpl->_assignInScope('icon_deprecated', true);
@@ -92,8 +113,13 @@ $_smarty_tpl->tpl_vars['item']->do_else = false;
                         <?php if ($_smarty_tpl->tpl_vars['display_icons']->value) {?>
                             <?php ob_start();
 echo htmlspecialchars((string) mb_strtolower($_smarty_tpl->tpl_vars['item']->value['country_code'], 'UTF-8'), ENT_QUOTES, 'UTF-8');
+<<<<<<< HEAD
 $_prefixVariable48=ob_get_clean();
 $_smarty_tpl->_assignInScope('icon_class', (($tmp = $_smarty_tpl->tpl_vars['item']->value['icon_class'] ?? null)===null||$tmp==='' ? "flag flag-".$_prefixVariable48 ?? null : $tmp));?>
+=======
+$_prefixVariable22=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_class', (($tmp = $_smarty_tpl->tpl_vars['item']->value['icon_class'] ?? null)===null||$tmp==='' ? "flag flag-".$_prefixVariable22 ?? null : $tmp));?>
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
                             <?php if ($_smarty_tpl->tpl_vars['icon_class']->value) {?>
                                 <?php if ($_smarty_tpl->tpl_vars['icon_deprecated']->value !== false && strpos($_smarty_tpl->tpl_vars['icon_class']->value,"flag") !== false) {?>
                                     <?php $_smarty_tpl->_assignInScope('icon_deprecated', true);?>
@@ -188,8 +214,13 @@ $_smarty_tpl->tpl_vars['item']->do_else = false;
                         <?php if ($_smarty_tpl->tpl_vars['display_icons']->value) {?>
                             <?php ob_start();
 echo htmlspecialchars((string) mb_strtolower($_smarty_tpl->tpl_vars['item']->value['country_code'], 'UTF-8'), ENT_QUOTES, 'UTF-8');
+<<<<<<< HEAD
 $_prefixVariable49=ob_get_clean();
 $_smarty_tpl->_assignInScope('icon_class', (($tmp = $_smarty_tpl->tpl_vars['item']->value['icon_class'] ?? null)===null||$tmp==='' ? "flag flag-".$_prefixVariable49 ?? null : $tmp));?>
+=======
+$_prefixVariable23=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_class', (($tmp = $_smarty_tpl->tpl_vars['item']->value['icon_class'] ?? null)===null||$tmp==='' ? "flag flag-".$_prefixVariable23 ?? null : $tmp));?>
+>>>>>>> 4d1d75c7270f947ea01f970e617d3b3455d7b862
                             <?php if ($_smarty_tpl->tpl_vars['icon_class']->value) {?>
                                 <?php if ($_smarty_tpl->tpl_vars['icon_deprecated']->value !== false && strpos($_smarty_tpl->tpl_vars['icon_class']->value,"flag") !== false) {?>
                                     <?php $_smarty_tpl->_assignInScope('icon_deprecated', true);?>
