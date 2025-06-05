@@ -172,8 +172,8 @@ if($mode == "eldico_products") {
                     'eldc_increment_quantity'   => $increment_quantity,
                     'eldc_date_updated'         => $date_updated,
                 );
-                $product_uppdated = db_query('UPDATE ?:eldico_bridge_products SET ?u WHERE id = ?i', $data_update_products, $check_product_id);
-                if($product_uppdated) {
+                $product_updated = db_query('UPDATE ?:eldico_bridge_products SET ?u WHERE id = ?i', $data_update_products, $check_product_id);
+                if($product_updated) {
                     echo "product_id :: " . $check_product_id . " updated! \n";
                 }
             } else { //INSERT
@@ -380,8 +380,10 @@ if($mode == "integrate") {
     $product_short_description      = Registry::get('addons.ds_eldico_bridge.product_short_description');
     $product_large_description      = Registry::get('addons.ds_eldico_bridge.product_large_description');
     $products_dimensions            = Registry::get('addons.ds_eldico_bridge.products_dimensions');
+    $product_weight                 = Registry::get('addons.ds_eldico_bridge.product_weight');
     $products_characteristics       = Registry::get('addons.ds_eldico_bridge.products_characteristics');
     $product_manufacturer           = Registry::get('addons.ds_eldico_bridge.product_brand');
+    $product_dimensions             = Registry::get('addons.ds_eldico_bridge.product_dimensions');
     $product_images                 = Registry::get('addons.ds_eldico_bridge.product_images');
 
 
@@ -399,6 +401,8 @@ if($mode == "integrate") {
     if($products) {
         foreach ($products as $product) {
             $data_product = array();
+            $data_product["company_id"] = fn_get_runtime_company_id();
+
             $check_product = db_get_field("SELECT `product_id` FROM ?:products WHERE `product_code` = ?s", $product['eldc_code']);
             if($check_product) { //UPDATE
                 if($product_name == "Y") {
@@ -520,7 +524,7 @@ if($mode == "integrate") {
                 if($product_weight == "Y") {
                     if( !empty($product['eldc_product_weight']) ) {
                         $weight = explode("Kg", $product['eldc_product_weight']);
-                        $data_product['weight'] = (int)trim($weight);
+                        $data_product['weight'] = trim((int)$weight);
                     }
                 }
 
@@ -539,9 +543,30 @@ if($mode == "integrate") {
                 }
 
                 if($products_characteristics == "Y") {
-
-
+                    $eldc_product_id = fn_ds_eldico_bridge_get_eldc_product_id_via_eldc_code($product['eldc_code']);
+                    $product_specifications = db_get_array("SELECT pf.cscart_feature_id, fv.eldc_feature_id, fv.eldc_product_id, fv.eldc_feature_variant, fv.feature_variant_id 
+                                                                FROM ?:eldico_bridge_products bp 
+                                                                    INNER JOIN ?:eldico_bridge_features_variants fv ON fv.eldc_product_id = bp.eldc_product_id 
+                                                                    INNER JOIN ?:eldico_bridge_features pf ON pf.id = fv.eldc_feature_id 
+                                                                    WHERE fv.eldc_product_id = ?i", $eldc_product_id);
+                    if($product_specifications) {
+                        if($product_specifications[0]['feature_variant_id'] && $product_specifications[0]['cscart_feature_id']) {
+                            foreach($product_specifications as $product_spec) {
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["feature_type"]   = "S";
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["feature_id"]     = $product_spec['cscart_feature_id'];
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["variant_id"]     = $product_spec['feature_variant_id'];
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["variants"][$product_spec['cscart_feature_id']] = array();
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["variants"][$product_spec['cscart_feature_id']]['variant_id'] = $product_spec['feature_variant_id'];
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["variants"][$product_spec['cscart_feature_id']]['variant'] = $product_spec['eldc_feature_variant'];
+                            } // end foreach loop
+                        }
+                    }
                 }
+
+//                if($check_product == 6324) {
+//                    echo json_encode($data_product);
+//                    die;
+//                }
 
                 if($product_images == "Y") {
                     if(  !empty($product['eldc_product_image']) ) {
@@ -574,8 +599,6 @@ if($mode == "integrate") {
                 }
             }
             else { //INSERT
-                $data_product['company_id'] = fn_get_runtime_company_id();
-
                 if( !empty($product['eldc_product_title']) ) {
                     $data_product['product'] = $product['eldc_product_title'];
                 }
@@ -690,8 +713,25 @@ if($mode == "integrate") {
                 }
 
                 if($products_characteristics == "Y") {
-
-
+                    $eldc_product_id = fn_ds_eldico_bridge_get_eldc_product_id_via_eldc_code($product['eldc_code']);
+                    $product_specifications = db_get_array("SELECT pf.cscart_feature_id, fv.eldc_feature_id, fv.eldc_product_id, fv.eldc_feature_variant, fv.feature_variant_id 
+                                                                FROM ?:eldico_bridge_products bp 
+                                                                    INNER JOIN ?:eldico_bridge_features_variants fv ON fv.eldc_product_id = bp.eldc_product_id 
+                                                                    INNER JOIN ?:eldico_bridge_features pf ON pf.id = fv.eldc_feature_id 
+                                                                    WHERE fv.eldc_product_id = ?i", $eldc_product_id);
+                    if($product_specifications) {
+                        if ($product_specifications[0]['feature_variant_id'] > 0 && $product_specifications[0]['cscart_feature_id'] > 0) {
+                            foreach($product_specifications as $product_spec) {
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["feature_type"]   = "S";
+                                //$data_product["product_features"][$product_spec['cscart_feature_id']]["feature_id"]   = $product_spec['cscart_feature_id'];
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["variant_id"]     = $product_spec['feature_variant_id'];
+                                $data_product["product_features"][$product_spec['cscart_feature_id']]["variant"]        = $product_spec['eldc_feature_variant'];
+                                //$data_product["product_features"][$product_spec['cscart_feature_id']]["variants"][$product_spec['cscart_feature_id']] = array();
+                                //$data_product["product_features"][$product_spec['cscart_feature_id']]["variants"][$product_spec['cscart_feature_id']]['variant_id'] = $product_spec['feature_variant_id'];
+                                //$data_product["product_features"][$product_spec['cscart_feature_id']]["variants"][$product_spec['cscart_feature_id']]['variant'] = $product_spec['eldc_feature_variant'];
+                            }
+                        }
+                    }
                 }
 
                 if(  !empty($product['eldc_product_image']) ) {

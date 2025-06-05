@@ -1,4 +1,5 @@
-<addon scheme="2.0">
+<?xml version="1.0"?>
+<addon scheme="3.0">
     <id>ds_eldico_bridge</id>
     <name>[Dataspot] Eldico Bridge</name>
     <description>Διασύνδεση eshop με προϊόντα της Eldico Bridge</description>
@@ -275,8 +276,13 @@
 
         <item lang="el" id="ds_eldico_bridge_get_products">Έλεγχος προϊόντων από γέφυρα</item>
         <item lang="el" id="ds_eldico_bridge_get_categories">Έλεγχος κατηγοριών από γέφυρα</item>
+        <item lang="el" id="ds_eldico_bridge_products_categories">Κατηγορίες προϊόντων</item>
         <item lang="el" id="ds_eldico_bridge_categories_match">Αντιστοίχιση κατηγοριών γέφυρας - CSCart</item>
         <item lang="el" id="ds_eldico_bridge_products_integrate">Εισαγωγή / Ενημέρωση προϊόντων CSCart από Γέφυρα</item>
+        <item lang="el" id="ds_eldico_bridge_features">Εισαγωγή / Χαρακτηριστικών από Γέφυρα σε CS-Cart</item>
+        <item lang="el" id="ds_eldico_bridge_features_add">Εισαγωγή Χαρακτηριστικών Ονομάτων σε CS-Cart</item>
+        <item lang="el" id="ds_eldico_bridge_features_variants">Εισαγωγή Εναλλαγών από Γέφυρα σε CS-Cart</item>
+        <item lang="el" id="ds_eldico_bridge_features_variants_add">Εισαγωγή Εναλλαγών Χαρακτηριστικών σε CS-Cart</item>
 
         <item lang="el" id="ds_bridge_products_total">Σύνολο προϊόντων</item>
         <item lang="el" id="ds_bridge_products_create">Δημιουργία προϊόντων</item>

@@ -498,9 +498,9 @@ function fn_ds_eldico_bridge_add_features_variants_names()
                 foreach ($active_features as $active_feature_variant_value) { //get variant values only
                     $data_variant_values[]['variant'] = $active_feature_variant_value['eldc_feature_variant'];
                 } //end foreach loop
-                //echo json_encode($data_variant_values);
-                //fn_print_r($data_variant_values);
-                //die;
+//                echo json_encode($data_variant_values);
+//                fn_print_r($data_variant_values);
+//                die;
                 $data_variant['company_id'] = fn_get_runtime_company_id();
                 $data_variant['feature_type'] = 'S';
                 $data_variant['feature_name'] = $active_features[0]['eldc_feature_name'];
@@ -510,6 +510,8 @@ function fn_ds_eldico_bridge_add_features_variants_names()
                 //echo json_encode($data_variant);
                 //die;
                 $create_feature_variant = createVariantsAPI($cscart_feature_id, $data_variant);
+                //echo $create_feature_variant['response'];
+                //die;
                 if ($create_feature_variant['http_code'] == 200) {
                     echo "variant_id(s) for feature_id :: " . $cscart_feature_id . " inserted! \n";
                     //if variants INSERT-ed successfully, get variant_id(s) and UPDATE the table cscart_eldico_bridge_features_variants
@@ -529,59 +531,11 @@ function fn_ds_eldico_bridge_add_features_variants_names()
                     }
                 } else {
                     echo "response= " . $create_feature_variant['response'] . "\n";
-                    echo "error else= " . $create_feature_variant['error'];
                 }
                 unset($data_variant_values);
                 unset($data_variant);
             }
         } //end foreach loop
-
-        $active_features = db_get_array("SELECT bfv.id, bf.cscart_feature_id, bf.eldc_feature_name, bfv.eldc_feature_variant
-                                        FROM ?:eldico_bridge_features bf
-                                        INNER JOIN ?:eldico_bridge_features_variants bfv ON bfv.eldc_feature_id = bf.id
-                                        WHERE bf.eldc_feature_status = 1"); //LIMIT 1 //get new variants ONLY, thus INSERT
-        //fn_print_r($active_features);
-        //die;
-        if ($active_features) {
-            foreach ($active_features as $active_feature_variant_value) { //get variant values only
-                $data_variant_values[]['variant'] = $active_feature_variant_value['eldc_feature_variant'];
-            }
-            //echo json_encode($data_variant_values);
-            //fn_print_r($data_variant_values);
-            //die;
-            $data_variant['company_id'] = fn_get_runtime_company_id();
-            $data_variant['feature_type'] = 'S';
-            $data_variant['feature_name'] = $active_features[0]['eldc_feature_name'];
-            $data_variant['variants'] = $data_variant_values;
-            $cscart_feature_id = $active_features[0]['cscart_feature_id'];
-//        fn_print_r($data_variant);
-            //echo json_encode($data_variant);
-            //die;
-            $create_feature_variant = createVariantsAPI($cscart_feature_id, $data_variant);
-            if ($create_feature_variant['http_code'] == 200) {
-                echo "variant_id(s) for feature_id :: " . $cscart_feature_id . " inserted! \n";
-                //if variants INSERTed successfully, get variant_id(s) and UPDATE the table cscart_eldico_bridge_features_variants
-                $get_feature_variants = getVariantsAPI($cscart_feature_id);
-                if ($get_feature_variants['http_code'] == 200) {
-                    $feature_variants = json_decode($get_feature_variants['response']);
-                    $active_features_count = 0;
-                    foreach ($feature_variants->variants as $feature_variant) {
-                        $data_variant_arr = array(
-                            'feature_variant_id' => $feature_variant->variant_id
-                        );
-                        $update_eldico_bridge_features_variants = db_query("UPDATE ?:eldico_bridge_features_variants SET ?u WHERE `id` = ?i", $data_variant_arr, $active_features[$active_features_count]['id']);
-                        $active_features_count++;
-                    } // end foreach loop
-                    //fn_print_r($get_feature_variants);
-                    //die;
-                }
-            } else {
-                echo "response= " . $create_feature_variant['response'] . "\n";
-                echo "error else= " . $create_feature_variant['error'];
-            }
-            unset($data_variant_values);
-            unset($data_variant);
-        }
     }
 }
 
@@ -635,6 +589,12 @@ function fn_ds_eldico_bridge_add_active_features() {
     }
 }
 
+function fn_ds_eldico_bridge_get_eldc_product_id_via_eldc_code($eldc_code) {
+    $eldc_product_id = db_get_field("SELECT `eldc_product_id` FROM ?:eldico_bridge_products WHERE `eldc_code` = ?s", $eldc_code);
+    if($eldc_product_id) {
+        return $eldc_product_id;
+    }
+}
 
 function fn_ds_eldico_bridge_logs($data_logs) {
     if($data_logs) {
