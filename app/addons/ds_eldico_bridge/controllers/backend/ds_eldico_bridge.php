@@ -241,7 +241,7 @@ if($mode == "eldico_products") {
     Tygh::$app['view']->assign('products_updated', $total_products_update);
 }
 
-if($mode == "categories") {
+if($mode == "categories") { //add from TEMP to cs-cart
     $categories = db_get_array("SELECT DISTINCT(`eldc_category`) FROM ?:eldico_bridge_products");
     if($categories) {
         foreach ($categories as $category) {
