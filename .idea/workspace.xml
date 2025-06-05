@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
@@ -393,4 +394,1650 @@
       </provider>
     </entry>
   </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b1ec8b1-1043-4c48-b9b7-a7f86aad7a5b" name="Default" comment="">
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" afterPath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php" afterPath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/1/theme_editor/standalone.9f70e3177d6c7ef20ab6b9ee2463cfdf1748852230.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.5baae180ecaee81cf8966baff79bb5881748852230.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.80d3b256b0dd8d718efd9c42febe5f9f1748852230.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/bright_theme/css/standalone.9f70e3177d6c7ef20ab6b9ee2463cfdf1748852230.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-014164dd6c564c889319f750e6552fe11748852230.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-f65550125788233e947171fdae6506411748852230.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-f7c47087025cc98b48a334b3d96906ad1748852230.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/addons/1/cache_customer__1__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/1/time" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/available_countries_hash/1/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/init_cdn_settings/1/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/init_currency/1/cache_customer__1__elinit_currencyff96855a38cd3caf2c3536af0fab8a8d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/init_language/1/cache_customer__1init_language_C" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/1/C_GET_index_index_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_addons_update_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_categories_manage_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_ds_eldico_bridge_features_active_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_ds_eldico_bridge_features_add_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_ds_eldico_bridge_features_variants_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_languages_translations_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_products_manage_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_POST_categories_get_categories_list_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_POST_ds_eldico_bridge_features_active_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_POST_index_index_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_POST_product_features_delete_el_EUR__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/marketplace_client_cache/el__timeapi-marketplace_categories-b1d690d37cb2623477c89df8e49cc0aa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/marketplace_client_cache/el__timeapi-marketplace_products-8530397c84fc44ed1279e82375f5ff43" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/preloaded_font_resources/1/1__el" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_blocks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_dynamic_objects" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_fillings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_frontend_editable_locations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_block_manager_templates" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_gdpr_settings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_hybrid_auth_providers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_last_view_frontend" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_permissions_admin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_products_overridable_fields" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_routes_objects" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_security_csrf_validation" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_security_http_content_policy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_security_secure_controllers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_seo_canonical_urls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_seo_feature_codes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_seo_indexation" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_seo_objects" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_session_read_only" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_sharing_schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_static_data_schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/1/cache_customerschema_storefronts_relations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_blocks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_fillings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_frontend_editable_locations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_templates" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_categories_page_configuration" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_context_menu_categories" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_context_menu_languages_translations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_context_menu_product_options" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_context_menu_product_variations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_context_menu_products" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_literal_converter_schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_product_variations_product_data_sync" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_product_variations_product_types" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_products_page_configuration" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_search_schema" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_storefronts_switcher_dispatches" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_product_features_purposes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_banners" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_blog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_breadcrumbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_cart_content" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_categories" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_html_block" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_main" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_menu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_my_account" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_product_bundles" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_product_filters" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_products" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_safe_smarty_block" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/1/cache_customer__1scheme_block_template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_banners" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_breadcrumbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_call_request" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_cart_content" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_categories" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_currencies" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_html_block" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_languages" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_main" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_menu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_my_account" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_product_filters" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_products" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_safe_smarty_block" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_admin__1scheme_block_template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/seo_active_languages/1/cache_customer__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/seo_cache_static/1/cache_customerel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/seo_settings/1/cache_customerseo_settings_1_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/settings/1/cache_customer__1__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/storefront_protocol/1/cache_customerstorefront_protocol1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/1/cache_customer__1storefront_settings_values____" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/cache_admin__1storefront_settings_values_1__" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/templateExistsViaSnapshot/1/cache_customer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/template_logos/1/cache_customer__1init_logos___1_d8009ad24f63dbf50209f14346697f6f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/template_overrides/1/cache_customereb0a2a4988099193794a962350a04626" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/theme_dirs/1/cache_customer__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/thooks_C/1/cache_customer__1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/registry/ult_get_translation_languages/1/cache_customer" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" afterPath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php" afterPath="$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" afterPath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_notifications_center_manage_el_EUR__1" afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_notifications_center_manage_el_EUR__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_product_features_update_el_EUR__1" afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_product_features_update_el_EUR__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" afterPath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/snapshots/4.18.3_ultimate.php" afterPath="$PROJECT_DIR$/var/snapshots/4.18.3_ultimate.php" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="addon.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4250">
+              <caret line="250" column="14" lean-forward="false" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="4760">
+              <caret line="510" column="67" lean-forward="false" selection-start-line="510" selection-start-column="67" selection-end-line="510" selection-end-column="67" />
+=======
+            <state relative-caret-position="450">
+              <caret line="558" column="82" lean-forward="true" selection-start-line="558" selection-start-column="82" selection-end-line="558" selection-end-column="82" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+              <folding>
+                <element signature="n#createEldicoProductAPI#0;n#!!top" expanded="false" />
+                <element signature="n#updateEldicoProductAPI#0;n#!!top" expanded="false" />
+                <element signature="n#createCategoryAPI#0;n#!!top" expanded="false" />
+                <element signature="n#updateCategoryAPI#0;n#!!top" expanded="false" />
+                <element signature="n#createFeatureAPI#0;n#!!top" expanded="false" />
+                <element signature="n#fn_eldico_bridge_check_feature_name#0;n#!!top" expanded="false" />
+                <element signature="n#fn_ds_eldico_bridge_get_main_category_id_by_name#0;n#!!top" expanded="false" />
+                <element signature="n#fn_ds_eldico_bridge_get_category_ids_by_name#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
+                <marker date="1749043553635" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+                <marker date="1749043553635" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+                <marker date="1749043553635" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+                <marker date="1749043553635" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+                <marker date="1749043553635" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+                <marker date="1749043553635" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+                <marker date="1749043553635" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+                <marker date="1749043553635" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+                <marker date="1749043553635" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+                <marker date="1749043553635" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+                <marker date="1749043553635" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+                <marker date="1749043553635" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+                <marker date="1749043553635" expanded="true" signature="18966:19038" ph="SELECT `id` ?" />
+                <marker date="1749043553635" expanded="true" signature="19198:19575" ph="SELECT bf.cs... ?" />
+                <marker date="1749043553635" expanded="true" signature="19198:19604" ph="SELECT bfv.i... ?" />
+                <marker date="1749043553635" expanded="true" signature="21682:21745" ph="UPDATE ?:eld... " />
+                <marker date="1749043553635" expanded="true" signature="22475:22763" ph="SELECT `pf`.... ?" />
+                <marker date="1749043553635" expanded="true" signature="22948:23018" ph="SELECT * FRO... ?" />
+                <marker date="1749043553635" expanded="true" signature="24146:24200" ph="UPDATE ?:eld... " />
+                <marker date="1749043553635" expanded="true" signature="25215:25250" ph="INSERT INTO ?... " />
+                <marker date="1749043553635" expanded="true" signature="25441:25533" ph="SELECT `cate... ?" />
+                <marker date="1749043553635" expanded="true" signature="25833:25903" ph="SELECT * FRO... ?" />
+                <marker date="1749043553635" expanded="true" signature="26122:26389" ph="SELECT id, e... ?" />
+=======
+                <marker date="1749035809490" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+                <marker date="1749035809490" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+                <marker date="1749035809490" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+                <marker date="1749035809490" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+                <marker date="1749035809490" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+                <marker date="1749035809490" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+                <marker date="1749035809490" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+                <marker date="1749035809490" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+                <marker date="1749035809490" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+                <marker date="1749035809490" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+                <marker date="1749035809490" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+                <marker date="1749035809490" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+                <marker date="1749035809490" expanded="true" signature="18959:19308" ph="SELECT bf.cs... ?" />
+                <marker date="1749035809490" expanded="true" signature="21106:21169" ph="UPDATE ?:eld... " />
+                <marker date="1749035809490" expanded="true" signature="21782:22070" ph="SELECT `pf`.... ?" />
+                <marker date="1749035809490" expanded="true" signature="22255:22325" ph="SELECT * FRO... ?" />
+                <marker date="1749035809490" expanded="true" signature="23453:23507" ph="UPDATE ?:eld... " />
+                <marker date="1749035809490" expanded="true" signature="24522:24557" ph="INSERT INTO ?... " />
+                <marker date="1749035809490" expanded="true" signature="24748:24840" ph="SELECT `cate... ?" />
+                <marker date="1749035809490" expanded="true" signature="25140:25210" ph="SELECT * FRO... ?" />
+                <marker date="1749035809490" expanded="true" signature="25429:25696" ph="SELECT id, e... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ds_eldico_bridge.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="665">
+              <caret line="299" column="1" lean-forward="true" selection-start-line="299" selection-start-column="1" selection-end-line="299" selection-end-column="1" />
+              <folding>
+                <element signature="e#7#25#0#PHP" expanded="true" />
+                <element signature="e#1365#12883#0#PHP" expanded="false" />
+                <element signature="e#19510#37526#0#PHP" expanded="false" />
+                <marker date="1749045672209" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+                <marker date="1749045672209" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+                <marker date="1749045672209" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+                <marker date="1749045672209" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+                <marker date="1749045672209" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+                <marker date="1749045672209" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+                <marker date="1749045672209" expanded="true" signature="12972:13034" ph="SELECT DISTI... ?" />
+                <marker date="1749045672209" expanded="true" signature="16237:16294" ph="SELECT `eldc... ?" />
+                <marker date="1749045672209" expanded="true" signature="16964:17046" ph="SELECT `id` ?" />
+                <marker date="1749045672209" expanded="true" signature="17572:17613" ph="INSERT INTO ?... " />
+                <marker date="1749045672209" expanded="true" signature="18296:18352" ph="UPDATE ?:eld... " />
+                <marker date="1749045672209" expanded="true" signature="18302:18330" ph="INSERT INTO ?... " />
+                <marker date="1749045672209" expanded="true" signature="21341:21388" ph="SELECT * FRO... ?" />
+                <marker date="1749045672209" expanded="true" signature="21457:21495" ph="SELECT * FRO... ?" />
+                <marker date="1749045672209" expanded="true" signature="21744:21805" ph="SELECT `prod... ?" />
+=======
+            <state relative-caret-position="275">
+              <caret line="308" column="61" lean-forward="true" selection-start-line="308" selection-start-column="61" selection-end-line="308" selection-end-column="61" />
+              <folding>
+                <element signature="e#7#25#0#PHP" expanded="true" />
+                <element signature="e#1365#12883#0#PHP" expanded="false" />
+                <marker date="1749028922389" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+                <marker date="1749028922389" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+                <marker date="1749028922389" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+                <marker date="1749028922389" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+                <marker date="1749028922389" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+                <marker date="1749028922389" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+                <marker date="1749028922389" expanded="true" signature="12945:13007" ph="SELECT DISTI... ?" />
+                <marker date="1749028922389" expanded="true" signature="16210:16267" ph="SELECT `eldc... ?" />
+                <marker date="1749028922389" expanded="true" signature="16937:17019" ph="SELECT `id` ?" />
+                <marker date="1749028922389" expanded="true" signature="17545:17586" ph="INSERT INTO ?... " />
+                <marker date="1749028922389" expanded="true" signature="18269:18325" ph="UPDATE ?:eld... " />
+                <marker date="1749028922389" expanded="true" signature="18275:18303" ph="INSERT INTO ?... " />
+                <marker date="1749028922389" expanded="true" signature="21314:21361" ph="SELECT * FRO... ?" />
+                <marker date="1749028922389" expanded="true" signature="21430:21468" ph="SELECT * FRO... ?" />
+                <marker date="1749028922389" expanded="true" signature="21717:21778" ph="SELECT `prod... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="features_active.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_active.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="features.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="features_add.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_add.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eldico_products.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="integrate.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fn_ds_eldico_bridge_get_features_names</find>
+      <find>eldc_specifications &lt;&gt;</find>
+      <find>cscart_bridge_features_variants</find>
+      <find>fn_eldico_bridge_check_feature_variant_name</find>
+      <find>fn_eldico_bridge_get_feature_id_by_name</find>
+      <find>fn_ds_eldico_bridge_check_feature_name</find>
+      <find>fn_ds_eldico_bridge_get_features_variants_names</find>
+      <find>createCategoryAPI</find>
+      <find>$check_category</find>
+      <find>fn_ds_eldico_bridge_check_category_id_by_name</find>
+      <find>cscart_eldico_bridge_categories</find>
+      <find>eldico_bridge_categories</find>
+      <find>eldico_bridge_features_variants</find>
+      <find>company_id</find>
+      <find>company</find>
+      <find>comp</find>
+      <find>com</find>
+      <find>createFeatureAPI</find>
+      <find>features_variants_na</find>
+<<<<<<< HEAD
+      <find>$create_variants_arr</find>
+      <find>feature_name</find>
+      <find>cscart_feature_id</find>
+      <find>getVariantsAPI</find>
+      <find>$create_feature_variant</find>
+      <find>add_feature</find>
+      <find>fn_ds_eldico_bridge_add_active_features</find>
+      <find>createVariantsAPI</find>
+      <find>features/</find>
+      <find>fn_ds_eldico_bridge_add_features_variants_names</find>
+=======
+      <find>fn_ds_eldico_bridge_add_features_variants_names</find>
+      <find>$create_variants_arr</find>
+      <find>feature_name</find>
+      <find>cscart_feature_id</find>
+      <find>features/</find>
+      <find>getVariantsAPI</find>
+      <find>$create_feature_variant</find>
+      <find>createVariantsAPI</find>
+      <find>add_feature</find>
+      <find>fn_ds_eldico_bridge_add_active_features</find>
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+      <find>products_categories</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/logs.tpl" />
+        <option value="$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/upgrade/1.0.1.php" />
+        <option value="$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl" />
+        <option value="$PROJECT_DIR$/.ignore" />
+        <option value="$PROJECT_DIR$/config.local.php" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php" />
+        <option value="$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_active.tpl" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php" />
+        <option value="$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schemas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_eldico_bridge" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madfit_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="call_requests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b1ec8b1-1043-4c48-b9b7-a7f86aad7a5b" name="Default" comment="" />
+      <created>1743771750909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743771750909</updated>
+      <workItem from="1743771752182" duration="1845000" />
+      <workItem from="1747986512779" duration="4396000" />
+      <workItem from="1747997547903" duration="11816000" />
+      <workItem from="1748429206327" duration="7766000" />
+      <workItem from="1748498626350" duration="34616000" />
+      <workItem from="1748844741286" duration="19244000" />
+      <workItem from="1749017453830" duration="17435000" />
+<<<<<<< HEAD
+      <workItem from="1749105205603" duration="11000" />
+=======
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="100108000" />
+=======
+    <option name="totallyTimeSpent" value="97118000" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25785482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4811">
+          <caret line="469" column="5" lean-forward="true" selection-start-line="469" selection-start-column="5" selection-end-line="469" selection-end-column="5" />
+          <folding>
+            <element signature="n#createEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createFeatureAPI#0;n#!!top" expanded="false" />
+            <element signature="n#fn_eldico_bridge_check_feature_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_main_category_id_by_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_category_ids_by_name#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
+            <marker date="1749043553635" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749043553635" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749043553635" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="18966:19038" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19575" ph="SELECT bf.cs... ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19604" ph="SELECT bfv.i... ?" />
+            <marker date="1749043553635" expanded="true" signature="21682:21745" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="22475:22763" ph="SELECT `pf`.... ?" />
+            <marker date="1749043553635" expanded="true" signature="22948:23018" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="24146:24200" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="25215:25250" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="25441:25533" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="25833:25903" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="26122:26389" ph="SELECT id, e... ?" />
+=======
+            <marker date="1749035809490" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749035809490" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749035809490" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="18959:19308" ph="SELECT bf.cs... ?" />
+            <marker date="1749035809490" expanded="true" signature="21106:21169" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="21782:22070" ph="SELECT `pf`.... ?" />
+            <marker date="1749035809490" expanded="true" signature="22255:22325" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="23453:23507" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="24522:24557" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="24748:24840" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="25140:25210" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="25429:25696" ph="SELECT id, e... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+            <element signature="e#1365#12883#0#PHP" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#19510#37526#0#PHP" expanded="false" />
+            <marker date="1749045672209" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749045672209" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="12972:13034" ph="SELECT DISTI... ?" />
+            <marker date="1749045672209" expanded="true" signature="16237:16294" ph="SELECT `eldc... ?" />
+            <marker date="1749045672209" expanded="true" signature="16964:17046" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="17572:17613" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="18296:18352" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="18302:18330" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="21341:21388" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21457:21495" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21744:21805" ph="SELECT `prod... ?" />
+=======
+            <marker date="1749028922389" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749028922389" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="12945:13007" ph="SELECT DISTI... ?" />
+            <marker date="1749028922389" expanded="true" signature="16210:16267" ph="SELECT `eldc... ?" />
+            <marker date="1749028922389" expanded="true" signature="16937:17019" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="17545:17586" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="18269:18325" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="18275:18303" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="21314:21361" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21430:21468" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21717:21778" ph="SELECT `prod... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_active.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_add.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3757">
+          <caret line="221" column="29" lean-forward="false" selection-start-line="221" selection-start-column="13" selection-end-line="221" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#createEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createFeatureAPI#0;n#!!top" expanded="false" />
+            <element signature="n#fn_eldico_bridge_check_feature_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_main_category_id_by_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_category_ids_by_name#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
+            <marker date="1749043553635" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749043553635" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749043553635" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="18966:19038" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19575" ph="SELECT bf.cs... ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19604" ph="SELECT bfv.i... ?" />
+            <marker date="1749043553635" expanded="true" signature="21682:21745" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="22475:22763" ph="SELECT `pf`.... ?" />
+            <marker date="1749043553635" expanded="true" signature="22948:23018" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="24146:24200" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="25215:25250" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="25441:25533" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="25833:25903" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="26122:26389" ph="SELECT id, e... ?" />
+=======
+            <marker date="1749035809490" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749035809490" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749035809490" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="18959:19308" ph="SELECT bf.cs... ?" />
+            <marker date="1749035809490" expanded="true" signature="21106:21169" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="21782:22070" ph="SELECT `pf`.... ?" />
+            <marker date="1749035809490" expanded="true" signature="22255:22325" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="23453:23507" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="24522:24557" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="24748:24840" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="25140:25210" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="25429:25696" ph="SELECT id, e... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3859">
+          <caret line="283" column="34" lean-forward="true" selection-start-line="283" selection-start-column="34" selection-end-line="283" selection-end-column="34" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+            <element signature="e#1365#12883#0#PHP" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#19510#37526#0#PHP" expanded="false" />
+            <marker date="1749045672209" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749045672209" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="12972:13034" ph="SELECT DISTI... ?" />
+            <marker date="1749045672209" expanded="true" signature="16237:16294" ph="SELECT `eldc... ?" />
+            <marker date="1749045672209" expanded="true" signature="16964:17046" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="17572:17613" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="18296:18352" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="18302:18330" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="21341:21388" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21457:21495" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21744:21805" ph="SELECT `prod... ?" />
+=======
+            <marker date="1749028922389" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749028922389" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="12945:13007" ph="SELECT DISTI... ?" />
+            <marker date="1749028922389" expanded="true" signature="16210:16267" ph="SELECT `eldc... ?" />
+            <marker date="1749028922389" expanded="true" signature="16937:17019" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="17545:17586" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="18269:18325" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="18275:18303" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="21314:21361" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21430:21468" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21717:21778" ph="SELECT `prod... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="245" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="44" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="149" column="40" lean-forward="true" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+            <element signature="e#1365#12883#0#PHP" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#19510#37526#0#PHP" expanded="false" />
+            <marker date="1749045672209" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749045672209" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="12972:13034" ph="SELECT DISTI... ?" />
+            <marker date="1749045672209" expanded="true" signature="16237:16294" ph="SELECT `eldc... ?" />
+            <marker date="1749045672209" expanded="true" signature="16964:17046" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="17572:17613" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="18296:18352" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="18302:18330" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="21341:21388" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21457:21495" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21744:21805" ph="SELECT `prod... ?" />
+=======
+            <marker date="1749028922389" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749028922389" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="12945:13007" ph="SELECT DISTI... ?" />
+            <marker date="1749028922389" expanded="true" signature="16210:16267" ph="SELECT `eldc... ?" />
+            <marker date="1749028922389" expanded="true" signature="16937:17019" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="17545:17586" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="18269:18325" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="18275:18303" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="21314:21361" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21430:21468" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21717:21778" ph="SELECT `prod... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="83" lean-forward="false" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="n#createEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createFeatureAPI#0;n#!!top" expanded="false" />
+            <element signature="n#fn_eldico_bridge_check_feature_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_main_category_id_by_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_category_ids_by_name#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
+            <marker date="1749043553635" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749043553635" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749043553635" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="18966:19038" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19575" ph="SELECT bf.cs... ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19604" ph="SELECT bfv.i... ?" />
+            <marker date="1749043553635" expanded="true" signature="21682:21745" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="22475:22763" ph="SELECT `pf`.... ?" />
+            <marker date="1749043553635" expanded="true" signature="22948:23018" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="24146:24200" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="25215:25250" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="25441:25533" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="25833:25903" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="26122:26389" ph="SELECT id, e... ?" />
+=======
+            <marker date="1749035809490" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749035809490" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749035809490" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="18959:19308" ph="SELECT bf.cs... ?" />
+            <marker date="1749035809490" expanded="true" signature="21106:21169" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="21782:22070" ph="SELECT `pf`.... ?" />
+            <marker date="1749035809490" expanded="true" signature="22255:22325" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="23453:23507" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="24522:24557" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="24748:24840" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="25140:25210" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="25429:25696" ph="SELECT id, e... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+            <element signature="e#1365#12883#0#PHP" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#19510#37526#0#PHP" expanded="false" />
+            <marker date="1749045672209" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749045672209" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="12972:13034" ph="SELECT DISTI... ?" />
+            <marker date="1749045672209" expanded="true" signature="16237:16294" ph="SELECT `eldc... ?" />
+            <marker date="1749045672209" expanded="true" signature="16964:17046" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="17572:17613" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="18296:18352" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="18302:18330" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="21341:21388" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21457:21495" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21744:21805" ph="SELECT `prod... ?" />
+=======
+            <marker date="1749028922389" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749028922389" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="12945:13007" ph="SELECT DISTI... ?" />
+            <marker date="1749028922389" expanded="true" signature="16210:16267" ph="SELECT `eldc... ?" />
+            <marker date="1749028922389" expanded="true" signature="16937:17019" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="17545:17586" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="18269:18325" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="18275:18303" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="21314:21361" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21430:21468" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21717:21778" ph="SELECT `prod... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_boxnow/controllers/backend/ds_boxnow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/logs.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="71" lean-forward="false" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/banners/schemas/menu/menu.post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/upgrade/1.0.1.php" />
+    <entry file="file://$PROJECT_DIR$/var/snapshots/4.18.3_ultimate_dist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="20919" column="5" lean-forward="true" selection-start-line="20919" selection-start-column="5" selection-end-line="20919" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/snapshots/4.18.3_ultimate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317813">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_categories.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/categories_match.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/schemas/menu/menu.post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/addon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="250" column="14" lean-forward="false" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_add.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/features_active.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/eldico_products.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/backend/templates/addons/ds_eldico_bridge/views/ds_eldico_bridge/integrate.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/controllers/backend/ds_eldico_bridge.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="4760">
+          <caret line="510" column="67" lean-forward="false" selection-start-line="510" selection-start-column="67" selection-end-line="510" selection-end-column="67" />
+          <folding>
+            <element signature="n#createEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createFeatureAPI#0;n#!!top" expanded="false" />
+            <element signature="n#fn_eldico_bridge_check_feature_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_main_category_id_by_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_category_ids_by_name#0;n#!!top" expanded="false" />
+            <marker date="1749043553635" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749043553635" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749043553635" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749043553635" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="18966:19038" ph="SELECT `id` ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19575" ph="SELECT bf.cs... ?" />
+            <marker date="1749043553635" expanded="true" signature="19198:19604" ph="SELECT bfv.i... ?" />
+            <marker date="1749043553635" expanded="true" signature="21682:21745" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="22475:22763" ph="SELECT `pf`.... ?" />
+            <marker date="1749043553635" expanded="true" signature="22948:23018" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="24146:24200" ph="UPDATE ?:eld... " />
+            <marker date="1749043553635" expanded="true" signature="25215:25250" ph="INSERT INTO ?... " />
+            <marker date="1749043553635" expanded="true" signature="25441:25533" ph="SELECT `cate... ?" />
+            <marker date="1749043553635" expanded="true" signature="25833:25903" ph="SELECT * FRO... ?" />
+            <marker date="1749043553635" expanded="true" signature="26122:26389" ph="SELECT id, e... ?" />
+=======
+        <state relative-caret-position="275">
+          <caret line="308" column="61" lean-forward="true" selection-start-line="308" selection-start-column="61" selection-end-line="308" selection-end-column="61" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+            <element signature="e#1365#12883#0#PHP" expanded="false" />
+            <marker date="1749028922389" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749028922389" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="12945:13007" ph="SELECT DISTI... ?" />
+            <marker date="1749028922389" expanded="true" signature="16210:16267" ph="SELECT `eldc... ?" />
+            <marker date="1749028922389" expanded="true" signature="16937:17019" ph="SELECT `id` ?" />
+            <marker date="1749028922389" expanded="true" signature="17545:17586" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="18269:18325" ph="UPDATE ?:eld... " />
+            <marker date="1749028922389" expanded="true" signature="18275:18303" ph="INSERT INTO ?... " />
+            <marker date="1749028922389" expanded="true" signature="21314:21361" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21430:21468" ph="SELECT * FRO... ?" />
+            <marker date="1749028922389" expanded="true" signature="21717:21778" ph="SELECT `prod... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/addons/ds_eldico_bridge/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="665">
+          <caret line="299" column="1" lean-forward="true" selection-start-line="299" selection-start-column="1" selection-end-line="299" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#25#0#PHP" expanded="true" />
+            <element signature="e#1365#12883#0#PHP" expanded="false" />
+            <element signature="e#19510#37526#0#PHP" expanded="false" />
+            <marker date="1749045672209" expanded="true" signature="639:693" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="639:736" ph="UPDATE ?:ord... " />
+            <marker date="1749045672209" expanded="true" signature="1015:1069" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="5963:6033" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="9048:9100" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="12296:12335" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="12972:13034" ph="SELECT DISTI... ?" />
+            <marker date="1749045672209" expanded="true" signature="16237:16294" ph="SELECT `eldc... ?" />
+            <marker date="1749045672209" expanded="true" signature="16964:17046" ph="SELECT `id` ?" />
+            <marker date="1749045672209" expanded="true" signature="17572:17613" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="18296:18352" ph="UPDATE ?:eld... " />
+            <marker date="1749045672209" expanded="true" signature="18302:18330" ph="INSERT INTO ?... " />
+            <marker date="1749045672209" expanded="true" signature="21341:21388" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21457:21495" ph="SELECT * FRO... ?" />
+            <marker date="1749045672209" expanded="true" signature="21744:21805" ph="SELECT `prod... ?" />
+=======
+        <state relative-caret-position="450">
+          <caret line="558" column="82" lean-forward="true" selection-start-line="558" selection-start-column="82" selection-end-line="558" selection-end-column="82" />
+          <folding>
+            <element signature="n#createEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateEldicoProductAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#updateCategoryAPI#0;n#!!top" expanded="false" />
+            <element signature="n#createFeatureAPI#0;n#!!top" expanded="false" />
+            <element signature="n#fn_eldico_bridge_check_feature_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_main_category_id_by_name#0;n#!!top" expanded="false" />
+            <element signature="n#fn_ds_eldico_bridge_get_category_ids_by_name#0;n#!!top" expanded="false" />
+            <marker date="1749035809490" expanded="true" signature="12664:12748" ph="SELECT `vari... ?" />
+            <marker date="1749035809490" expanded="true" signature="12930:13022" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13229:13321" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="13508:13546" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="13705:13949" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="15403:15442" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="15807:15877" ph="SELECT id FR... ?" />
+            <marker date="1749035809490" expanded="true" signature="16064:16136" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16341:16452" ph="SELECT `id` ?" />
+            <marker date="1749035809490" expanded="true" signature="16623:16671" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="16672:16899" ph="SELECT id, e... ?" />
+            <marker date="1749035809490" expanded="true" signature="18614:18662" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="18959:19308" ph="SELECT bf.cs... ?" />
+            <marker date="1749035809490" expanded="true" signature="21106:21169" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="21782:22070" ph="SELECT `pf`.... ?" />
+            <marker date="1749035809490" expanded="true" signature="22255:22325" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="23453:23507" ph="UPDATE ?:eld... " />
+            <marker date="1749035809490" expanded="true" signature="24522:24557" ph="INSERT INTO ?... " />
+            <marker date="1749035809490" expanded="true" signature="24748:24840" ph="SELECT `cate... ?" />
+            <marker date="1749035809490" expanded="true" signature="25140:25210" ph="SELECT * FRO... ?" />
+            <marker date="1749035809490" expanded="true" signature="25429:25696" ph="SELECT id, e... ?" />
+>>>>>>> 63f52ca0e19c72f55d9c19b7e658f9ed9f2b24e5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+>>>>>>> dev-bridges
 </project>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:58
+/* Smarty version 4.3.0, created on 2025-05-29 16:44:17
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\detailed_page\sidebar\addon_support.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6c1e7a3261_56136588',
+  'unifunc' => 'content_683864b1e65382_78314962',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cec65cee0b27f80059bc58fe62030bc026c72c2d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\addons\\components\\detailed_page\\sidebar\\addon_support.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/support/contact_developer.tpl' => 1,
   ),
 ),false)) {
-function content_680b6c1e7a3261_56136588 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864b1e65382_78314962 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.support'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"addons_detailed:sidebar_support"));

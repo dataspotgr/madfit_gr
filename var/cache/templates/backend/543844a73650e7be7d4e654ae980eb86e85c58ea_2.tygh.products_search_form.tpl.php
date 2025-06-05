@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:07
+/* Smarty version 4.3.0, created on 2025-05-29 16:51:24
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\products_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6cdb0b7df0_53788100',
+  'unifunc' => 'content_6838665cbf8791_19673091',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '543844a73650e7be7d4e654ae980eb86e85c58ea' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\products_search_form.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_680b6cdb0b7df0_53788100 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838665cbf8791_19673091 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.array_to_fields.php','function'=>'smarty_function_array_to_fields',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','find_results_with','price','search_in_category','all_categories','all_categories','search_in','product_name','short_description','full_description','keywords','search_by_product_filters','search_by_product_features','error_features_too_many_variants','search_by_sku','popularity','ttc_popularity','subcategories','shipping_freight','weight','quantity','free_shipping','yes','no','status','purchased_in_orders','no_items','sort_by','list_price','name','price','sku','quantity','status','desc','asc','creation_date','updated_last','hour_or_hours'));
 $_smarty_tpl->_assignInScope('type', (($tmp = $_smarty_tpl->tpl_vars['type']->value ?? null)===null||$tmp==='' ? "default" ?? null : $tmp));

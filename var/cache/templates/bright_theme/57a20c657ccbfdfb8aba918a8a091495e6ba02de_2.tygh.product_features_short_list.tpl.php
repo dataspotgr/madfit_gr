@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:32:00
+/* Smarty version 4.3.0, created on 2025-05-30 09:38:14
   from 'C:\xampp\htdocs\madfit_gr\design\themes\responsive\templates\views\products\components\product_features_short_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f1940d433c7_66664144',
+  'unifunc' => 'content_68395256cb4bb6_53138393',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '57a20c657ccbfdfb8aba918a8a091495e6ba02de' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\themes\\responsive\\templates\\views\\products\\components\\product_features_short_list.tpl',
-      1 => 1747915844,
+      1 => 1743766599,
       2 => 'tygh',
     ),
   ),
@@ -21,13 +21,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image.tpl' => 2,
   ),
 ),false)) {
-function content_682f1940d433c7_66664144 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68395256cb4bb6_53138393 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'feature_value' => 
   array (
     'compiled_filepath' => 'C:\\xampp\\htdocs\\madfit_gr\\var\\cache\\templates\\bright_theme\\57a20c657ccbfdfb8aba918a8a091495e6ba02de_2.tygh.product_features_short_list.tpl.php',
     'uid' => '57a20c657ccbfdfb8aba918a8a091495e6ba02de',
-    'call_name' => 'smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452',
+    'call_name' => 'smarty_template_function_feature_value_182999618468395256b2b866_89819592',
   ),
 ));
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.set_id.php','function'=>'smarty_function_set_id',),));
@@ -102,9 +102,9 @@ if (!$_smarty_tpl->tpl_vars['no_container']->value) {?></div><?php }
 }
 }
 }
-/* smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452 */
-if (!function_exists('smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452')) {
-function smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452(Smarty_Internal_Template $_smarty_tpl,$params) {
+/* smarty_template_function_feature_value_182999618468395256b2b866_89819592 */
+if (!function_exists('smarty_template_function_feature_value_182999618468395256b2b866_89819592')) {
+function smarty_template_function_feature_value_182999618468395256b2b866_89819592(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -145,10 +145,10 @@ if ($_smarty_tpl->tpl_vars['feature']->value['suffix']) {?><span class="ty-featu
 </span><?php }
 if ($_smarty_tpl->tpl_vars['feature']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::EXTENDED") && $_smarty_tpl->tpl_vars['feature']->value['features_hash']) {?></a><?php }
 }}
-/*/ smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452 */
-/* smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452 */
-if (!function_exists('smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452')) {
-function smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452(Smarty_Internal_Template $_smarty_tpl,$params) {
+/*/ smarty_template_function_feature_value_182999618468395256b2b866_89819592 */
+/* smarty_template_function_feature_value_182999618468395256b2b866_89819592 */
+if (!function_exists('smarty_template_function_feature_value_182999618468395256b2b866_89819592')) {
+function smarty_template_function_feature_value_182999618468395256b2b866_89819592(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -189,5 +189,5 @@ if ($_smarty_tpl->tpl_vars['feature']->value['suffix']) {?><span class="ty-featu
 </span><?php }
 if ($_smarty_tpl->tpl_vars['feature']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::EXTENDED") && $_smarty_tpl->tpl_vars['feature']->value['features_hash']) {?></a><?php }
 }}
-/*/ smarty_template_function_feature_value_1854853491682f1940ce0c15_07203452 */
+/*/ smarty_template_function_feature_value_182999618468395256b2b866_89819592 */
 }

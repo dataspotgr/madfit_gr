@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:14
+/* Smarty version 4.3.0, created on 2025-05-29 16:51:31
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\search_filters\search_save.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6ce2a4e870_57101344',
+  'unifunc' => 'content_6838666330f7c1_46258760',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd4bfede907d6061afc03b011e403b20319c7dade' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\search_filters\\search_save.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_680b6ce2a4e870_57101344 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838666330f7c1_46258760 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('name','cancel','save','save_this_search_as','save_this_search_as','save_this_search_as'));
 if (!$_smarty_tpl->tpl_vars['not_saved']->value && strpos($_REQUEST['dispatch'],".picker") === false) {?>
     <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "search_save", null, null);?>

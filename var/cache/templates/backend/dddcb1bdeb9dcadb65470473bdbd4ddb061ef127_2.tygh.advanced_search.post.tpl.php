@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:10
+/* Smarty version 4.3.0, created on 2025-05-29 16:51:27
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\advanced_search.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6cde7d2272_35766232',
+  'unifunc' => 'content_6838665f932a86_05778888',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dddcb1bdeb9dcadb65470473bdbd4ddb061ef127' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\products\\advanced_search.post.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/products/picker.tpl' => 1,
   ),
 ),false)) {
-function content_680b6cde7d2272_35766232 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838665f932a86_05778888 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.product_type','product_variations.belongs_to_catalog_item'));
 $_smarty_tpl->_assignInScope('show_product_type_filter', (($tmp = $_smarty_tpl->tpl_vars['show_product_type_filter']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

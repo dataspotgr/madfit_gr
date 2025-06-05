@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:13
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:53
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\addons\addon_actions.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6bf194c915_14185690',
+  'unifunc' => 'content_68386499d02043_19749158',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2465365503bb0b82f1ca70cc1f4188a845988b30' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\addons\\components\\addons\\addon_actions.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_license_required.tpl' => 1,
   ),
 ),false)) {
-function content_680b6bf194c915_14185690 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68386499d02043_19749158 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('not_installed','disabled','active','open_action','addons.activate','addons.install','addons.install','addons.disabled','addons.activate','active','addons.upgrade_available','addons.upgrade_available','open_action','active','addons.upgrade_available','addons.upgrade_available','active'));
 $_smarty_tpl->_assignInScope('target_id', "addons_list,top_bar,header_navbar,header_subnav,addons_counter,elm_developer_pages,elm_all_dev_pages");
@@ -41,8 +41,8 @@ $_smarty_tpl->_assignInScope('c_url', $_smarty_tpl->tpl_vars['config']->value['c
 
 <?php ob_start();
 echo $_smarty_tpl->__("open_action");
-$_prefixVariable22=ob_get_clean();
-$_smarty_tpl->_assignInScope('action_btn_text', $_smarty_tpl->tpl_vars['a']->value['main_page'] ? "<span class=\"caret\"></span>" : $_prefixVariable22." <span class=\"caret\"></span>");?>
+$_prefixVariable40=ob_get_clean();
+$_smarty_tpl->_assignInScope('action_btn_text', $_smarty_tpl->tpl_vars['a']->value['main_page'] ? "<span class=\"caret\"></span>" : $_prefixVariable40." <span class=\"caret\"></span>");?>
 
 <?php if ($_smarty_tpl->tpl_vars['a']->value['status'] === smarty_modifier_enum("ObjectStatuses::ACTIVE") && $_smarty_tpl->tpl_vars['a']->value['menu_items']) {?>
     <?php $_smarty_tpl->_assignInScope('position', "10");
@@ -102,8 +102,8 @@ echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['a']->value['short_name'],
         <?php } else { ?>
             <a href="<?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("ObjectStatuses::ACTIVE"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable23=ob_get_clean();
-echo htmlspecialchars((string) fn_url("addons.update_status?id=".((string)$_smarty_tpl->tpl_vars['key']->value)."&status=".$_prefixVariable23."&redirect_url=".((string)(rawurlencode((string)$_smarty_tpl->tpl_vars['c_url']->value)))), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable41=ob_get_clean();
+echo htmlspecialchars((string) fn_url("addons.update_status?id=".((string)$_smarty_tpl->tpl_vars['key']->value)."&status=".$_prefixVariable41."&redirect_url=".((string)(rawurlencode((string)$_smarty_tpl->tpl_vars['c_url']->value)))), ENT_QUOTES, 'UTF-8');?>
 "
                class="btn cm-ajax cm-post cm-ajax-full-render"
                data-ca-target-id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['target_id']->value, ENT_QUOTES, 'UTF-8');?>

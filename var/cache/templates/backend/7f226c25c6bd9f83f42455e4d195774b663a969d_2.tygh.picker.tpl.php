@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:08
+/* Smarty version 4.3.0, created on 2025-05-29 16:51:26
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\pickers\orders\picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6cdca33de7_35062048',
+  'unifunc' => 'content_6838665e53c678_39239504',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7f226c25c6bd9f83f42455e4d195774b663a969d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\pickers\\orders\\picker.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/orders/js.tpl' => 5,
   ),
 ),false)) {
-function content_680b6cdca33de7_35062048 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838665e53c678_39239504 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.explode.php','function'=>'smarty_modifier_explode',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_orders','clear','add_orders','id','status','customer','date','total','no_items'));
 $_smarty_tpl->_assignInScope('rnd', rand());
@@ -58,8 +58,8 @@ if ($_smarty_tpl->tpl_vars['picker_view']->value) {?>[<?php }?>
 _clear" class="reload-container<?php if (!$_smarty_tpl->tpl_vars['item_ids']->value) {?> hidden<?php }?>">
                     <?php ob_start();
 echo htmlspecialchars((string) fn_url("orders.manage?order_id="), ENT_QUOTES, 'UTF-8');
-$_prefixVariable11=ob_get_clean();
-$_smarty_tpl->_subTemplateRender("tygh:buttons/button.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_id'=>"opener_picker_".((string)$_smarty_tpl->tpl_vars['data_id']->value),'but_onclick'=>"Tygh."."$".".cePicker('delete_js_item', '".((string)$_smarty_tpl->tpl_vars['data_id']->value)."', 'delete_all', 'o'); Tygh."."$".".cePicker('check_items_qty', '".((string)$_smarty_tpl->tpl_vars['data_id']->value)."', '".$_prefixVariable11."', ".((string)$_smarty_tpl->tpl_vars['max_displayed_qty']->value)."); return false;",'but_text'=>(($tmp = $_smarty_tpl->tpl_vars['but_text']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->__("clear") ?? null : $tmp),'but_role'=>"action",'but_icon'=>"icon-repeat",'but_target_id'=>"content_".((string)$_smarty_tpl->tpl_vars['data_id']->value)), 0, true);
+$_prefixVariable12=ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:buttons/button.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('but_id'=>"opener_picker_".((string)$_smarty_tpl->tpl_vars['data_id']->value),'but_onclick'=>"Tygh."."$".".cePicker('delete_js_item', '".((string)$_smarty_tpl->tpl_vars['data_id']->value)."', 'delete_all', 'o'); Tygh."."$".".cePicker('check_items_qty', '".((string)$_smarty_tpl->tpl_vars['data_id']->value)."', '".$_prefixVariable12."', ".((string)$_smarty_tpl->tpl_vars['max_displayed_qty']->value)."); return false;",'but_text'=>(($tmp = $_smarty_tpl->tpl_vars['but_text']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->__("clear") ?? null : $tmp),'but_role'=>"action",'but_icon'=>"icon-repeat",'but_target_id'=>"content_".((string)$_smarty_tpl->tpl_vars['data_id']->value)), 0, true);
 ?>
                 </span>
             <?php }?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:56
+/* Smarty version 4.3.0, created on 2025-05-29 16:44:14
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\notification\requires_upgrade.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6c1c131dc9_64938483',
+  'unifunc' => 'content_683864ae6516d2_27661231',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0d39ae575d788fbd7a843174421ad43e94b3c759' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\addons\\components\\notification\\requires_upgrade.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_680b6c1c131dc9_64938483 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864ae6516d2_27661231 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('requires_upgrade','new_add_on_is_not_compatible_with_your_product','upgrade_and_update_addon'));
 if ($_smarty_tpl->tpl_vars['actual_change_log']->value && $_smarty_tpl->tpl_vars['actual_change_log']->value['compatibility'] !== true) {?>
     <div class="alert alert-block">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:57
+/* Smarty version 4.3.0, created on 2025-05-29 16:44:17
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\addons\addon_reviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6c1daa0ec7_07671862',
+  'unifunc' => 'content_683864b115f224_78433413',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ac444e4336be7ec89ed8ad00a68dcdd211ad4040' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\addons\\components\\addons\\addon_reviews.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 2,
   ),
 ),false)) {
-function content_680b6c1daa0ec7_07671862 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864b115f224_78433413 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('addons.show_all_reviews','addons.hide_all_reviews','no_data'));
 $_smarty_tpl->_assignInScope('reviews_displayed_number', (($tmp = $_smarty_tpl->tpl_vars['reviews_displayed_number']->value ?? null)===null||$tmp==='' ? 3 ?? null : $tmp));?>
 

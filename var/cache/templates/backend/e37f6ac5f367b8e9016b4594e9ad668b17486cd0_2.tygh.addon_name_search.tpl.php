@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:14
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:54
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\manage\addon_name_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6bf2c19093_21680835',
+  'unifunc' => 'content_6838649a4438b3_03146519',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e37f6ac5f367b8e9016b4594e9ad668b17486cd0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\addons\\components\\manage\\addon_name_search.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_680b6bf2c19093_21680835 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838649a4438b3_03146519 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_field','remove','addons.search_description'));
 ?>

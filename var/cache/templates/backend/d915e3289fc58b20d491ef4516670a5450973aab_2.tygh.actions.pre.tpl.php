@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:26:22
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:58
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_reviews\hooks\index\actions.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f17ee8a5812_95132416',
+  'unifunc' => 'content_6838649eccc6a6_30844640',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd915e3289fc58b20d491ef4516670a5450973aab' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_reviews\\hooks\\index\\actions.pre.tpl',
-      1 => 1747915842,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682f17ee8a5812_95132416 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6838649eccc6a6_30844640 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 ?>
 

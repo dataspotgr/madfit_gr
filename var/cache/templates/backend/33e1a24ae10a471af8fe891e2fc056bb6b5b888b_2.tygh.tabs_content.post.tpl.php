@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:07:40
+/* Smarty version 4.3.0, created on 2025-05-29 16:54:42
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\required_products\hooks\products\tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6cfc43e680_19156266',
+  'unifunc' => 'content_683867222743e9_57160063',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '33e1a24ae10a471af8fe891e2fc056bb6b5b888b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\required_products\\hooks\\products\\tabs_content.post.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/picker/picker.tpl' => 1,
   ),
 ),false)) {
-function content_680b6cfc43e680_19156266 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683867222743e9_57160063 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="<?php if ($_smarty_tpl->tpl_vars['selected_section']->value !== "required_products") {?>hidden<?php }?>" id="content_required_products">
     <?php ob_start();
 if ($_smarty_tpl->tpl_vars['product_company_id']->value) {

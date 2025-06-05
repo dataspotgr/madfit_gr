@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-04-25 14:03:11
+/* Smarty version 4.3.0, created on 2025-05-29 16:43:52
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\addons\components\addons_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_680b6befcb7081_66931108',
+  'unifunc' => 'content_683864982e1ee3_50773397',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9f6dea3befa13190df250b03b9e6e9a4c47bec33' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\addons\\components\\addons_list.tpl',
-      1 => 1728377975,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -31,7 +31,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_680b6befcb7081_66931108 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864982e1ee3_50773397 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('favorites','name','installed_date','developer','cscart_marketplace.price','status','view_more_addons','no_data'));
 $_smarty_tpl->_assignInScope('show_favorite', (($tmp = $_smarty_tpl->tpl_vars['show_favorite']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

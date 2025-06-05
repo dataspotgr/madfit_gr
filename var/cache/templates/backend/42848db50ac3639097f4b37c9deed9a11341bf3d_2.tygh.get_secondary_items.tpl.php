@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-22 15:26:35
+/* Smarty version 4.3.0, created on 2025-05-29 16:44:03
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\components\menu\get_secondary_items.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_682f17fb347d53_26230568',
+  'unifunc' => 'content_683864a3870902_59488078',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42848db50ac3639097f4b37c9deed9a11341bf3d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\components\\menu\\get_secondary_items.tpl',
-      1 => 1747915843,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_682f17fb347d53_26230568 (Smarty_Internal_Template $_smarty_tpl) {
+function content_683864a3870902_59488078 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "get_items", null, null);?>
         <?php if ((defined('BLOCK_MANAGER_MODE') ? constant('BLOCK_MANAGER_MODE') : null)) {?>
         <?php $_smarty_tpl->_assignInScope('items', array());?>
