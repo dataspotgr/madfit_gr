@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:03:56
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:12
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\product_assign_features.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836ed9c45fa43_77047929',
+  'unifunc' => 'content_684abe7ccf9b13_56921850',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cf71c2730a0559cfba3fb5165e8ec04d44642c04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\product_assign_features.tpl',
-      1 => 1747996699,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/product_assign_features.tpl' => 2,
   ),
 ),false)) {
-function content_6836ed9c45fa43_77047929 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe7ccf9b13_56921850 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['product_features']->value, 'feature', false, 'feature_id');
 $_smarty_tpl->tpl_vars['feature']->do_else = true;

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:04:01
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:16
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\attachments\views\components\add_new_attachments_files.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836eda11b36c9_16192345',
+  'unifunc' => 'content_684abe80e8a744_23805534',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '01f803589bb7b4d565fb24d6c9c02f37db7a5598' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\attachments\\views\\components\\add_new_attachments_files.tpl',
-      1 => 1747996581,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_6836eda11b36c9_16192345 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe80e8a744_23805534 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('new_attachment','add_attachment'));
 ?>
 <div class="btn-toolbar clearfix">

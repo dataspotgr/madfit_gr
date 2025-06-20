@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:04:06
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:21
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\buttons\create.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836eda63ef995_78757005',
+  'unifunc' => 'content_684abe854a5863_16314590',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'abcf7522bae438d991296e5d3c1825221442abba' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\buttons\\create.tpl',
-      1 => 1747996623,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6836eda63ef995_78757005 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe854a5863_16314590 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('create'));
 if ($_smarty_tpl->tpl_vars['but_text']->value) {?>
 	<?php $_smarty_tpl->_assignInScope('_but_text', $_smarty_tpl->tpl_vars['but_text']->value);

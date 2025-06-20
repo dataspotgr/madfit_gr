@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:03:50
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:07
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\form_file_uploader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836ed96d13c61_46799783',
+  'unifunc' => 'content_684abe77d76364_45598899',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4e113ae1121e128c0dd6b35bfe391e8896d785d9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\form_file_uploader.tpl',
-      1 => 1747996626,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6836ed96d13c61_46799783 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe77d76364_45598899 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),2=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('file_uploader.default_message','file_uploader.fallback_message','file_uploader.fallback_text','file_uploader.file_too_big','file_uploader.invalid_file_type','file_uploader.response_error','file_uploader.cancel_upload','file_uploader.upload_canceled','file_uploader.cancel_upload_confirmation','file_uploader.remove_file','file_uploader.remove_file_confirmation','file_uploader.max_files_exceeded','file_uploader.file_size_units_tb','file_uploader.file_size_units_gb','file_uploader.file_size_units_mb','file_uploader.file_size_units_kb','file_uploader.file_size_units_b','drop_images_to_upload','or','drop_images_select_short','drop_images_select','add_image_from_server','add_image_from_url','delete_all_images','alternative_text','preview','remove','image_has_been_deleted','recover','url','cannot_upload_file'));
 $_smarty_tpl->_assignInScope('object_id', (($tmp = $_smarty_tpl->tpl_vars['image_object_id']->value ?? null)===null||$tmp==='' ? "0" ?? null : $tmp));

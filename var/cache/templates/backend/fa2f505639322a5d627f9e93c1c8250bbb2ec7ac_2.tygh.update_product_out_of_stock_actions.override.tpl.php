@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:03:53
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:10
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\hooks\products\update_product_out_of_stock_actions.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836ed99943be0_60360255',
+  'unifunc' => 'content_684abe7a91ec70_63673744',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa2f505639322a5d627f9e93c1c8250bbb2ec7ac' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\hooks\\products\\update_product_out_of_stock_actions.override.tpl',
-      1 => 1747996605,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6836ed99943be0_60360255 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe7a91ec70_63673744 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("out_of_stock_actions")) {?>
     <!-- Overridden by the Product Variations add-on -->
 <?php }

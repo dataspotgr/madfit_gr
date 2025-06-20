@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:03:55
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:11
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\products_update_qty_discounts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836ed9b2c0e15_68526249',
+  'unifunc' => 'content_684abe7bdfd707_04773175',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b4326ef22b4ddc60ce13b0edcc47c213b55c9b0c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\products_update_qty_discounts.tpl',
-      1 => 1747996700,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/multiple_buttons.tpl' => 1,
   ),
 ),false)) {
-function content_6836ed9b2c0e15_68526249 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe7bdfd707_04773175 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),1=>array('file'=>'C:\\xampp\\htdocs\\madfit_gr\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\function.cycle.php','function'=>'smarty_function_cycle',),));
 \Tygh\Languages\Helper::preloadLangVars(array('quantity','value','type','qty_discount_type_tooltip','usergroup','quantity','value','type','absolute','percent','absolute','percent','usergroup','all','quantity','value','type','absolute','percent','usergroup'));
 $_smarty_tpl->_assignInScope('usergroups', fn_get_usergroups(array("type"=>"C","status"=>array("A","H"))));?>

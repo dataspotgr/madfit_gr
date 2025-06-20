@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:04:00
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:16
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\views\products\components\picker\skeleton_external.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836eda04a2121_09395558',
+  'unifunc' => 'content_684abe804448f7_61446421',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fce5281ff393f014ab2959c1d57c662fc4f9c92f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\views\\products\\components\\picker\\skeleton_external.tpl',
-      1 => 1747996701,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6836eda04a2121_09395558 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe804448f7_61446421 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="object-picker__skeleton-item object-picker__skeleton-products-image"></div>
 <div class="object-picker__skeleton-group object-picker__skeleton-products-content">
     <div class="object-picker__skeleton-group object-picker__skeleton-products-main">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:04:10
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:25
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\common\section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836edaadf0d52_64906975',
+  'unifunc' => 'content_684abe891dd5c1_57760265',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '324f5ec472b8e378a8bc994df88144837d6b1935' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\common\\section.tpl',
-      1 => 1747996628,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6836edaadf0d52_64906975 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe891dd5c1_57760265 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('close'));
 $_smarty_tpl->_assignInScope('rnd', rand());?>
 <div class="clear" id="ds_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['rnd']->value, ENT_QUOTES, 'UTF-8');?>

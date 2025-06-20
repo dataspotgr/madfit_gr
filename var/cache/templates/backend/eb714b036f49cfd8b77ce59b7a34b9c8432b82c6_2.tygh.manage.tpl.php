@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-05-28 14:04:22
+/* Smarty version 4.3.0, created on 2025-06-12 14:48:33
   from 'C:\xampp\htdocs\madfit_gr\design\backend\templates\addons\product_variations\views\product_variations\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6836edb63cc580_08975843',
+  'unifunc' => 'content_684abe9110f824_78228465',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eb714b036f49cfd8b77ce59b7a34b9c8432b82c6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\madfit_gr\\design\\backend\\templates\\addons\\product_variations\\views\\product_variations\\manage.tpl',
-      1 => 1747996606,
+      1 => 1743766598,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/context_menu_wrapper.tpl' => 1,
   ),
 ),false)) {
-function content_6836edb63cc580_08975843 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684abe9110f824_78228465 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.manage','product_variations.edit_features','product_variations.delete','actions','product_variations.add_variations','product_variations.add_variations','warning','product_variations.warning.before_edit_variations_save_product','name','sku','price','quantity','product_variations.add_variations_description'));
 $_smarty_tpl->_assignInScope('is_form_readonly', ($_smarty_tpl->tpl_vars['product']->value['product_id'] && $_smarty_tpl->tpl_vars['runtime']->value['company_id'] && (fn_allowed_for("MULTIVENDOR") || $_smarty_tpl->tpl_vars['product']->value['shared_product'] == "Y") && $_smarty_tpl->tpl_vars['product']->value['company_id'] != $_smarty_tpl->tpl_vars['runtime']->value['company_id']));?>
 
